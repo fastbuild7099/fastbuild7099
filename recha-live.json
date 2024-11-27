@@ -1,11 +1,11 @@
 {	
-	"spider": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar/pg.jar;md5;a2caecf3cb7c9cdee3106033668024aa",
+	"spider": "./jar/pg.jar;md5;a2caecf3cb7c9cdee3106033668024aa",
     "logo":"https://img.zhuimi.top/img/2024/09/16/66e7f265b5030.png",
     "lives":[
 			{"name":"RobYang｜優質","playerType":2,"url":"https://robyang.us.kg/VodLive/lb8ffa","playerplayerType":2,"epg":"http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei","logo":"https://epg.112114.xyz/logo/{name}.png","pass":true},	
 			{"name":"汀佑線路｜訂閱","playerType":2,"url":"https://dingyue.mytvsuper.xyz/myiptv.m3u","epg":"http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei"},
-			{"name":"納辛線路｜訂閱","playerType":2,"url":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/live/nothing.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei"},
-			{"name":"173線路｜優質","playerType":2,"url":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/live/173.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei","logo":"https://epg.112114.xyz/logo/{name}.png","pass":true},		
+			{"name":"納辛線路｜訂閱","playerType":2,"url":"./live/nothing.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei"},
+			{"name":"173線路｜優質","playerType":2,"url":"./live/173.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei","logo":"https://epg.112114.xyz/logo/{name}.png","pass":true},		
 			{"name":"PIXMAN","type":0,"url":"https://tv.850930.xyz/pix.m3u","ua":"okhttp/3.15","epg":"https://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 			{"name":"QZ線路｜優質","playerType":2,"url":"https://json.doube.eu.org//live/tw/Sub.php","epg":"http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei","logo":"https://epg.112114.xyz/logo/{name}.png","pass":true},		
 			{"name":"香蕉線路｜優質","playerType":2,"url": "https://tv.iill.top/m3u/Gather","playerplayerType": 1,"ua": "okhttp/3.15","epg": "http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png","pass":true},
@@ -16,8 +16,8 @@
 			{"name":"肥羊直播｜訂閱","type":0,"url":"http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35455/tv.m3u","ua":"okhttp/3.15","epg":"http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}","logo":"http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"},
 			{"name":"看电视呗｜訂閱","type":0,"url":"http://tv.850930.xyz/kdsb.txt","ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 			{"name":"港台节目","type":0,"url":"http://www.stream-link.org/stream-link.m3u","ua":"AptvPlayer/1.3.3","epg":"https://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
-			{"name":"Litv線路","playerType":2,"url":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/live/666-live.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei","logo":"https://epg.112114.xyz/logo/{name}.png"},
-			{"name":"Recha線路","playerType":2,"url":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/live/king.txt","playerplayerType":2,"ua":"okhttp/3.15","timeout":5,"epg":"https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/taipei","logo":"https://epg.112114.xyz/logo/{name}.png"},
+			{"name":"Litv線路","playerType":2,"url":"./live/666-live.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei","logo":"https://epg.112114.xyz/logo/{name}.png"},
+			{"name":"Recha線路","playerType":2,"url":"./live/king.txt","playerplayerType":2,"ua":"okhttp/3.15","timeout":5,"epg":"https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/taipei","logo":"https://epg.112114.xyz/logo/{name}.png"},
 			{"name":"YOUTUBE直播","type":0,"url":"https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/YTTV.txt","ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 			{"name":"YOUTUBE音乐","type":0,"url":"http://yt.850930.xyz","ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"http://5b0988e595225.cdn.sohucs.com/images/20190313/ad9ebfafbec640b7b41b9250156dff39.png"},
 			{"name":"YOUTUBE榜单","type":0,"url":"http://yt.850930.xyz/playlist.txt","ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"http://5b0988e595225.cdn.sohucs.com/images/20190313/ad9ebfafbec640b7b41b9250156dff39.png"},
@@ -25,9 +25,9 @@
 			{"name":"虎牙一起看","type":0,"url":"http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35455/huyayqk.m3u","ua":"okhttp/3.15","epg":"http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}","logo":"http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"},
 			{"name":"斗鱼一起看","type":0,"url":"http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35455/douyuyqk.m3u","ua":"okhttp/3.15","epg":"http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}","logo":"http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"},
 			{"name":"YY轮播","type":0,"url":"http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35455/yylunbo.m3u","ua":"okhttp/3.15","epg":"http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}","logo":"http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"},
-			{"name":"4G-TV線路｜(選來源4)","playerType":2,"url":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/live/4G-tw.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei","logo":"https://epg.112114.xyz/logo/{name}.png"},		
+			{"name":"4G-TV線路｜(選來源4)","playerType":2,"url":"./live/4G-tw.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei","logo":"https://epg.112114.xyz/logo/{name}.png"},		
 			{"name":"小武哥(18+)｜訂閱","playerType":2,"url":"https://qu.ax/PEHy.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei"},
-            {"name":"私密線路(18+)｜專屬","playerType":2,"url":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/live/178.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei"}
+            {"name":"私密線路(18+)｜專屬","playerType":2,"url":"./live/178.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei"}
 
 		],
 		"rules": [
