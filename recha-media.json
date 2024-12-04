@@ -2928,6 +2928,17 @@
         "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/miaiys.json"
       },
       {
+        "key": "修羅影视",
+        "name": "🎥｜修羅",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/修羅影視.json"
+      },
+      {
         "key": "老王影视",
         "name": "🎥｜老王",
         "type": 3,
@@ -3044,17 +3055,7 @@
         "searchable": 1,
         "quickSearch": 1,
         "filterable": 1,
-        "ext": {
-          "影片地区": "圥忈制作",
-          "影片年代": "<div class=\"module-info-tag\">&&</div>",
-          "影片状态": "备注：&&</div>",
-          "影片类型": "module-info-tag\">&&立即播放",
-          "简介": "请勿相信影片中的广告，以免上当受骗。+style=\"line-height: 20px;\"&&</div>",
-          "线路数组": "data-dropdown-value=&&</div>[不包含:芒果(超多弹幕)#腾讯(超多弹幕)#优酷(超多弹幕)#爱奇艺(超多弹幕)]",
-          "线路标题": "<span>&&</span>",
-          "分类url": "https://www.jinman6.com/index.php/vod/show/id/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
-          "分类": "电影$1#电视剧$2#动漫$3#综艺$4#纪录片$5#短剧$25"
-        }
+        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/金漫TV.json"
       },
       {
         "key": "雨见视频",
@@ -3081,26 +3082,7 @@
         "searchable": 1,
         "quickSearch": 1,
         "filterable": 1,
-        "ext": {
-          "请求头": "User-Agent$MOBILE_UA",
-          "编码": "UTF-8",
-          "主页url": "https://www.meizhifeng.com/",
-          "分类url": "/vodshow/{cateId}/area/{area}/by/{by}/class/{class}/lang/{lang}/letter/{letter}/page/{catePg}/year/{year}.html",
-          "分类": "电影$dianying#电视剧$dsj#综艺$zongyi#动漫$dongman#热门短剧$remenduanju#体育赛事$tiyusaishi",
-          "类型": "喜剧片$xijupian#动作片$dongzuopian#爱情片$aiqingpian#科幻片$kehuanpian#恐怖片$kongbupian#剧情片$juqingpian#战争片$zhanzhengpian#悬疑片$xuanyipian#犯罪片$fanzuipian#冒险片$maoxianpian#动画片$donghuapian#惊悚片$jingsongpian#奇幻片$qihuanpian#纪录片$jilupian||国产剧$guochanju#欧美剧$oumeiju#日剧$riju#韩剧$hanju#港剧$gangju#台剧$taiju#泰剧$taiju#海外剧$haiwaiju#爽文短剧$shuangwenduanju||空||国产动漫$guochandongman#日韩动漫$rihandongman#欧美动漫$oumeidongman#港台动漫$gangtaidongman#海外动漫$haiwaidongman||空||篮球$lanqiu#足球$zuqiu",
-          "剧情": "喜剧&爱情&恐怖&动作&科幻&剧情&战争&警匪&犯罪&动画&奇幻&武侠&冒险&枪战&恐怖&悬疑&惊悚&经典&青春&文艺&微电影&古装&历史&运动&农村&儿童&网络电影||古装&战争&青春偶像&喜剧&家庭&犯罪&动作&奇幻&剧情&历史&经典&乡村&情景&商战&网剧&其他||选秀&情感&访谈&播报&旅游&音乐&美食&纪实&曲艺&生活&游戏互动&财经&求职||情感&科幻&热血&推理&搞笑&冒险&萝莉&校园&动作&机战&运动&战争&少年&少女&社会&原创&亲子&益智&励志&其他||空||空",
-          "剧情值": "*",
-          "地区": "大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大&其他||内地&韩国&香港&台湾&日本&美国&泰国&英国&新加坡&其他||内地&港台&日韩&欧美||国产&日本&欧美&其他||空||空",
-          "地区值": "*",
-          "语言": "国语&英语&粤语&闽南语&韩语&日语&法语&德语&其它||国语&英语&粤语&闽南语&韩语&日语&其它||国语&英语&粤语&闽南语&韩语&日语&其它||国语&英语&粤语&闽南语&韩语&日语&其它||空||空",
-          "语言值": "*",
-          "年份": "2000-2024",
-          "年份值": "*",
-          "字母": "A&B&C&D&E&F&G&H&I&J&K&L&M&N&O&P&Q&R&S&T&U&V&W&X&Y&Z&0-9",
-          "字母值": "*",
-          "排序": "时间&人气&评分",
-          "排序值": "time&hits&score"
-        }
+        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/青蘋果影院.json"
       },
       {
         "key": "哈皮TV",
@@ -3112,19 +3094,8 @@
         "filterable": 1,
         "api": "csp_XBPQ",
         "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-        "ext": {
-          "主页url": "https://www.hapetv.com/",
-          "副标题": "pic-texttext-right\">&&</b>",
-          "图片": "data-original=\"&&\"",
-          "嗅探词": ".mp4#m3u8#.m3u8#/tos/#.flv#video/tos",
-          "影片类型": "<div class=\"module-info-tag\">&&立即播放",
-          "线路数组": "href=\"#con_playlist_*\"&&</li>",
-          "线路标题": "vip?+tab\">&&</a",
-          "导演": "导演：&&</div>",
-          "主演": "主演：&&</div>",
-          "分类": "电影$1#电视剧$2#动漫$4#综艺$3#短剧$38",
-          "分类url": "https://www.hapetv.com/vod-show/{cateId}-{area}-------{catePg}---{year}/"
-        }
+        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/哈皮TV.json"
+
       },
       {
         "key": "思古电影",
@@ -3195,32 +3166,14 @@
       },
       {
         "key": "飞流",
-        "name": "🎥｜飞流",
+        "name": "🎥｜飛流",
         "type": 3,
         "api": "csp_XBPQ",
         "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
         "searchable": 1,
         "quickSearch": 1,
         "filterable": 1,
-        "ext": {
-          "请求头": "User-Agent$MOBILE_UA",
-          "编码": "UTF-8",
-          "主页url": "https://www.flixflop.com",
-          "数组": "<a&&</a>",
-          "图片": "src=\"&&\"",
-          "标题": "alt=\"&&\"",
-          "链接": "href=\"&&\"",
-          "副标题": "✨+xH2UQqh\">&&</div>+xLSs05H\">&&</div>",
-          "线路二次截取": "<div class=\"xTwxBpM\">&&</div>",
-          "线路数组": "text-base mui-1q2h7u5\"&&</button>",
-          "线路标题": "true\">&&<",
-          "播放数组": "xBwXv89\"&&xFo5MnU",
-          "播放列表": "<a&&/a>",
-          "播放标题": "✨+>&&<",
-          "简介": "✨味精影院为您介绍剧情✨+<div class=\"mt-4\">&&</div>",
-          "分类url": "https://www.flixflop.com/explore/{cateId}?page={catePg}&area={area}&genre={class}&year={year}&language={lang}&sort={by}",
-          "分类": "电影$151438147786375168#电视剧$151438147794763777#动漫$151438147807346690#综艺$151438147807346691#体育$151438147807346693#电影解说$204814944317734918#短剧$331153971999670710"
-        }
+        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/飛流.json"
       },
       {
         "key": "原创",
@@ -3271,17 +3224,7 @@
         "searchable": 1,
         "quickSearch": 1,
         "filterable": 1,
-        "ext": {
-          "影片地区": "圥忈制作",
-          "影片年代": "<div class=\"module-info-tag\">&&</div>",
-          "影片状态": "备注：&&</div>",
-          "影片类型": "module-info-tag\">&&立即播放",
-          "线路数组": "<div class=\"module-tab-item tab-item\"&&</div>[不包含:蓝光#蓝光①#蓝光②#蓝光③#蓝光④#蓝光⑤#蓝光⑥]",
-          "线路标题": "<span>&&</small>[替换:</span><small>>>共]+集",
-          "播放数组": "<div class=\"module-play-list\"&&</div>",
-          "分类url": "https://www.cbhfox.com/chbys/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
-          "分类": "电视剧$dianshiju#电影$dianying#综艺$zongyi#动漫$dongman#纪录片$jilupian"
-        }
+        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/茶杯狐.json"
       },
       {
         "key": "追剧兔",
@@ -3347,18 +3290,8 @@
         "searchable": 1,
         "quickSearch": 1,
         "filterable": 1,
-        "ext": {
-          "线路数组": "data-dropdown-value=&&</div>",
-          "线路标题": "<span>&&</span>",
-          "嗅探词": "v3-cha.toutiaovod.com#www.alim3u8.meijuzj.vip#.m3u8#.mp4",
-          "影片年代": "<div class=\"module-info-tag\">&&</div>",
-          "影片地区": "圥忈制作",
-          "影片状态": "备注：&&</div>",
-          "影片类型": "module-info-tag\">&&立即播放",
-          "简介": "请勿相信影片中的广告，以免上当受骗。+<p>&&</p>",
-          "分类url": "https://www.aikanhd.vip/vodshow/1-----------/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}",
-          "分类": "电影$1#剧集$2#港台剧$14#日韩剧$15#美剧$16#动漫$4#综艺$3#短剧$20#伦理剧$21"
-        }
+        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/愛看.json"
+
       },
       {
         "key": "爱优影视",
@@ -3407,17 +3340,7 @@
         "searchable": 1,
         "quickSearch": 1,
         "filterable": 1,
-        "ext": {
-          "线路数组": "data-dropdown-value=&&</div>",
-          "线路标题": "<span>&&</span>",
-          "影片年代": "<div class=\"module-info-tag\">&&</div>",
-          "影片地区": "圥忈制作",
-          "影片状态": "备注：&&</div>",
-          "影片类型": "module-info-tag\">&&立即播放",
-          "简介": "请勿相信影片中的广告，以免上当受骗。+<p>&&</p>",
-          "分类url": "https://www.dyyz1.app/vodshow/1-----------/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
-          "分类": "电影$1#电视剧$2#动漫$4#综艺$3#动画片$31#B站$41#短剧$49#电影解说$32"
-        }
+        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/電影驛站.json"
       },
       {
         "key": "疯狗影视",
@@ -3587,32 +3510,7 @@
         "searchable": 1,
         "quickSearch": 1,
         "filterable": 1,
-        "ext": {
-          "主页url": "https://m.xian372.top/",
-          "请求头": "手机",
-          "编码": "gb2312",
-          "数组": "<a class=\"ui-pic&&</a",
-          "图片": "src=\"&&\"",
-          "标题": "title=\"&&\"",
-          "副标题": "ui-type\">&&</span>",
-          "链接": "href=\"&&\"",
-          "简介": "description\"><p>&&</p",
-          "线路数组": "class=\"intro\">&&</h1",
-          "线路标题": "✨PRO专享✨+<h1>飘逸线路<",
-          "播放数组": "<div class=\"playlist&&</div",
-          "播放列表": "<li>&&</li",
-          "播放标题": ">&&</a",
-          "播放链接": "href='&&'",
-          "搜索数组": "<a class=\"ui-pic&&</a",
-          "搜索图片": "src=\"&&\"",
-          "搜索标题": "title=\"&&\"",
-          "搜索链接": "href=\"&&\"",
-          "搜索url": "https://m.xian372.top/search.asp?page={pg}&searchword={wd}&searchtype=-1",
-          "分类数组": "<a&&</a",
-          "分类标题": ".html\">&&</a[不包含:视频二#综艺娱乐]",
-          "分类ID": "href=\"/L/&&.html\"",
-          "分类url": "https://m.xian372.top/L/{cateId}_{catePg}.html[https://m.xian372.top/L/{cateId}.html]"
-        }
+        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/芊芊影視.json"
       },
       {
         "key": "影视工厂",
@@ -6874,9 +6772,6 @@
       }
     ],
     "parses": [
-      {"name": "超嗅探", "type": 3, "url": "Web"},
-      {"name": "Json聚合", "type": 3, "url": "Demo"},
-      {"name": "Web聚合", "type": 3, "url": "Web"},
       {
         "name": "4K解析",
         "type": 1,
