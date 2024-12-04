@@ -4548,6 +4548,17 @@
         ]
       },
       {
+        "key": "Bdys_spider",
+        "name": "🧲｜修罗",
+        "api": "csp_Bdys01",
+        "type": 3,
+        "filterable": 1,
+        "quickSearch": 1,
+        "searchable": 1,
+        "timeout":60,
+        "ext": ".https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/tokenm.json$$$https://www.xlys01.com/$$$noproxy$$$1"
+      },
+      {
         "key": "php_feifanziyuan",
         "name": "🧲｜非凡",
         "type": 4,
