@@ -3,19 +3,7 @@
     "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
     "wallpaper": "https://picsum.photos/1080/",
     "sites": [
-            {
-                "key": "愛壹帆",
-                "name": "❤️｜愛壹帆",
-                "type": 3,
-                "api": "csp_XBPQ",
-                "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar",
-                "searchable": 1,
-                "quickSearch": 1,
-                "filterable": 1,
-                "ext": {
-                    "分类url": "https://www.yfsp.tv/list/{cateId}?region={area}&year={year}&{by}&page={catePg}"
-            }
-        }
+            {"key":"csp_XBiuIYFTV","name":"✈爱壹帆(XB)","type": 3,"api":"csp_XBPQ","jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":{"分类url":"https://www.yfsp.tv/list/{cateId}?year={year}&orderBy={by}&asc=0&page={catePg}","分类": "電視劇$drama#電影$movie#動漫$anime#綜藝$variety#短劇$drama-short#體育$sport#紀錄片$documentary"}}
     ],
     "parses": [
       {
