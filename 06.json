@@ -13,16 +13,19 @@
                 "quickSearch":1,
                 "filterable":1,
                 "ext":{
-                    "请求头": "User-Agent$MOBILE_UA",
-                    "编码": "UTF-8",
-                    "主页url": "http://www.yfsp.tv/",
-                    "分类url":"https://www.yfsp.tv/list/{cateId}?year={year}&page={catePg}",
-                    "分类": "電視劇$drama#電影$movie#動漫$anime#綜藝$variety#短劇$drama-short#體育$sport#紀錄片$documentary",
-                    "播放数组": "n-media-list\"&&</app-list>",
-                    "导演": "导演：&&</p>",
-                    "主演": "主演：&&</p",
-                    "简介": "简介：&&</p>"
-                      }
+  "请求头": "User-Agent$MOBILE_UA",
+  "编码": "UTF-8",
+  "主页url": "https://www.yfsp.tv/",
+  "分类url": "https://www.yfsp.tv/list/{cateId}?region={region}&year={year}&orderBy={order}&page={page}",
+  "分类": "電視劇$drama#電影$movie#動漫$anime#綜藝$variety#紀錄片$documentary#體育$sport",
+  "播放数组": "root-container\">&&</div>",
+  "标题": "title\":\"&&\",",
+  "封面": "image\":\"&&\",",
+  "导演": "导演：&&</p>",
+  "主演": "主演：&&</p>",
+  "简介": "简介：&&</p>",
+  "播放地址": "url\":\"&&\","
+}
             }
     ],
     "parses": [
