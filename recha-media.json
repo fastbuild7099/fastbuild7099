@@ -4499,6 +4499,20 @@
       }
     },
     {
+      "key": "csp_小宝影视xiaobao168",
+      "name": "🎥｜小宝｜備用4",
+      "api": "csp_XBPQ",
+      "type": 3,
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+             "分类url": "http://www.xiaobao168.com/vodshow/{cateId}/area/{area}/class/{class}/page/{catrPg/year/{year}.html",
+             "分类": "電視劇$2#電影$1#動漫$3#綜藝$4"
+        }
+    },
+    {
       "key": "hipy_js_凌云影视",
       "name": "🎥｜凌云",
       "type": 3,
@@ -5961,15 +5975,6 @@
       "quickSearch": 1
     },
     {
-      "key": "小宝影视",
-      "name": "🎥｜小宝影視",
-      "type": 1,
-      "api": "http://www.xiaobao168.com/api.php/provide/vod/",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
       "key": "暴风(切)",
       "name": "🎥｜暴风",
       "type": 1,
@@ -6012,40 +6017,10 @@
       ]
     },
     {
-      "key": "csp_trj",
-      "name": "唐人街影院",
-      "type": 3,
-      "api": "csp_Tangrenjie",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/panda1123.jar;md5;d9004aa2e16f60b04baed361713fb710",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "LIBVIO",
-      "name": "️LIBVIO",
-      "type": 3,
-      "api": "csp_LIBVIO",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/panda1123.jar;md5;d9004aa2e16f60b04baed361713fb710",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "csp_Voflix",
       "name": "Voflix",
       "type": 3,
       "api": "csp_Voflix",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/panda1123.jar;md5;d9004aa2e16f60b04baed361713fb710",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "csp_Dy1010",
-      "name": "双十影视",
-      "type": 3,
-      "api": "csp_Dy1010",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/panda1123.jar;md5;d9004aa2e16f60b04baed361713fb710",
       "searchable": 1,
       "quickSearch": 1,
@@ -6070,26 +6045,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
-    },
-    {
-      "key": "csp_Kunyu77",
-      "name": "七七",
-      "type": 3,
-      "api": "csp_Kunyu77",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/panda1123.jar;md5;d9004aa2e16f60b04baed361713fb710",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "spider_IKan",
-      "name": "爱看",
-      "type": 3,
-      "api": "csp_IKan",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/07061553.jar;md5;f1119df4fc629e71103cc19e2c7b2338"
     },
     {
       "key": "csp_XBiuiKUN",
@@ -6150,51 +6105,11 @@
       "quickSearch": 1
     },
     {
-      "key": "39影视",
-      "name": "39影视(聚)",
-      "type": 1,
-      "api": "https://www.39kan.com/api.php/provide/vod/",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/panda1123.jar;md5;d9004aa2e16f60b04baed361713fb710",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
-      "key": "39影视(json)",
-      "name": "39影视(json)(聚)",
-      "type": 1,
-      "api": "https://www.39kan.com/api.php/provide/vod/at/json_now/",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/panda1123.jar;md5;d9004aa2e16f60b04baed361713fb710",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
       "key": "艾旦资源",
       "name": "🎥｜艾旦資源",
       "type": 1,
       "api": "https://lovedan.net/api.php/provide/vod",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/panda1123.jar;md5;d9004aa2e16f60b04baed361713fb710",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
-      "key": "二次萌影视",
-      "name": "🎥｜次萌",
-      "type": 1,
-      "api": "https://www.ecmys.com/api.php/provide/vod/",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/dokilwss.jar;md5;145277452362fe4b1371e8968b414ed1",
-      "searchable": 1,
-      "quickSearch": 1,
-      "categories": [
-        "动作片" , "喜剧片" , "爱情片" , "科幻片" , "恐怖片" , "剧情片" , "战争片" , "国产剧" , "港台剧" ,
-        "日韩剧" , "欧美剧" , "纪录片" , "大陆综艺", "日韩综艺", "港台综艺", "欧美综艺", "国产动漫", "日韩动漫",
-        "欧美动漫", "海外动漫", "海外剧" , "解说片" , "短剧"
-      ]
-    },
-    {
-      "key": "八戒资源",
-      "name": "🎥｜八戒",
-      "type": 1,
-      "api": "http://cj.bajiecaiji.com/inc/apijson_vod.php",
       "searchable": 1,
       "quickSearch": 1
     },
@@ -6295,17 +6210,6 @@
       "ext": "https://ys.51bro.cn/mogai_api.php/v1.vod"
     },
     {
-      "key": "csp_AppYsV2_追剧兔",
-      "name": "🎥｜剧兔",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/dokilwss.jar;md5;145277452362fe4b1371e8968b414ed1",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://zjtu.one/api.php/app/"
-    },
-    {
       "key": "csp_AppYsV2_思古电影",
       "name": "🎥｜思古",
       "type": 3,
@@ -6356,17 +6260,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://www.heli888.cc/api.php/app/"
-    },
-    {
-      "key": "hipy_js_APPV2[模板]",
-      "name": "🎥｜大米星球｜",
-      "type": 3,
-      "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 1,
-      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/APPV2[模板].js?type=url&params=https://dmz2xnp.wiki"
     },
     {
       "key": "hipy_js_APPV2[模板]",
@@ -6444,16 +6337,6 @@
       "changeable": 1,
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/fan.txt;md5;8851819289f80deae32319080028db3b",
       "ext": "https://www.zxzjhd.com/"
-    },
-    {
-      "key": "天天",
-      "name": "🎥｜天天",
-      "type": 3,
-      "api": "csp_AppTT",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/fan.txt;md5;8851819289f80deae32319080028db3b"
     },
     {
       "key": "萌米",
