@@ -917,21 +917,6 @@
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/miaiys.json"
     },
     {
-      "key": "csp_修羅影视",
-      "name": "🎥｜修羅",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "分类链接": "https://www.xlys01.com/s/{class}/{catePg}?type={cateId}&area={area}&year={year}&order={by}",
-        "分类": "电影$0#电视剧$1",
-        "类型": "动作$#爱情$#喜剧$#科幻$#恐怖$#战争$#武侠$#魔幻$#剧情$#动画$#惊悚$#3D$#灾难$#悬疑$#警匪$#文艺$#青春$#冒险$#犯罪$#纪录$#古装$#奇幻$#国语$#综艺$#历史$#运动$#原创$#压制$||美剧$#韩剧$#国产电视剧$#日剧$#英剧$#德剧$#俄剧$#巴剧$#加剧$#西剧$#意大利剧$#泰剧$#港台剧$#法剧$#澳剧$"
-      }
-    },
-    {
       "key": "csp_老王影视",
       "name": "🎥｜老王",
       "type": 3,
@@ -6346,14 +6331,14 @@
       "key": "醉挽清风",
       "name": "🎥｜墨玉",
       "type": 3,
-      "api": "http://我不是.摸鱼儿.top/json_now/js/drpy.min.js",
+      "api": "http://我不是.摸鱼儿.top/json/js/drpy.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "order_num": 0,
       "playUrl": "json:http://103.117.123.51:6523/zhuimi666.php?url=",
       "ext": "https://gitee.com/XIYANkong123/536992286/raw/moyuer/qingfeng.js",
-      "jar": "http://我不是.摸鱼儿.top/by/jar1/moyu.php"
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyu.php"
     },
     {
       "key": "天堂短剧",
@@ -7155,7 +7140,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "http://我不是.摸鱼儿.top/by/jar1/moyu.php"
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyu.php"
     },
     {
       "key": "斗鱼js",
@@ -7168,7 +7153,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "http://我不是.摸鱼儿.top/by/jar1/moyu.php"
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyu.php"
     },
     {
       "key": "kuaishouzb",
