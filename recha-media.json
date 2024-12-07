@@ -42,6 +42,8 @@
       },
       "style": {"type": "rect", "ratio": 1.77}
     },
+
+//優選源_分類專區
     {
       "key": "nyys",
       "name": "🥇｜纽约影院",
@@ -440,6 +442,8 @@
         "分类": "電影$1#電視劇$2#動漫$48#綜藝$3#紀錄片$21"
       }
     },
+
+    //XBPQ_自建站源專區
     {
       "key": "csp_hanjulao",
       "name": "🎥｜韩剧",
@@ -1426,26 +1430,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": {
-        "分类url": "https://vip.cchsxk.com/search.php?page={catePg}&searchtype=5&order={by}&tid={cateId}&area={area}&year={year}&letter=&yuyan=&state=&money=&ver=&jq=",
-        "分类": "电影$1#电视剧$2#综艺$3#快手短剧$29#抖音短剧$30#短剧$31",
-        "类型": "动作片$5#爱情片$6#科幻片$7#恐怖片$8#战争片$9#喜剧片$10||大陆剧$13#香港剧$14#欧美剧$15#日剧$16#韩剧$25#泰剧$26||空||空||空||空",
-        "数组": "qcontainer&&</div",
-        "标题": "title=\"&&\"",
-        "图片": "data-original=\"&&\"",
-        "链接": "href=\"&&\"",
-        "简介": "剧情简介:&&</p",
-        "线路二次截取": "<div class=\"playfrom tab8 clearfix\">&&如果",
-        "线路数组": "<li&&</li>",
-        "线路标题": "</i>&&<sup",
-        "播放二次截取": "如果&&最近热播",
-        "播放数组": "<ul>&&</ul>",
-        "播放列表": "<a&&/a>[不包含:дрр滈凊]",
-        "播放标题": ">&&<",
-        "播放链接": "href=\"&&\"",
-        "搜索url": "https://vip.cchsxk.com/search.php?page={pg}&searchword={wd}&searchtype=",
-        "排序": "最新$time#人气$hit#推荐$commend"
-      }
+
     },
     {
       "key": "csp_樱花影视",
@@ -3351,6 +3336,8 @@
         "排序": "最近更新$空#最多观看$hits#最佳口碑$score#最高点赞$like"
       }
     },
+
+    //未整理完自建源-------------------------------------------------------------------------------------------------------------------------------------------------------
     {
       "key": "csp_vodimg资源",
       "name": "🎥｜vodimg",
@@ -4290,7 +4277,7 @@
     },
     {
       "key": "csp_XBiu熱播之家",
-      "name": "熱播之家(XB)",
+      "name": "熱播之家(失效)",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
@@ -4498,20 +4485,8 @@
         "分类": "電視劇&電影$7#動漫$5#綜藝$3#紀錄片$21#體育$20"
       }
     },
-    {
-      "key": "csp_小宝影视xiaobao168",
-      "name": "🎥｜小宝｜備用4",
-      "api": "csp_XBPQ",
-      "type": 3,
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-             "分类url": "http://www.xiaobao168.com/vodshow/{cateId}/area/{area}/class/{class}/page/{catePg}/year/{year}.html",
-             "分类": "電視劇$2#電影$1#動漫$3#綜藝$4"
-        }
-    },
+
+    //道長源_分類專區
     {
       "key": "hipy_js_凌云影视",
       "name": "🎥｜凌云",
@@ -5626,6 +5601,8 @@
       "changeable": 1,
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/ddys.js"
     },
+
+    //API規則_分類專區
     {
       "key": "金鹰资源1",
       "name": "🎥｜金鹰资源1",
@@ -6113,6 +6090,8 @@
       "searchable": 1,
       "quickSearch": 1
     },
+
+    //APPYSV2模板_分類專區
     {
       "key": "csp_AppYsV2_CC影视",
       "name": "🎥｜纯畅",
@@ -6272,6 +6251,8 @@
       "order_num": 0,
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/APPV2[模板].js?type=url&params=http://122.228.85.203:1000$http://122.228.85.203:1000/play?url="
     },
+
+    //雜項規則_分類專區
     {
       "key": "csp_TTian_天天_QJ",
       "name": "🎥｜天天",
@@ -6464,6 +6445,8 @@
       "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
       "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/jp.js"
     },
+
+    //短劇專區
     {
       "key": "天堂短剧",
       "name": "📺｜天堂短剧",
@@ -6785,6 +6768,8 @@
         "类型": "动作片$6#喜剧片$7#爱情片$8#科幻片$9#恐怖片$10#剧情片$11#战争片$12#纪录片$24||美剧$20#韩剧$13#日剧$14#泰剧$15#港剧$16#国产剧$25||空||空||空"
       }
     },
+
+    //動漫專區
     {
       "key": "动漫巴士",
       "name": "动漫｜巴士",
@@ -7232,6 +7217,8 @@
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/巴士動漫網.json"
     },
+
+    //神秘好用源_分類專區
     {
       "key": "MTV",
       "name": "🎵｜MTV",
@@ -7458,6 +7445,8 @@
       "order_num": 0,
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/六月听书[听].js"
     },
+
+    //磁力源_分類專區
     {
       "key": "drpy_js_360影视",
       "name": "🎖︎｜360",
@@ -7925,6 +7914,8 @@
       "changeable": 1,
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/fan.txt;md5;8851819289f80deae32319080028db3b"
     },
+
+    //失效專區
     {
       "key": "剧集屋",
       "name": "📺剧集│屋屋(失效)",
