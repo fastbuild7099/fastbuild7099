@@ -509,16 +509,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": {
-        "主页url": "https://www.wvod.tv/",
-        "数组": "hl-col-lg-2\"&&</a>",
-        "图片": "data-original=\"&&\"",
-        "标题": "title=\"&&\"",
-        "链接": "href=\"&&\"",
-        "简介": "简介：&&</li>",
-        "分类url": "https://www.wvod.tv/vodshow/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
-        "分类": "电影$20#电视剧$21#综艺$22#动漫$23#体育$25#纪录片$24"
-      }
+      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/蛙蛙.json"
     },
     {
       "key": "csp_VSYY",
@@ -1518,24 +1509,7 @@
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "ext": {
-        "防走丢": "https://xn--tv-ks3d939o.com/",
-        "分类url": "https://xn--94qq85au3qyvbe13c.com/movie-list-id-{cateId}-pg-{catePg}-order-desc-by-{by}-class-{class}-year-{year}-letter-{letter}-area-{area}-lang-{lang}.html;;x",
-        "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
-        "类型": "动作片$5#喜剧片$6#爱情片$7#科幻片$8#恐怖片$9#剧情片$10#战争片$11#纪录片$20#伦理片$22||国产剧$12#韩国剧$17#欧美剧$15#日本剧$16#香港剧$18#台湾剧$19#海外剧$21||空||空",
-        "简介": "detail-sketch\">&&</span>",
-        "数组": "thumb\"&&</a>",
-        "图片": "url('&&')",
-        "标题": "title=\"&&\"",
-        "链接": "href=\"&&\"",
-        "副标题": "right\">&&</span>",
-        "线路数组": "class=\"playtitle\"&&span>",
-        "线路标题": "</i>&&</[不包含:BD云]",
-        "播放数组": "playlist column10 clearfix&&</ul>",
-        "播放列表": "<a&&a>",
-        "播放链接": "href='&&'",
-        "播放标题": "self\">&&</"
-      }
+      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/速影TV.json"
     },
     {
       "key": "csp_新可可影视",
@@ -1546,28 +1520,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "主页url": "https://www.sdjinhengli.com/",
-        "二次截取": "class=\"myui-vodlist clearfix\"&&</ul>",
-        "数组": "class=\"myui-vodlist__box\"&&</a>",
-        "标题": "title=\"&&\"",
-        "图片": "src=\"&&\"",
-        "副标题": "center\">&&</span>",
-        "链接": "href=\"&&\"",
-        "播放数组": "class=\"myui-content__list sort-list clearfix\"&&</ul>",
-        "播放列表": "<a&&a>",
-        "播放链接": "href=\"&&\"",
-        "播放标题": ">&&</[不包含:APP秒播]",
-        "线路数组": "href=\"\\#playlist&&</li>",
-        "线路标题": "class=\"m\">*overflow\">&&</span>",
-        "跳转播放链接": "var player_*\"url\":\"&&\"",
-        "简介": "剧情介绍:&&</p>",
-        "分类url": "https://www.sdjinhengli.com/kkersw/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
-        "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$5",
-        "类型": "动作片$6#喜剧片$7#爱情片$8#科幻片$9#恐怖片$10#剧情片$11#战争片$12#记录片$13#悬疑片$14#犯罪片$15#奇幻片$16#动画片$31||国产剧$17#港台剧$18#日韩剧$20#欧美剧$21#海外剧$22||大陆综艺$23#日韩综艺$24#欧美综艺$25#港台综艺$26||国产动漫$27#日韩动漫$28#欧美动漫$29#其他动漫$30||空"
-      }
+      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/新可可影視-直連.json"
     },
     {
       "key": "新可可影视③",
@@ -1578,36 +1531,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": {
-          "请求头": "User-Agent$MOBILE_UA",
-          "编码": "UTF-8",
-          "主页url": "http://www.kmxibanyayu.com/",
-          "数组": "lazyload\"&&</li>",
-          "标题": "title=\"&&\"",
-          "图片": "data-original=\"&&\"",
-          "副标题": "<b>&&</b></span></a>",
-          "链接": "href=\"&&\"",
-          "播放数组": "playlist clearfix&&</ul>",
-          "播放列表": "<a&&a>",
-          "播放链接": "href=\"&&\"",
-          "播放标题": ">&&</",
-          "线路数组": "\\#playlist&&</li>",
-          "线路标题": ">&&</a>",
-          "简介": "简介：</span>&&</span><a",
-          "跳转播放链接": "urlDecode(var player_*\"url\":\"&&\")",
-          "搜索url": "/index.php/ajax/suggest?mid=1&wd={wd}&page={pg}",
-          "搜索二次截取": "list\":\\[&&\\]",
-          "搜索数组": "{&&}",
-          "搜索标题": "name\":\"&&\"",
-          "搜索图片": "pic\":\"&&\"",
-          "搜索副标题": "en\":\"&&\"",
-          "搜索链接": "/cover/+en\":\"&&\"+.html",
-          "分类url": "http://www.kmxibanyayu.com/vs/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
-          "分类": "电影$dianying#电视剧$dianshiju#综艺$zongyi#动漫$dongman#短剧$duanju#电影解说$dianyingjieshuo",
-          "类型": "动作片$dongzuopian#喜剧片$xijupian#科幻片$kehuanpian#恐怖片$kongbupian#爱情片$aiqingpian#剧情片$juqingpian#战争片$zhanzhengpian#悬疑片$xuanyipian#惊悚片$jingsongpian#犯罪片$fanzuipian#奇幻片$qihuanpian#动画片$donghuapian#纪录片$jilupian#邵氏电影$shaoshidianying#预告片$yugaopian#家庭片$jiatingpian#古装片$guzhuangpian#历史片$lishipian#4K电影$4kdianying||国产剧$guochanju#港剧$gangju#台剧$taiju#日剧$riju#韩剧$hanju#泰剧$tju#美剧$meiju#海外剧$haiwaiju||大陆综艺$daluzongyi#港台综艺$gangtaizongyi#日韩综艺$rihanzongyi#欧美综艺$oumeizongyi||国产动漫$guochandongman#港台动漫$gangtaidongman#日韩动漫$rihandongman#欧美动漫$oumeidongman#海外动漫$haiwaidongman||空||空",
-          "剧情": "喜剧&爱情&恐怖&动作&科幻&剧情&战争&警匪&犯罪&动画&奇幻&武侠&冒险&枪战&悬疑&惊悚&经典&青春&文艺&微电影&古装&历史&运动&农村&儿童&网络电影||古装&战争&青春偶像&喜剧&家庭&犯罪&动作&奇幻&剧情&历史&经典&乡村&情景&商战&网剧&短剧&其他||选秀&情感&访谈&播报&旅游&音乐&美食&纪实&曲艺&生活&游戏互动&财经&求职||情感&科幻&热血&推理&搞笑&冒险&萝莉&校园&动作&机战&运动&战争&少年&少女&社会&原创&亲子&益智&励志&其他||空||喜剧&爱情&恐怖&动作&科幻&剧情&战争&警匪&犯罪&动画&奇幻&武侠&冒险&枪战&悬疑&惊悚&经典&青春&文艺&微电影&古装&历史&运动&农村&儿童&网络电影",
-          "剧情值": "*"
-      }
+      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/新可可影視3.json"
   },
   {
     "key": "大海影视①",
@@ -2514,37 +2438,6 @@
       }
     },
     {
-      "key": "csp_小坝影视",
-      "name": "🎥｜小坝",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "主页url": "http://www.nanxiaoba.com/",
-        "数组": "class=\"image\"&&</a>",
-        "标题": "alt=\"&&\"",
-        "图片": "data-original=\"&&\"",
-        "副标题": "continu\">&&</span>",
-        "链接": "href=\"&&\"",
-        "播放数组": "tab-pane ff-playurl&&</ul>",
-        "播放列表": "<a&&a>",
-        "播放链接": "href=\"&&\"",
-        "播放标题": ">&&</",
-        "线路数组": "href=\"javascript:;\"&&</li>",
-        "线路标题": "</span>&&</a>",
-        "跳转播放链接": "var cms_player*\"url\":\"&&\"",
-        "简介": "<p>&&</p>",
-        "搜索url": "http://www.nanxiaoba.com/search/{wd}/{pg}.html",
-        "分类url": "http://www.nanxiaoba.com/type/{cateId}-{class}-{area}----addtime-{catePg}.html[http://www.nanxiaoba.com/type/{cateId}-{class}-{area}----addtime.html]",
-        "分类": "电影$1#电视剧$2#综艺$4#动漫$3#短剧$5#午夜电影$6"
-      }
-    },
-    {
       "key": "csp_nu",
       "name": "🎥｜Nuu",
       "type": 3,
@@ -2668,21 +2561,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "播放数组": "class=\"dcd-content__playlist clearfix&&</ul>",
-        "播放列表": "<a&&a>",
-        "播放链接": "href=\"&&\"",
-        "播放标题": ">&&</[不包含:😍做嗳直播]",
-        "跳转播放链接": "urlDecode(Base64(var player_*url\":\"&&\"))",
-        "线路数组": "<h3&&h3>",
-        "线路标题": ">&&</",
-        "分类url": "http://dachidz.com/vodshow/{cateId}-{class}-{area}-{year}-{letter}-{by}-{catePg}.html",
-        "分类": "电影$1#电视剧$2#综艺$4#动漫$3#短剧$26",
-        "剧情": "伦理&三级&爱情&动作&喜剧&战争&科幻&邵氏&恐怖&篮球&足球&演唱会&剧情&纪录&犯罪&悬疑&奇幻&动画&微电影国产&美国&韩国&日本&港剧&台湾&泰剧&美剧&韩剧&日剧&台剧&泰国&海外大陆&日韩&港台&欧美国产&日韩&欧美&港台&海外&有声短剧&女频&反转&悬疑&穿越&古装&现代",
-        "剧情值": "*"
-      }
+      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/大尺度.json"
+
     },
     {
       "key": "csp_新视觉",
@@ -2693,32 +2573,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "主页url": "https://www.szgdhb.com.cn/",
-        "数组": "默认--class=\"img-pic&&</a>||首页--class=\"img-pic&&</a>",
-        "标题": "title=\"&&\"",
-        "图片": "默认--data-original=\"&&\"||主页--src=\"&&\"",
-        "副标题": "默认--text-right\"&&</span>||主页--text\">&&em></em>",
-        "链接": "href=\"&&\"",
-        "播放数组": "class=\"play-list fade-in clearfix\"&&</ul>",
-        "播放列表": "<a&&a>",
-        "播放链接": "href=\"&&\"",
-        "播放标题": ">&&</",
-        "线路数组": "play-list-toggle&&</li>",
-        "线路标题": "\">&&</a>",
-        "跳转播放链接": "var player_*\"url\":\"&&\"",
-        "搜索url": "https://www.szgdhb.com.cn/vod_so{wd}/page/{pg}.html",
-        "搜索数组": "class=\"img-pic&&</a>",
-        "搜索标题": "title=\"&&\"",
-        "搜索图片": "data-original=\"&&\"",
-        "搜索副标题": "text-right\"&&</span>",
-        "搜索链接": "href=\"&&\"",
-        "分类url": "https://www.szgdhb.com.cn/show-{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
-        "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$21",
-        "类型": "动作/武侠$6#喜剧/搞笑$7#爱情/家庭$8#科幻/奇幻$9#恐怖/惊悚$10#剧情/纪实$11#战争/灾难$12#悬疑/犯罪$25#动画片$26#邵氏电影$20||国产剧$13#港剧$14#韩剧$15#美剧$16#日剧$22#台剧$23#海外剧$24||空||空||空"
-      }
+      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/新視覺.json"
     },
     {
       "key": "csp_暖影院",
@@ -7865,6 +7720,17 @@
         "搜索副标题": "text-right\">&&<",
         "搜索链接": "href=\"&&\""
       }
+    },
+    {
+      "key": "csp_小坝影视",
+      "name": "🎥｜小坝(失效)",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/小垻.json"
     },
     {
       "key": "csp_XBiu人人影視",
