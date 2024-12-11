@@ -48,12 +48,12 @@
       "key": "nyys",
       "name": "🥇｜纽约影院",
       "type": 3,
-      "api": "csp_XPathFilter",
+      "api": "csp_XBPQ",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/ys.json",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/csny.jar;md5;3f392906996ac13aaeb8c91956f95f7f"
+      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/紐約影院.json"
     },
     {
       "key": "csp_XBiuNycVod",
