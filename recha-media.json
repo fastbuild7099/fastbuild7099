@@ -1,5 +1,5 @@
 {
-  "spider": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/pg.jar;md5;6c46e70d4002cb2cdea8913cb99d3f59",
+  "spider": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/pg.jar;md5;90f0ebed478a6a063234c2ee48efeed0",
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://picsum.photos/1080/",
   "sites": [
@@ -56,16 +56,8 @@
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/紐約影院.json"
     },
     {
-      "key": "金牌資源",
-      "name": "🥇｜金牌影院",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/金牌影院.json"
-    },
-    {
       "key": "金牌影视",
-      "name": "🥇｜銀牌影院",
+      "name": "🥇｜金牌影院",
       "type": 3,
       "api": "csp_Jpys",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/fan.txt;md5;8851819289f80deae32319080028db3b",
@@ -74,6 +66,19 @@
       "quickSearch": 1,
       "changeable": 1
     },
+    {
+      "key": "Auete",
+      "name": "🥇｜銀牌影院",
+      "type": 3,
+      "api": "csp_Auete",
+      "timeout": 15,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://auete.pro/",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/fan.txt;md5;8851819289f80deae32319080028db3b"
+    },
+
     {
       "key": "剧迷TV",
       "name": "🥇｜銅牌影院",
@@ -86,15 +91,12 @@
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/銅牌影院.json"
     },
     {
-      "key": "hipy_js_文才2[资]",
+      "key": "金牌資源",
       "name": "🥇｜鐵牌影院",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/文才2[资].js"
+      "api": "csp_XBPQ",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/金牌影院.json"
     },
     {
       "key": "php_heimuer",
@@ -119,23 +121,11 @@
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/海纳TV.json"
     },
     {
-      "key": "Auete",
-      "name": "🥇｜奥特｜无广",
-      "type": 3,
-      "api": "csp_Auete",
-      "timeout": 15,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "https://auete.pro/",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/fan.txt;md5;8851819289f80deae32319080028db3b"
-    },
-    {
       "key": "T4-heimuer",
       "name": "🥇｜黑木耳｜T4唐三",
       "type": 4,
       "api": "https://tang.hz.cz/power/hme?token=647c28ca",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/custom_spider.jar;md5;41223deabd6594f629b5480ec15983ad",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/custom_spider.jar;md5;43989964965deab2a4b6b48251043412",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -146,7 +136,7 @@
       "name": "🥇｜独播库｜T4唐三",
       "type": 4,
       "api": "https://tang.hz.cz/power/duboku?token=647c28ca",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/custom_spider.jar;md5;41223deabd6594f629b5480ec15983ad",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/custom_spider.jar;md5;43989964965deab2a4b6b48251043412",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -157,7 +147,7 @@
       "name": "🥇｜欧乐｜T4唐三",
       "type": 4,
       "api": "https://tang.hz.cz/power/olelive?token=647c28ca",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/custom_spider.jar;md5;41223deabd6594f629b5480ec15983ad",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/custom_spider.jar;md5;43989964965deab2a4b6b48251043412",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -168,7 +158,7 @@
       "name": "🥇｜安博｜T4唐三",
       "type": 4,
       "api": "https://tang.hz.cz/power/ub18?token=647c28ca",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/custom_spider.jar;md5;41223deabd6594f629b5480ec15983ad",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/custom_spider.jar;md5;43989964965deab2a4b6b48251043412",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -7098,7 +7088,7 @@
       "name": "㊙︎｜YOUTUBE",
       "type": 4,
       "api": "https://jg.zhangqun66.xyz/yt/yt001.php",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/custom_spider.jar;md5;41223deabd6594f629b5480ec15983ad",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/custom_spider.jar;md5;43989964965deab2a4b6b48251043412",
       "searchable": 1,
       "changeable": 1,
       "ext": "海贼王#最新歌曲#动漫#新闻#卡提诺#追剧#爆笑#喜剧#新闻#旅游#播放清单#财神爷我的歌单"
@@ -7190,7 +7180,7 @@
       "name": "🎖︎｜360",
       "type": 3,
       "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/custom_spider.jar;md5;41223deabd6594f629b5480ec15983ad",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/custom_spider.jar;md5;43989964965deab2a4b6b48251043412",
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/360影视[官].js"
     },
     {
@@ -7198,7 +7188,7 @@
       "name": "🎖︎｜i奇异",
       "type": 3,
       "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/custom_spider.jar;md5;41223deabd6594f629b5480ec15983ad",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/custom_spider.jar;md5;43989964965deab2a4b6b48251043412",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -7210,7 +7200,7 @@
       "name": "🎖︎｜M果",
       "type": 3,
       "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/custom_spider.jar;md5;41223deabd6594f629b5480ec15983ad",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/custom_spider.jar;md5;43989964965deab2a4b6b48251043412",
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/百忙无果[官].js"
     },
     {
@@ -7218,7 +7208,7 @@
       "name": "🎖︎｜T讯",
       "type": 3,
       "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/custom_spider.jar;md5;41223deabd6594f629b5480ec15983ad",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/custom_spider.jar;md5;43989964965deab2a4b6b48251043412",
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/腾云驾雾[官].js"
     },
     {
@@ -7226,7 +7216,7 @@
       "name": "🎖︎｜S狗",
       "type": 3,
       "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/custom_spider.jar;md5;41223deabd6594f629b5480ec15983ad",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/custom_spider.jar;md5;43989964965deab2a4b6b48251043412",
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/菜狗[官].js"
     },
     {
@@ -7234,7 +7224,7 @@
       "name": "🎖︎｜U酷",
       "type": 3,
       "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/custom_spider.jar;md5;41223deabd6594f629b5480ec15983ad",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/custom_spider.jar;md5;43989964965deab2a4b6b48251043412",
       "searchable": 1,
       "quickSearch": 1,
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/优酷[官].js"
