@@ -125,7 +125,7 @@
       "name": "🥇｜黑木耳｜T4唐三",
       "type": 4,
       "api": "https://tang.hz.cz/power/hme?token=647c28ca",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/custom_spider.jar;md5;43989964965deab2a4b6b48251043412",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/蓝天白云.txt;md5;329e914a90b0bb5c7cb69b0eaec19700",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -136,7 +136,7 @@
       "name": "🥇｜独播库｜T4唐三",
       "type": 4,
       "api": "https://tang.hz.cz/power/duboku?token=647c28ca",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/custom_spider.jar;md5;43989964965deab2a4b6b48251043412",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/蓝天白云.txt;md5;329e914a90b0bb5c7cb69b0eaec19700",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -147,7 +147,7 @@
       "name": "🥇｜欧乐｜T4唐三",
       "type": 4,
       "api": "https://tang.hz.cz/power/olelive?token=647c28ca",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/custom_spider.jar;md5;43989964965deab2a4b6b48251043412",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/蓝天白云.txt;md5;329e914a90b0bb5c7cb69b0eaec19700",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -158,7 +158,7 @@
       "name": "🥇｜安博｜T4唐三",
       "type": 4,
       "api": "https://tang.hz.cz/power/ub18?token=647c28ca",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/custom_spider.jar;md5;43989964965deab2a4b6b48251043412",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/蓝天白云.txt;md5;329e914a90b0bb5c7cb69b0eaec19700",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -7088,7 +7088,7 @@
       "name": "㊙︎｜YOUTUBE",
       "type": 4,
       "api": "https://jg.zhangqun66.xyz/yt/yt001.php",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/custom_spider.jar;md5;43989964965deab2a4b6b48251043412",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/蓝天白云.txt;md5;329e914a90b0bb5c7cb69b0eaec19700",
       "searchable": 1,
       "changeable": 1,
       "ext": "海贼王#最新歌曲#动漫#新闻#卡提诺#追剧#爆笑#喜剧#新闻#旅游#播放清单#财神爷我的歌单"
@@ -7180,7 +7180,7 @@
       "name": "🎖︎｜360",
       "type": 3,
       "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/custom_spider.jar;md5;43989964965deab2a4b6b48251043412",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/蓝天白云.txt;md5;329e914a90b0bb5c7cb69b0eaec19700",
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/360影视[官].js"
     },
     {
@@ -7188,7 +7188,7 @@
       "name": "🎖︎｜i奇异",
       "type": 3,
       "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/custom_spider.jar;md5;43989964965deab2a4b6b48251043412",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/蓝天白云.txt;md5;329e914a90b0bb5c7cb69b0eaec19700",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -7200,7 +7200,7 @@
       "name": "🎖︎｜M果",
       "type": 3,
       "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/custom_spider.jar;md5;43989964965deab2a4b6b48251043412",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/蓝天白云.txt;md5;329e914a90b0bb5c7cb69b0eaec19700",
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/百忙无果[官].js"
     },
     {
@@ -7208,7 +7208,7 @@
       "name": "🎖︎｜T讯",
       "type": 3,
       "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/custom_spider.jar;md5;43989964965deab2a4b6b48251043412",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/蓝天白云.txt;md5;329e914a90b0bb5c7cb69b0eaec19700",
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/腾云驾雾[官].js"
     },
     {
@@ -7216,7 +7216,7 @@
       "name": "🎖︎｜S狗",
       "type": 3,
       "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/custom_spider.jar;md5;43989964965deab2a4b6b48251043412",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/蓝天白云.txt;md5;329e914a90b0bb5c7cb69b0eaec19700",
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/菜狗[官].js"
     },
     {
@@ -7224,7 +7224,7 @@
       "name": "🎖︎｜U酷",
       "type": 3,
       "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/custom_spider.jar;md5;43989964965deab2a4b6b48251043412",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/蓝天白云.txt;md5;329e914a90b0bb5c7cb69b0eaec19700",
       "searchable": 1,
       "quickSearch": 1,
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/优酷[官].js"
