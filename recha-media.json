@@ -7734,7 +7734,41 @@
     }
   ],
   "parses": [
-    [
+      {
+        "name": "蓝天白云",
+        "type": 0,
+        "url": "https://jx.xmflv.cc/?url="
+      },
+      {
+              "name": "4K解析",
+              "type": 0,
+              "url": "https://jx.xmflv.com/?url=",
+              "ext": {
+                  "flag": [
+                      "qq",
+                      "腾讯",
+                      "qiyi",
+                      "爱奇艺",
+                      "奇艺",
+                      "youku",
+                      "优酷",
+                      "mgtv",
+                      "芒果",
+                      "imgo",
+                      "letv",
+                      "乐视",
+                      "pptv",
+                      "PPTV",
+                      "sohu",
+                      "bilibili",
+                      "哔哩哔哩",
+                      "哔哩"
+                  ],
+                  "header": {
+                      "User-Agent": "okhttp/4.1.0"
+                  }
+              }
+          },
       {
         "name": "巧技",
         "type": 1,
@@ -7793,10 +7827,9 @@
             "User-Agent": "okhttp/4.9.1"
           }
         }
-      }
-    ]
+      },
     {
-      "name": "4K解析",
+      "name": "KK解析",
       "type": 1,
       "url": "http://112.74.124.75:8899/jiexi/api.php?url=",
       "ext": {
