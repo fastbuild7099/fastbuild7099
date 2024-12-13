@@ -7819,12 +7819,18 @@
             }
           },
           {
-            "name": "嗅探1",
-            "type": 0,
-            "url": "https://jx.jsonplayer.com/player/?url="
-          },
+           "name": "嗅探1", "type": 0, "url": "https://jx.jsonplayer.com/player/?url="},
           {"name": "嗅探2", "type": 0, "url": "https://jx.777jiexi.com/player/?url="},
           {"name": "嗅探3", "type": 0, "url": "https://jx.xmflv.com/?url="},
+          {"name": "嗅探4", "type": 0, "url": "https://jx.77flv.cc/?url="},
+          {"name": "嗅探5", "type": 0, "url": "https://jx.nnsvip.cn/?url="},
+          {"name": "嗅探6", "type": 0, "url": "https://jx.nnxv.cn/tv.php?url="},
+          {"name": "嗅探7", "type": 0, "url": "https://pl.a6club.com/player/analysis.php?v="},
+          {"name": "嗅探8", "type": 0, "url": "https://rdfplayer.mrgaocloud.com/player/?url="},
+          {"name": "嗅探9", "type": 0, "url": "https://jiexi.ibaopian.pro/player/?url="},
+          {"name": "嗅探10", "type": 0, "url": "https://jx.2s0.cn/player/?url="},
+          {"name": "嗅探11", "type": 0, "url": "https://im1907.top/?jx="},
+
         {
           "name": "KK解析",
           "type": 1,
