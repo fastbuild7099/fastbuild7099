@@ -6,8 +6,10 @@
     "api": "csp_XBPQ",
     "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar",
     "ext": {
-          "分类url": "https://avtoday.io/catalog/{cateId}?page={catePg}",  
-          //"分类": "无码&FC2&制服&丝袜&萝莉型&多人&长腿&巨乳&自慰&业余视频&足交&潮吹&痴女&熟女&貧乳&及膝袜"
+          "请求头": "MOBILE_UAMozilla/5.0 (Linux; Android 12; TAS-AN00 Build/HUAWEITAS-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/99.0.4844.88 Mobile Safari/537.36",
+          "主页url": "https://avtoday.io/",  
+          "分类url": "https://avtoday.io/catalog/{cateId}?page={catePg};;z",  
+          "分类": "无码&FC2&制服&丝袜&萝莉型&多人&长腿&巨乳&自慰&业余视频&足交&潮吹&痴女&熟女&貧乳&及膝袜"
           }
   } 
   ],
