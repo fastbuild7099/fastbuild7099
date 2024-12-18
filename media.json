@@ -419,6 +419,47 @@
 
     //XBPQ_自建站源專區
     {
+      "key": "雪糕影视",
+      "name": "新源｜雪糕",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "ext":
+           {
+            "分类": "电影$1#剧集$2#综艺$3#动漫$4",
+            "类型": "动作片$1#喜剧片$2#爱情片$21#海外动漫$3#科幻片$4#恐怖片$5#剧情片$6#战争片$7#纪录片$8#其他$9",
+            "分类url": "https://www.xgitv.com/vshow/{cateId}-----------.html"
+           }
+    },
+    {
+      "key": "青柠影视",
+      "name": "新源｜青柠",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": 
+            {
+            "请求头": "User-Agent$MOBILE_UA",
+            "编码": "UTF-8",
+            "分类url": "https://www.hspf520.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
+            "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
+            "简介": "<p>&&<p>"
+            }
+    },
+    {
+      "key": "面包影视",
+      "name": "新源｜面包",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": 
+          {
+          "请求头": "User-Agent$MOBILE_UA",
+          "编码": "UTF-8",
+          "分类url": "https://v.aiwule.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
+          "分类": "电影$20#电视剧$21#动漫$23#综艺$22#短剧$47",
+          "简介": "简介：&&"
+          }
+    },
+    {
       "key": "csp_hanjulao",
       "name": "🎥｜韩剧",
       "type": 3,
@@ -6852,6 +6893,34 @@
       "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/奇米动漫.js"
     },
+    {
+      "key": "动画片",
+      "name": "动画片｜动漫",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/DHPDQ.js"
+  },
+  {
+      "key": "动漫岛",
+      "name": "动漫岛｜动漫",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/DMD.js"
+  },
+    {
+      "key": "爱弹幕",
+      "name": "爱弹幕｜动漫",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/ADM.js"
+  },
+    {
+      "key": "好看动漫",
+      "name": "好看｜动漫",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/HKDM.js"
+  },
     {
       "key": "drpy_js_爱弹幕",
       "name": "动漫｜爱弹幕",
