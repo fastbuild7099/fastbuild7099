@@ -436,6 +436,7 @@
       "name": "新源｜青柠",
       "type": 3,
       "api": "csp_XBPQ",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
       "ext": 
             {
             "请求头": "User-Agent$MOBILE_UA",
@@ -450,6 +451,7 @@
       "name": "新源｜面包",
       "type": 3,
       "api": "csp_XBPQ",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
       "ext": 
           {
           "请求头": "User-Agent$MOBILE_UA",
