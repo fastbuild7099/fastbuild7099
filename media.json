@@ -779,7 +779,7 @@
       "ext": {
         "线路数组": "class=\"details-play-title clearfix&&</span>",
         "简介": "col-xs-1 detail-info hidden-xs\">&&</div>",
-        "分类url": "https://www.rrentv.com/vodlist/{cateId}__{area}_{year}__{by}_{catePg}.html",
+        "分类url": "https://www.rrentv.com/vodlist/{cateId}___{year}___{catePg}.html",
         "分类": "電視劇$dianshiju#電影$dianying#動漫$dongman#綜藝$zongyi"
       }
     },
