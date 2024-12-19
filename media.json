@@ -436,6 +436,16 @@
             }
     },
     {
+      "key": "CSP_理理影院",
+      "name": "新源｜理理",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/理理影院.json"
+    },
+    {
       "key": "CSP_雪糕影视",
       "name": "新源｜雪糕",
       "type": 3,
@@ -443,14 +453,14 @@
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
       "ext":
            {
+            "分类url": "https://www.xgitv.com/vshow/{cateId}--{by}-----{catePg}---.html",
             "分类": "电影$1#剧集$2#综艺$3#动漫$4",
-            "类型": "动作片$1#喜剧片$2#爱情片$21#海外动漫$3#科幻片$4#恐怖片$5#剧情片$6#战争片$7#纪录片$8#其他$9",
-            "分类url": "https://www.xgitv.com/vshow/{cateId}-----------.html"
+            "类型": "动作片$zilei1#喜剧片$zilei2#爱情片$zilei21#海外动漫$zilei3#科幻片$zilei4#恐怖片$zilei5#剧情片$zilei6#战争片$zilei7#纪录片$jilupian#其他$qita||国产剧$8#港台剧$9#日韩剧$10#欧美剧$11#海外剧$haiwaiju||空||空",
            }
     },
     {
-      "key": "CSP_青柠影视",
-      "name": "新源｜青柠",
+      "key": "CSP_青檸影视",
+      "name": "新源｜青檸",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
@@ -464,8 +474,8 @@
             }
     },
     {
-      "key": "CSP_面包影视",
-      "name": "新源｜面包",
+      "key": "CSP_麵包影视",
+      "name": "新源｜麵包",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
