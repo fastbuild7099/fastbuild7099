@@ -1188,43 +1188,8 @@
       "filterable": 1,
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/子子.json"
     },
-    {
-      "key": "csp_小镇影视",
-      "name": "🎥｜小鎮",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/小鎮.json"
-    },
-    {
-      "key": "csp_兄弟影视",
-      "name": "🎥｜️兄弟",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/兄弟.json"
-    },
-    {
-      "key": "csp_可乐影视",
-      "name": "🎥｜可乐",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "简介": "style=\"display: none;\"&&</span>",
-        "分类url": "https://www.kele365.com/index.php/vod/type/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
-        "分类": "电影$20#电视剧$21#动漫$22#综艺$23#体育$24#短剧$25"
-      }
-    },
+
+
     {
       "key": "csp_永乐视频",
       "name": "🎥｜永樂",
@@ -1234,7 +1199,23 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/永樂.json"
+      "ext": {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类url": "https://www.59v.net/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}/",
+        "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
+        "类型": "动作片&喜剧片$7#爱情片$8#科幻片$9#奇幻片$10#恐怖片$11#剧情片$12#战争片$20#动画片$26#悬疑片$22#冒险片$23#犯罪片$24#惊悚片$45#歌舞片$46#灾难片$47#网络片$48||国产剧$13#港台剧$14#日剧$15#韩剧$33#欧美剧$16#泰剧$34#新马剧$35#其他剧$25||内地综艺$27#港台综艺$28#日本综艺$29#韩国综艺$36#欧美综艺$30#新马泰综艺$37#其他综艺$38||国产动漫$31#日本动漫$32#韩国动漫$39#港台动漫$40#新马泰动漫$41#欧美动漫$42#其他动漫$43",
+        "剧情": "喜剧&爱情&恐怖&动作&科幻&剧情&战争&警匪&犯罪&动画&奇幻&武侠&冒险&枪战&恐怖&悬疑&惊悚&经典&青春&文艺&微电影&古装&历史&运动&农村&儿童&网络电影||古装&战争&青春偶像&喜剧&家庭&犯罪&动作&奇幻&剧情&历史&经典&乡村&情景&商战&网剧&其他||选秀&情感&访谈&播报&旅游&音乐&美食&纪实&曲艺&生活&游戏互动&财经&求职||情感&科幻&热血&推理&搞笑&冒险&萝莉&校园&动作&机战&运动&战争&少年&少女&社会&原创&亲子&益智&励志&其他",
+        "剧情值": "*",
+        "地区": "大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大&其他||大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大&其他||内地&港台&日韩&欧美||国产&日本&欧美&其他",
+        "地区值": "*",
+        "年份": "2000-2024",
+        "年份值": "*",
+        "字母": "A&B&C&D&E&F&G&H&I&J&K&L&M&N&O&P&Q&R&S&T&U&V&W&X&Y&Z&0-9",
+        "字母值": "*",
+        "排序": "时间&人气&评分",
+        "排序值": "time&hits&score"
+      }
     },
     {
       "key": "csp_白羊影院",
@@ -1247,18 +1228,7 @@
       "filterable": 1,
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/白羊影院.json"
     },
-    {
-      "key": "csp_立方影院",
-      "name": "🎥｜立方",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "ext": {
-        "分类url": "https://www.gdqrcloud.com/{cateId}/{class}_{area}_{year}_{by}_{catePg}.html;;x",
-        "分类": "电影$kan-movie#电视剧$kan-tv#综艺$kan-variety#动漫$kan-animation",
-        "剧情": "剧情$juqing#喜剧$xiju#动作$dongzuo#爱情$aiqing#惊悚$jingsong#犯罪$fanzui#恐怖$kongbu#悬疑$xuanyi#奇幻$qihuan#冒险$maoxian#科幻$kehuan#纪录片$jilupian#家庭$jiating#战争$zhanzheng#古装$guzhuang#历史$lishi#传记$zhuanji#情色$qingse#武侠$wuxia#音乐$yinyue#运动$yundong#同性$tongxing#歌舞$gewu#短片$duanpian#儿童$ertong#本片$benpian#伦理$lunli#动画$donghua#西部$xibu||剧情$juqing#爱情$aiqing#喜剧$xiju#悬疑$xuanyi#犯罪$fanzui#古装$guzhuang#奇幻$qihuan#动作$dongzuo#惊悚$jingsong#家庭$jiating#科幻$kehuan#历史$lishi#战争$zhanzheng#冒险$maoxian#同性$tongxing#恐怖$kongbu#短片$duanpian#武侠$wuxia#日本$riben#传记$zhuanji#纪录片$jilupian#运动$yundong#音乐$yinyue#儿童$ertong#故事$gushi#该剧$gaiju#本剧$benju||音乐$yinyue#节目$jiemu#歌舞$gewu#喜剧$xiju#爱情$aiqing#纪录片$jilupian#运动$yundong#一档$yidang#家庭$jiating#卫视$weishi#悬疑$xuanyi#经视$jingshi#访谈$fangtan#体验$tiyan#天姿$tianzi#开心$kaixin#故事$gushi#儿童$ertong#文化$wenhua#明星$mingxing#生活$shenghuo#经典$jingdian||动画$donghua#冒险$maoxian#喜剧$xiju#奇幻$qihuan#剧情$juqing#动作$dongzuo#科幻$kehuan#家庭$jiating#儿童$ertong#短片$duanpian#爱情$aiqing#动漫$dongman#悬疑$xuanyi#古装$guzhuang#武侠$wuxia#惊悚$jingsong#音乐$yinyue#歌舞$gewu#运动$yundong#犯罪$fanzui#战争$zhanzheng#恐怖$kongbu#历史$lishi#同性$tongxing#故事$gushi#世界$shijie#配音$peiyin#热血$rexue"
-      }
-    },
+
     {
       "key": "csp_光棍影视",
       "name": "🎥｜光棍",
@@ -1291,17 +1261,7 @@
       "changeable": 1,
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/好影快看.json"
     },
-    {
-      "key": "csp_米爱影视",
-      "name": "🎥｜米爱",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/miaiys.json"
-    },
+
     {
       "key": "csp_老王影视",
       "name": "🎥｜老王",
@@ -1474,7 +1434,11 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/飛流.json"
+      "ext":
+            {
+            "分类url":"https://www.flixflop.com/explore/{cateId}?page={catePg}&year={year}&sort=recently_updated",
+            "分类": "電視劇$151438147794763777#電影$151438147786375168#動漫$151438147807346690#綜藝$151438147807346691#體育$151438147807346693#短劇$331153971999670710"
+            }
     },
     {
       "key": "csp_唐人影视",
@@ -1538,21 +1502,7 @@
         "分类": "短剧$shuangwenduanju#电影$dianying#电视剧$lianxuju#综艺$zongyi#动漫$dongman"
       }
     },
-    {
-      "key": "csp_爱优影视",
-      "name": "🎥｜爱优",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "简介": "<div class=\"col-pd text-collapse content&&</div>",
-        "分类url": "https://www.iuys.cc/vodtype/1/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
-        "分类": "电影$2#电视剧$1#动漫$3#综艺$4"
-      }
-    },
+
     {
       "key": "csp_电影驿站",
       "name": "🎥｜驿站",
@@ -1590,17 +1540,6 @@
         "剧情": "动作片$dzp#喜剧片$xjp#爱情片$aqp#科幻片$khp#恐怖片$kbp#剧情片$jqp#战争片$zzp#惊悚片$jsp||香港剧$tvbgj#国产剧$neidi#台湾剧$taiju#欧美剧$oumei#日剧$riju#韩剧$hanju#网剧$wangju#泰剧$yataiju||大陆综艺$guozong#日韩综艺$hanzong#欧美综艺$meizong||国产动漫$guoman#日本动漫$riman#欧美动漫$meiman$动画$donghua||记录片$Jlp#经典片$Jdp#经典剧$Jdj#网大电影$wlp#国产老电影$laodianying",
         "分类": "电影$Movie#电视剧$Tv#综艺$Zy#动漫$Dm#其他$qita"
       }
-    },
-    {
-      "key": "csp_飞飞影视",
-      "name": "🎥｜飞飞",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/飛飛.json"
     },
     {
       "key": "csp_酷吧影视",
@@ -1674,17 +1613,6 @@
       }
     },
     {
-      "key": "csp_热播之家",
-      "name": "🎥｜热播",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "ext": {
-        "分类"   : "电影$1#电视剧$2#动漫$4#综艺$5"                 ,
-        "分类url": "https://rebozj.pro/type/{cateId}.html"
-      }
-    },
-    {
       "key": "csp_卫总影院",
       "name": "🎥｜卫总",
       "type": 3,
@@ -1727,24 +1655,6 @@
       "ext": {
         "分类url": "https://ibaopian.com/vod/type/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
         "分类": "电影$1#连续剧$2#动漫$4#综艺$3#纪录片$20#短剧$22"
-      }
-    },
-    {
-      "key": "csp_白雾影视",
-      "name": "🎥｜白雾",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "搜索url": "https://www.baiwoo.com/search.php?searchword={wd}",
-        "简介": "剧情介绍：&&</li>",
-        "线路数组": "<span style=\"font-size:16px;&&</span>",
-        "线路标题": ">&&<",
-        "分类url": "https://www.baiwoo.com/{cateId}-{catePg}.html",
-        "分类": "动作片$i/?5#爱情片$i/?6#科幻片$i/?7#恐怖片$i/?8#战争片$i/?9#喜剧片$i/?10#剧情片$i/?12#纪录片$i/?28#大陆剧$i/?13#港台剧$i/?14#欧美剧$i/?15#日韩剧$i/?16#海外剧$i/?31#动漫$i/?4#综艺$i/?3"
       }
     },
     {
@@ -1855,14 +1765,7 @@
       "filterable": 1,
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/全民影院.json"
     },
-    {
-      "key": "csp_柯南影视",
-      "name": "🎥｜柯南",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/柯南影視.json"
-    },
+
     {
       "key": "csp_七味影院",
       "name": "🎥｜七味",
@@ -1998,17 +1901,7 @@
       "filterable": 1,
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/酷貓電影網.json"
     },
-    {
-      "key": "csp_新希望影院",
-      "name": "🎥｜希望",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/新希望影院.json"
-    },
+
     {
       "key": "csp_殇情影院",
       "name": "🎥｜殇情",
@@ -2088,42 +1981,6 @@
         "分类url": "https://www.ffssaa7.site/index.php/vod/show/by/score/id/{cateId}/letter/{letter}/page/{catePg}/year/{year}.html",
         "分类": "鲨鱼资源$1#115$2#乐播$3#辣椒资源$4",
         "类型": "精品推荐$20#国产情色$21#日本无码$22#AV明星$23#中文字幕$24#网红主播$25#成人动漫$26#欧美情色$27#国模私拍$28#长腿丝袜$29#邻家人妻$30#韩国伦理$31#香港伦理$37||抖音视频$39#韩国主播$40#网红头条$41#网爆黑料$42#欧美无码$43#女优明星$44#SM调教$45#AV解说$46#无码专区$56#麻豆传媒$50#制服诱惑$51#三级伦理$52#AI换脸$53#中文字幕$54#卡通动漫$47#欧美系列$48#美女主播$49#强奸乱伦$57#国产自拍$55#熟女人妻$38||亚洲情色$58#国产主播$59#国产自拍$60#无码专区$61#欧美性爱$62#熟女人妻$63#强奸乱伦$64#巨乳美乳$65#中文字幕$66#制服诱惑$67#女同性恋$68#卡通动画$69#视频伦理$70#少女萝莉$71#重口色情$72#人兽性交$73||国产自拍$74#欧美极品$75#日韩无码$76#AV明星$77#中文字幕$78#动漫精品$79#极骚萝莉$80#人妖视频$81#重咸口味$82#强奸乱伦$83#三级自慰$84#HEYZO$85#独家DMM$86#HEY诱惑$87#童颜巨乳$88#高潮喷吹$89#激情口交$90#绝美少女$91#首次亮相$92#独家擂台格斗$95"
-      }
-    },
-    {
-      "key": "csp_星空影视",
-      "name": "🎥｜星空",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "主页url": "https://www.hdsgt.com/",
-        "数组": "lazyload\"&&</li>",
-        "标题": "title=\"&&\"",
-        "图片": "data-original=\"&&\"",
-        "副标题": "text-right\"&&</span>",
-        "链接": "href=\"&&\"",
-        "播放数组": "list sort-list scrollbar clearfix&&</ul>",
-        "播放列表": "<a&&a>",
-        "播放链接": "href=\"&&\"",
-        "播放标题": ">&&</",
-        "线路数组": "\\#playlist&&</li>",
-        "线路标题": "tab\"&&</a>",
-        "跳转播放链接": "var player_*\"url\":\"&&\"",
-        "搜索url": "https://www.hdsgt.com/search/{wd}----------{pg}---/",
-        "搜索数组": "lazyload\"&&</li>",
-        "搜索标题": "title=\"&&\"",
-        "搜索图片": "data-original=\"&&\"",
-        "搜索副标题": "text-right\"&&</span>",
-        "搜索链接": "href=\"&&\"",
-        "分类url": "https://www.hdsgt.com/show/{cateId}-{area}-{by}---{letter}---{catePg}---{year}/",
-        "分类": "电影$dianying#电视剧$lianxuju#综艺$zongyi#动漫$dongman#午夜剧场$juqingdianying",
-        "类型": "动作片$dongzuopian#喜剧片$xijupian#爱情片$aiqingpian#科幻片$kehuanpian#恐怖片$kongbupian#剧情片$juqingpian#战争片$zhanzhengpian||国产剧$guochanju#港剧$gangju#韩剧$hanju#台剧$taiju#日剧$riju#欧美剧$oumeiju#泰国剧$taiguoju||空||空||空"
       }
     },
     {
@@ -2241,101 +2098,7 @@
         "分类": "电影$movie#连续剧$tv#综艺$varietyshow#动漫$cartoon#短剧$skits"
       }
     },
-    {
-      "key": "csp_天天看片",
-      "name": "🎥｜天天看片",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "主页url": "http://www.hnylcdz.cn/",
-        "二次截取": "myui-vodlist clearfix\"&&</ul>",
-        "数组": "lazyload\"&&</li>",
-        "标题": "title=\"&&\"",
-        "图片": "data-original=\"&&\"",
-        "副标题": "right\"&&</span>",
-        "链接": "href=\"&&\"",
-        "播放数组": "list sort-list clearfix&&</ul>",
-        "播放列表": "<a&&a>",
-        "播放链接": "href=\"&&\"",
-        "播放标题": ">&&</",
-        "线路数组": "\\#playlist&&a>",
-        "线路标题": "tab\"&&</",
-        "跳转播放链接": "var player_*\"url\":\"&&\"",
-        "分类url": "http://www.hnylcdz.cn/show/{cateId}-{area}-------{catePg}---{year}.html",
-        "分类": "电影$1#电视剧$2#综艺$3#动漫$4#伦理片$30",
-        "类型": "动作片$7#喜剧片$8#爱情片$9#科幻片$10#恐怖片$11#剧情片$12#犯罪片$29#战争片$13||国产剧$14#港剧$15#台湾剧$16#韩剧$17#日剧$18#泰剧$31#欧美剧$19#海外剧$20||大陆综艺$21#日韩综艺$22#港台综艺$23#欧美综艺$24||国产动漫$25#日本动漫$26#欧美动漫$27#海外动漫$28||空"
-      }
-    },
-    {
-      "key": "csp_天天追劇",
-      "name": "🎥｜天天追劇",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-          "请求头": "User-Agent$MOBILE_UA",
-          "编码": "UTF-8",
-          "主页url": "https://www.cdxpel.cn/",
-          "数组": "class=\"item\"&&</a>",
-          "图片": "data-src=\"&&\"",
-          "标题": "title=\"&&\"",
-          "副标题": "tag1\">&&</div>",
-          "链接": "href=\"&&\"[替换:ttys_movie>>ttys_movie_play#.html>>_1_1.html]",
-          "播放数组": "class=\"list\"&&</div>",
-          "播放列表": "<a&&a>",
-          "播放链接": "href=\"&&\"",
-          "播放标题": "<em></em>&&</",
-          "线路二次截取": "class=\"hd clearfix\"&&</div>",
-          "线路数组": "<span&&span>",
-          "线路标题": "\">&&</",
-          "跳转播放链接": "var player_*\"url\":\"&&\"",
-          "简介": "简介：&&\"",
-          "搜索url": "https://www.cdxpel.cn/index/vod/show/wd/{wd}/page/{pg}.html",
-          "分类url": "https://www.cdxpel.cn/ttys_chn_filter/{cateId}/area/{area}/by/{by}/page/{catePg}.html;;rcaRCA",
-          "分类": "电影$dianying#电视剧$dianshiju#综艺$zongyi#动漫$dongman#纪录片$jilupian",
-          "类型": "动作片$dongzuopian#喜剧片$xijupian#爱情片$aiqingpian#科幻片$kehuanpian#恐怖片$kongbupian#剧情片$juqingpian#战争片$zhanzhengpian#悬疑片$xuanyi#冒险片$maoxian#奇幻片$qihuan#犯罪片$fanzui||国产剧$guochanju#港剧$gangju#台剧$taiju#韩剧$hanju#日剧$riju#泰剧$taiju#欧美剧$oumeiju#海外剧$qitadianshi||大陆综艺$daluzongyi#日韩综艺$rihanzongyi#港台综艺$gangtaizongyi#欧美综艺$oumeizongyi||动漫电影/剧场版$dongmandianying#国产动漫$guochandongman#日本动漫$ribendongman#欧美动漫$oumeidongman#港台动漫$gangtaidongman#其他动漫$qitadongman||空",
-          "排序": "按时间$time#按评分$score"
-      }
-    },
-    {
-      "key": "csp_旺旺影视",
-      "name": "🎥｜旺旺",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "主页url": "https://www.wwgz.cn/",
-        "二次截取": "resize_list\"&&</ul>",
-        "数组": "<li&&/li>",
-        "标题": "title=\"&&\"",
-        "图片": "src=\"&&\"",
-        "副标题": "<span>&&</em>",
-        "链接": "href=\"&&\"",
-        "播放数组": "class=\"numList\"&&</ul>",
-        "播放列表": "<a&&a>",
-        "播放链接": "href=\"&&\"",
-        "播放标题": ">&&</",
-        "线路数组": "<li><a href=\"javascript:;&&</li>",
-        "线路标题": "\">&&</a>",
-        "分类url": "https://www.wwgz.cn/vod-list-id-{cateId}-pg-{catePg}-order--by-{by}-class-{class}-year-{year}-letter-{letter}-area-{area}-lang-{lang}.html",
-        "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$26",
-        "类型": "动作片$5#喜剧片$6#爱情片$7#科幻片$8#恐怖片$9#剧情片$10#战争片$11#惊悚片$16#奇幻片$17||国产剧#12港台泰#13日韩剧#14欧美剧#15||空||动漫剧#18动漫片#19||空"
-      }
-    },
+
     {
       "key": "csp_白羊影院",
       "name": "🎥｜白羊",
@@ -2456,69 +2219,6 @@
       }
     },
     {
-      "key": "csp_久看电影",
-      "name": "🎥｜久看",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "防走丢": "http://www.98wap.com",
-        "主页": "http://www.9kdy.com/",
-        "数组": "lazyload\"&&</a>",
-        "标题": "title=\"&&\"",
-        "图片": "data-original=\"&&\"",
-        "副标题": "text-right\">&&</span>",
-        "链接": "href=\"&&\"",
-        "播放数组": "playlist playlink clearfix&&</ul>",
-        "播放列表": "<li&&</li>",
-        "播放链接": "href=\"&&\"",
-        "播放标题": "title=\"&&\"",
-        "线路数组": "<h3&&h3>",
-        "线路标题": "\">&&</",
-        "简介": "sketch\">&&</span>",
-        "搜索url": "http://www.9kdy.com/search.php?page={pg}&searchword={wd}&searchtype=",
-        "分类url": "http://www.9kdy.com/{cateId}/index{catePg}.html[http://www.9kdy.com/{cateId}/index.html]",
-        "分类": "电影$dianyingpian#电视剧$dianshiju#综艺$zongyi#动漫$dongman",
-        "类型": "动作片$dongzuopian#爱情片$aiqingpian#科幻片$kehuanpian#恐怖片$kongbupian#战争片$zhanzhengpian#喜剧片$xijupian#纪录片$jilupian#剧情片$juqingpian||国产剧$guocanju#港台剧$gangtaiju#欧美剧$oumeiju#日韩剧$rihanju#短剧$duanju||空||空"
-      }
-    },
-    {
-      "key": "csp_神马影院",
-      "name": "🎥｜神马",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "主页url": "http://www.sijiaokeji.com/",
-        "数组": "loading\"&&</li>",
-        "标题": "title=\"&&\"",
-        "图片": "data-original=\"&&\"",
-        "副标题": "text-bg-r\"&&</span>",
-        "链接": "href=\"&&\"",
-        "播放数组": "clearfix fade&&</ul>",
-        "播放列表": "<a&&a>",
-        "播放链接": "href=\"&&\"",
-        "播放标题": ">&&</[不包含:💞美女直播💞]",
-        "线路数组": "playlist&&</li>",
-        "线路标题": ">&&</a>",
-        "跳转播放链接": "var zanpiancms_player*\"url\":\"&&\"",
-        "简介": "class=\"details-content-all collapse\">&&</span>",
-        "搜索模式": "1",
-        "搜索url": "http://www.sijiaokeji.com/search/?wd={wd}",
-        "分类url": "http://www.sijiaokeji.com/{cateId}/index_{class}_{area}_{year}__{by}_{catePg}.html",
-        "分类": "电影$dianying#电视剧$dianshiju#综艺$zongyi#动漫$dongman",
-        "类型": "动作片$dongzuopian#喜剧片$xijupian#爱情片$aiqingpian#科幻片$kehuanpian#恐怖片$kongbupian#战争片$zhanzhengpian#剧情片$juqingpian||国产剧$guocanju#香港剧$xianggangju#欧美剧$oumeiju#日本剧$ribenju#海外剧$haiwaiju#台湾剧$taiwanju#韩国剧$hanguoju#泰国剧$taiguoju||空||空",
-        "剧情": "悬疑$xuanyi#魔幻$mohuan#言情$yanqing#罪案$zuian1#冒险$maoxian#灾难$zainan#古装$guzhuang#青春$qingchun#歌舞$gewu#励志$lizhi#文艺$wenyi#生活$shenghuo#动画$donghua||农村$nongcun#喜剧$xiju#偶像$ouxiang#古装$guzhuang#武侠$wuxia#神话$shenhua#穿越$chuanyue#刑侦$xingzhen#商战$shangzhan#战争$zhanzheng#军旅$junlv#谍战$diezhan#年代$niandai#职场$zhichang||真人$zhenrenxiu#脱口$tuokouxiu#选秀$xuanxiu#情感$qinggan#访谈$fangtan#美食$meishi#旅游$lvyou#财经$caijing#军事$junshi#职场$zhichang#音乐$yinle#时尚$shishang#娱乐$yule#体育$tiyu#生活$shenghuo#社会$shehui||冒险$maoxian#热血$rexue#搞笑$gaoxiao#少女$shaonv#恋爱$lianai#魔幻$mohuan#推理$tuili#神魔$shenmo#竞技$jingji#游戏$youxi#益智$yizhi#机战$jizhan#宠物$chongwu#格斗$gedou"
-      }
-    },
-    {
       "key": "csp_电视狗影视",
       "name": "🎥｜电视狗",
       "type": 3,
@@ -2615,17 +2315,6 @@
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/火狼.json"
     },
     {
-      "key": "csp_熱劇網",
-      "name": "🎥｜熱劇",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/熱劇網.json"
-    },
-    {
       "key": "csp_界界影视",
       "name": "🎥｜異界",
       "type": 3,
@@ -2687,7 +2376,8 @@
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
       "ext": {
         "分类url": "https://nuu.su/x/id/{cateId}/page/{catePg}.html"     ,
-        "分类"   : "https://json.heimuer.xyz/api.php/provide/vod?ac=list"
+        "分类"   : "https://nuu.su/x/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html"
+        
       }
     },
     {
