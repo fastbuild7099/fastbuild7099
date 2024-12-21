@@ -153,13 +153,23 @@
     },
     {
       "key": "T4-欧乐",
-      "name": "🥇｜欧乐",
+      "name": "🥇｜欧乐｜唐三",
       "type": 4,
       "api": "https://tang.hz.cz/power/olelive?token=647c28ca",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/蓝天白云.txt;md5;329e914a90b0bb5c7cb69b0eaec19700",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "py_OleVod",
+      "name": "🥇｜欧乐｜沐辰",
+      "type": 4,
+      "api": "https://spider.doube.eu.org/spider?site=OleVod",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
       "changeable": 0
     },
     {
@@ -262,16 +272,6 @@
       "name": "🥇｜TwoBT",
       "type": 4,
       "api": "https://spider.doube.eu.org/app/index.php?site=bttwoo",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "changeable": 0
-    },
-    {
-      "key": "py_OleVod",
-      "name": "🥇｜欧乐",
-      "type": 4,
-      "api": "https://spider.doube.eu.org/spider?site=OleVod",
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 0,
