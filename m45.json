@@ -28,8 +28,8 @@
       "name": "Youtube",
       "type": 3,
       "api": "csp_Youtube",
-      "searchable": 1,
-      "quickSearch": 1,
+      "searchable": 0,
+      "quickSearch": 0,
       "changeable": 0,
       "timeout": 240,
       "ext": {
@@ -54,6 +54,17 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/紐約影院.json"
+    },
+    {
+        "key": "csp_PTT",
+        "name": "🥇｜PTT｜點篩選的類型才會出來",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/PTT視頻.json"
     },
     {
       "key": "金牌影视",
@@ -130,7 +141,7 @@
     },
     {
       "key": "T4-独播库",
-      "name": "🥇｜独播库",
+      "name": "🥇｜獨播庫",
       "type": 4,
       "api": "https://tang.hz.cz/power/duboku?token=647c28ca",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/蓝天白云.txt;md5;329e914a90b0bb5c7cb69b0eaec19700",
@@ -140,8 +151,25 @@
       "changeable": 0
     },
     {
+        "key":"csp_獨播庫",
+        "name":"測試中｜獨播庫(TV)",
+        "type":3,
+        "api":"csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "searchable":1,
+        "quickSearch":1,
+        "filterable":1,
+        "ext":
+              {
+              "分类url":"https://www.duboku.tv/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",                                              
+              "分类":"电影$1#剧集$2#综艺$3#动漫$4"
+              //"剧情":"劇情$ju-qing#喜劇$xi-ju#愛情$ai-qing#動作$dong-zuo#科幻$ke-huan#恐怖$kong-bu#戰爭$zhan-zheng||陸劇$tv-cn#日韓劇$tv-krjp#英美劇$tv-usgb#港台劇$tv-twhk||真人秀$zhen-ren-xiu#選秀$xuan-xiu#音樂$yin-le#美食$mei-shi#旅行$lv-xing#脫口秀$tuo-kou-xiu#搞笑$gao-xiao#文化$wen-hua#歌舞$ge-wu||空",
+              //"地区":"大陸$cn#韓國$kr#日本$jp#美國$us#英國$gb#台灣$tw#香港$hk||空||內地$cn#日韓$krjp#港台$hktw#歐美$usgb||日本$jp#國產$cn#歐美$usgb"
+              }
+    },
+    {
       "key":"csp_獨播庫",
-      "name":"🥇｜獨播庫(網站版)",
+      "name":"🥇｜獨播庫(COM)",
       "type":3,
       "api":"csp_XBPQ",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
@@ -487,16 +515,11 @@
       "type": 3,
       "api": "csp_Bilimd",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xmbjm.jar",
-       "searchable": 1,
-      "quickSearch": 1,
+      "searchable": 0,
+      "quickSearch": 0,
       "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.433
-      },
-      "ext": {
-        "cookie": "http://127.0.0.1:9978/file/tvbox/bili_cookie.txt"
-      },
+      "style": {"type": "rect","ratio": 1.433},
+      "ext": {"cookie": "http://127.0.0.1:9978/file/tvbox/bili_cookie.txt"},
       "timeout": 10
   },
   {
@@ -505,17 +528,12 @@
       "type": 3,
       "api": "csp_Bili",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xmbjm.jar",
-      "searchable": 1,
-      "quickSearch": 1,
+      "searchable": 0,
+      "quickSearch": 0,
       "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.433
-      },
-      "ext": {
-        "cookie": "http://127.0.0.1:9978/file/tvbox/bili_cookie.txt",
-        "json": "https://4708.kstore.space/omg/lib/哔哩合集.txt"
-      },
+      "style": {"type": "rect","ratio": 1.433},
+      "ext": {"cookie": "http://127.0.0.1:9978/file/tvbox/bili_cookie.txt",
+      "json": "https://4708.kstore.space/omg/lib/哔哩合集.txt"},
       "timeout": 20
   },
   {
@@ -529,19 +547,8 @@
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/blzb.js"
   },
   {
-    "key": "csp_XBPQ_PTT",
-    "name": "🥉｜PTT｜點篩選的類型才會出來",
-    "type": 3,
-    "api": "csp_XBPQ",
-    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/PTT視頻.json"
-  },
-  {
     "key": "csp_xbpq_映播",
-    "name": "測試中｜映播",
+    "name": "🥉｜映播(不要選最前面的全部)",
     "type": 3,
     "api": "csp_XBPQ",
     "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
@@ -571,9 +578,9 @@
       "播放链接": "href=\"&&\"",
       "分类url": "https://www.ingbo.tv/vod/list/{catePg}/{cateId}/{class}/{year}/{area}/0/0/0",
       "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
-      "剧情": "动作片$9#喜剧片$10#爱情片$11#恐怖片$12#剧情片$13#科幻片$14#惊悚片$15#奇幻片$16#动画片$17#悬疑片$18#冒险片$19#纪录片$20#战争片$21#其他片$39||空||空||空",
-      "地区":"大陆$23#香港$24#台湾$25#澳门$26#韩国$27#日本$28#泰国$29#新马$30#印度$31#俄罗斯$36#美国$32#英国$33#德国$34#法国$35#巴西$37#加拿大$38#意大利$39#西班牙$40#澳大利亚$41",
-      "年份":"2024$3#2023$4#2022$5#2021$6#2020$7#2019$8#2018$9#2017$10#2016$11#2015$12#2014$13#2013$14#2012$15#2011$16#2010$17#00年代$18#90年代$19#80年代$20#更早$21"
+      "剧情": "全部$0#动作片$9#喜剧片$10#爱情片$11#恐怖片$12#剧情片$13#科幻片$14#惊悚片$15#奇幻片$16#动画片$17#悬疑片$18#冒险片$19#纪录片$20#战争片$21#其他片$39||全部$0#国产剧$22#香港剧$23#台湾剧$24#欧美剧$25#日本剧$26#韩国剧$27#泰国剧$28#其他剧$29||全部$0#大陆综艺$30#港台综艺$31#日韩综艺$32#欧美综艺$33#其他综艺$34||全部$0#国产动漫$35#日韩动漫$36#欧美动漫$37#其他动漫$38",
+      "地区":"全部$0#大陆$23#香港$24#台湾$25#澳门$26#韩国$27#日本$28#泰国$29#新马$30#印度$31#俄罗斯$36#美国$32#英国$33#德国$34#法国$35#巴西$37#加拿大$38#意大利$39#西班牙$40#澳大利亚$41",
+      "年份":"全部$0#2024$3#2023$4#2022$5#2021$6#2020$7#2019$8#2018$9#2017$10#2016$11#2015$12#2014$13#2013$14#2012$15#2011$16#2010$17#00年代$18#90年代$19#80年代$20#更早$21"
     }
   },
   {
@@ -5632,7 +5639,7 @@
       "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
       "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/huya2.js",
       "style": {"type": "rect", "ratio": 1.755},
-      "playerType": "1",
+      "playerType": 1,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
@@ -5645,7 +5652,7 @@
       "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
       "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/斗鱼直播.js",
       "style": {"type": "rect", "ratio": 1.755},
-      "playerType": "1",
+      "playerType": 1,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
@@ -5746,7 +5753,7 @@
       "type": 4,
       "api": "https://zhangqun66.com/yt/yt001.php",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/蓝天白云.txt;md5;329e914a90b0bb5c7cb69b0eaec19700",
-      "searchable": 1,
+      "searchable": 0,
       "changeable": 1,
       "ext": "海贼王#最新歌曲#动漫#新闻#卡提诺#追剧#爆笑#喜剧#新闻#旅游#播放清单#财神爷我的歌单"
     },
@@ -5759,7 +5766,7 @@
           "type": "rect",
           "ratio": 1.33
       },
-      "searchable": 1,
+      "searchable": 0,
       "changeable": 1
     },
     {
@@ -5767,7 +5774,7 @@
       "name": "㊙︎｜YT播放列表2",
       "type": 4,
       "api": "http://zhangqun66.com/ytlb1.php",
-      "searchable": 1,
+      "searchable": 0,
       "style": {
           "type": "rect",
           "ratio": 1.33
