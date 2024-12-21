@@ -2,34 +2,7 @@
   "spider": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/pg.jar;md5;90f0ebed478a6a063234c2ee48efeed0",
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://picsum.photos/1080/",
-  "sites": [
-    {
-      "key": "csp_XBPQ_PTT",
-      "name": "雷蒙影视 | 🍚PTT(XBPQ)",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "規則名": "PTT视频",
-        "規則作者": "老王叔叔",
-        "規則日期":"113.12.22",
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "嗅探词": ".mp4#.m3u8",
-        "主页url": "https://ptt.red/",
-        "分类url": "https://ptt.red/p/{cateId}/c/{class}?year={year}&page={catePg}",
-        "分类": "电影$1#剧集$3#综艺$2#动漫$4#短剧$66#体育$53",
-        "剧情": "動作$5#喜劇$6#愛情$7#科幻$8#恐怖$9#犯罪$10#戰爭$11#動漫$12#劇情$13#紀錄$30#懸疑$34#動畫$35#其他$48#解說$32#倫理$33||大陸$19#香港$20#台灣$81#日本$83#韓國$82#歐美$22#泰國$92#其他$23||大陸$15#台灣$89#香港$88#日本$90#韓國$91#歐美$18#其他$16||大陸$26#日本$86#韓國$87#歐美$27#其他$28||爽劇$67#言情$68#穿越$70#懸疑$71#古裝$73#都市$80#甜寵$84#戀愛$85#其他$74||足球$54#籃球$55#遊戲$59#撞球$63#網球$64#其他$93",
-        "主演":"</h3>&&<h3>",
-        "简介":"劇情介紹&&</p>",
-        "线路数组":"class=\"nav nav-tabs mb-2\"&&</ul>",
-        "线路标题": "nofollow\"&&</a>"
-        //"播放数组":"<div class=\"mb-2 fullwidth\">&&</div>"
-        }
-    },    
+  "sites": [    
     {
       "key": "豆瓣",
       "name": "🇹🇼【老王點播接口，本檔案純學術研究使用，請勿散播及進行營利行為，如有侵權請立即告知下架】🇹🇼",
@@ -556,25 +529,51 @@
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/blzb.js"
   },
   {
-        "key":"csp_XBPQ_映播",
-        "name":"測試中｜映播",
-        "type":3,
-        "api":"csp_XBPQ",
-        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-        "searchable":1,
-        "quickSearch":1,
-        "filterable":1,
-        "ext":
-              {
-              "数组":"public-list-box&&</div>",
-              "图片":"data-original=\"&&\"",
-              "搜索url":"https://www.ingbo.tv/search/1/?keyword={wd}",
-              "播放数组":"class=\"anthology-list-play&&</div>",
-              "线路数组":"title=&&</a>[排序:映播六线>映播三线>映播四线>映播五线>映播二线>映播-线>腾讯>芒果>B站]",
-              "线路标题":">&&<",
-              "分类url":"https://www.ingbo.tv/vod/list/{catePg}/{cateId}/{class}/{year}/{area}/0/0/0",
-              "分类":"电影$1#电视剧$2#综艺$3#动漫$4"
-              }
+    "key": "csp_XBPQ_PTT",
+    "name": "🥉｜PTT｜點篩選的類型才會出來",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/PTT視頻.json"
+  },
+  {
+    "key": "csp_xbpq_映播",
+    "name": "測試中｜映播",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "playerType": 1,
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "ext": {
+      "数组": "public-list-div public-list-bj&&</div>",
+      "图片": "data-original=\"&&\"",
+      "标题": "alt=\"&&\"",
+      "副标题": "public-list-prb hide ft2\">&&<",
+      "链接": "href=\"&&\"",
+      "搜索url": "https://www.ingbo.tv/public/auto/search1.html?keyword={wd}&page={pg}",
+      "搜索数组": "public-list-div public-list-bj&&</div>",
+      "搜索图片": "data-original=\"&&\"",
+      "搜索标题": "alt=\"&&\"",
+      "搜索副标题": "public-list-prb hide ft2\">&&<",
+      "搜索链接": "href=\"&&\"",
+      "影片类型": "<span>&&</span>",
+      "导演": "导演:</strong>&&</div>",
+      "主演": "演员:</strong>&&</div>",
+      "简介": "描述:</strong>&&</div>",
+      "线路数组": "<a class=\"radius1&&</a>",
+      "线路标题": "title=\"&&\"",
+      "播放数组": "<ul class=\"anthology-list-play&&</ul>",
+      "播放列表": "<li class&&</li>",
+      "播放标题": "class=\"hide\">&&<",
+      "播放链接": "href=\"&&\"",
+      "分类url": "https://www.ingbo.tv/vod/list/{catePg}/{cateId}/0/{year}/{area}/0/0/0",
+      "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
+      "地区":"大陆$23#香港$24#台湾$25#澳门$6#韩国$27#日本$28#泰国$29#新马$30#印度$31#俄罗斯$36#美国$32#英国$3#德国$34#法国$35#巴西$37#加拿大$8#意大利$39#西班牙$40#澳大利亚$41"
+    }
   },
   {
     "key": "csp_XBiuMomoVod",
