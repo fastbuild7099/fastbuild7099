@@ -253,7 +253,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": {
-        "Cloud-drive": "https://jg.zhangqun66.xyz/zq/tvfan/Cloud-drive.txt",
+        "Cloud-drive": "https://zhangqun66.com/zq/tvfan/Cloud-drive.txt",
         "from"       : "4k|auto"
       }
     },
@@ -5509,7 +5509,7 @@
       "key": "直播转点播",
       "name": "㊙︎｜直播转点播",
       "type": 4,
-      "api": "http://jg.zhangqun66.xyz/zh/2241-2.php",
+      "api": "http://zhangqun66.com/zh/2241-2.php",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/fm.jar;md5;41c87635d7592069884a5dafa12acabe",
       "searchable": 1,
       "changeable": 0
@@ -5520,8 +5520,8 @@
       "type": 3,
       "searchable": 0,
       "timeout": 60,
-      "api": "https://jg.zhangqun66.xyz/zq/cat/live2vod.js",
-      "ext": "https://jg.zhangqun66.xyz/zq/cat/feimaolive.json",
+      "api": "https://zhangqun66.com/zq/cat/live2vod.js",
+      "ext": "https://zhangqun66.com/zq/cat/feimaolive.json",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/fm.jar;md5;41c87635d7592069884a5dafa12acabe",
       "style": {"type": "list", "ratio": 1.1}
     },
@@ -5574,7 +5574,7 @@
       "key": "服务器油管",
       "name": "㊙︎｜YOUTUBE",
       "type": 4,
-      "api": "https://jg.zhangqun66.xyz/yt/yt001.php",
+      "api": "https://zhangqun66.com/yt/yt001.php",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/蓝天白云.txt;md5;329e914a90b0bb5c7cb69b0eaec19700",
       "searchable": 1,
       "changeable": 1,
@@ -5584,7 +5584,7 @@
       "key": "油管播放列表1",
       "name": "㊙︎｜YT播放列表1",
       "type": 4,
-      "api": "http://jg.zhangqun66.xyz/ytlb.php",
+      "api": "http://zhangqun66.com/ytlb.php",
       "style": {
           "type": "rect",
           "ratio": 1.33
@@ -5596,7 +5596,7 @@
       "key": "油管播放列表2",
       "name": "㊙︎｜YT播放列表2",
       "type": 4,
-      "api": "http://jg.zhangqun66.xyz/ytlb1.php",
+      "api": "http://zhangqun66.com/ytlb1.php",
       "searchable": 1,
       "style": {
           "type": "rect",
@@ -5770,7 +5770,7 @@
       "key": "采集集合",
       "name": "🧲｜采集",
       "type": 4,
-      "api": "http://jg.zhangqun66.xyz/cjjh.php",
+      "api": "http://zhangqun66.com/cjjh.php",
       "searchable": 1,
       "changeable": 1,
       "recordable": 0,
@@ -5906,7 +5906,7 @@
       "key": "金鹰克隆",
       "name": "🧲｜金鹰｜克隆",
       "type": 4,
-      "api": "http://jg.zhangqun66.xyz/jy.php",
+      "api": "http://zhangqun66.com/jy.php",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/fm.jar;md5;41c87635d7592069884a5dafa12acabe",
       "searchable": 1,
       "quickSearch": 1,
@@ -5917,7 +5917,7 @@
       "key": "索尼克隆",
       "name": "🧲｜索尼｜克隆",
       "type": 4,
-      "api": "http://jg.zhangqun66.xyz/sn.php",
+      "api": "http://zhangqun66.com/sn.php",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/fm.jar;md5;41c87635d7592069884a5dafa12acabe",
       "searchable": 1,
       "quickSearch": 1,
@@ -5927,7 +5927,7 @@
       "key": "黑木耳克隆",
       "name": "🧲｜黑木耳资源｜克隆",
       "type": 4,
-      "api": "http://jg.zhangqun66.xyz/225.php",
+      "api": "http://zhangqun66.com/225.php",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/fm.jar;md5;41c87635d7592069884a5dafa12acabe",
       "searchable": 1,
       "quickSearch": 1,
