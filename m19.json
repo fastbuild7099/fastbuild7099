@@ -26,7 +26,7 @@
         "主演":"</h3>&&<h3>",
         "简介":"劇情介紹&&</p>",
         "线路数组":"<div class=\"tabbable fullwidth\">&&</div>",
-        "标题": "title=\"&&\"",
+        "标题": "title=\"&&\""
         //"播放数组":"<div class=\"mb-2 fullwidth\">&&</div>"
         }
     },    
