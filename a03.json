@@ -3,7 +3,8 @@
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://picsum.photos/1080/",
   "sites": [    
-    {
+
+  {
       "key": "豆瓣",
       "name": "🇹🇼【本檔案純學術研究使用，請勿散播及進行營利行為，如有侵權請立即告知下架】🇹🇼",
       "type": 3,
@@ -44,6 +45,17 @@
     },
 
 //優選源_分類專區
+    {
+    "key": "csp_视觉",
+    "name": "⏭｜视觉｜PYTHON",
+    "type": 3,
+    "searchable": 1,
+    "changeable": 1,
+    "quickSearch": 1,
+    "api": "https://drive.almondcloud.cn/f/q3JKT9/shijue.py",
+    "playerType": 2,
+    "filterable": 1
+    },
     {
       "key": "nyys",
       "name": "🥇｜纽约影院",
@@ -1464,17 +1476,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/七夕.json"
-    },
-    {
-      "key": "csp_三米影视",
-      "name": "🎥｜三米",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "ext": {
-        "分类url": "http://www.9-here.com/index.php/s/S-id-{cateId}-{catePg}/area/{area}/by/{by}/class/{class}/lang/{lang}/year/{year}.html[http://www.9-here.com/index.php/t/S-{cateId}-{catePg}.html]",
-        "分类": "电影$movie#连续剧$drama#动漫$comic#综艺$tvshow"
-      }
     },
     {
       "key": "csp_子子影视",
@@ -4346,16 +4347,6 @@
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/茄子影视[自动].js"
     },
     {
-      "key": "hipy_js_飞鱼影视",
-      "name": "🎥｜飞鱼",
-      "type": 3,
-      "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/飞鱼影视.js"
-    },
-    {
       "key": "hipy_js_家庭影视",
       "name": "🎥｜家庭",
       "type": 3,
@@ -5090,6 +5081,87 @@
     },
 
     //雜項規則_分類專區
+        {
+          "key": "csp_Bili",
+          "name": "💯｜哔哩哔哩(SP)",
+          "type": 3,
+          "api": "csp_Bili",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "changeable": 1,
+          "ext": {
+            "type": "雷蒙Lem作品#Allblanc#帕梅拉#游戏#电影#音乐#白噪音#演唱会",
+            "cookie": "SESSDATA=13efc517%2C1700577613%2Cfcea6%2A52;bili_jct=272ef2be34e676f7cf6339c17dcb7bb5;DedeUserID=284097455;DedeUserID__ckMd5=e652501280a8dfd1;"
+          }
+        },
+        {
+          "key": "csp_Olevod",
+          "name": "💯｜欧乐影院(SP)",
+          "type": 3,
+          "api": "csp_Olevod",
+          "quickSearch": 1,
+          "changeable": 1,
+          "filterable": 1,
+          "timeout": 60,
+          "ext": "http://127.0.0.1:9978/file/ctv/pg.json$$$null$$$cfg$$$1"
+        },
+        {
+          "key": "csp_Bdys01",
+          "name": "💯｜哔嘀影视(SP)",
+          "api": "csp_Bdys01",
+          "type": 3,
+          "filterable": 1,
+          "quickSearch": 1,
+          "searchable": 1,
+          "ext": "http://127.0.0.1:9978/file/ctv/pg.json$$$https://www.yjys01.com/$$$cfg$$$1"
+        },
+        {
+          "key": "csp_TTian_天天",
+          "name": "💯｜天天(SP)",
+          "type": 3,
+          "api": "csp_TTian",
+          "playerType": 1,
+          "ext": "http://op.ysdqjs.cn$$$cfg$$$1"
+        },
+        {
+          "key": "csp_TTian_追剧",
+          "name": "💯｜追剧(SP)",
+          "type": 3,
+          "api": "csp_TTian",
+          "playerType": 1,
+          "ext": "http://app.kzjtv.com$$$cfg$$$1"
+        },
+        {
+          "key": "csp_NanGua",
+          "name": "💯｜南瓜(SP)",
+          "type": 3,
+          "api": "csp_NanGua",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "changeable": 1,
+          "ext": "cfg$$$1"
+        },
+        {
+          "key": "csp_Kuaikan",
+          "name": "💯｜快看(SP)",
+          "type": 3,
+          "api": "csp_Kuaikan",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1
+        },
+        {
+          "key": "csp_Star",
+          "name": "💯｜星星(SP)",
+          "type": 3,
+          "api": "csp_Star",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "changeable": 1
+        },
     {
       "key": "zxzj",
       "name": "🎥｜外剧",

@@ -3,17 +3,7 @@
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://picsum.photos/1080/",
   "sites": [    
-  {
-      "key": "csp_视觉",
-      "name": "🔭视觉┃PYTHON",
-      "type": 3,
-      "searchable": 1,
-      "changeable": 1,
-      "quickSearch": 1,
-      "api": "https://drive.almondcloud.cn/f/q3JKT9/shijue.py",
-      "playerType": 2,
-      "filterable": 1
-  },
+
   {
       "key": "豆瓣",
       "name": "🇹🇼【本檔案純學術研究使用，請勿散播及進行營利行為，如有侵權請立即告知下架】🇹🇼",
@@ -55,6 +45,17 @@
     },
 
 //優選源_分類專區
+    {
+    "key": "csp_视觉",
+    "name": "⏭｜视觉｜PYTHON",
+    "type": 3,
+    "searchable": 1,
+    "changeable": 1,
+    "quickSearch": 1,
+    "api": "https://drive.almondcloud.cn/f/q3JKT9/shijue.py",
+    "playerType": 2,
+    "filterable": 1
+    },
     {
       "key": "nyys",
       "name": "🥇｜纽约影院",
