@@ -614,17 +614,6 @@
     }
   },
   {
-    "key": "csp_劇迷",
-    "name": "🥉｜劇迷｜AI",
-    "type": 3,
-    "api": "csp_XBPQ",
-    "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/gimy.json",
-    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1
-  },
-  {
     "key": "csp_劇迷_PttPlay",
     "name": "🥉｜劇迷｜PTTPLAY",
     "type": 3,
@@ -645,6 +634,7 @@
     "name":"🥉｜劇迷｜jagcys",
     "type":3,
     "api":"csp_XBPQ",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
     "searchable":1,
     "quickSearch":1,
     "filterable":1,

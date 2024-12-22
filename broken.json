@@ -31,17 +31,6 @@
     }
   },
   {
-    "key": "csp_兄弟影视",
-    "name": "🎥｜️兄弟",
-    "type": 3,
-    "api": "csp_XBPQ",
-    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/兄弟.json"
-  },
-  {
     "key": "csp_小镇影视",
     "name": "🎥｜小鎮",
     "type": 3,
@@ -109,17 +98,6 @@
     "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/柯南影視.json"
   },
   {
-    "key": "csp_新希望影院",
-    "name": "🎥｜希望",
-    "type": 3,
-    "api": "csp_XBPQ",
-    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/新希望影院.json"
-  },
-  {
     "key": "csp_星空影视",
     "name": "🎥｜星空",
     "type": 3,
@@ -184,36 +162,6 @@
       "分类url": "http://www.hnylcdz.cn/show/{cateId}-{area}-------{catePg}---{year}.html",
       "分类": "电影$1#电视剧$2#综艺$3#动漫$4#伦理片$30",
       "类型": "动作片$7#喜剧片$8#爱情片$9#科幻片$10#恐怖片$11#剧情片$12#犯罪片$29#战争片$13||国产剧$14#港剧$15#台湾剧$16#韩剧$17#日剧$18#泰剧$31#欧美剧$19#海外剧$20||大陆综艺$21#日韩综艺$22#港台综艺$23#欧美综艺$24||国产动漫$25#日本动漫$26#欧美动漫$27#海外动漫$28||空"
-    }
-  },
-  {
-    "key": "csp_旺旺影视",
-    "name": "🎥｜旺旺",
-    "type": 3,
-    "api": "csp_XBPQ",
-    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "ext": {
-      "请求头": "User-Agent$MOBILE_UA",
-      "编码": "UTF-8",
-      "主页url": "https://www.wwgz.cn/",
-      "二次截取": "resize_list\"&&</ul>",
-      "数组": "<li&&/li>",
-      "标题": "title=\"&&\"",
-      "图片": "src=\"&&\"",
-      "副标题": "<span>&&</em>",
-      "链接": "href=\"&&\"",
-      "播放数组": "class=\"numList\"&&</ul>",
-      "播放列表": "<a&&a>",
-      "播放链接": "href=\"&&\"",
-      "播放标题": ">&&</",
-      "线路数组": "<li><a href=\"javascript:;&&</li>",
-      "线路标题": "\">&&</a>",
-      "分类url": "https://www.wwgz.cn/vod-list-id-{cateId}-pg-{catePg}-order--by-{by}-class-{class}-year-{year}-letter-{letter}-area-{area}-lang-{lang}.html",
-      "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$26",
-      "类型": "动作片$5#喜剧片$6#爱情片$7#科幻片$8#恐怖片$9#剧情片$10#战争片$11#惊悚片$16#奇幻片$17||国产剧#12港台泰#13日韩剧#14欧美剧#15||空||动漫剧#18动漫片#19||空"
     }
   },
   {
@@ -578,16 +526,6 @@
         "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/易点看影院[自动].js"
       },
       {
-        "key": "hipy_js_茶杯狐",
-        "name": "🎥｜茶杯狐",
-        "type": 3,
-        "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/茶杯狐.js"
-      },
-      {
         "key": "hipy_js_新视觉",
         "name": "🎥｜新视觉",
         "type": 3,
@@ -596,16 +534,6 @@
         "quickSearch": 1,
         "filterable": 1,
         "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/新视觉.js"
-      },
-      {
-        "key": "hipy_js_网飞啦[自动]",
-        "name": "🎥｜网飞啦",
-        "type": 3,
-        "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/网飞啦[自动].js"
       },
       {
         "key": "hipy_js_网飞.TV",
@@ -628,16 +556,6 @@
         "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/热播之家.js"
       },
       {
-        "key": "hipy_js_电影先生",
-        "name": "🎥｜电影先生",
-        "type": 3,
-        "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/电影先生.js"
-      },
-      {
         "key": "hipy_js_一个g影视",
         "name": "🎥｜易居影视",
         "type": 3,
@@ -646,16 +564,6 @@
         "quickSearch": 1,
         "filterable": 1,
         "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/一个g影视.js"
-      },
-      {
-        "key": "hipy_js_348电影网",
-        "name": "🎥｜348影视",
-        "type": 3,
-        "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/348电影网.js"
       },
       {
         "key": "hipy_js_97tvs",
@@ -667,16 +575,7 @@
         "filterable": 1,
         "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/97tvs.js"
       },
-      {
-        "key": "hipy_js_bilfun(自动)",
-        "name": "🎥｜bilfun",
-        "type": 3,
-        "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/bilfun(自动).js"
-      },
+
       {
         "key": "hipy_js_GO影视",
         "name": "🎥｜GO影视",
@@ -718,8 +617,6 @@
         "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/dokilwss.jar;md5;145277452362fe4b1371e8968b414ed1",
         "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/4k剧院.js"
       },
-      {"key":"vod_非凡","name":"🚀｜非凡","type":1,"api":"http://cj.ffzyapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1,"playerType":2,"categories":["动作片","喜剧片","科幻片","恐怖片","爱情片","剧情片","战争片","记录片","国产剧","欧美剧","香港剧","韩国剧","台湾剧","日本剧","海外剧","泰国剧","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫","大陆综艺","港台综艺","日韩综艺","欧美综艺"]},
-      {"key": "HG影视","name": "🚀｜皇冠","type": 1,"api": "https://hong.hgyx.vip/api.php/provide/vod/","jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5","searchable": 1,"quickSearch": 1},
       {
         "key": "csp_AppYsV2_CC影视",
         "name": "🎥｜纯畅",
@@ -855,17 +752,7 @@
         "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/短劇TV.json",
         "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5"
       },
-      {
-        "key": "爱你短剧",
-        "name": "📺｜爱你短剧",
-        "type": 3,
-        "api": "csp_XBPQ",
-        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/爱你短剧.json"
-      },
+
       {
         "key": "精品短剧",
         "name": "📺｜精品短剧",
