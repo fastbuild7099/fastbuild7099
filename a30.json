@@ -8216,9 +8216,8 @@
     
   ],
   "parses": [
-         
-          {"name": "虾米1","type": 0,"url": "https://jx.xmflv.cc/?url="}
-          
+
+          {"name": "聚合0","type": 3,"url": "Web"}
 
         ],
   "rules": [
