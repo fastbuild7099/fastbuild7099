@@ -222,81 +222,8 @@
         "changeable": 0
     },
     {
-      "key": "苹果",
-      "name": "🥇｜苹果",
-      "type": 3,
-      "api": "csp_LiteApple",
-      "spider": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/fan.txt;md5;8851819289f80deae32319080028db3b",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/fan.txt;md5;8851819289f80deae32319080028db3b",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "hipy_js_小宝影院",
-      "name": "🥇｜小宝",
-      "type": 3,
-      "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/小宝影院.js"
-    },
-    {
-      "key": "墨白影视",
-      "name": "🥇｜墨白",
-      "type": 1,
-      "api": "https://nm.xxxc137.top/api.php/provide/vod/",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
-      "key": "凯奇影视",
-      "name": "🥇｜凯奇",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/凱奇影視.json"
-    },
-    {
-      "key": "php_bttwoo",
-      "name": "🥇｜TwoBT｜沐辰",
-      "type": 4,
-      "api": "https://spider.doube.eu.org/spider?site=bttwoo",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "changeable": 0
-    },
-    {
-        "key": "py_AiGuaTV",
-        "name": "🥇｜爱瓜TV｜沐辰",
-        "type": 4,
-        "api": "https://spider.doube.eu.org/spider?site=AiGuaTV",
-        "searchable": 1,
-        "quickSearch": 0,
-        "filterable": 0,
-        "changeable": 0
-    },
-    {
-        "key": "py_UpFuHn",
-        "name": "🥇｜Hi视频｜沐辰",
-        "type": 4,
-        "api": "https://spider.doube.eu.org/spider?site=UpFuHn",
-        "searchable": 1,
-        "quickSearch": 0,
-        "filterable": 0,
-        "changeable": 0
-    },
-    {
         "key": "csp_奥特影视(PRO)",
-        "name": "🥈｜奥特(PRO)",
+        "name": "🥇｜奥特(PRO)",
         "type": 3,
         "api": "csp_XBPQ",
         "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
@@ -310,7 +237,7 @@
       },
       {
         "key": "csp_奥特影视(COM)",
-        "name": "🥈｜奥特(COM)",
+        "name": "🥇｜奥特(COM)",
         "type": 3,
         "api": "csp_XBPQ",
         "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
@@ -324,7 +251,7 @@
     },
     {
         "key": "csp_宝片影视",
-        "name": "🥈｜宝片",
+        "name": "🥇｜宝片",
         "type": 3,
         "api": "csp_XBPQ",
         "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
@@ -335,7 +262,120 @@
           "分类url": "https://ibaopian.com/vod/type/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
           "分类": "电影$1#连续剧$2#动漫$4#综艺$3#纪录片$20#短剧$22"
         }
-      },
+    },
+    {
+        "key": "csp_界界影视",
+        "name": "🥇｜異界",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/異界影視.json"
+    },
+    {
+        "key": "csp_XBPQ_爱电",
+        "name": "🥇｜爱电",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": {
+          "主页url": "https://www.gs4x7nq4.com",
+          "简介": "</label>&&</div>",
+          "影片类型": "tags\">&&director\">",
+          "影片状态": "bottom\">&&</div>",
+          "二次截取": "videoList\":\\[&&\\]",
+          "数组": "{&&}[不包含:伦理剧]",
+          "图片": "https+://ywxohs.com+obs.gduamoe.com&&\",",
+          "标题": "vodName\":\"&&\"",
+          "副标题": "vodRemarks\":\"&&\"",
+          "链接": "https://www.gs4x7nq4.com/detail/+vodId\":&&,",
+          "导演": "导演:</div>&&主演",
+          "主演": "主演:</div>&&别名",
+          "线路标题": "",
+          "播放数组": "listitem\">&&info\">",
+          "嗅探词": ".mp4#.m3u8#.flv#.m3u8?#.mp4?",
+          "播放列表": "<a&&</a>",
+          "倒序": "否",
+          "搜索url": "https://www.gs4x7nq4.com/vod/search/{wd}",
+          "分类": "电视剧$2#电影$1#动漫$4#综艺$3",
+          "分类url": "https://www.gs4x7nq4.com/vod/show/id/{cateId}/class/{class}/year/{year}/area/{area}/page/{catePg}"
+        }
+    },
+    {
+      "key": "苹果",
+      "name": "🥈｜苹果",
+      "type": 3,
+      "api": "csp_LiteApple",
+      "spider": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/fan.txt;md5;8851819289f80deae32319080028db3b",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/fan.txt;md5;8851819289f80deae32319080028db3b",
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "hipy_js_小宝影院",
+      "name": "🥈｜小宝",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/小宝影院.js"
+    },
+    {
+      "key": "墨白影视",
+      "name": "🥈｜墨白",
+      "type": 1,
+      "api": "https://nm.xxxc137.top/api.php/provide/vod/",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "凯奇影视",
+      "name": "🥈｜凯奇",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/凱奇影視.json"
+    },
+    {
+      "key": "php_bttwoo",
+      "name": "🥈｜TwoBT｜沐辰",
+      "type": 4,
+      "api": "https://spider.doube.eu.org/spider?site=bttwoo",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0
+    },
+    {
+        "key": "py_AiGuaTV",
+        "name": "🥈｜爱瓜TV｜沐辰",
+        "type": 4,
+        "api": "https://spider.doube.eu.org/spider?site=AiGuaTV",
+        "searchable": 1,
+        "quickSearch": 0,
+        "filterable": 0,
+        "changeable": 0
+    },
+    {
+        "key": "py_UpFuHn",
+        "name": "🥈｜Hi视频｜沐辰",
+        "type": 4,
+        "api": "https://spider.doube.eu.org/spider?site=UpFuHn",
+        "searchable": 1,
+        "quickSearch": 0,
+        "filterable": 0,
+        "changeable": 0
+    },
     {
       "key": "csp_SuBaiBai_FM",
       "name": "🥈｜素白白",
@@ -2497,14 +2537,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/电影先生.js"
-    },
-    {
-      "key": "csp_界界影视",
-      "name": "🎥｜異界",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/異界影視.json"
     },
     {
       "key": "csp_花姐影院",
@@ -5073,37 +5105,6 @@
           }
         },
         {
-          "key": "csp_XBPQ_界影",
-          "name": "🎥｜界影",
-          "type": 3,
-          "api": "csp_XBPQ",
-          "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1,
-          "ext": {
-            "主页url": "https://www.hkybqufgh.com/",
-            "简介": "</label>&&</div>",
-            "影片类型": "tags\">&&director\">",
-            "影片状态": "bottom\">&&</div>",
-            "二次截取": "videoList\":\\[&&\\]",
-            "数组": "{&&}",
-            "图片": "https+://ywxohs.com+obs.gduamoe.com&&\",",
-            "标题": "vodName\":\"&&\"",
-            "副标题": "vodRemarks\":\"&&\"",
-            "链接": "https://www.hkybqufgh.com/detail/+vodId\":&&,",
-            "导演": "导演:</div>&&主演",
-            "主演": "主演:</div>&&别名",
-            "线路标题": "",
-            "播放数组": "listitem\">&&info\">",
-            "播放列表": "<a&&</a>",
-            "倒序": "否",
-            "搜索url": "https://www.hkybqufgh.com/vod/search/{wd}",
-            "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
-            "分类url": "https://www.hkybqufgh.com/vod/show/id/{cateId}/class/{class}/year/{year}/area/{area}/page/{catePg}"
-          }
-        },
-        {
           "key": "csp_XBPQ_落攻",
           "name": "🎥｜落攻",
           "type": 3,
@@ -5263,38 +5264,6 @@
             "播放链接": "href=\"&&\"",
             "分类url": "https://www.91w2i.com/vod/list.html?page={catePg}&type_id={cateId}",
             "分类": "电影$1#电视剧$2#综艺$3#动漫$4#爽文短剧$42"
-          }
-        },
-        {
-          "key": "csp_XBPQ_爱电",
-          "name": "🎥｜爱电",
-          "type": 3,
-          "api": "csp_XBPQ",
-          "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1,
-          "ext": {
-            "主页url": "https://www.gs4x7nq4.com",
-            "简介": "</label>&&</div>",
-            "影片类型": "tags\">&&director\">",
-            "影片状态": "bottom\">&&</div>",
-            "二次截取": "videoList\":\\[&&\\]",
-            "数组": "{&&}[不包含:伦理剧]",
-            "图片": "https+://ywxohs.com+obs.gduamoe.com&&\",",
-            "标题": "vodName\":\"&&\"",
-            "副标题": "vodRemarks\":\"&&\"",
-            "链接": "https://www.gs4x7nq4.com/detail/+vodId\":&&,",
-            "导演": "导演:</div>&&主演",
-            "主演": "主演:</div>&&别名",
-            "线路标题": "",
-            "播放数组": "listitem\">&&info\">",
-            "嗅探词": ".mp4#.m3u8#.flv#.m3u8?#.mp4?",
-            "播放列表": "<a&&</a>",
-            "倒序": "否",
-            "搜索url": "https://www.gs4x7nq4.com/vod/search/{wd}",
-            "分类": "电视剧$2#电影$1#动漫$4#综艺$3",
-            "分类url": "https://www.gs4x7nq4.com/vod/show/id/{cateId}/class/{class}/year/{year}/area/{area}/page/{catePg}"
           }
         },
         {
