@@ -265,22 +265,6 @@
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/凱奇影視.json"
     },
     {
-      "key": "Lib",
-      "name": "🥇｜立播",
-      "type": 3,
-      "api": "csp_Libvio",
-      "spider": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/fan.txt;md5;8851819289f80deae32319080028db3b",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/fan.txt;md5;8851819289f80deae32319080028db3b",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": {
-        "Cloud-drive": "https://zhangqun66.com/zq/tvfan/Cloud-drive.txt",
-        "from"       : "4k|auto"
-      }
-    },
-    {
       "key": "php_bttwoo",
       "name": "🥇｜TwoBT｜沐辰",
       "type": 4,
@@ -956,6 +940,21 @@
             "分类":"剧集&电影&纪录片&演唱会",
             "分类值":"2&1&3&4"
             }
+    },
+    {
+      "key": "Lib",
+      "name": "🎥｜立播",
+      "type": 3,
+      "api": "csp_Libvio",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/fm.jar;md5;41c87635d7592069884a5dafa12acabe",
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": {
+        "Cloud-drive": "https://zhangqun66.com/zq/tvfan/Cloud-drive.txt",
+        "from"       : "4k|auto"
+      }
     },
     {
       "key":"csp_XBPQ_2BT",
