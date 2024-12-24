@@ -323,8 +323,8 @@
         }
     },
     {
-        "key": "csp_XBiu考拉TV",
-        "name": "🥈｜考拉TV｜廣告多",
+        "key": "csp_宝片影视",
+        "name": "🥈｜宝片",
         "type": 3,
         "api": "csp_XBPQ",
         "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
@@ -332,10 +332,10 @@
         "quickSearch": 1,
         "filterable": 1,
         "ext": {
-          "分类url": "https://www.ikaola.tv/vodshow/{cateId}-{area}-{by}------{catePg}---{year}.html",
-          "分类": "電視劇$2#電影$1#動漫$4#綜藝$3#動畫片$24#紀錄片$27"
+          "分类url": "https://ibaopian.com/vod/type/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
+          "分类": "电影$1#连续剧$2#动漫$4#综艺$3#纪录片$20#短剧$22"
         }
-    },
+      },
     {
       "key": "csp_SuBaiBai_FM",
       "name": "🥈｜素白白",
@@ -688,6 +688,20 @@
       "quickSearch": 0,
       "filterable": 1,
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/blzb.js"
+  },
+  {
+    "key": "csp_XBiu考拉TV",
+    "name": "🥉｜考拉TV｜廣告多",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "ext": {
+      "分类url": "https://www.ikaola.tv/vodshow/{cateId}-{area}-{by}------{catePg}---{year}.html",
+      "分类": "電視劇$2#電影$1#動漫$4#綜藝$3#動畫片$24#紀錄片$27"
+    }
   },
   {
     "key": "csp_xbpq_映播",
@@ -1817,20 +1831,6 @@
         "线路标题": "<span>&&</small>[替换:</span><small>>>共]+集",
         "分类url": "https://nuu.su/x/id/{cateId}-{area}-{by}-{class}-{catePg}-{year}.html",
         "分类": "电影$1#剧集$2#动漫$4#综艺$3#爽剧$5#记录$6"
-      }
-    },
-    {
-      "key": "csp_宝片影视",
-      "name": "🎥｜宝片",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "分类url": "https://ibaopian.com/vod/type/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
-        "分类": "电影$1#连续剧$2#动漫$4#综艺$3#纪录片$20#短剧$22"
       }
     },
     {
