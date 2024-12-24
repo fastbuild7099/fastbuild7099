@@ -132,7 +132,7 @@
     },
     {
       "key": "py_HeiMuEr",
-      "name": "🥇｜黑木耳｜直連",
+      "name": "🥇｜黑木耳｜沐辰",
       "type": 4,
       "api": "https://spider.doube.eu.org/spider?site=HeiMuEr",
       "searchable": 1,
@@ -153,7 +153,7 @@
     },
     {
       "key": "T4-独播库",
-      "name": "🥇｜獨播庫",
+      "name": "🥇｜獨播庫｜唐三",
       "type": 4,
       "api": "https://tang.hz.cz/power/duboku?token=647c28ca",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/蓝天白云.txt;md5;329e914a90b0bb5c7cb69b0eaec19700",
@@ -212,7 +212,7 @@
       },
     {
         "key": "T4-安博",
-        "name": "🥇｜安博",
+        "name": "🥇｜安博｜唐三",
         "type": 4,
         "api": "https://tang.hz.cz/power/ub18?token=647c28ca",
         "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/蓝天白云.txt;md5;329e914a90b0bb5c7cb69b0eaec19700",
@@ -282,9 +282,9 @@
     },
     {
       "key": "php_bttwoo",
-      "name": "🥇｜TwoBT",
+      "name": "🥇｜TwoBT｜沐辰",
       "type": 4,
-      "api": "https://spider.doube.eu.org/app/index.php?site=bttwoo",
+      "api": "https://spider.doube.eu.org/spider?site=bttwoo",
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 0,
@@ -292,7 +292,7 @@
     },
     {
         "key": "py_AiGuaTV",
-        "name": "🥇｜爱瓜TV",
+        "name": "🥇｜爱瓜TV｜沐辰",
         "type": 4,
         "api": "https://spider.doube.eu.org/spider?site=AiGuaTV",
         "searchable": 1,
@@ -302,7 +302,7 @@
     },
     {
         "key": "py_UpFuHn",
-        "name": "🥇｜Hi视频",
+        "name": "🥇｜Hi视频｜沐辰",
         "type": 4,
         "api": "https://spider.doube.eu.org/spider?site=UpFuHn",
         "searchable": 1,
@@ -404,17 +404,6 @@
       "type": 3,
       "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/两个BT.js"
-    },
-    {
-      "key": "hipy_js_4K-AV",
-      "name": "🥈｜4K-TV",
-      "type": 3,
-      "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/4K-AV.js"
     },
     {
       "key": "hipy_js_低端",
@@ -7068,7 +7057,17 @@
       "changeable": 1,
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/ddys.js"
     },
-
+    {
+      "key": "hipy_js_4K-AV",
+      "name": "🎥｜4K-TV",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/4K-AV.js"
+    },
     //APPYSV2模板_分類專區
 
     {
@@ -8216,29 +8215,28 @@
     
   ],
   "parses": [
-          {"name": "-8090-","type": 0,"url": "https://www.8090g.cn/jiexi/?url="},
-          {"name": "蓝天白云3","type": 1,"url": "http://qn6z7b.yun.42jx.com/jx/jx.php?url="},
-          {"name": "-ik9-","type": 0,"url": "https://yparse.ik9.cc/index.php?url="},
-          {"name": "-冰豆-","type": 0,"url": "https://bd.jx.cn/?url="},
-          {"name": "-云析-","type": 0,"url": "https://jx.yparse.com/index.php?url="},
-          {"name": "-红狐-","type": 0,"url": "https://player.mrgaocloud.com/player/?url="},
+          {"name": "云析","type": 0,"url": "https://jx.yparse.com/index.php?url="},
+          {"name": "白云","type": 0,"url": "http://jx.hjfggzs.top/api/diy/?key=ceshi&url="},
+          {"name": "虾米1","type": 0,"url": "https://jx.xmflv.cc/?url="},
+          {"name": "虾米2","type": 0,"url": "https://jx.xmflv.com/?url="},
           {"name": "巧技1","type": 1,"url": "https://zy.qiaoji8.com/neibu.php?url="},
           {"name": "巧技2","type":1,"url":"https://zy.qiaoji8.com/gouzi.php?url="},
+          {"name": "8090","type": 0,"url": "https://www.8090g.cn/jiexi/?url="},
+          {"name": "蓝天白云3","type": 1,"url": "http://qn6z7b.yun.42jx.com/jx/jx.php?url="},
+          {"name": "ik9","type": 0,"url": "https://yparse.ik9.cc/index.php?url="},
+          {"name": "冰豆","type": 0,"url": "https://bd.jx.cn/?url="},
+          {"name": "红狐","type": 0,"url": "https://player.mrgaocloud.com/player/?url="},
           {"name": "寶片", "type": 0, "url": "https://jiexi.ibaopian.pro/player/?url="},
           {"name": "七七雲", "type": 0, "url": "https://jx.77flv.cc/?url="},
           {"name": "七智", "type": 0, "url": "https://jx.2s0.cn/player/?url="},
           {"name": "M1097", "type": 0, "url": "https://im1907.top/?jx="},
-          {"name": "虾米1","type": 0,"url": "https://jx.xmflv.cc/?url="},
-          {"name": "虾米2","type": 0,"url": "https://jx.xmflv.com/?url="},
           {"name": "道長解析","type": 0,"url": "https://d.tv999.us.kg/parse/虾米?url="},
-          {"name": "-m3u8TV-","type": 0,"url": "https://jx.m3u8.tv/jiexi/?url="},
-          {"name": "白云","type": 0,"url": "http://jx.hjfggzs.top/api/diy/?key=ceshi&url="},
+          {"name": "m3u8TV-","type": 0,"url": "https://jx.m3u8.tv/jiexi/?url="},
           {"name": "聚合1","type": 3,"url": "Demo"},
           {"name": "聚合0","type": 3,"url": "Web"},
-//以下可能故障
           {"name": "41快解","type": 1,"url": "http://41c.ch/vip.php?url="},
           {"name": "CK解析","type": 1,"url": "https://ckflv.icu/neibu.php?url=","header": {  "User-Agent": "okhttp/4.9.1"}},
-          {"name": "-777-","type": 0,"url": "https://jx.777jiexi.com/player/?url="},
+          {"name": "777","type": 0,"url": "https://jx.777jiexi.com/player/?url="},
           {"name": "1080","type": 1,"url": "https://jf.lemiaoyun.cn/api/?key=86950663b3198d25885fdf61501a3366&url="},
           {"name": "-杰森-","type": 0,"url": "https://jx.jsonplayer.com/player/?url="},
           {"name": "-阳途-","type": 0,"url": "https://jx.yangtu.top/?url="},
