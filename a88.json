@@ -8216,9 +8216,17 @@
     
   ],
   "parses": [
-         
-          {"name": "虾米1","type": 0,"url": "https://jx.xmflv.cc/?url="}
-          
+
+          {"name": "41快解","type": 1,"url": "http://41c.ch/vip.php?url="},
+          {"name": "CK解析","type": 1,"url": "https://ckflv.icu/neibu.php?url=","header": {  "User-Agent": "okhttp/4.9.1"}},
+          {"name": "-777-","type": 0,"url": "https://jx.777jiexi.com/player/?url="},
+          {"name": "1080","type": 1,"url": "https://jf.lemiaoyun.cn/api/?key=86950663b3198d25885fdf61501a3366&url="},
+          {"name": "-杰森-","type": 0,"url": "https://jx.jsonplayer.com/player/?url="},
+          {"name": "-阳途-","type": 0,"url": "https://jx.yangtu.top/?url="},
+          {"name": "嗅探1", "type": 0, "url": "https://jx.jsonplayer.com/player/?url="},
+          {"name": "niu","type": 1,"url": "http://122.228.84.103:7777/api/?key=4Dk5tdayvY6NZufEMG&url="},
+          {"name": "云仓","url": "http://43.242.202.173:3636/json.php/?key=182750826&url=","flag": [  "LXTX"],"header": {  "User-Agent": "Dalvik/2.1.0"},"type": "1"},
+          {"name": "KK","type": 1,"url": "http://112.74.124.75:8899/jiexi/api.php?url="}
 
         ],
   "rules": [
