@@ -8232,12 +8232,12 @@
           {"name": "虾米2","type": 0,"url": "https://jx.xmflv.com/?url="},
           {"name": "道長解析","type": 0,"url": "https://d.tv999.us.kg/parse/虾米?url="},
           {"name": "-m3u8TV-","type": 0,"url": "https://jx.m3u8.tv/jiexi/?url="},
+          {"name": "白云","type": 0,"url": "http://jx.hjfggzs.top/api/diy/?key=ceshi&url="},
           {"name": "聚合1","type": 3,"url": "Demo"},
           {"name": "聚合0","type": 3,"url": "Web"},
 //以下可能故障
           {"name": "41快解","type": 1,"url": "http://41c.ch/vip.php?url="},
           {"name": "CK解析","type": 1,"url": "https://ckflv.icu/neibu.php?url=","header": {  "User-Agent": "okhttp/4.9.1"}},
-          {"name": "白云","type": 0,"url": "http://jx.hjfggzs.top/api/diy/?key=ceshi&url="},
           {"name": "-777-","type": 0,"url": "https://jx.777jiexi.com/player/?url="},
           {"name": "1080","type": 1,"url": "https://jf.lemiaoyun.cn/api/?key=86950663b3198d25885fdf61501a3366&url="},
           {"name": "-杰森-","type": 0,"url": "https://jx.jsonplayer.com/player/?url="},
