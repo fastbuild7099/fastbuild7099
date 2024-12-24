@@ -333,6 +333,33 @@
       ]
     },
     {
+        "key": "csp_奥特影视",
+        "name": "🥈｜奥特",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "ext": {
+          "简介": "<p>◎影片简介:</p>&&</div>",
+          "分类url": "https://auete.pro/{cateId}/{class}/index{catePg}.html[https://auete.pro/{cateId}/{class}/index.html]",
+          "筛选": "1",
+          "剧情": "动作片$dzp#喜剧片$xjp#爱情片$aqp#科幻片$khp#恐怖片$kbp#剧情片$jqp#战争片$zzp#惊悚片$jsp||香港剧$tvbgj#国产剧$neidi#台湾剧$taiju#欧美剧$oumei#日剧$riju#韩剧$hanju#网剧$wangju#泰剧$yataiju||大陆综艺$guozong#日韩综艺$hanzong#欧美综艺$meizong||国产动漫$guoman#日本动漫$riman#欧美动漫$meiman$动画$donghua||记录片$Jlp#经典片$Jdp#经典剧$Jdj#网大电影$wlp#国产老电影$laodianying",
+          "分类": "电影$Movie#电视剧$Tv#综艺$Zy#动漫$Dm#其他$qita"
+        }
+      },
+      {
+        "key": "csp_吉吉影视",
+        "name": "🥈｜吉吉",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "ext": {
+          "简介": "class=\"content mt-3\">&&</div>",
+          "分类url": "https://jjvlog.com/Lvlog/jj_{cateId}.html",
+          "分类": "電影$1#連續劇$2",
+          "剧情": "动作片$5#爱情片$6#科幻片$7#恐怖片$8#战争片$9#喜剧片$10#剧情片$12#惊悚片$13#灾难片$15||陸剧$34#韩剧$35#美剧$36#日剧$37#港剧$38#德剧$40#台剧$45#英剧$46#泰剧$47"
+        }
+      },
+    {
         "key": "zj",
         "name": "🥈｜8K影院｜",
         "type": 3,
@@ -921,38 +948,19 @@
               "剧情":"劇情$ju-qing#喜劇$xi-ju#愛情$ai-qing#動作$dong-zuo#科幻$ke-huan#恐怖$kong-bu#戰爭$zhan-zheng||陸劇$tv-cn#日韓劇$tv-krjp#英美劇$tv-usgb#港台劇$tv-twhk||真人秀$zhen-ren-xiu#選秀$xuan-xiu#音樂$yin-le#美食$mei-shi#旅行$lv-xing#脫口秀$tuo-kou-xiu#搞笑$gao-xiao#文化$wen-hua#歌舞$ge-wu||空",
               "地区":"大陸$cn#韓國$kr#日本$jp#美國$us#英國$gb#台灣$tw#香港$hk||空||內地$cn#日韓$krjp#港台$hktw#歐美$usgb||日本$jp#國產$cn#歐美$usgb"
               }
-      },
-    //XBPQ_自建站源專區
-    {
-      "key":"csp_XBPQ_柯南",
-      "name":"🎥｜柯南",
-      "type":3,
-      "api":"csp_XBPQ",
-      "searchable":1,
-      "quickSearch":1,
-      "filterable":1,
-      "ext":
-            {
-              "请求头":"User-Agent$MOBILE_UA",
-              "编码":"UTF-8",
-              "主页url":"https://www.knvod.com/",
-              "数组":"/list/&&</a>",
-              "链接":"/list/+&&\"",
-              "图片":"data-original=\"&&\"",
-              "标题":"alt=\"&&\"",
-              "副标题":"note\">&&</div>",
-              "播放数组":"class=\"module-play-list-content&&</div>",
-              "播放列表":"<a&&a>",
-              "播放链接":"href=\"&&\"",
-              "播放标题":"<span>&&</span>",
-              "线路数组":"class=\"module-tab-item tab-item\"&&</div>",
-              "线路标题":"<span>&&</span>",
-              "跳转播放链接":"var player_*\"url\":\"&&\"",
-              "嗅探词":"https://v3-cha.toutiaovod.com#video/#video_mp4#https://91by.top:889#nby/m3u8#getM3u8?#.m3u8",
-              "过滤词":"https://lcap-static-saas.nos-eastchina1.126.net/app/1730685956_20241104100904175.mp4",
-              "分类url":"https://www.knvod.com/show/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}/",
-              "分类":"电影$1#电视剧$2#综艺$4#动漫$3#纪录片$5#短剧$6"}
     },
+    {
+        "key": "csp_奇侠",
+        "name": "🎥｜奇侠",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/奇侠.json"
+    },
+    //XBPQ_自建站源專區
     {
       "key": "CSP_理理影院",
       "name": "🎥｜理理",
@@ -1130,28 +1138,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://jihulab.com/zjx3514824/kkk/-/raw/main/lib/6V.json"
-    },
-    {
-      "key": "csp_奇侠",
-      "name": "🎥｜奇侠",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/奇侠.json"
-    },
-    {
-      "key": "csp_奇优影院",
-      "name": "🎥｜奇優",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/奇优影院.json"
     },
     {
       "key": "csp_蛙蛙",
@@ -1728,20 +1714,6 @@
         "线路数组": "module-tab-itemtab-item\"&&</div>",
         "分类url": "https://www.wangfei.tv/vodshow/area/{area}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
         "分类": "国产剧$guochanju#电影$dy#电视剧$juji#综艺$zongyi#动漫$dongman"
-      }
-    },
-    {
-      "key": "csp_奥特影视",
-      "name": "🎥｜奥特",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "ext": {
-        "简介": "<p>◎影片简介:</p>&&</div>",
-        "分类url": "https://auete.pro/{cateId}/{class}/index{catePg}.html[https://auete.pro/{cateId}/{class}/index.html]",
-        "筛选": "1",
-        "剧情": "动作片$dzp#喜剧片$xjp#爱情片$aqp#科幻片$khp#恐怖片$kbp#剧情片$jqp#战争片$zzp#惊悚片$jsp||香港剧$tvbgj#国产剧$neidi#台湾剧$taiju#欧美剧$oumei#日剧$riju#韩剧$hanju#网剧$wangju#泰剧$yataiju||大陆综艺$guozong#日韩综艺$hanzong#欧美综艺$meizong||国产动漫$guoman#日本动漫$riman#欧美动漫$meiman$动画$donghua||记录片$Jlp#经典片$Jdp#经典剧$Jdj#网大电影$wlp#国产老电影$laodianying",
-        "分类": "电影$Movie#电视剧$Tv#综艺$Zy#动漫$Dm#其他$qita"
       }
     },
     {
@@ -6162,6 +6134,47 @@
             "分类url": "https://4k4k.live/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html"
           }
         },    
+        {
+            "key":"csp_XBPQ_柯南",
+            "name":"🎥｜柯南",
+            "type":3,
+            "api":"csp_XBPQ",
+            "searchable":1,
+            "quickSearch":1,
+            "filterable":1,
+            "ext":
+                  {
+                    "请求头":"User-Agent$MOBILE_UA",
+                    "编码":"UTF-8",
+                    "主页url":"https://www.knvod.com/",
+                    "数组":"/list/&&</a>",
+                    "链接":"/list/+&&\"",
+                    "图片":"data-original=\"&&\"",
+                    "标题":"alt=\"&&\"",
+                    "副标题":"note\">&&</div>",
+                    "播放数组":"class=\"module-play-list-content&&</div>",
+                    "播放列表":"<a&&a>",
+                    "播放链接":"href=\"&&\"",
+                    "播放标题":"<span>&&</span>",
+                    "线路数组":"class=\"module-tab-item tab-item\"&&</div>",
+                    "线路标题":"<span>&&</span>",
+                    "跳转播放链接":"var player_*\"url\":\"&&\"",
+                    "嗅探词":"https://v3-cha.toutiaovod.com#video/#video_mp4#https://91by.top:889#nby/m3u8#getM3u8?#.m3u8",
+                    "过滤词":"https://lcap-static-saas.nos-eastchina1.126.net/app/1730685956_20241104100904175.mp4",
+                    "分类url":"https://www.knvod.com/show/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}/",
+                    "分类":"电影$1#电视剧$2#综艺$4#动漫$3#纪录片$5#短剧$6"}
+          },
+          {
+              "key": "csp_奇优影院",
+              "name": "🎥｜奇優",
+              "type": 3,
+              "api": "csp_XBPQ",
+              "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+              "searchable": 1,
+              "quickSearch": 1,
+              "filterable": 1,
+              "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/奇优影院.json"
+          },
 
     //道長源_分類專區
     {
