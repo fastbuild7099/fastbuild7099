@@ -730,6 +730,16 @@
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/blzb.js"
   },
   {
+    "key": "hipy_js_无忧影视",
+    "name": "🥉｜无忧",
+    "type": 3,
+    "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/无忧影视.js"
+  },
+  {
     "key": "csp_XBiu考拉TV",
     "name": "🥉｜考拉TV｜廣告多",
     "type": 3,
@@ -6460,16 +6470,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/游子视频.js"
-    },
-    {
-      "key": "hipy_js_无忧影视",
-      "name": "🎥｜无忧",
-      "type": 3,
-      "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/无忧影视.js"
     },
     {
       "key": "hipy_js_牌牌影院",
