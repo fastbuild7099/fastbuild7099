@@ -83,7 +83,7 @@
 香蕉臺,http://s.mrw.so/94E7W
 
 驚艷臺,http://18.svi-studio.com:80/live/652484888807/195449585962/1.m3u8
-精艷臺,http://18.svi-studio.com:8880/live/908957700097/132663288386/1.m3u8
+驚艷臺,http://18.svi-studio.com:8880/live/908957700097/132663288386/1.m3u8
 驚艷臺,http://18.svi-studio.com:80/live/346356153167/782875691212/1.m3u8
 驚艷臺,http://18.svi-studio.com:80/live/875994180836/930699661147/1.m3u8
 驚艷臺,http://18.svi-studio.com:80/live/426804892399/739490745427/1.m3u8
