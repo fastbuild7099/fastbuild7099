@@ -79,6 +79,24 @@
         "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/PTT視頻.json"
     },
     {
+      "key": "csp_BTTWOO",
+      "name": "🥇｜BTTWOO｜點篩選的類型才會出來",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": 
+            {
+             "分类url": "https://www.bttwoo.com/{cateId}/movie_bt_cat/{area}/year/{year}/page/{catePg}",
+             "分类": "篩選類別$movie_bt#最新电影$new-movie#热门电影$hot#高分電影$gf#本月热门$hot-month#国产剧$zgjun#美剧$#日韩剧$jpsrtv",
+             "类型":"false$movie_bt_tags/false#传记$movie_bt_tags/zj#儿童$movie_bt_tags/ertong#冒险$movie_bt_tags/adt#剧情$movie_bt_tags/juqing#动作$movie_bt_tags/at#动画$movie_bt_tags/donghua#历史$movie_bt_tags/lishi#古装$movie_bt_tags/guzhuang#同性$movie_bt_tags/tongxing#喜剧$movie_bt_tags/xiju#奇幻$movie_bt_tags/qihuan#家庭$movie_bt_tags/jiating#恐怖$movie_bt_tags/kongbu#悬疑$movie_bt_tags/xuanni#情色$movie_bt_tags/qingse#惊悚$movie_bt_tags/jingsong#戏曲$movie_bt_tags/%e6%88%8f%e6%9b%b2#战争$movie_bt_tags/zhanzheng#歌舞$movie_bt_tags/gw#武侠$movie_bt_tags/wuxia#灾难$movie_bt_tags/zhannan#爱情$movie_bt_tags/aiqing#犯罪$movie_bt_tags/fanzui#真人秀$movie_bt_tags/%e7%9c%9f%e4%ba%ba%e7%a7%80#科幻$movie_bt_tags/kehuan#纪录片$movie_bt_tags/jilu#西部$movie_bt_tags/xibu#运动$movie_bt_tags/yd#音乐$movie_bt_tags/yinyue#黑色电影$movie_bt_tags/%e9%bb%91%e8%89%b2%e7%94%b5%e5%bd%b1||空||空||空||空||空||空||空", 
+             "年份":"1921-2024||空||空||空||空||空||空||空",
+             "地区":"不丹$#东南亚$#中国$#中国台湾$#中国大陆$#中国香港$#丹麦$#乌克兰$#以色列$#伊朗$#俄罗斯$#保加利亚$#克罗地亚$#冰岛$#加拿大$#匈牙利$#南斯拉夫$#南非$#卡塔尔$#卢森堡$#印度$#印度尼西亚$#台湾$#哥伦比亚$#土耳其$#塞尔维亚$#墨西哥$#奥地利$#尼日利亚$#巴西$#希腊$#德国$#意大利$#挪威$#捷克$#摩洛哥$#斯洛伐克$#新加坡$#新西兰$#日本$#日韩$#欧美$#比利时$#法国$#波兰$#波多黎各$#泰国$#港台$#澳大利亚$#爱尔兰$#爱沙尼亚$#瑞典$#瑞士$#白俄罗斯$#秘鲁$#突尼斯$#立陶宛$#罗马尼亚$#美国$#芬兰$#英国$#荷兰$#荷属安的列斯$#菲律宾$#葡萄牙$#西德$#西班牙$#越南$#阿根廷$#阿联酋$#韩国$#香港$#马来西亚$#马耳他"
+            }
+  },
+    {
       "key": "金牌影视",
       "name": "🥇｜金牌影院",
       "type": 3,
