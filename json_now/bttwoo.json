@@ -16,8 +16,9 @@
 "搜索副标题":"jidi\"&&</span>",
 "搜索链接":"href=\"&&\"",
 "搜索后缀":"/movie/",
-"线路数组":"mi_paly_box\">&&</div>",
+"线路数组": "在线播放&&</div>",
 "线路标题":"ypxingq_t\">&&<span>[替换:在线播放>>播放列表]",
+"嗅探词": "zf.13to.com#.m3u8#.mp4#video_mp4#feiyunNB.mp4#.mp4#cdn.123pan.cn#huoshanvod.com",
 "影片年代":"年份：&&</li>",
 "影片地区":"地区：&&</li>",
 "影片类型":"类型：&&</li>",
@@ -32,7 +33,7 @@
 "播放链接前缀":"https://www.bttwoo.com",
 "分类":"全部&最新电影&电视剧&热门電影&本月热门&高分电影&国产剧&美剧&日韩剧",
 "分类值":"movie_bt&new-movie&dsj&hot&hot-month&gf&zgjun&meiju&jpsrtv",
-"分类url":"https://www.bttwoo.com/{cateId}/{area}/year/{year}/{class}/page/{catePg};;k",
+"分类url":"https://www.bttwoo.com/{cateId}/{area}/year/{year}/{class}/page/{catePg}",
 "筛选":
 {
 "movie_bt":[
