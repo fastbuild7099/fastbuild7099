@@ -347,19 +347,7 @@
     "filterable": 1,
     "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/热播之家.json"
   },
-  {
-    "key": "csp_高清在线",
-    "name": "🎥｜高清在线",
-    "type": 3,
-    "api": "csp_XBPQ",
-    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-    "ext": {
-      "简介": "剧情介绍: +stui-pannel_bd\">&&</div>",
-      "线路数组": "stui-pannel__head bottom-line active clearfix\">&&</div>",
-      "分类url": "https://www.gxfiber.com/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html",
-      "分类": "短剧$duanju#电视剧$dsj#电影$dy#动漫$dm#综艺$zy"
-    }
-  },
+
   {
     "key": "csp_量子影视",
     "name": "🎥｜量子影视",
@@ -504,16 +492,6 @@
         "quickSearch": 1,
         "filterable": 1,
         "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/墨点影视.js"
-      },
-      {
-        "key": "hipy_js_中国人",
-        "name": "🎥｜中国人",
-        "type": 3,
-        "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/中国人.js"
       },
       {
         "key": "hipy_js_易点看影院[自动]",
@@ -818,13 +796,7 @@
         "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
         "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1//56动漫.js"
       },
-      {
-        "key": "drpy_js_58动漫",
-        "name": "动漫｜58动漫",
-        "type": 3,
-        "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
-        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/58动漫.js"
-      },
+
       {
         "key": "drpy_js_Anime1动画",
         "name": "动漫｜日本[V2]",
@@ -855,17 +827,6 @@
         "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/迅雷吧.json"
       },
       {
-        "key": "555影院",
-        "name": "🧲｜555",
-        "type": 3,
-        "api": "csp_AppYsV2",
-        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/dokilwss.jar;md5;145277452362fe4b1371e8968b414ed1",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "ext": "https://e3wuwu4.com/api.php/app/"
-      },
-      {
         "key": "可可",
         "name": "🧲｜可可｜饭硬",
         "type": 3,
@@ -876,6 +837,25 @@
         "quickSearch": 1,
         "changeable": 1,
         "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/fan.txt;md5;8851819289f80deae32319080028db3b"
+      },
+      {
+        "key": "zj",
+        "name": "🥈｜8K影院｜加了驗證",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "ext": {
+          "分类url": "https://www.8q8k.com/vodshow/{cateId}--------{catePg}---.html",
+          "分类": "电影$dy#电视剧$dsj#综艺$zy#动漫$dm"
+        }      
+    },
+    {
+      "key": "csp_bttwo",
+      "name": "🥇｜bttwo",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/bttwo.json"
       }
     ],
     "parses": [

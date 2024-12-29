@@ -770,17 +770,7 @@
         "港台综艺", "日韩综艺", "欧美综艺"
       ]
     },
-    {
-        "key": "zj",
-        "name": "🥈｜8K影院｜",
-        "type": 3,
-        "api": "csp_XBPQ",
-        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-        "ext": {
-          "分类url": "https://www.8q8k.com/vodshow/{cateId}--------{catePg}---.html",
-          "分类": "电影$dy#电视剧$dsj#综艺$zy#动漫$dm"
-        }
-    },
+
     {
       "key": "csp_XBiu廠長影院",
       "name": "🥈｜廠長影院｜(網頁死)",
@@ -6517,6 +6507,19 @@
                     "分类":"电影$1#电视剧$2#综艺$4#动漫$3#纪录片$5#短剧$6"}
           },
           {
+            "key": "csp_高清在线",
+            "name": "🎥｜高清在线",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+            "ext": {
+              "简介": "剧情介绍: +stui-pannel_bd\">&&</div>",
+              "线路数组": "stui-pannel__head bottom-line active clearfix\">&&</div>",
+              "分类url": "https://www.gxfiber.com/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html",
+              "分类": "短剧$duanju#电视剧$dsj#电影$dy#动漫$dm#综艺$zy"
+            }
+          },
+          {
               "key": "csp_奇优影院",
               "name": "🎥｜奇優",
               "type": 3,
@@ -7365,6 +7368,16 @@
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/ddys.js"
     },
     {
+        "key": "hipy_js_中国人",
+        "name": "🎥｜中国人",
+        "type": 3,
+        "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/中国人.js"
+    },
+    {
       "key": "hipy_js_4K-AV",
       "name": "🎥｜4K-TV",
       "type": 3,
@@ -8181,6 +8194,13 @@
       "api": "csp_XBPQ",
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/白狐動畫.json"
     },
+    {
+        "key": "drpy_js_58动漫",
+        "name": "动漫｜58动漫",
+        "type": 3,
+        "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
+        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/58动漫.js"
+    },
 
     //神秘好用源_分類專區
     {
@@ -8512,6 +8532,7 @@
     {"key":"drjs_大全","name":"🧲｜影視大全","type":3,"api":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js","ext":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/影视大全.js"},
     {"key":"drjs_直播","name":"🧲｜雷蒙直播","type":3,"api":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js","ext":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/老王直播.js?type=url&params=https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/json/live2cms.json"},
     {"key":"vod_360","name":"🧲｜360","type":1,"api":"https://360zy.com/api.php/provide/vod","categories":["国产剧","短片","动画片","香港剧","韩国剧","欧美剧","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","NBA","惊悚片","家庭篇","古装片","历史片","悬疑片","犯罪片","纪录片","台湾剧","大陆综艺","国产动漫","日韩动漫","西部片"]},
+    {"key": "555影院","name": "🧲｜555","type": 3,"api": "csp_AppYsV2","jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/dokilwss.jar;md5;145277452362fe4b1371e8968b414ed1","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://e3wuwu4.com/api.php/app/"},
     {"key": "爱坤资源","name": "🧲｜爱坤资源","type": 1,"api": "https://www.ikunzy.com/api.php/provide/vod/","searchable": 1,"categories": [  "动作片" , "喜剧片" , "爱情片" , "科幻片" , "恐怖片" , "剧情片" , "战争片" , "国产剧" , "香港剧" ,  "台湾剧" , "韩国剧" , "纪录片" , "动画片" , "日本剧" , "泰国剧" , "欧美剧" , "国产动漫", "日本动漫",  "欧美"  , "海外动漫", "电影解说", "大陆综艺", "港台综艺", "日韩综艺", "欧美综艺"]},
     {"key": "drpy_js_电影港","name": "🧲｜电影港","type": 3,"api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js","ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/dygang.js","playerType": "1","searchable": 1},
     {"key": "drpy_js_磁力熊搜索","name": "🧲｜磁力熊","type": 3,"api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js","ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/cilixiong.js","searchable": 1,"quickSearch": 1,"changeable": 1},
