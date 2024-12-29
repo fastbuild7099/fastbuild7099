@@ -4,6 +4,12 @@
 "規則日期": "113.12.27",
 "站名":"bttwoo",
 "主页url":"https://www.bttwoo.com",
+"请求头":"User-Agent$MOBILE_UA",
+"编码":"UTF-8",
+"分析MacPlayer": "2",
+"是否开启手动嗅探": "1",
+"手动嗅探视频链接关键词": ".mp4#.m3u8#.flv",
+"手动嗅探视频链接过滤词": ".html#=http",
 "数组":"<li><a&&</a></h3>",
 "图片":"data-original=\"&&\"",
 "标题":"alt=\"&&\"",
@@ -18,7 +24,9 @@
 "搜索后缀":"/movie/",
 "线路数组":"zaixianbf\"&&</div>[替换:在线播放>>两个BT]",
 "线路标题":"🌸+</i>&&</a>+🌸",
-"嗅探词": "zf.13to.com#.m3u8#.mp4#video_mp4#feiyunNB.mp4#.mp4#cdn.123pan.cn#huoshanvod.com",
+"嗅探词": "index.m3u8#.mp4#m3u8#.m3u8#/tos/#.flv#video/tos",
+"免嗅": "1",
+"跳转解析": "默认$https://kedays.org/play/?url=",
 "影片年代":"年份：&&</li>",
 "影片地区":"地区：&&</li>",
 "影片类型":"类型：&&</li>",
@@ -33,7 +41,7 @@
 "播放链接前缀":"https://www.bttwoo.com",
 "分类":"全部&最新电影&电视剧&热门電影&本月热门&高分电影&国产剧&美剧&日韩剧",
 "分类值":"movie_bt&new-movie&dsj&hot&hot-month&gf&zgjun&meiju&jpsrtv",
-"分类url":"https://www.bttwoo.com/{cateId}/{area}/year/{year}/{class}/page/{catePg}",
+"分类url":"https://www.bttwoo.com/{cateId}/{area}/year/{year}/{class}/page/{catePg};;rc",
 "筛选":
 {
 "movie_bt":[
