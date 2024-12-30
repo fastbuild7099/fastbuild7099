@@ -35,6 +35,22 @@
           }
       },
       {
+        "key": "SEAJAV",
+        "name": "🔞SEAJAV",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": {
+            "请求头": "User-Agent$MOBILE_UA",
+            "分类url": "https://seajav.com/categories/{cateId}-{catePg}.html",
+            "分类": "国产自拍$4#日本AV$2#91porn$3#国产AV$1",
+            "类型": "91探花$38#自拍流出$13||高清$6#無碼$7#中文字幕$8#無碼流出$9#三上悠亞$10#FC2$11#素人$40||91視頻$20#福利姬$14#AI明星$41||麻豆$21#91$22#天美$23#蜜桃$24#星空$26#精東$27#糖心$37#性吧$39"
+        }
+      },
+      {
           "key": "TGYunPan18pan",
           "name": "TG|涩涩",
           "type": 3,
