@@ -34,14 +34,22 @@
 {"key":"drpyS_OmoFun[漫]","name":"OmoFun[漫](DS)","type":4,"api":"http://drpys.aera.eu.org/api/OmoFun[漫]","searchable":2,"filterable":0,"quickSearch":0,"ext":""},
 {"key":"drpyS_PTT[优]","name":"PTT[优](DS)","type":4,"api":"http://drpys.aera.eu.org/api/PTT[优]","searchable":2,"filterable":1,"quickSearch":0,"ext":""},
 {"key":"drpyS_x草榴社区[密]","name":"x草榴社区[密](DS)","type":4,"api":"http://drpys.aera.eu.org/api/x草榴社区[密]","searchable":2,"filterable":0,"quickSearch":0,"ext":""},
-{"key":"drpyS_xvideos[密]","name":"xvideos[密](DS)","type":4,"api":"http://drpys.aera.eu.org/api/xvideos[密]","searchable":1,"filterable":0,"quickSearch":0,"ext":""}],"parses":[{"name":"虾米","url":"http://drpys.aera.eu.org/parse/虾米?url=","type":1,"ext":{"flag":["qiyi","imgo","爱奇艺","奇艺","qq","qq 预告及花絮","腾讯","youku","优酷","pptv","PPTV","letv","乐视","leshi","mgtv","芒果","sohu","xigua","fun","风行"]},"header":{"User-Agent":"Mozilla/5.0"}}],"lives":[],"sniffer":{"userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.27","isVideoFormat":"http((?!http).){26,}\\.(m3u8|mp4|flv|avi|mkv|wmv|mpg|mpeg|mov|ts|3gp|rm|rmvb|asf|m4a|mp3|wma)","custom":[{"url":"/Cloud/Down/AliCloud/","mimeType":"text/html","encoding":"utf-8","header":{"Referer":"https://zxzj.vip/"}},
-{"url":"ysting.ysxs8.vip","mimeType":"text/html","encoding":"utf-8","header":{"Referer":"http://ysting.ysxs8.vip:81"}}]},"recommend":[{"name":"豆瓣推荐","request":{"method":"GET","header":[{"key":"Referer","value":"https://movie.douban.com/"}],"url":{"raw":"https://movie.douban.com/j/new_search_subjects?sort=U&range=0,10&tags=&playable=1&start=0&year_range=2022,2022"}},"response":{"result":"$.data","data":[{"key":"name","value":"title"},
+{"key":"drpyS_xvideos[密]","name":"xvideos[密](DS)","type":4,"api":"http://drpys.aera.eu.org/api/xvideos[密]","searchable":1,"filterable":0,"quickSearch":0,"ext":""}
+],
+"parses":[
+    {
+    "name":"虾米","url":"http://drpys.aera.eu.org/parse/虾米?url=","type":1,"ext":{"flag":["qiyi","imgo","爱奇艺","奇艺","qq","qq 预告及花絮","腾讯","youku","优酷","pptv","PPTV","letv","乐视","leshi","mgtv","芒果","sohu","xigua","fun","风行"]},"header":{"User-Agent":"Mozilla/5.0"}}],
+    "lives":[],
+    "sniffer":{"userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.27","isVideoFormat":"http((?!http).){26,}\\.(m3u8|mp4|flv|avi|mkv|wmv|mpg|mpeg|mov|ts|3gp|rm|rmvb|asf|m4a|mp3|wma)","custom":[{"url":"/Cloud/Down/AliCloud/","mimeType":"text/html","encoding":"utf-8","header":{"Referer":"https://zxzj.vip/"}},
+{"url":"ysting.ysxs8.vip","mimeType":"text/html","encoding":"utf-8","header":{"Referer":"http://ysting.ysxs8.vip:81"}}]},"recommend":[{"name":"豆瓣推荐","request":{"method":"GET","header":[{"key":"Referer","value":"https://movie.douban.com/"}],"url":{"raw":"https://movie.douban.com/j/new_search_subjects?sort=U&range=0,10&tags=&playable=1&start=0&year_range=2022,2022"}},"response":{"result":"$.data","data":[
+{"key":"name","value":"title"},
 {"key":"note","value":"rate"},
 {"key":"pic","value":"cover"}]},"expires":"86400"}],"rating":[{"name":"rating","request":{"method":"GET","url":{"raw":"https://api.wmdb.tv/api/v1/movie/search?q={name}&limit=1"}},"response":{"result":"this","data":[{"key":"rating","value":"doubanRating"}]}}],"doh":[{"ips":["8.8.4.4","8.8.8.8"],"name":"Google","url":"https://dns.google/dns-query"},
 {"ips":["1.1.1.1","1.0.0.1","2606:4700:4700::1111","2606:4700:4700::1001"],"name":"Cloudflare","url":"https://cloudflare-dns.com/dns-query"},
 {"ips":["94.140.14.140","94.140.14.141"],"name":"AdGuard","url":"https://dns.adguard.com/dns-query"},
 {"ips":["84.200.69.80","84.200.70.40"],"name":"DNSWatch","url":"https://resolver2.dns.watch/dns-query"},
-{"ips":["9.9.9.9","149.112.112.112"],"name":"Quad9","url":"https://dns.quad9.net/dns-quer"}],"ijk":[{"group":"软解码","options":[{"category":4,"name":"opensles","value":"0"},
+{"ips":["9.9.9.9","149.112.112.112"],"name":"Quad9","url":"https://dns.quad9.net/dns-quer"}],
+"ijk":[{"group":"软解码","options":[{"category":4,"name":"opensles","value":"0"},
 {"category":4,"name":"overlay-format","value":"842225234"},
 {"category":4,"name":"framedrop","value":"1"},
 {"category":4,"name":"soundtouch","value":"1"},
