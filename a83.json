@@ -68,6 +68,16 @@
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/紐約影院.json" 
     },
     {
+      "key":"drpyS_PTT[优]",
+      "name":"🥇｜PTT｜道長",
+      "type":4,
+      "api":"http://drpys.aera.eu.org/api/PTT[优]",
+      "searchable":1,
+      "filterable":1,
+      "quickSearch":0,
+      "ext":""
+    },
+    {
         "key": "csp_PTT",
         "name": "🥇｜PTT｜點篩選的類型才會出來",
         "type": 3,
@@ -119,6 +129,16 @@
       "api": "csp_XBPQ",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/金牌影院.json"
+    },
+    {
+      "key":"drpyS_金牌影院",
+      "name":"🥇｜紙牌影院",
+      "type":4,
+      "api":"http://drpys.aera.eu.org/api/金牌影院",
+      "searchable":1,
+      "filterable":0,
+      "quickSearch":0,
+      "ext":""
     },
     {
       "key": "py_HeiMuEr",
@@ -333,6 +353,16 @@
            }
     },
     {
+      "key":"drpyS_雪糕TV",
+      "name":"🥇｜雪糕TV",
+      "type":4,
+      "api":"http://drpys.aera.eu.org/api/雪糕TV",
+      "searchable":1,
+      "filterable":0,
+      "quickSearch":0,
+      "ext":""
+    },
+    {
       "key": "csp_美柏影视",
       "name": "🥇｜美柏",
       "type": 3,
@@ -343,18 +373,16 @@
       "filterable": 1,
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/美柏影视.json"
     },
-    {"key":"drpyS_瓜子H5","name":"測試｜瓜子H5(DS)","type":4,"api":"http://drpys.aera.eu.org/api/瓜子H5","searchable":2,"filterable":1,"quickSearch":0,"ext":""},
-    {"key":"drpyS_好乐影视","name":"測試｜好乐影视(DS)","type":4,"api":"http://drpys.aera.eu.org/api/好乐影视","searchable":1,"filterable":1,"quickSearch":0,"ext":""},
-    {"key":"drpyS_金牌影院","name":"金牌影院(DS)","type":4,"api":"http://drpys.aera.eu.org/api/金牌影院","searchable":2,"filterable":0,"quickSearch":0,"ext":""},
-    {"key":"drpyS_PTT[优]","name":"PTT[优](DS)","type":4,"api":"http://drpys.aera.eu.org/api/PTT[优]","searchable":2,"filterable":1,"quickSearch":0,"ext":""},
-    {"key":"drpyS_OmoFun[漫]","name":"OmoFun[漫](DS)","type":4,"api":"http://drpys.aera.eu.org/api/OmoFun[漫]","searchable":2,"filterable":0,"quickSearch":0,"ext":""},
-    {"key":"drpyS_番薯动漫[漫]","name":"番薯动漫[漫](DS)","type":4,"api":"http://drpys.aera.eu.org/api/番薯动漫[漫]","searchable":2,"filterable":1,"quickSearch":0,"ext":""},
-    {"key":"drpyS_老白故事[听]","name":"老白故事[听](DS)","type":4,"api":"http://drpys.aera.eu.org/api/老白故事[听]","searchable":2,"filterable":1,"quickSearch":0,"ext":""},
-    {"key":"drpyS_星芽短剧","name":"星芽短剧(DS)","type":4,"api":"http://drpys.aera.eu.org/api/星芽短剧","searchable":2,"filterable":1,"quickSearch":1,"ext":""},
-    {"key":"drpyS_蓝莓短剧","name":"蓝莓短剧(DS)","type":4,"api":"http://drpys.aera.eu.org/api/蓝莓短剧","searchable":2,"filterable":0,"quickSearch":1,"ext":""},
-    {"key":"drpyS_雪糕TV","name":"雪糕TV(DS)","type":4,"api":"http://drpys.aera.eu.org/api/雪糕TV","searchable":2,"filterable":0,"quickSearch":0,"ext":""},
-
-
+    {
+      "key":"drpyS_瓜子H5",
+      "name":"測試｜瓜子H5(DS)",
+      "type":4,
+      "api":"http://drpys.aera.eu.org/api/瓜子H5",
+      "searchable":1,
+      "filterable":1,
+      "quickSearch":0,
+      "ext":""
+    },
     {
         "key": "csp_瓜子",
         "name": "🥇｜瓜子(要按點播才有東西)",
@@ -7506,7 +7534,26 @@
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main//json_now/91duanju.json",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5"
     },
-
+    {
+      "key":"drpyS_蓝莓短剧",
+      "name":"📺｜蓝莓短剧(DS)",
+      "type":4,
+      "api":"http://drpys.aera.eu.org/api/蓝莓短剧",
+      "searchable":1,
+      "filterable":0,
+      "quickSearch":1,
+      "ext":""
+    },
+    {
+      "key":"drpyS_星芽短剧",
+      "name":"📺｜星芽短剧(DS)",
+      "type":4,
+      "api":"http://drpys.aera.eu.org/api/星芽短剧",
+      "searchable":1,
+      "filterable":1,
+      "quickSearch":1,
+      "ext":""
+    },
     {
       "key": "星芽短剧",
       "name": "📺｜星芽短剧",
@@ -7730,6 +7777,26 @@
     },
 
     //動漫專區
+    {
+      "key":"drpyS_OmoFun[漫]",
+      "name":"OmoFun[漫](DS)",
+      "type":4,
+      "api":"http://drpys.aera.eu.org/api/OmoFun[漫]",
+      "searchable":2,
+      "filterable":0,
+      "quickSearch":0,
+      "ext":""
+    },
+    {
+      "key":"drpyS_番薯动漫[漫]",
+      "name":"番薯动漫[漫](DS)",
+      "type":4,
+      "api":"http://drpys.aera.eu.org/api/番薯动漫[漫]",
+      "searchable":2,
+      "filterable":1,
+      "quickSearch":0,
+      "ext":""
+    },
     {
       "key": "动漫巴士",
       "name": "动漫｜巴士",
@@ -8328,6 +8395,16 @@
           "ratio": 1.33
       },
       "changeable": 1
+    },
+    {
+      "key":"drpyS_老白故事[听]",
+      "name":"㊙︎｜老白故事",
+      "type":4,
+      "api":"http://drpys.aera.eu.org/api/老白故事[听]",
+      "searchable":1,
+      "filterable":1,
+      "quickSearch":0,
+      "ext":""
     },
     {
       "key":"drjs_酷我听书[听]",
