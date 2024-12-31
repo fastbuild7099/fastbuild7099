@@ -43,33 +43,8 @@
       },
       "style": {"type": "rect", "ratio": 1.77}
     },
-    {
-      "key": "黑木耳go",
-      "name": "黑木耳go",
-      "type": 1,
-      "api": "http://zhangqun1818.serv00.net:5053",
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0
-  },
-  {
-    "key": "短剧go",
-    "name": "短剧go",
-    "type": 1,
-    "api": "http://zhangqun1818.serv00.net:5052",
-    "searchable": 1,
-    "quickSearch": 0,
-    "changeable": 0
-},
-{
-    "key": "jggo",
-    "name": "jggo",
-    "type": 1,
-    "api": "http://jg.zhangqun66.com:8080",
-    "searchable": 1,
-    "quickSearch": 0,
-    "changeable": 0
-},
+
+
 //優選源_分類專區
     {
     "key": "csp_视觉",
@@ -81,6 +56,15 @@
     "api": "https://drive.almondcloud.cn/f/q3JKT9/shijue.py",
     "playerType": 2,
     "filterable": 1
+    },
+    {
+        "key": "黑木耳go",
+        "name": "⏭｜黑木耳｜go",
+        "type": 1,
+        "api": "http://zhangqun1818.serv00.net:5053",
+        "searchable": 1,
+        "quickSearch": 0,
+        "changeable": 0
     },
     {
       "key": "nyys",
@@ -7549,6 +7533,24 @@
     },
 
     //短劇專區
+    {
+        "key": "短剧go",
+        "name": "📺｜短剧｜go",
+        "type": 1,
+        "api": "http://zhangqun1818.serv00.net:5052",
+        "searchable": 1,
+        "quickSearch": 0,
+        "changeable": 0
+    },
+    {
+        "key": "jggo",
+        "name": "📺｜jg｜go",
+        "type": 1,
+        "api": "http://jg.zhangqun66.com:8080",
+        "searchable": 1,
+        "quickSearch": 0,
+        "changeable": 0
+    },
     {
       "key": "csp_HK_91短剧",
       "name": "📺｜91短剧",
