@@ -43,7 +43,33 @@
       },
       "style": {"type": "rect", "ratio": 1.77}
     },
-
+    {
+      "key": "黑木耳go",
+      "name": "黑木耳go",
+      "type": 1,
+      "api": "http://zhangqun1818.serv00.net:5053",
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0
+  },
+  {
+    "key": "短剧go",
+    "name": "短剧go",
+    "type": 1,
+    "api": "http://zhangqun1818.serv00.net:5052",
+    "searchable": 1,
+    "quickSearch": 0,
+    "changeable": 0
+},
+{
+    "key": "jggo",
+    "name": "jggo",
+    "type": 1,
+    "api": "http://jg.zhangqun66.com:8080",
+    "searchable": 1,
+    "quickSearch": 0,
+    "changeable": 0
+},
 //優選源_分類專區
     {
     "key": "csp_视觉",
@@ -79,7 +105,7 @@
     },
     {
         "key": "csp_PTT",
-        "name": "🥇｜PTT｜點篩選的類型才會出來",
+        "name": "🥇｜PTT｜老王",
         "type": 3,
         "api": "csp_XBPQ",
         "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
