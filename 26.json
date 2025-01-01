@@ -301,7 +301,7 @@
         },
         {
             "key": "csp_鉴黄师",
-            "name": "🔞javrate鑑黃師",
+            "name": "🔞javrate",
             "type": 3,
             "api": "csp_XYQHiker",
             "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar",
@@ -960,6 +960,21 @@
                 "ratio": 1.5
             },
             "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/theporn.js"
+        },
+        {
+            "key": "csp_XYQHiker_鉴黄师",
+            "name": "🔞鉴黄师",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "spider": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/pg.jar",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/鉴黄师.json",
+            "style": {
+                "type": "rect",
+                "ratio": 1.6
+            }
         },
         {
             "key": "csp_春水堂",
@@ -1925,21 +1940,6 @@
             "quickSearch": 0,
             "filterable": 0,
             "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/紫色成人.json",
-            "style": {
-                "type": "rect",
-                "ratio": 1.6
-            }
-        },
-        {
-            "key": "csp_XYQHiker_鉴黄师",
-            "name": "🔞鉴黄师",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "spider": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/pg.jar",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/鉴黄师.json",
             "style": {
                 "type": "rect",
                 "ratio": 1.6
