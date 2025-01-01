@@ -141,16 +141,6 @@
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/金牌影院.json"
     },
     {
-      "key":"drpyS_金牌影院",
-      "name":"🥇｜紙牌影院",
-      "type":4,
-      "api":"http://drpys.aera.eu.org/api/金牌影院",
-      "searchable":1,
-      "filterable":0,
-      "quickSearch":0,
-      "ext":""
-    },
-    {
       "key": "py_HeiMuEr",
       "name": "🥇｜黑木耳｜沐辰",
       "type": 4,
@@ -8582,7 +8572,6 @@
     {"key": "黑木耳道長","name": "🧲｜黑木耳｜道長","type": 3,"api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js","searchable": 1,"quickSearch": 1,"filterable": 1,"order_num": 0,"ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/黑木耳资源[资].js"},
     {"key":"drjs_爱看","name":"🧲｜爱看機器人","type":3,"api":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js","ext":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/ikanbot2.js"},
     {"key":"drjs_大全","name":"🧲｜影視大全","type":3,"api":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js","ext":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/影视大全.js"},
-    {"key":"drjs_直播","name":"🧲｜老王直播","type":3,"api":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js","ext":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/老王直播.js?type=url&params=https://cors.isteed.cc/https://gitlab.com/recha/TVBOX/-/raw/main/recha-live.json"},
     {"key":"vod_360","name":"🧲｜360","type":1,"api":"https://360zy.com/api.php/provide/vod","categories":["国产剧","短片","动画片","香港剧","韩国剧","欧美剧","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","NBA","惊悚片","家庭篇","古装片","历史片","悬疑片","犯罪片","纪录片","台湾剧","大陆综艺","国产动漫","日韩动漫","西部片"]},
     {"key": "555影院","name": "🧲｜555","type": 3,"api": "csp_AppYsV2","jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/dokilwss.jar;md5;145277452362fe4b1371e8968b414ed1","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://e3wuwu4.com/api.php/app/"},
     {"key": "爱坤资源","name": "🧲｜爱坤资源","type": 1,"api": "https://www.ikunzy.com/api.php/provide/vod/","searchable": 1,"categories": [  "动作片" , "喜剧片" , "爱情片" , "科幻片" , "恐怖片" , "剧情片" , "战争片" , "国产剧" , "香港剧" ,  "台湾剧" , "韩国剧" , "纪录片" , "动画片" , "日本剧" , "泰国剧" , "欧美剧" , "国产动漫", "日本动漫",  "欧美"  , "海外动漫", "电影解说", "大陆综艺", "港台综艺", "日韩综艺", "欧美综艺"]},
