@@ -1,5 +1,5 @@
 
-hlspull频道,#genre#
+hlspull频道(港台),#genre#
 凤凰资讯,http://ali.hlspull.yximgs.com/live/8d92016e9a791ff8f0d9f1a48e75a7c8.flv
 凤凰中文,http://ali.hlspull.yximgs.com/live/e85ae002c9ae52e93c3c7f85e143b5cb.flv
 凤凰香港,http://ali.hlspull.yximgs.com/live/820c9a3c59d8784e65008c4b35312ffa.flv
@@ -50,7 +50,7 @@ HOY TV,http://cdn.132.us.kg/live/hoy/stream.m3u8
 重温经典,http://cdn3.132.us.kg/live/cwjd/stream.m3u8
 
 
-AKTV频道,#genre#
+AKTV频道(港台),#genre#
 Channel 5 HD,http://aktv.top/AKTV/live/aktv/channel5hd/AKTV.m3u8
 Channel 8 HD,http://aktv.top/AKTV/live/aktv/channel8hd/AKTV.m3u8
 Channel U HD,http://aktv.top/AKTV/live/aktv/channeluhd/AKTV.m3u8
@@ -112,7 +112,7 @@ ZooMoo,http://aktv.top/AKTV/live/aktv3/zoomoo/AKTV.m3u8
 无线卫星新闻台,http://aktv.top/AKTV/live/aktv3/null-2/AKTV.m3u8
 翡翠台4K,http://aktv.top/AKTV/live/aktv3/4k/AKTV.m3u8
 
-187频道,#genre#
+187频道(台灣),#genre#
 民視,http://104.244.79.187:4994/proxy?url=http%3A//104.244.79.187%3A5050/litv/4gtv-4gtv002
 民視第一台,http://104.244.79.187:4994/proxy?url=http%3A//104.244.79.187%3A5050/litv/4gtv-4gtv003
 民視台灣台,http://104.244.79.187:4994/proxy?url=http%3A//104.244.79.187%3A5050/litv/4gtv-4gtv001
@@ -262,7 +262,7 @@ TechStorm,http://104.244.79.187:4994/proxy?url=http%3A//104.244.79.187%3A5050/4g
 TraceSports,http://104.244.79.187:4994/proxy?url=http%3A//104.244.79.187%3A5050/litv/4gtv-4gtv077
 
 
-175直播,#genre#
+175直播(亞洲),#genre#
 壹综合,p3p://167.114.175.6:55331/64e36a09000d3453a98b615460a544cd
 中天新闻,p3p://108.181.32.169:33519/6773c03a0002ec7df61fd57309697016
 TVBS,p3p://108.181.32.169:33519/675ecef8000222e1a4520f4a66371646
@@ -584,7 +584,7 @@ Celestial Movis,p3p://167.114.175.6:55331/6456adca0007295c83ceac8d42767576
 卫视体育,p3p://167.114.175.6:55331/6567988e0000e3a1addebb21084a3ba9
 卫视体育 2,p3p://167.114.175.6:55331/656b06be00029e16bb452713093c6af9
 
-178直播,#genre#
+178直播(港台),#genre#
 无线翡翠台,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct3
 无线翡翠台,p3p://173.208.176.178:31809/653e4c02000ea0440c8c63fd3e5d709d
 无线新闻台,p3p://173.208.176.178:31809/653e4818000b73240c7d19181340415e
