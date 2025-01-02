@@ -5,56 +5,6 @@
   "sites": [    
 
   {
-      "key":"源zl",
-      "name":"🌐┃疾风┃缘视 ",
-      "type":3,
-      "playerType":2,
-      "searchable":1,
-      "quickSearch":1,
-      "changeable":1,
-      "timeout":15,
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/dokilwss.jar;md5;145277452362fe4b1371e8968b414ed1",
-      "api":"csp_AppYsV2",
-      "ext":"https://www.tvkuys.xyz/api.php/app/"
-  },
-  {
-    "key": "xbpq_龙影视",
-    "name": "拾光☪龙影视(XBPQ)",
-    "type": 3,
-    "api": "csp_XBPQ",
-    "jar": "https://gh.llkk.cc/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/xmbjm.jar",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "changeable": 1,
-    "ext": {
-        "主页url": "http://103.242.3.90:565/",
-        "请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15",
-        "搜索url": "index.php/vod/search.html?wd={wd}",
-        "线路数组": "class=\"module-tab-item tab-item&&/div>",
-        "线路标题": "<span>&&</span>+[共+<small>&&</small>+集]",
-        "分类url": "/index.php/vod/show/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html;;ak",
-        "剧情": "[替换:伦理>>空]",
-        "分类": "电影$1#剧集$2#综艺$5#动漫$3#短剧$4#十八禁$6"
-    }
-},
-{
-  "key": "狂唐人",
-  "name": "拾光☪狂人(XBPQ)",
-  "type": 3,
-  "api": "csp_XBPQ",
-  "jar": "https://gh.llkk.cc/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/xmbjm.jar",
-  "searchable": 1,
-  "quickSearch": 1,
-  "filterable": 1,
-  "ext": {
-      "主页url": "https://www.trjvod.com/index.php/vod/type/id/1.html",
-      "分类url": "https://www.trjvod.com/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
-      "分类": "电影$1#连续剧$2#动漫$4#综艺$3#体育$59#短剧$53",
-      "类型": "动作片$6#喜剧片$7#爱情片$8#科幻片$9#恐怖片$10#剧情片$11#奇幻片$30#战争片$12#犯罪片$54#动漫电影$55||国产剧$13#港台剧$14#日韩剧$15#欧美剧$16#海外剧$31#纪录片$20||空||空||空||空"
-  }
-},
-  {
       "key": "豆瓣",
       "name": "🇹🇼【本檔案純學術研究使用，請勿散播及進行營利行為，如有侵權請立即告知下架】🇹🇼",
       "type": 3,
@@ -1481,6 +1431,27 @@
         "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/韓迷TV.json"
     },
     {
+        "key": "xbpq_龙影视",
+        "name": "🎥｜龙影视",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://gh.llkk.cc/https://raw.githubusercontent.com/gggwang/gggdeng/master/JAR/xmbjm.jar",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "changeable": 1,
+        "ext": {
+            "主页url": "http://103.242.3.90:565/",
+            "请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15",
+            "搜索url": "index.php/vod/search.html?wd={wd}",
+            "线路数组": "class=\"module-tab-item tab-item&&/div>",
+            "线路标题": "<span>&&</span>+[共+<small>&&</small>+集]",
+            "分类url": "/index.php/vod/show/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html;;ak",
+            "剧情": "[替换:伦理>>空]",
+            "分类": "电影$1#剧集$2#综艺$5#动漫$3#短剧$4#十八禁$6"
+        }
+    },
+    {
       "key": "CSP_青檸影视",
       "name": "🎥｜青檸",
       "type": 3,
@@ -2176,20 +2147,6 @@
             "分类url":"https://www.flixflop.com/explore/{cateId}?page={catePg}&year={year}&sort=recently_updated",
             "分类": "電視劇$151438147794763777#電影$151438147786375168#動漫$151438147807346690#綜藝$151438147807346691#體育$151438147807346693#短劇$331153971999670710"
             }
-    },
-    {
-      "key": "csp_唐人影视",
-      "name": "🎥｜唐人",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "分类url": "https://www.trjvod.com/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
-        "分类": "电影$1#连续剧$2#动漫$4#综艺$3#体育$59#短剧$53"
-      }
     },
     {
       "key": "csp_神马影视",
@@ -7604,7 +7561,19 @@
       "filterable": 1,
       "ext": "https://www.heli888.cc/api.php/app/"
     },
-
+    {
+        "key":"csp_AppYsV2_疾风",
+        "name":"🎥｜疾风｜缘视 ",
+        "type":3,
+        "api":"csp_AppYsV2",
+        "playerType":2,
+        "searchable":1,
+        "quickSearch":1,
+        "changeable":1,
+        "timeout":15,
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/dokilwss.jar;md5;145277452362fe4b1371e8968b414ed1",
+        "ext":"https://www.tvkuys.xyz/api.php/app/"
+    },
     //雜項規則_分類專區
     {
       "key": "zxzj",
