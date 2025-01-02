@@ -77,7 +77,7 @@
     },
     {
       "key": "py_hitv.py",
-      "name": "⏭｜hitv_Emby｜PYTHON",
+      "name": "⏭｜Hitv_Emby｜PYTHON",
       "type": 3,
       "api": "https://git.acwing.com/ocean2025/ocean/-/raw/main/py/py_hitv.py",
       "searchable": 1,
@@ -96,23 +96,6 @@
         "server": "http://san.creativeinfo.org:8096",
         "username": "san",
         "password": "san123",
-        "thread": 0,
-        "proxy": ""
-      },
-      "changeable": 1
-    },
-    {
-      "key": "ISO_emby",
-      "name": "⏭｜ISO_Emby｜PYTHON",
-      "type": 3,
-      "api": "https://gh.llkk.cc/https://raw.githubusercontent.com/boly4189/tv1/refs/heads/master/py/py_emby.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "server": "http://iso.creativeinfo.org:8096",
-        "username": "itest",
-        "password": "itest123",
         "thread": 0,
         "proxy": ""
       },
