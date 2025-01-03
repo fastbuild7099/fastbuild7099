@@ -12,17 +12,37 @@
     "api": "csp_XBPQ",
     "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
     "ext": {
-            //"简介": "<p>◎影片简介:</p>&&</div>",
+            "请求头": "User-Agent$MOBILE_UA",
+            "编码": "UTF-8",
+            "主页url": "https://hlove.tv/",
+            //"数组": "<li>&&</li>",
+            "标题": "title=\"&&\"",
+            "图片": "src=\"&&\"",
+            "链接": "href=\"&&\"",
+            "简介": "简介:&&</div>",
+            //"播放数组": "<div class=\"playlist\">&&</div>",
+            //"播放列表": "<li&&</li>",
+            //"播放链接": "href=\"&&\"",
+            //"播放标题": "title=\"&&\"",
+            //"线路二次截取": "class=\"description\"&&class=\"list mb\"",
+            //"线路数组": "class=\"box p15\"&&class=\"t_line\"",
+            //"线路标题": "<h5&&</h5>",
+            "搜索模式": "1",
+            "搜索url": "https://hlove.tv/search?word={wd}",
+            //"搜索数组": "<li>&&</li>",
+            //"搜索标题": "title=\"&&\"",
+            //"搜索图片": "alt=\"&&\"",
+            //"跳转播放链接": "urlDecode(ar now=unescape(\"&&\"))",    
             "分类url": "https://hlove.tv/{cateId}/{year}/{class}/{area}",
-            "分类": "全部$all#电影$Movie#电视剧$drama#综艺$variety#动漫$animation#兒童$children",
-            "剧情":"全部$all#剧情$juqing#喜剧$xiju#惊悚$jingsong#动作$dongzuo#爱情$aiqing#犯罪$fanzui#恐怖$kongbu#冒險$maoxian#懸疑$xuanyi奇幻$qihuan#科幻$kehuan#家庭$jiating#历史$#lishi动画$donghua#战争$zhanzheng#音乐$yinle#动漫$dongman#电视电影$dianshidianying#西部$xibu#网络电影$wangluodianying#同性$tongxing#歌舞$gewu#动作冒险$dongzuomaoxian#灾难$zainan||国产剧$guochanju#欧美剧$oumeiju#香港剧$hongkongju#韩国剧$hanguoju#台湾剧$taiwanju#日本剧$ribengju#泰国剧$taiguoju#海外剧$haiwaiju#微短剧$duanju||大陆综艺$daluzongyi||#香港综艺$hongkongzongyi#台湾综艺$taiwanzongyi#日韩综艺$rihanzongyi#欧美综艺$oumeizongyi#其他综艺$qitazongyi||日本动漫$ribendongman#国产动漫$guochandonghua#欧美动漫$oumeidongman#韩国动漫$hanguodongman#其他动漫$qitadongman||空||大陆$yanchanghui#港台$MV#日韩$KTV#欧美$bangjiangli",
-            "地区": "全部$all#大陆$cn#美国$us#韩国$kr#香港$hk#台湾$tw#日本$jp#英国$gb#泰国$th#西班牙$sp#加拿大$ca#法国$fr#印度$in#澳大利亞$au#其他$others"
+            "分类": "电影$movie#电视剧$drama#综艺$variety#动漫$animation#兒童$children",
+            "剧情":"全部$all#剧情$juqing#喜剧$xiju#惊悚$jingsong#动作$dongzuo#爱情$aiqing#犯罪$fanzui#恐怖$kongbu#冒險$maoxian#懸疑$xuanyi#奇幻$qihuan#科幻$kehuan#家庭$jiating#历史$lishi#动画$donghua#战争$zhanzheng#音乐$yinle#动漫$dongman#电视电影$dianshidianying#西部$xibu#网络电影$wangluodianying#同性$tongxing#歌舞$gewu#动作冒险$dongzuomaoxian#灾难$zainan||全部$all#韩剧$hanju#港台剧$gangtaiju#欧美剧$oumeiju#英剧$yingju#新马泰$xinmatai#剧情$juqing#古装$guzhuang#商战$shangzhan#武侠$wuxia#奇幻$qihuan#科幻$kehuan#青春$qingchun#玄幻$xuanhuan#言情$yanqing#穿越$chuanyue#喜剧$xiju#悬疑$xuanyi#犯罪$fanzui#科幻及奇幻$kehuan#动作及冒险$dongzuomaoxian#家庭$jiating#战争$zhanzhengzhengzhi#爱情$aiqing#肥皂剧$feizaoju#同性$tongxing$#西部$xibu#儿童$ertong#惊悚$jingsong#动作$dongzuo#真人秀$zhenrenxiu#罪案$zuian#动画$donghua#脱口秀$tuokouxiu#都市$doushi#历史$lishi#新闻$xinwen#歌舞$gewu#警匪$jingfei#音乐剧$yinleju#军旅$junlv#纪录$jilu#短剧$duanju||全部$all#真人秀$zhenrenxiu#喜剧$xiju#脱口秀$tuokouxiu#家庭$jiating#剧情$juqing#动作冒险$dongzuomaoxian#悬疑$xuanyi#犯罪$fanzui#儿童$ertong#音乐$yinle#晚会$wanhui#纪录$jilu#纪录片$jilupian||全部$all#动画$donghua#科幻跟奇幻$kehuanqihuan#喜剧$xiju#动作冒险$dongzuomaoxian#剧情$juqing#悬疑$xuanyi#魔幻$mohuan#热血$rexue#家庭$jiating#犯罪$fanzui#冒险$maoxian#战争政治$zhanzheng#剧场版$juchangban#科幻$kehuan#爆笑$baoxiao#恋爱$lianai#竞技$jingji#校园$xiaoyuan#少女$shaonv#泡面$paomian#儿童$ertong#爱情$aiqing#西部$xibu#穿越$chuanyue#格斗$gedou#治愈$zhiyu#机战$jizhan#推理$tuili#耽美$danmei#其它$qita||全部$all#儿童$ertong#动画$donghua#动作冒险$dongzuomaoxian#喜剧$xiju#科幻及奇幻$kehuanqihuan#家庭$jiating#剧情$juqing#悬疑$xuanyi#冒险$maoxian#犯罪$fanzui#科幻$kehuan#动作$dongzuo#动漫$dongman#奇幻$qihuan",
+            "地区": "全部$all#大陆$cn#美国$us#韩国$kr#香港$hk#台湾$tw#日本$jp#英国$gb#泰国$th#西班牙$sp#加拿大$ca#法国$fr#印度$in#澳大利亞$au#其他$others",
+            "年份":"all&2025&2024&2023&2022&2021&2020&2010&2000&1990&1980&1970"
            }
   },
 
 
 
-  https://hlove.tv/drama/2024/juqing/cn
   {
       "key": "豆瓣",
       "name": "🇹🇼【本檔案純學術研究使用，請勿散播及進行營利行為，如有侵權請立即告知下架】🇹🇼",
