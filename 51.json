@@ -7,7 +7,10 @@
               {"name":"秘密花園(18+)","url": "https://18.svi-studio.com/get.php?username=875994180836&password=930699661147&type=m3u_plus&output=m3u8"},      
               {"name":"私密線路(18+)","playerType":2,"url":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/live/178.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei"}
             ],
-    "sites": [{
+
+
+    "sites": [
+        {
             "key": "麻豆",
             "name": "👊【本檔案純學術研究使用，請勿散播及進行營利行為，如有侵權請立即告知下架】👊",
             "type": 3,
@@ -40,6 +43,15 @@
             }
         },
         {
+            "key": "py_lav.py",
+            "name": "⏭｜LAV｜PYTHON",
+            "type": 3,
+            "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/py/lav.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
             "key": "TGYunPan18pan",
             "name": "TG|涩涩",
             "type": 3,
@@ -55,6 +67,18 @@
                 "channellist": "IPX_AV,pikpakziyuan,avpush,avgc5200,cctav,javdb91,zyfx_0315,ribenseyuge1,vn666hh,avab01,CosMM18,cilitu,SeseAnime,ppg1314,wwkxa,cgblgw,jingpina,tplrwq",
                 "danmu": false
             }
+        },
+        {
+            "key": "lf_js_p2p",
+            "name": "⏭路飞｜磁力搜索",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/lf_p2p2_min.js",
+            "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/pg.jar",
+            "ext": "18+"
         },
         {
             "key": "麻豆專區",
