@@ -1,6 +1,6 @@
 """
 
-作者 凯悦宾馆 🚓 内容均从互联网收集而来 仅供交流学习使用 版权归原创者所有 如侵犯了您的权益 请通知作者 将及时删除侵权内容
+作者 老王叔叔  內容均從互聯網收集而來 僅供交流學習使用 版權歸原創者所有 如侵犯了您的權益 請通知作者 將及時刪除侵權內容
                     ====================kaiyuebinguan====================
 
 """
@@ -249,7 +249,7 @@ class Spider(Spider):
         name = self.extract_middle_text(code, "s1='", "'", 0)
         Jumps = self.extract_middle_text(code, "s2='", "'", 0)
 
-        content = '请不要相信任何广告！！！祝您观影愉快！🐰兔爷🐇为您介绍剧情👉-' + self.extract_middle_text(res,'<div class="yp_context">','</p>', 0)
+        content = self.extract_middle_text(res,'<div class="yp_context">','</p>', 0)
         content = content.replace('\t', '').replace('<p>', '').replace(' ', '').replace('\n', '')
 
         if name not in content:
@@ -445,6 +445,3 @@ if __name__ == '__main__':
     # res = spider_instance.searchContentPage('爱情', 'quick', '2')  # 搜索页🚨
 
     print(res)
-
-
-

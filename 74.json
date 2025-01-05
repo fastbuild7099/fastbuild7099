@@ -4,84 +4,9 @@
   "wallpaper": "https://picsum.photos/1080/",
   "sites": [    
 
-  {
-    "key": "py_白嫖.py",
-    "name": "⏭｜白嫖｜PYTHON",
-    "type": 3,
-    "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/py/白嫖.py",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1
-  },
-  {
-    "key": "py_bttwo.py",
-    "name": "⏭｜bttwo｜PYTHON",
-    "type": 3,
-    "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/py/bttwo.py",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1
-  },  
-  {
-    "key": "py_胖虎.py",
-    "name": "⏭｜胖虎｜PYTHON",
-    "type": 3,
-    "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/py/胖虎.py",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1
-  },  
-  {
-    "key": "py_素白白.py",
-    "name": "⏭｜素白白｜PYTHON",
-    "type": 3,
-    "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/py/素白白.py",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1
-  },  
-  {
-    "key": "py_lav.py",
-    "name": "⏭｜lav｜PYTHON",
-    "type": 3,
-    "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/py/lav.py",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1
-  },
-  {
-    "key": "py_t1.py",
-    "name": "⏭｜t1｜PYTHON",
-    "type": 3,
-    "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/py/t1.py",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1
-  },  {
-    "key": "py_live.py",
-    "name": "⏭｜live｜PYTHON",
-    "type": 3,
-    "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/py/live.py",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1
-  },  {
-    "key": "py_live_new.py",
-    "name": "⏭｜live_new｜PYTHON",
-    "type": 3,
-    "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/py/live_new.py",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1
-  },  {
-    "key": "py_emby_new.py",
-    "name": "⏭｜emby_new｜PYTHON",
-    "type": 3,
-    "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/py/emby_new.py",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1
-  },
+
+
+
 
 
 
@@ -175,44 +100,6 @@
       }
      }
     },
-      {
-        "key": "hitv",
-        "name": "⏭｜Hi影視",
-        "type": 3,
-        "searchable": 1,
-        "changeable": 1,
-        "quickSearch":0,
-        "style": {
-          "type": "rect",
-          "ratio": 0.71
-        },
-        "api": "csp_GM",
-        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/GM.jar;md5;3e59c9c3c50ea1d4609cec9dbee730c3",
-        "ext": {
-          "userScript": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/hitv.user.js",
-          "debug": false,
-          "webViewSettings": {
-            "blockNetworkImage": true,
-            "blockList": [
-              "https://*.google-analytics.com/*"
-            ]
-          },
-          "spider": {
-            "homeContent": {
-              "loadUrl": "https://www.upfuhn.com/column/0.html"
-            },
-            "categoryContent": {
-              "loadUrl": "https://www.upfuhn.com/column/${tid}.html"
-            },
-            "detailContent": {
-              "loadUrl": "https://www.upfuhn.com/play/${id}.html"
-            },
-            "searchContent": {
-              "loadUrl": "https://www.upfuhn.com/search/${key}.html"
-            }
-          }
-        }
-      },
     {
       "key": "csp_视觉",
       "name": "⏭｜视觉｜PYTHON",
@@ -277,6 +164,53 @@
       "quickSearch": 0,
       "changeable": 0
     },
+    {
+        "key": "hitv",
+        "name": "⏭｜Hi影視",
+        "type": 3,
+        "searchable": 1,
+        "changeable": 1,
+        "quickSearch":0,
+        "style": {
+          "type": "rect",
+          "ratio": 0.71
+        },
+        "api": "csp_GM",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/GM.jar;md5;3e59c9c3c50ea1d4609cec9dbee730c3",
+        "ext": {
+          "userScript": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/hitv.user.js",
+          "debug": false,
+          "webViewSettings": {
+            "blockNetworkImage": true,
+            "blockList": [
+              "https://*.google-analytics.com/*"
+            ]
+          },
+          "spider": {
+            "homeContent": {
+              "loadUrl": "https://www.upfuhn.com/column/0.html"
+            },
+            "categoryContent": {
+              "loadUrl": "https://www.upfuhn.com/column/${tid}.html"
+            },
+            "detailContent": {
+              "loadUrl": "https://www.upfuhn.com/play/${id}.html"
+            },
+            "searchContent": {
+              "loadUrl": "https://www.upfuhn.com/search/${key}.html"
+            }
+          }
+        }
+      },
+    {
+        "key": "py_素白白.py",
+        "name": "⏭｜素白白｜PYTHON",
+        "type": 3,
+        "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/py/素白白.py",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1
+    },  
     {
       "key": "nyys",
       "name": "🥇｜纽约影院",
