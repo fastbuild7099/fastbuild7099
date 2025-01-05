@@ -8830,7 +8830,6 @@
             {"name": "niu","type": 1,"url": "http://122.228.84.103:7777/api/?key=4Dk5tdayvY6NZufEMG&url="},
             {"name": "云仓","url": "http://43.242.202.173:3636/json.php/?key=182750826&url=","flag": [  "LXTX"],"header": {  "User-Agent": "Dalvik/2.1.0"},"type": "1"},
             {"name": "KK","type": 1,"url": "http://112.74.124.75:8899/jiexi/api.php?url="},
-            {"name": "優質解析(免費有限)","type": 1,"url": "https://jxjson.icu/neibu.php?url=","ext": {    "flag": [        "qq",        "腾讯",        "腾 讯",        "qiyi",        "爱奇艺",        "爱 奇 艺",         "奇艺",        "youku",        "优酷",        "优 酷",        "mgtv",        "芒果",        "芒 果T V",        "imgo",        "letv",        "乐视",        "乐 视",        "咪 咕 视 频",        "pptv",        "PPTV",        "C N T V",        "sohu",        "bilibili",        "哔哩哔哩",        "哔 哩 哔 哩",        "哔哩"    ],    "header": {        "User-Agent": "okhttp/4.9.1"    }}  }
 
         ],
   "rules": [
