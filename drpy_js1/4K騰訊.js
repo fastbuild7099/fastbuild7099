@@ -85,7 +85,7 @@ var rule = {
                 let vid = video_lists[0];
                 url = "https://v.qq.com/x/cover/" + cid + "/" + vid + ".html";
                 d.push({
-                    title: "公众号:林中的小屋",
+                    title: "老王帶你飛",
                     url: url
                 })
             } else if (video_lists.length > 1) {
@@ -116,7 +116,7 @@ var rule = {
         let zp = d.filter(function (it) {
             return !(it.type && it.type !== "正片")
         });
-        VOD.vod_play_from = yg.length < 1 ? "公众号:林中的小屋" : "公众号:林中的小屋$$$公众号:林中的小屋预告";
+        VOD.vod_play_from = yg.length < 1 ? "老王帶你飛" : "老王帶你飛$$$预告";
         VOD.vod_play_url = yg.length < 1 ? d.map(function (it) {
             return it.title + "$" + it.url
         }).join("#") : [zp, yg].map(function (it) {
