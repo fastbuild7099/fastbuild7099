@@ -219,19 +219,15 @@
             }
         },
         {
-            "key": "csp_XBPQ_24HJAV",
+            "key": "csp_XYQHiker_24HJAV",
             "name": "🔞24HJAV(點選點播才有東西)",
             "type": 3,
-            "api": "csp_XBPQ",
+            "api": "csp_XYQHiker",
+            "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": 
-            {
-            "分类链接": "https://24hjav.com/{cateId}?pageid={catePg}",
-            "分类名称": "最新&本日熱門&有码&无码&中文字幕&FC2&其他",
-            "分类名称替换词": "videos/latest&videos/trending&videos/category/676&uncensored/677&videos/category/679&videos/category/680&videos/category/other"
-            },
+            "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/24hjav.json",
             "style": {
                 "type": "rect",
                 "ratio": 1.6
@@ -1142,7 +1138,7 @@
         },
         {
             "key": "乐播",
-            "name": "️🔞乐播采集(點選點播才有東西)",
+            "name": "️🔞乐播采集",
             "type": 1,
             "api": "https://lbapi9.com/api.php/provide/vod/",
             "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/pg.jar",
@@ -3386,7 +3382,7 @@
         },
         {
             "key": "色弟弟",
-            "name": "🔞弟弟(點選點播才有東西)",
+            "name": "🔞弟弟",
             "type": 3,
             "api": "csp_XBPQ",
             "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
