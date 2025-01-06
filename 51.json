@@ -219,17 +219,6 @@
             }
         },
         {
-            "key": "csp_24HJAV",
-            "name": "🔞24HJAV(點選點播才有東西)",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "https://24hjav.com"
-        },
-        {
             "key": "csp_XYQHiker_javtsunami",
             "name": "🔞javtsunami",
             "type": 3,
