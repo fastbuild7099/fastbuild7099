@@ -3,7 +3,6 @@
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://picsum.photos/1080/",
   "sites": [    
-    {"key":"采集之王","name":"💖分享采合","type":3,"api":"https://ghproxy.cn/https://raw.githubusercontent.com/maoystv/000/master/js/drpy2.min.js","searchable":1,"quickSearch":1,"ext":"https://git.acwing.com/YGFXZ/0/-/raw/main/采集之王_合_.js?type=url&params=https://git.acwing.com/YGFXZ/0/-/raw/main/采集静态.json"},
   {
       "key": "豆瓣",
       "name": "🇹🇼【本檔案純學術研究使用，請勿散播及進行營利行為，如有侵權請立即告知下架】🇹🇼",
@@ -8790,6 +8789,7 @@
       "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/优酷[官].js"
     },
+    {"key":"采集之王","name":"🧲｜採集大合集","type":3,"api":"https://ghproxy.cn/https://raw.githubusercontent.com/maoystv/000/master/js/drpy2.min.js","searchable":1,"quickSearch":1,"ext":"https://git.acwing.com/YGFXZ/0/-/raw/main/采集之王_合_.js?type=url&params=https://git.acwing.com/YGFXZ/0/-/raw/main/采集静态.json"},
     {"key":"vod_海外","name":"🧲｜海外","type":1,"api":"https://hw8.live/api.php/provide/vod/","searchable":1,"quickSearch":1},
     {"key":"vod_华为","name":"🧲｜華為","type":1,"api":"http://nikanba.live/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1},
     {"key":"csp_華為吧","name": "🧲｜華為吧","type": 1,"api": "https://cjhwba.com/api.php/provide/vod/?ac=list","jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/panda1123.jar;md5;d9004aa2e16f60b04baed361713fb710","searchable": 1,"quickSearch": 1,"filterable": 1},
