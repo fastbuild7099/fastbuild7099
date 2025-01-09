@@ -205,8 +205,8 @@
             }
         },
         {
-            "key": "csp_XYQHiker_javmunu",
-            "name": "🔞JAVMUNU(點選點播才有東西)",
+            "key": "csp_XYQHiker_javmenu",
+            "name": "🔞JAVMENU(點選點播才有東西)",
             "type": 3,
             "api": "csp_XYQHiker",
             "searchable": 1,
