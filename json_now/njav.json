@@ -7,7 +7,7 @@
    "图片是否需要代理":"0",
    "是否开启获取首页数据":"1",
   //首页推荐数据获取链接
-   "首页推荐链接": "https://123av.com/zh/dm1",
+   "首页推荐链接": "https://123av.com/zh/dm2",
    //首页推荐列表数组截取。
    "首页列表数组规则": ".box-item-list",
    //首页推荐片单列表数组定位。
@@ -29,7 +29,7 @@
    "首页片单链接加后缀": "",
    "分类起始页码": "1",
    //"分类链接": "https://www.l0l.tv/index.php/vod/show/id/{cateId}/page/{catePg}.html",
- "分类链接": "https://123av.com/zh/{cateId}?page={catePg}",
+   "分类链接": "https://123av.com/zh/{cateId}?page={catePg}",
    "分类名称": "JAV&业余&未经审查&",
    "分类名称替换词": "censored&tags/siro&uncensored&",
    //"筛选数据":{},
@@ -86,44 +86,49 @@
 "censored":[
  {"key":"cateId","name":"分类","value":[
 
-{"v":"censored","n":"审查"},
-{"v":"recent-update","n":"最近更新"},
-{"v":"new-release","n":"新发布"},
-{"v":"uncensored","n":"未审查"},
-{"v":"trending","n":"热门"},
-{"v":"recommended","n":"推荐的"},
-{"v":"vr","n":"VR"},
-{"v":"today-hot","n":"今天最好的"},
-{"v":"weekly-hot","n":"本周最好的"},
-{"v":"monthly-hot","n":"本月最好的"}
+{"v":"dm1/censored","n":"审查"},
+{"v":"dm1/dm1/recent-update","n":"最近更新"},
+{"v":"dm1/new-release","n":"新发布"},
+{"v":"dm1/uncensored","n":"未审查"},
+{"v":"dm1/uncensored-leaked","n":"洩漏未审查"},
+{"v":"actresses","n":"女演員"},
+{"v":"dm1/trending","n":"热门"},
+{"v":"dm1/recommended","n":"推荐的"},
+{"v":"dm1/vr","n":"VR"},
+{"v":"dm1/today-hot","n":"今天最好的"},
+{"v":"dm1/weekly-hot","n":"本周最好的"},
+{"v":"dm1/monthly-hot","n":"本月最好的"}
 ]
 }],
 "tags/siro":[
  {"key":"cateId","name":"分类","value":[
-{"v":"tags/siro","n":"SIRO"},
-{"v":"tags/259luxu","n":"LUXU"},
-{"v":"tags/200gana","n":"200GANA"},
-{"v":"tags/prestige-premium","n":"PRESTIGE PREMIUM"},
-{"v":"tags/s-cute","n":"S-CUTE"},
-{"v":"tags/261ara","n":"ARA"}
+{"v":"dm1/tags/siro","n":"SIRO"},
+{"v":"dm1/tags/259luxu","n":"LUXU"},
+{"v":"dm1/tags/200gana","n":"200GANA"},
+{"v":"dm1/tags/prestige-premium","n":"PRESTIGE PREMIUM"},
+{"v":"dm1/tags/230oreco","n":"oreco"},
+{"v":"dm1/tags/390jac","n":"jac"},
+{"v":"dm1/tags/328hmdn","n":"hmdn"},
+{"v":"dm1/tags/s-cute","n":"S-CUTE"},
+{"v":"dm1/tags/261ara","n":"ARA"}
 ]}],
 "uncensored":[
  {"key":"cateId","name":"分类","value":[
 
-{"v":"uncensored-leaked","n":"泄露未审查"},
-{"v":"tags/fc2","n":"FC2"},
-{"v":"tags/heyzo","n":"HEYZO"},
-{"v":"tags/tokyo-hot","n":"Tokyo-Hot"},
-{"v":"tags/1pondo","n":"1pondo"},
-{"v":"tags/caribbeancom","n":"Caribbeancom"},
-{"v":"tags/caribbeancompr","n":"Caribbeancompr"},
-{"v":"tags/10musume","n":"10musume"},
-{"v":"tags/pacopacomama","n":"pacopacomama"},
-{"v":"tags/gachig","n":"Gachinco"},
-{"v":"tags/xxx-av","n":"XXX-AV"},
-{"v":"tags/c0930","n":"C0930"},
-{"v":"tags/h4610","n":"H4610"},
-{"v":"tags/h0930","n":"H0930"}
+{"v":"dm1/uncensored-leaked","n":"泄露未审查"},
+{"v":"dm1/tags/fc2","n":"FC2"},
+{"v":"dm2/tags/heyzo","n":"HEYZO"},
+{"v":"dm1/tags/tokyo-hot","n":"Tokyo-Hot"},
+{"v":"dm16/tags/1pondo","n":"1pondo"},
+{"v":"dm18/tags/caribbeancom","n":"Caribbeancom"},
+{"v":"dm4/tags/caribbeancompr","n":"Caribbeancompr"},
+{"v":"dm20/tags/10musume","n":"10musume"},
+{"v":"dm1/tags/pacopacomama","n":"pacopacomama"},
+{"v":"dm1/dm1/tags/gachig","n":"Gachinco"},
+{"v":"dm1/tags/xxx-av","n":"XXX-AV"},
+{"v":"dm1/tags/c0930","n":"C0930"},
+{"v":"dm1/tags/h4610","n":"H4610"},
+{"v":"dm1/tags/h0930","n":"H0930"}
 ]}],
 
 
