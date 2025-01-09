@@ -12,7 +12,7 @@
     "sites": [
         {
             "key": "麻豆",
-            "name": "👊【本檔案純學術研究使用，請勿散播及進行營利行為，如有侵權請立即告知下架】👊",
+            "name": "👊【純學術研究使用，請勿散播及進行營利行為，如有侵權請立即告知下架】👊",
             "type": 3,
             "changeable": 1,
             "filterable": 1,
@@ -81,6 +81,14 @@
             "ext": "18+"
         },
         {
+            "key": "avdb",
+            "name": "🔞avdb｜張老闆",
+            "type": 4,
+            "api": "http://zhangqun1818.serv00.net/229.php",
+            "searchable": 0,
+            "changeable": 0
+        },
+        {
             "key": "麻豆專區",
             "name": "↓↓↓【JAV專區】↓↓↓"
         },
@@ -100,7 +108,7 @@
         },
         {
             "key": "csp_XYQHiker_njav.com",
-            "name": "🔞Njav.com",
+            "name": "🔞Njav.com(極優，要點到最細項才有東西)",
             "type": 3,
             "api": "csp_XYQHiker",
             "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar",
@@ -204,20 +212,7 @@
                 "ratio": 1.6
             }
         },
-        {
-            "key": "csp_XYQHiker_javmunu",
-            "name": "🔞JAVMUNU(點選點播才有東西)",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/javmunu.json",
-            "style": {
-                "type": "rect",
-                "ratio": 1.6
-            }
-        },
+
         {
             "key": "csp_XYQHiker_javtsunami",
             "name": "🔞javtsunami",
@@ -640,16 +635,9 @@
                 "ratio": 1.6
             }
         },
-        {
-            "key":"drpyS_伊甸园[密]",
-            "name":"🔞伊甸园",
-            "type":4,
-            "api":"http://drpys.aera.eu.org/api/伊甸园[密]",
-            "searchable":1,
-            "filterable":0,
-            "quickSearch":0,
-            "ext":""
-        },
+        {"key":"drpyS_采王成人[密]","name":"采王成人[密](DS)","type":4,"api":"https://drpys.aera.eu.org/api/采集之王[合]?pwd=18","searchable":1,"filterable":1,"quickSearch":0,"ext":"H4sIAAAAAAAAA9PT088qzs/Tf9ne/nJ2W/TT9W2xL+fOfNbQqAcSVjFUAQAd5YgpIQAAAA=="},
+        {"key":"drpyS_采王道长[合]","name":"采王道长[合](DS)","type":4,"api":"https://drpys.aera.eu.org/api/采集之王[合]?pwd=18","searchable":1,"filterable":1,"quickSearch":0,"ext":"H4sIAAAAAAAAA9PT088qzs/Tf9ne/nJ228u5M581NOqBRFQMAcGPDNobAAAA"},
+        {"key":"drpyS_采王zy[密]","name":"采王zy[密](DS)","type":4,"api":"https://drpys.aera.eu.org/api/采集之王[合]?pwd=18","searchable":1,"filterable":1,"quickSearch":0,"ext":"H4sIAAAAAAAAA9PT088qzs/Tf9ne/nJ2W3RVZezLuTOfNTTqgURVDAGu/MCKHwAAAA=="},
         {
             "key":"drpyS_xvideos[密]",
             "name":"🔞xvideos1",
@@ -932,7 +920,7 @@
         },
         {
             "key": "csp_XYQHiker_pornhub",
-            "name": "🔞pornhub",
+            "name": "🔞伊甸園(pornhub)",
             "type": 3,
             "api": "csp_XYQHiker",
             "searchable": 1,
@@ -1291,17 +1279,6 @@
             }
         },
         {
-            "key": "hipy_js_avtoda",
-            "name": "🔞avtoday",
-            "type": 3,
-            "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "order_num": 0,
-            "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/avtoda.js"
-        },
-        {
             "key": "草溜资源",
             "name": "🔞草溜资源",
             "type": 1,
@@ -1568,20 +1545,6 @@
             "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/奶很大.json"
         },
         {
-            "key": "csp_XBPQ_流水",
-            "name": "🔞流水(點選點播才有東西)",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar",
-            "filterable": 1,
-            "ext": {
-                "分类url": "https://1fls.lll3001.lol/高山流水/index.php/vod/type/id/{cateId}/page/{catePg}.html",
-                "直接播放": "1",
-                "图片": "data-original=\"&&\"",
-                "分类": "日韩无码$9#中文字幕$10#强奸乱伦$13#三级伦理$17#传媒剧情$7"
-            }
-        },
-        {
             "key": "hav6.beauty",
             "name": "🔞黄AV",
             "type": 0,
@@ -1708,7 +1671,7 @@
             }
         },
         {
-            "key": "av.gl",
+            "key": "avgle",
             "name": "🔞AV.GL",
             "type": 3,
             "changeable": 1,
@@ -1736,16 +1699,6 @@
             "api": "http://zhangqun66.com/228.php",
             "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/fm.jar",
             "searchable": 1,
-            "changeable": 0
-        },
-        {
-            "key": "py_BadNews",
-            "name": "🔞壞壞惹人愛",
-            "type": 4,
-            "api": "https://py.doube.eu.org/spider?site=BadNews",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
             "changeable": 0
         },
         {
@@ -2328,39 +2281,6 @@
             }
         },
         {
-            "key": "AVso",
-            "name": "🔞AVso",
-            "type": 3,
-            "changeable": 1,
-            "filterable": 1,
-            "playerType": 2,
-            "api": "csp_XBPQ",
-            "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar",
-            "style": {
-                "type": "rect",
-                "ratio": 1.485
-            },
-            "ext": {
-                "语言": "中文",
-                "请求头": "手机",
-                "地址发布页": "",
-                "主页url": "https://gpk.avso26.icu/",
-                "标题": "title=\"&&\"",
-                "副标题": "class=\"video-hd-mark\">&&</span>",
-                "图片": "data-src=\"&&\"",
-                "简介": "name=\"description\" content=\"&&\"/>",
-                "数组": "class=\"thumb\"&&class=\"metadata\">&&</div>",
-                "免嗅": "1",
-                "嗅探词": ".m3u8",
-                "跳转播放链接": "url\":\"&&\"",
-                "分类数组": "<li&&</li>",
-                "分类标题": ">&&</a>",
-                "分类ID": "href=\"/?k=&&&top\"",
-                "分类url": "https://gpk.avso26.icu/?k={cateId}&p={catePg}",
-                "直接播放": "1"
-            }
-        },
-        {
             "key": "csp_XYQHiker_bongacams直播",
             "name": "🔞bongacams直播(點選點播才有東西)",
             "type": 3,
@@ -2572,21 +2492,6 @@
             "ext": "https://raw.githubusercontent.com/guot55/yg/main/lib/夜夜新郎.json"
         },
         {
-            "key": "csp_XBPQ_大愛",
-            "name": "🔞大愛",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar",
-            "filterable": 1,
-            "ext": {
-                "分类url": "https://hzd.daai1.buzz/index.php/vod/type/id/{cateId}/page/{catePg}.html",
-                "直接播放": "1",
-                "图片": "data-original=\"&&\"",
-                "分类": "国产自拍&主播诱惑&探花约炮&偷拍偷窥&网曝吃瓜&抖阴短片&传媒剧情&日韩主播&日韩无码&中文字幕&AV解说&换脸明星&强奸乱伦&女优明星&欧美激情&重口激情&三级伦理&剧情动漫&SM调教&女同性恋&VR视角",
-                "分类值": "1&2&3&4&5&6&7&8&9&10&11&12&13&14&15&16&17&18&19&20&21&"
-            }
-        },
-        {
             "key": "csp_XBPQ_癢癢",
             "name": "🔞癢癢",
             "type": 3,
@@ -2621,15 +2526,6 @@
             "filterable": 1,
             "order_num": 0,
             "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/一点视频[密].js"
-        },
-        {
-            "key": "hipy_js_小女18[密]",
-            "name": "🔞小女18",
-            "type": 3,
-            "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
-            "filterable": 1,
-            "order_num": 0,
-            "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/小女18[密].js"
         },
         {
             "key": "hipy_js_爱爱影院[密]",
