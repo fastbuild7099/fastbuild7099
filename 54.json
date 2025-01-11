@@ -30,8 +30,8 @@
             }
         },
         {
-            "key": "PG｜配置中心",
-            "name": "Youtube、網盤、彈幕配置",
+            "key": "PG配置",
+            "name": "PG｜配置中心",
             "type": 3,
             "api": "csp_Config",
             "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/pg.jar",
@@ -44,7 +44,7 @@
             }
         },
         {
-            "key": "ConfigCenter",
+            "key": "真心配置",
             "name": "真心｜配置中心",
             "type": 3,
             "api": "csp_ConfigCenter",
@@ -56,7 +56,7 @@
             }
         },
         {
-                  "key": "配置中心",
+                  "key": "潇洒配置",
                   "name":"潇洒｜配置中心",
                   "type": 3,
                   "api": "csp_Config",
@@ -70,7 +70,7 @@
                   }
         },
         {
-                  "key": "影视配置",
+                  "key": "牛二配置",
                   "name": "牛二｜配置中心",
                   "type": 3,
                   "api": "csp_Wexconfig",
@@ -83,16 +83,6 @@
                       "ratio": 1.597
                   }
         },
-        {
-        "key":"ok配置中心",
-        "name":"OK｜配置中心",
-        "type":3,"api":"csp_Config",
-        "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1735184818230/okpng.txt;md5;ec00437b88468d4c6ce1e8691a521cc8",
-        "searchable":0,
-        "changeable":0,
-        "indexs":0,
-        "style":{"type":"rect","ratio":1.43}
-        },      
         {
             "key": "py_lav.py",
             "name": "⏭｜LAV｜PYTHON",
@@ -160,6 +150,7 @@
             "name": "🔞JavBus(點選點播才有東西)",
             "type": 3,
             "api": "csp_JavBus",
+            "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/pg.jar",
             "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/tokenm.json$$$https://www.cdnbus.shop",
             "filterable": 1,
             "changeable": 0,
@@ -174,6 +165,7 @@
             "name": "🔞JavDb",
             "type": 3,
             "api": "csp_JavDb",
+            "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/pg.jar",
             "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/tokenm.json$$$1",
             "filterable": 1,
             "changeable": 0,
