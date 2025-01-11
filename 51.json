@@ -30,18 +30,69 @@
             }
         },
         {
-            "key": "网盘配置",
+            "key": "PG｜配置中心",
             "name": "Youtube、網盤、彈幕配置",
             "type": 3,
             "api": "csp_Config",
+            "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/pg.jar",
             "searchable": 0,
             "changeable": 0,
-            "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/tokenm.json",
+            "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/tokenm.json",
             "style": {
                 "type": "rect",
                 "ratio": 1.5
             }
         },
+        {
+            "key": "ConfigCenter",
+            "name": "真心｜配置中心",
+            "type": 3,
+            "api": "csp_ConfigCenter",
+            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/805598571/77/main/jar/custom_spider.jar",
+            "searchable": 0,
+            "changeable": 0,
+            "ext": {
+              "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json"
+            }
+        },
+        {
+                  "key": "配置中心",
+                  "name":"潇洒｜配置中心",
+                  "type": 3,
+                  "api": "csp_Config",
+                  "jar": "https://git.acwing.com/805598571/666/-/raw/main/jar/spider.jar;md5;6044e3ceb295d82028c72e4524bae5f5", 
+                  "searchable": 0,
+                  "changeable": 0,
+                  "indexs": 0,
+                  "style": {
+                      "type": "rect",
+                      "ratio": 1.597
+                  }
+        },
+        {
+                  "key": "影视配置",
+                  "name": "牛二｜配置中心",
+                  "type": 3,
+                  "api": "csp_Wexconfig",
+                  "jar": "https://git.acwing.com/805598571/666/-/raw/main/jar/wex.jar",
+                  "searchable": 0,
+                  "changeable": 0,
+                  "indexs": 0,
+                  "style": {
+                      "type": "rect",
+                      "ratio": 1.597
+                  },
+        },
+        {
+        "key":"ok配置中心",
+        "name":"OK｜配置中心",
+        "type":3,"api":"csp_Config",
+        "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1735184818230/okpng.txt;md5;ec00437b88468d4c6ce1e8691a521cc8",
+        "searchable":0,
+        "changeable":0,
+        "indexs":0,
+        "style":{"type":"rect","ratio":1.43}
+        },      
         {
             "key": "py_lav.py",
             "name": "⏭｜LAV｜PYTHON",
@@ -53,7 +104,7 @@
         },
         {
             "key": "TGYunPan18pan",
-            "name": "TG|涩涩",
+            "name": "TG｜涩涩",
             "type": 3,
             "api": "csp_TGYunPan",
             "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/pg.jar",
