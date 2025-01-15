@@ -3,7 +3,250 @@
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://picsum.photos/1080/",
   "sites": [    
-
+    {
+        "key": "九龙影视",
+        "name": "九龙｜APP",
+        "type": 3,
+        "api": "./json_new/py/九龙影视.py",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "searchable": 1,
+        "changeable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "playerType": 2
+      },
+      {
+        "key": "猎手影视",
+        "name": "猎手｜APP",
+        "type": 3,
+        "api": "./json_new/py/猎手影视.py",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "searchable": 1,
+        "changeable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "playerType": 2
+      },
+    {
+        "key": "糯米弹幕",
+        "name": "糯米｜弹幕",
+        "type": 3,
+        "api": "csp_Nmys",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": {
+            "danmu": true
+        }
+    },
+    {
+        "key": "文才弹幕",
+        "name": "文才｜弹幕",
+        "type": 3,
+        "api": "csp_Jpys",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": {
+            "danmu": true
+        }
+    },
+    {
+        "key": "星芽短剧",
+        "name": "星芽｜短剧",
+        "type": 3,
+        "api": "csp_AppXY",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "searchable": 1,
+        "quickSearch": 0,
+        "filterable": 0
+    },
+    {
+        "key": "吉吉短剧",
+        "name": "吉吉｜短剧",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "ext": "./new_json/XBPQ/吉吉短剧.json"
+    },
+    {
+        "key": "爱我短剧",
+        "name": "爱我｜短剧",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": "./new_json/XBPQ/爱我短剧.json"
+    },
+    {
+        "key": "短剧网",
+        "name": "短剧网｜短剧",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "ext": "./new_json/XBPQ/短剧网.json"
+    },
+    {
+        "key": "韩小圈",
+        "name": "韩小圈｜APP",
+        "type": 3,
+        "api": "csp_HanXiaoQuan",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1
+    },
+    {
+        "key": "酷影视",
+        "name": "酷影视｜APP",
+        "type": 3,
+        "api": "csp_AppYsV2",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": "https://www.tvkuys.xyz/api.php/app/"
+    },
+    {
+        "key": "皮皮虾",
+        "name": "皮皮虾｜APP",
+        "type": 3,
+        "api": "csp_AppYsV2",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": "http://www.ppxys.vip/api.php/app/"
+    },
+    {
+        "key": "HG影视",
+        "name": "HG影视｜APP",
+        "type": 3,
+        "api": "csp_AppYsV2",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": "https://cs.hgyx.vip/api2/api.php/app/"
+    },
+    {
+        "key": "木头",
+        "name": "木头｜App",
+        "type": 3,
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "api": "csp_Shark",
+        "playerType": 1,
+        "ext": "saHR0cDovL21pdG8ubWlub3R2LmNuL3xhYXNzZGR3d3h4bGxzeDF4fGJic3NxZGJic3NsbDI1c3g="
+    },
+    {
+        "key": "人人",
+        "name": "人人｜APP",
+        "type": 3,
+        "api": "csp_Xdai",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "playerType": 1,
+        "ext": "caHR0cHM6Ly9qaWVrb3UtMTMxNDA1NDY5OS5jb3MuYXAtY2hvbmdxaW5nLm15cWNsb3VkLmNvbS9qaWVrb3UudHh0fEY1MUY1RDUyRDIzQ0JGMjd8RjUxRjVENTJEMjNDQkYyN3wxOTE="
+    },
+    {
+        "key": "雨滴",
+        "name": "雨滴｜App",
+        "type": 3,
+        "api": "csp_Xdai",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "playerType": 1,
+        "ext": "jaHR0cDovL2M4dzJvdjd1NXdnMnoxbzhwMjFjLmFsaXl1bmNzLmNsaWNrfGs5bzNwMmM4YjdtM3owbzh8azlvM3AyYzhiN20zejBvOHwxMDA="
+    },
+    {
+        "key": "现代",
+        "name": "现代｜App",
+        "type": 3,
+        "api": "csp_Xdai",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "playerType": 1,
+        "ext": "caHR0cHM6Ly9hcHAuYnJvdm9kLmNvbXxzemRqd2RhcHB3Y25tZGhifHN6ZGp3ZGFwcHdjbm1kaGJ8MTE0"
+    },
+    {
+        "key": "优质",
+        "name": "优质｜App",
+        "type": 3,
+        "api": "csp_Xdai",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "playerType": 1,
+        "ext": "jaHR0cHM6Ly9hcGlhcHBkeXl6dHZ5eWRzcXdkeS42OC5neTo1Njg5fGR5eXp0dmFwaWFwcHl5ZHN8ZHl5enR2YXBpYXBweXlkc3wxMDA="
+    },
+    {
+        "key": "蝴蝶",
+        "name": "蝴蝶｜App",
+        "type": 3,
+        "api": "csp_Hudie",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "playerType": 2,
+        "ext": "eaHR0cHM6Ly9kLmRjbW92aWUudG9w"
+    },
+    {
+        "key": "快看",
+        "name": "快看｜APP",
+        "type": 3,
+        "api": "csp_AppYsV2",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "changeable": 1,
+        "ext": "http://kkwk123.top/api.php/app/"
+    },
+    {
+        "key": "洽洽影视",
+        "name": "洽洽｜APP",
+        "type": 3,
+        "api": "csp_AppGZ",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1
+    },
+    {
+        "key": "忍者影视",
+        "name": "忍者｜APP",
+        "type": 3,
+        "api": "csp_AppRZ",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1
+    },
+    {
+        "key": "饺子影视",
+        "name": "饺子｜影视",
+        "type": 3,
+        "api": "csp_Jiaozi",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1
+    },
+    {
+        "key": "立播弹幕",
+        "name": "立播｜弹幕",
+        "type": 3,
+        "api": "csp_Libvio",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "searchable": 1,
+        "filterable": 1,
+        "changeable": 1,
+        "ext": {
+            "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+            "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+            "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+            "site": "https://www.libvio.cc",
+            "danmu": true
+        }
+    },
+    
    {
       "key": "豆瓣",
       "name": "🇹🇼【本檔案純學術研究使用，請勿散播及進行營利行為，如有侵權請立即告知下架】🇹🇼",
