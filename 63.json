@@ -11,6 +11,16 @@
 
     "sites": [
         {
+            "key": "drpyS_大嫂TV[密]",
+            "name": "大嫂TV[密](DS)",
+            "type": 4,
+            "api": "https://drpy-node-mauve.vercel.app/api/大嫂TV[密]",
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 0,
+            "ext": ""
+          },
+        {
             "key": "麻豆",
             "name": "👊【純學術研究使用，請勿散播及進行營利行為，如有侵權請立即告知下架】👊",
             "type": 3,
