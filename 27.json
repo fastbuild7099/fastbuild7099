@@ -48,7 +48,7 @@
 //優選源_分類專區
 {
     "key":"原创",
-    "name":"測試⏭｜原创｜飯佬",
+    "name":"⏭｜原创｜飯佬",
     "type":3,
     "api":"csp_YCyz",
     "jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1735370809906/fan.txt;md5;9136a7f6aec51c5b18e911121774ab5f",
@@ -60,7 +60,7 @@
 },  
 {
     "key": "py_PPXYs",
-    "name": "測試⏭｜皮皮虾｜沐辰",
+    "name": "⏭｜皮皮虾｜沐辰",
     "type": 4,
     "api": "https://py.doube.eu.org/spider?site=PPXYs",
     "searchable": 1,
@@ -1002,17 +1002,7 @@
         "filterable": 1,
         "ext": "jaHR0cDovL2M4dzJvdjd1NXdnMnoxbzhwMjFjLmFsaXl1bmNzLmNsaWNrfGs5bzNwMmM4YjdtM3owbzh8azlvM3AyYzhiN20zejBvOHwxMDA="
     },
-    {
-        "key": "现代",
-        "name": "🥈｜现代｜App(未測)",
-        "type": 3,
-        "api": "csp_Xdai",
-        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "ext": "caHR0cHM6Ly9hcHAuYnJvdm9kLmNvbXxzemRqd2RhcHB3Y25tZGhifHN6ZGp3ZGFwcHdjbm1kaGJ8MTE0"
-    },
+
     {
         "key": "优质",
         "name": "🥈｜优质｜App(未測)",
@@ -1115,18 +1105,6 @@
             }
     },
     {
-      "key": "苹果",
-      "name": "🥈｜苹果",
-      "type": 3,
-      "api": "csp_LiteApple",
-      "spider": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/fan.txt;md5;8851819289f80deae32319080028db3b",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/fan.txt;md5;8851819289f80deae32319080028db3b",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
       "key": "hipy_js_小宝影院",
       "name": "🥈｜小宝",
       "type": 3,
@@ -1145,6 +1123,17 @@
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
       "searchable": 1,
       "quickSearch": 1
+    },
+    {
+      "key": "zj",
+      "name": "🥈｜8K影院",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "ext": {
+        "分类url": "https://www.8q8k.com/vodshow/{cateId}--------{catePg}---.html",
+        "分类": "电影$dy#电视剧$dsj#综艺$zy#动漫$dm"
+      }      
     },
     {
       "key": "凯奇影视",
@@ -1467,16 +1456,7 @@
           "地区":"大陸$cn#美國$us#韓國$kr#日本$jp#臺灣$tw#香港$hk#英國$gb||大陸$cn#美國$us#韓國$kr#日本$jp#臺灣$tw#香港$hk#英國$gb#其他$other||大陸$cn#韓國$kr#臺灣$tw#歐美$west#日本$jp||大陸$cn#韓國$kr#歐美$west#日本$jp"
                }
     },
-    {
-        "key": "drpyS_金牌影院",
-        "name": "🥈｜金牌影院｜道長源",
-        "type": 4,
-        "api": "https://drpy-node-mauve.vercel.app/api/金牌影院",
-        "searchable": 2,
-        "filterable": 0,
-        "quickSearch": 0,
-        "ext": ""
-      },
+
       {
         "key": "drpyS_皮皮虾[优]",
         "name": "🥈｜皮皮虾｜道長源",
@@ -1872,6 +1852,19 @@
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/555電影.json"
     },
     //XBPQ_自建站源專區
+    {
+      "key": "贱贱",
+      "name": "🎥｜贱贱",
+      "spider": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/fan.txt;md5;8851819289f80deae32319080028db3b",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/fan.txt;md5;8851819289f80deae32319080028db3b",
+      "playerType": 2,
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
+      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/jp.js"
+    },
     {
       "key": "CSP_理理影院",
       "name": "🎥｜理理",
@@ -7020,6 +7013,16 @@
 
     //道長源_分類專區
     {
+      "key": "hipy_js_荐片",
+      "name": "🎥｜荐片",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/荐片[优].js"
+    },
+    {
       "key": "hipy_js_一支穿云箭",
       "name": "🎥｜一支穿云箭",
       "type": 3,
@@ -7070,17 +7073,6 @@
       "filterable": 1,
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/量子资源.js"
     },
-    {
-      "key": "hipy_js_荐片",
-      "name": "🎥｜荐片",
-      "type": 3,
-      "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/荐片[优].js"
-    },
-
     {
       "key": "hipy_js_玄天",
       "name": "🎥｜玄天",
@@ -8030,19 +8022,7 @@
       "filterable": 1,
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/panda1123.jar;md5;d9004aa2e16f60b04baed361713fb710"
     },
-    {
-      "key": "贱贱",
-      "name": "🎥｜贱贱",
-      "spider": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/fan.txt;md5;8851819289f80deae32319080028db3b",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/fan.txt;md5;8851819289f80deae32319080028db3b",
-      "playerType": 2,
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/jp.js"
-    },
+
 
     //短劇專區
     {
