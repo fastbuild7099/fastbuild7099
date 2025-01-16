@@ -4,26 +4,6 @@
   "wallpaper": "https://picsum.photos/1080/",
   "sites": [    
 
-    {
-      "key": "csp_真不卡",
-      "name": "🇹🇼｜真不卡",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "規則名": "真不卡",
-        "規則作者": "老王叔叔",
-        "規則日期": "114.01.16",
-        "主页url": "https://zbkyyy.com/",
-        "搜索url": "https://zbkyyy.com/qyvodsearch/-------------.html?wd={wd}",
-        "分类url":"https://www.zbkyyy.com/qyvodshow/{cateId}-{area}-{by}------{catePg}---{year}.html",
-        "分类": "電影$1#電視劇$2#綜藝$3#動漫$4",
-        "地区": "大陆&香港&台湾&美国&法国&英国&日本&韩国||大陆&韩国&香港&台湾&日本&美国&泰国&英国||大陆&港台&日韩&欧美||大陆&日本&欧美&其他"
-          }
-    },
   
    {
       "key": "豆瓣",
@@ -290,6 +270,26 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/紐約影院.json" 
+    },
+    {
+        "key": "csp_真不卡",
+        "name": "🥇｜真不卡",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": {
+          "規則名": "真不卡",
+          "規則作者": "老王叔叔",
+          "規則日期": "114.01.16",
+          "主页url": "https://zbkyyy.com/",
+          "搜索url": "https://zbkyyy.com/qyvodsearch/-------------.html?wd={wd}",
+          "分类url":"https://www.zbkyyy.com/qyvodshow/{cateId}-{area}-{by}------{catePg}---{year}.html",
+          "分类": "電影$1#電視劇$2#綜藝$3#動漫$4",
+          "地区": "大陆&香港&台湾&美国&法国&英国&日本&韩国||大陆&韩国&香港&台湾&日本&美国&泰国&英国||大陆&港台&日韩&欧美||大陆&日本&欧美&其他"
+            }
     },
     {
       "key":"drpyS_PTT[优]",
