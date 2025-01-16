@@ -1016,7 +1016,7 @@
 
     {
         "key": "优质",
-        "name": "🥈｜优质｜App(未測)",
+        "name": "🥇｜优质｜App(未測)",
         "type": 3,
         "api": "csp_Xdai",
         "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
@@ -1027,28 +1027,17 @@
     },
     {
         "key": "蝴蝶",
-        "name": "🥈｜蝴蝶｜App(未測)",
+        "name": "🥇｜蝴蝶｜App(未測)",
         "type": 3,
         "api": "csp_Hudie",
         "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
         "playerType": 2,
         "ext": "eaHR0cHM6Ly9kLmRjbW92aWUudG9w"
     },
-    {
-        "key": "快看",
-        "name": "🥈｜快看｜APP(未測)",
-        "type": 3,
-        "api": "csp_AppYsV2",
-        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "changeable": 1,
-        "ext": "http://kkwk123.top/api.php/app/"
-    },
+
     {
         "key": "洽洽影视",
-        "name": "🥈｜洽洽｜APP(未測)",
+        "name": "🥇｜洽洽｜APP",
         "type": 3,
         "api": "csp_AppGZ",
         "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
@@ -1058,7 +1047,7 @@
     },
     {
         "key": "忍者影视",
-        "name": "🥈｜忍者｜APP(未測)",
+        "name": "🥇｜忍者｜APP",
         "type": 3,
         "api": "csp_AppRZ",
         "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
@@ -1068,7 +1057,7 @@
     },
     {
         "key": "饺子影视",
-        "name": "🥈｜饺子｜影视(未測)",
+        "name": "🥇｜饺子｜影视",
         "type": 3,
         "api": "csp_Jiaozi",
         "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
@@ -1078,7 +1067,7 @@
     },
     {
         "key": "立播弹幕",
-        "name": "🥈｜立播｜弹幕(未測)",
+        "name": "🥇｜立播｜弹幕",
         "type": 3,
         "api": "csp_Libvio",
         "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
