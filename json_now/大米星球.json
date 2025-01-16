@@ -5,12 +5,13 @@
 "主页url": "https://damilife.life",
 "搜索url": "http://damilife.life/vodsearch/wd/{wd}",
 "图片": "data-original=\"&&\"",
-"分类url":"https://www.damilife.life/vodshow/{cateId}-{area}-{by}------{catePg}---{year}.html",
-"分类": "電影$20#電視劇$21#動漫$22#綜藝$23",
-"嗅探词": ".m3u8?#play.mtle.cn#.m3u8#.mp4",
-"影片年代": "<div class=\"module-info-tag\">&&</div>",
-"影片类型": "module-info-tag\">&&立即播放",
-"线路数组": "data-dropdown-value=&&</div>",
-"线路标题": "<span>&&</small>[替换:</span><small>>>共]+集",
-"播放数组": "<div class=\"module-play-list\"&&</div>"
+//"分类url":"https://www.damilife.life/vodshow/{cateId}-{area}-{by}------{catePg}---{year}.html",
+"分类url":"https://www.damilife.life/vodshow/{cateId}-----------{year}.html",
+"分类": "電影$20#電視劇$21#動漫$22#綜藝$23"
+//"嗅探词": ".m3u8?#play.mtle.cn#.m3u8#.mp4",
+//"影片年代": "<div class=\"module-info-tag\">&&</div>",
+//"影片类型": "module-info-tag\">&&立即播放",
+//"线路数组": "data-dropdown-value=&&</div>",
+//"线路标题": "<span>&&</small>[替换:</span><small>>>共]+集",
+//"播放数组": "<div class=\"module-play-list\"&&</div>"
   }
