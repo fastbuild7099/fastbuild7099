@@ -95,7 +95,7 @@
         },
         {
             "key": "lf_js_p2p",
-            "name": "⏭路飞｜磁力搜索",
+            "name": "⏭路飞｜PG磁力搜索",
             "type": 3,
             "searchable": 1,
             "changeable": 1,
@@ -103,6 +103,19 @@
             "filterable": 1,
             "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/lf_p2p2_min.js",
             "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/pg.jar",
+            "ext": "18+"
+        },
+        {
+            "key": "lf_js_p2p",
+            "name": "⏭路飞｜JS磁力搜索 ",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1, 
+            "style":{ "type":"rect", "ratio":0.8 },
+            "recordable": 0,
+            "api": "https://qu.ax/cLnn.js",
             "ext": "18+"
         },
         {
