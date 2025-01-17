@@ -4,6 +4,16 @@
   "wallpaper": "https://picsum.photos/1080/",
   "sites": [    
 
+  {
+    "key": "csp_8號影院",
+    "name": "🥇｜8號影院",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+    "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/8號影院.js"
+           
+  },
+
    {
       "key": "豆瓣",
       "name": "🇹🇼【本檔案純學術研究使用，請勿散播及進行營利行為，如有侵權請立即告知下架】🇹🇼",
