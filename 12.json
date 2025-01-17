@@ -4,15 +4,7 @@
   "wallpaper": "https://picsum.photos/1080/",
   "sites": [    
 
-  {
-    "key": "csp_8號影院",
-    "name": "🥇｜8號影院",
-    "type": 3,
-    "api": "csp_XBPQ",
-    "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
-    "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_database/8号影院.js"
-           
-  },
+
 
    {
       "key": "豆瓣",
@@ -3798,16 +3790,13 @@
         "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/萬博劇院.json"
     },
     {
-      "key": "csp_8号影院",
-      "name": "🎥｜8号影院",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/8號影院.json"
-    },
+        "key": "csp_8號影院",
+        "name": "🎥｜8號影院",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
+        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_database/8号影院.js"      
+      },
     {
       "key": "csp_酷云七七",
       "name": "🎥｜酷云七七",
