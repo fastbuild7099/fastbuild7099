@@ -1194,7 +1194,7 @@
 
     {
         "key": "优质",
-        "name": "🥇｜优质｜App(未測)",
+        "name": "🥇｜优质｜App",
         "type": 3,
         "api": "csp_Xdai",
         "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
@@ -1205,7 +1205,7 @@
     },
     {
         "key": "蝴蝶",
-        "name": "🥇｜蝴蝶｜App(未測)",
+        "name": "🥇｜蝴蝶｜App",
         "type": 3,
         "api": "csp_Hudie",
         "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
@@ -2031,7 +2031,7 @@
     },
     {
         "key": "csp_Bttoo",
-        "name": "🥉｜两个BT|雷蒙",
+        "name": "🥉｜两个BT｜雷蒙",
         "type": 3,
         "api": "csp_Bttwoo",
         "spider": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/lem0118.jar",
@@ -2042,7 +2042,7 @@
       },
       {
         "key": "csp_YCyz",
-        "name": "🥉｜原创|雷蒙",
+        "name": "🥉｜原创｜雷蒙",
         "type": 3,
         "api": "csp_YCyz",
         "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/lem0118.jar",
@@ -2054,7 +2054,7 @@
       },
       {
         "key": "csp_Uvod",
-        "name": "🥉｜优视频|雷蒙",
+        "name": "🥉｜优视频｜雷蒙",
         "type": 3,
         "api": "csp_Uvod",
         "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/lem0118.jar",
@@ -2064,7 +2064,7 @@
       },
       {
         "key": "csp_PTT",
-        "name": "🥉｜PTT|雷蒙",
+        "name": "🥉｜PTT｜雷蒙",
         "type": 3,
         "api": "csp_PTT",
         "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/lem0118.jar",
@@ -2074,7 +2074,7 @@
       },
       {
         "key": "csp_Nmvod_QJ",
-        "name": "🥉｜柠檬|雷蒙",
+        "name": "🥉｜柠檬｜雷蒙",
         "type": 3,
         "api": "csp_Nmvod",
         "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/lem0118.jar",
@@ -2083,7 +2083,7 @@
       },
       {
         "key": "csp_Hudie_QJ",
-        "name": "🥉｜蝴蝶|雷蒙",
+        "name": "🥉｜蝴蝶｜雷蒙",
         "type": 3,
         "api": "csp_Hudie",
         "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/lem0118.jar",
@@ -2092,7 +2092,7 @@
       },
       {
         "key": "csp_Xdai_优质_QJ",
-        "name": "🥉｜优质|雷蒙",
+        "name": "🥉｜优质｜雷蒙",
         "type": 3,
         "api": "csp_Xdai",
         "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/lem0118.jar",
