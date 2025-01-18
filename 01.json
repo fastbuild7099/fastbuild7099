@@ -4,52 +4,6 @@
   "wallpaper": "https://picsum.photos/1080/",
   "sites": [    
 
-  {
-    "key": "csp_QV",
-    "name": "🥇｜QV",
-    "type": 3,
-    "api": "csp_XBPQ",
-    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "ext": {
-      "規則名": "QV",
-      "規則作者": "老王叔叔",
-      "規則日期": "114.01.18",
-      "主页url": "https://www.quickvod.cc/",
-      //"数组": "class=\"stui-vodlist__box\">&&</a>",
-      "图片": "data-original=\"&&\"",
-      "标题": "title=\"&&\"",
-      "链接": "href=\"&&\"",
-      //"副标题": "class=\"pic-text text-right\">&&</span>",
-      //"搜索模式": "1",
-      //"搜索数组": "class=\"stui-vodlist__box\">&&</li>",
-      //"搜索图片": "original=\"&&\"",
-      //"搜索标题": "title=\"&&\"",
-      //"搜索副标题": "class=\"pic-text text-right\">&&</span>",
-      //"搜索链接": "href=\"&&\"",
-      "状态": "",
-      "导演": "导演：&&</li>",
-      "主演": "主演：&&</li>",
-      "简介": "yp_context\">&&</p>",
-      //"线路二次截取": "class=\"tab-top&&</ul>",
-      //"线路标题": ">&&</a>",
-      "播放数组": "class=\"play-item cont active\"&&</ul>",
-      //"播放列表": "<a&&/a>",
-      //"播放标题": ">&&<",
-      "播放链接": "href=\"&&\"",
-      "免嗅": "1",
-      "影片类型": "module-info-tag\">&&立即播放",
-      "搜索url": "https://www.quickvod.cc/vodsearch/-------------.html",
-      "分类url":"https://www.quickvod.cc/vodshow/{cateId}-{area}-{by}------{catePg}---{year}.html",
-      "分类": "電影$1#電視劇$2#綜藝$3#動漫$4",
-      "地区": "大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大&其他||内地&韩国&香港&台湾&日本&美国&泰国&英国&新加坡&其他||內地&港台&日韩&欧美||大陆&日本&欧美&其他"
-        }
-},
-
-
-
     {
       "key": "豆瓣",
       "name": "🇹🇼【本檔案純學術研究使用，請勿散播及進行營利行為，如有侵權請立即告知下架】🇹🇼",
