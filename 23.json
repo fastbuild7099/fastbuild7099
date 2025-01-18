@@ -298,6 +298,7 @@
             //"搜索链接":"href=\"&&\"",
             //"搜索链接前缀":"",
             //"搜索链接后缀":"",
+            "搜索url": "https://www.naifei1.org/vodsearch.html?wd={wd}",
             "嗅探词": ".mp4#m3u8#.m3u8#/tos/#.flv#video/tos",
             "线路数组": "data-dropdown-value=&&</div>",
             "线路标题": "<span>&&</small>",
