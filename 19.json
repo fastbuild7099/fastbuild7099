@@ -5,71 +5,34 @@
   "sites": [    
 
   {
-    "key": "大米影院",
-    "name": "大米影院",
+    "key": "奈飞TV",
+    "name": "奈飞TV",
     "type": 3,
-    "api": "csp_XBPQ",
-    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+    "changeable": 1,
     "searchable": 1,
     "quickSearch": 1,
     "filterable": 1,
+    "api": "csp_XBPQ",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
     "ext": {
-      "規則名": "大米星球",
-      "規則作者": "老王叔叔",
-      "規則日期": "113.12.02",
-        "网页编码格式": "UTF-8",
-        "图片是否需要代理": "0",
-        "是否开启获取首页数据": "1",
-        "首页推荐链接": "https://www.dam7rpv.wiki/label/new.html",
-        "首页列表数组规则": "#main",
-        "首页片单列表数组规则": "article",
-        "首页片单是否Jsoup写法": "1",
-        "首页片单标题": ".entry-header&&Text",
-        "首页片单链接": "a&&href",
-        "首页片单图片": "img&&data-src",
-        "首页片单副标题": "'⏱'+.duration&&Text+'👁'+.views&&Text+'👍'+.rating-bar&&span&&Text",
-        "首页片单链接加前缀": "",
-        "首页片单链接加后缀": "",
-        "数组": "class=\"module-items\">&&class=\"module-poster-item-title\"",
-        "链接":"href=\"&&\"",
-        "标题":"alt=\"&&\"",
-        "图片": "data-original=\"&&\"[替换:amp;>>空]",
-        "搜索url": "https://www.dam7rpv.wiki/vodsearch/-------------.html?wd={wd}",
+        "主页url": "https://www.naifei1.org/",
+        "搜索数组":"class=\"video-info-header\">&&</div>",
+        "搜索标题":"title=\"&&\"",
+        "搜索副标题":"<div>&&</div>",
+        "搜索图片":"data-src=\"&&\"",
+        "搜索链接":"href=\"&&\"",
+        "搜索链接前缀":"",
+        "搜索链接后缀":"",
+        "嗅探词": ".mp4#m3u8#.m3u8#/tos/#.flv#video/tos",
         "线路数组": "data-dropdown-value=&&</div>",
-        "线路标题": "<span>&&</small>",
-        "播放数组": "<div class=\"module-play-list\"&&</div>",
-        "嗅探词": ".mp4#.m3u8#.flv#.m3u8?#.mp4?",
+        "线路标题": "<span>&&</small>[替换:</span><small>>>✮更新]",
         "导演": "导演：&&</div>",
         "主演": "主演：&&</div>",
-        "分类": "电影$20#电视剧$21#动漫$22#综艺$23",
-        "分类url": "https://www.dam7rpv.wiki/vodshow/{cateId}-{area}-------{catePg}---{year}.html"
-      }
+        "简介": "class=\"video-info-item video-info-content vod_content\">&&</div>",
+        "分类": "电影$dy#电视剧$juji#动漫$dongman#综艺$zongyi",
+        "分类url": "https://www.naifei1.org/vodshow/area/{area}/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html"
+     }
 },
-{
-  "key": "八号影院",
-  "name": "八号影院",
-  "type": 3,
-  "api": "csp_XBPQ",
-  "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-  "searchable": 1,
-  "quickSearch": 1,
-  "filterable": 1,
-  "ext": {
-      "数组": "class=\"myui-vodbox-content\">&&class=\"role\"",
-      "图片": "src=\"&&\"",
-      "标题": "class=\"title\">&&</div>",
-      "副标题": "class=\"tag text-overflow\">&&</div>",
-      "链接": "<a href=\"&&\"",
-      "简介": "label>*&&</div>",
-      "影片类型": "class=\"tags text-overflow\"*>&&</a>",
-      "影片年代": "class=\"item-top\">&&</div>",
-      "导演": "导演:</div>&&</div>",
-      "跳转播放链接": "src=\"&&\"",
-      "分类": "电影$movie#电视剧$tvseries#动漫$anime",
-      "分类url": "https://www.bahaotv.com/vodshow/{cateId}--------{catePg}---.html"
-  }
-},
-
    {
       "key": "豆瓣",
       "name": "🇹🇼【本檔案純學術研究使用，請勿散播及進行營利行為，如有侵權請立即告知下架】🇹🇼",
@@ -7092,7 +7055,31 @@
               "filterable": 1,
               "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/奇优影院.json"
           },
-
+          {
+            "key": "八号影院",
+            "name": "🎥｜八号影院",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "数组": "class=\"myui-vodbox-content\">&&class=\"role\"",
+                "图片": "src=\"&&\"",
+                "标题": "class=\"title\">&&</div>",
+                "副标题": "class=\"tag text-overflow\">&&</div>",
+                "链接": "<a href=\"&&\"",
+                "简介": "label>*&&</div>",
+                "影片类型": "class=\"tags text-overflow\"*>&&</a>",
+                "影片年代": "class=\"item-top\">&&</div>",
+                "导演": "导演:</div>&&</div>",
+                "跳转播放链接": "src=\"&&\"",
+                "分类url": "https://www.bahaotv.com/vodshow/{cateId}-{area}-{by}------{catePg}---{year}.html",
+                "分类": "电影$movie#电视剧$tvseries#动漫$anime",
+                "地区":"大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大&其他||内地&韩国&香港&台湾&日本&美国&泰国&英国&新加坡&其他||国产&日本&欧美&其他"
+                   }
+          },
     //道長源_分類專區
     {
       "key": "hipy_js_荐片",
@@ -8071,6 +8058,31 @@
         "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/dokilwss.jar;md5;145277452362fe4b1371e8968b414ed1",
         "ext":"https://www.tvkuys.xyz/api.php/app/"
     },
+    {
+  "key": "八号影院",
+  "name": "八号影院",
+  "type": 3,
+  "api": "csp_XBPQ",
+  "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+  "searchable": 1,
+  "quickSearch": 1,
+  "filterable": 1,
+  "ext": {
+      "数组": "class=\"myui-vodbox-content\">&&class=\"role\"",
+      "图片": "src=\"&&\"",
+      "标题": "class=\"title\">&&</div>",
+      "副标题": "class=\"tag text-overflow\">&&</div>",
+      "链接": "<a href=\"&&\"",
+      "简介": "label>*&&</div>",
+      "影片类型": "class=\"tags text-overflow\"*>&&</a>",
+      "影片年代": "class=\"item-top\">&&</div>",
+      "导演": "导演:</div>&&</div>",
+      "跳转播放链接": "src=\"&&\"",
+      "分类url": "https://www.bahaotv.com/vodshow/{cateId}-{area}-{by}------{catePg}---{year}.html",
+      "分类": "电影$movie#电视剧$tvseries#动漫$anime",
+      "地区":"大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大&其他||内地&韩国&香港&台湾&日本&美国&泰国&英国&新加坡&其他||国产&日本&欧美&其他"
+         }
+},
     //雜項規則_分類專區
     {
       "key": "zxzj",
