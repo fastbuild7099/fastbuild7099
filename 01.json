@@ -5,45 +5,6 @@
   "sites": [    
 
 
-  {
-    "key": "csp_4k影院",
-    "name": "🥇｜4k影院",
-    "type": 3,
-    "api": "csp_XBPQ",
-    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "ext": {
-      "站名": "4K影院",
-      "数组": "<div class=\"poster\"&&</h3",
-      "简介": "<p>&&<p>",
-      "图片": "src=\"&&\"[替换:#038;>>>]",
-      "标题": "alt=\"&&\"",
-      "副标题": "class=\"icon-star2\">&&<div class=\"mepo\">",
-      "链接": "href=\"&&\"",
-      "线路数组": "<div class='se-q'>&&</a>",
-      "线路标题": "4K專線",
-      "线路链接": "href=\"&&\"",
-      "多线数组": "<div class='se-q'>&&</a>",
-      "多线链接": "href=\"&&\"",
-      "状态": "<div class=\"extra\">&&</div>",
-      "导演": "<div class=\"name\"&&</a>",
-      "主演": "<h2>演员</h2>&&<div id=\"info",
-      "播放二次截取": "id='playernotice&&<div class=\"sheader\">[替换:class='ajax_mode'>>>videourls:你我\"name\":1集,\"链洁\":\\&mvsource=0\"和他tables:]",
-      "播放数组": "videourls:&&tables:[替换:url\":>>链洁\":\\&ep=#name\":>>name\":#}>>\\&source=0\"和他#{>>你我]",
-      "播放列表": "你我&&和他",
-      "播放标题": "name\":&&,",
-      "播放链接": "链洁\":&&\"",
-      "播放链接前缀": "https://www.4kvm.org/artplayer?id=+postid-&&\"",
-      "免嗅": "0",
-      "搜索url": "https://www.4kvm.org/xssearch?s={wd}",
-      "分类url": "https://www.4kvm.org/{cateId}/page/{catePg}",
-      "分类": "电影$movies#美剧$classify/meiju#国产剧$classify/guochan#韩剧$classify/hanju#番剧$classify/fanju"
-    }
-  },
-
-
     {
       "key": "豆瓣",
       "name": "🇹🇼【本檔案純學術研究使用，請勿散播及進行營利行為，如有侵權請立即告知下架】🇹🇼",
@@ -7303,6 +7264,43 @@
             "quickSearch": 0,
             "filterable": 0,
             "changeable": 0
+          },
+          {
+            "key": "csp_4k影院",
+            "name": "🎥｜4k影院｜無圖",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+              "站名": "4K影院",
+              "数组": "<div class=\"poster\"&&</h3",
+              "简介": "<p>&&<p>",
+              "图片": "src=\"&&\"[替换:#038;>>>]",
+              "标题": "alt=\"&&\"",
+              "副标题": "class=\"icon-star2\">&&<div class=\"mepo\">",
+              "链接": "href=\"&&\"",
+              "线路数组": "<div class='se-q'>&&</a>",
+              "线路标题": "4K專線",
+              "线路链接": "href=\"&&\"",
+              "多线数组": "<div class='se-q'>&&</a>",
+              "多线链接": "href=\"&&\"",
+              "状态": "<div class=\"extra\">&&</div>",
+              "导演": "<div class=\"name\"&&</a>",
+              "主演": "<h2>演员</h2>&&<div id=\"info",
+              "播放二次截取": "id='playernotice&&<div class=\"sheader\">[替换:class='ajax_mode'>>>videourls:你我\"name\":1集,\"链洁\":\\&mvsource=0\"和他tables:]",
+              "播放数组": "videourls:&&tables:[替换:url\":>>链洁\":\\&ep=#name\":>>name\":#}>>\\&source=0\"和他#{>>你我]",
+              "播放列表": "你我&&和他",
+              "播放标题": "name\":&&,",
+              "播放链接": "链洁\":&&\"",
+              "播放链接前缀": "https://www.4kvm.org/artplayer?id=+postid-&&\"",
+              "免嗅": "0",
+              "搜索url": "https://www.4kvm.org/xssearch?s={wd}",
+              "分类url": "https://www.4kvm.org/{cateId}/page/{catePg}",
+              "分类": "电影$movies#美剧$classify/meiju#国产剧$classify/guochan#韩剧$classify/hanju#番剧$classify/fanju"
+            }
           },
           {
             "key": "八号影院",
