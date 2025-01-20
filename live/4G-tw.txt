@@ -91,7 +91,9 @@ parse=1
 135  視納華仁紀實頻道,https://www.4gtv.tv/channel/4gtv-4gtv013?set=1&ch=38
 136  影迷數位紀實台,https://www.4gtv.tv/channel/4gtv-live023?set=1&ch=212
 137  金光布袋戲,https://www.4gtv.tv/channel/4gtv-live144?set=1&ch=236
-138  ROCK Action,https://www.4gtv.tv/channel/4gtv-live138?set=1&ch=180
+138  金光布袋戲,https://tv.banye.tech:7777/4gtv/236
+140  霹靂布袋戲,https://tv.banye.tech:7777/4gtv/301
+140  ROCK Action,https://www.4gtv.tv/channel/4gtv-live138?set=1&ch=180
 145  采昌影劇台,https://www.4gtv.tv/channel/4gtv-4gtv049?set=1&ch=25
 146  靖天映畫,https://www.4gtv.tv/channel/4gtv-4gtv055?set=1&ch=42
 147  靖天電影台,https://www.4gtv.tv/channel/4gtv-4gtv061?set=1&ch=82
