@@ -4,26 +4,7 @@
   "wallpaper": "https://picsum.photos/1080/",
   "sites": [    
 
-  {
-    "key": "py_jinpai",
-    "name": "金牌影院(T3)",
-    "type": 3,
-    "api": "https://raw.githubusercontent.com/doube-ba/PyramidStore/refs/heads/main/plugin/py_jinpai.py",
-    "searchable": 1,
-    "quickSearch": 0,
-    "filterable": 0,
-    "changeable": 0
-},
-{
-    "key": "py_quickvod",
-    "name": "QuickVod(T3)",
-    "type": 3,
-    "api": "https://raw.githubusercontent.com/doube-ba/PyramidStore/refs/heads/main/plugin/py_quickvod.py",
-    "searchable": 1,
-    "quickSearch": 0,
-    "filterable": 0,
-    "changeable": 0
-},
+
     {
       "key": "豆瓣",
       "name": "🇹🇼【本檔案純學術研究使用，請勿散播及進行營利行為，如有侵權請立即告知下架】🇹🇼",
@@ -66,6 +47,36 @@
 
 
 //優選源_分類專區
+{
+    "key": "py_jinpai",
+    "name": "⏭｜金牌影院(沐辰)｜PYTHON",
+    "type": 3,
+    "api": "https://raw.githubusercontent.com/doube-ba/PyramidStore/refs/heads/main/plugin/py_jinpai.py",
+    "searchable": 1,
+    "quickSearch": 0,
+    "filterable": 0,
+    "changeable": 0
+},
+{
+    "key": "py_quickvod",
+    "name": "⏭｜QuickVod(沐辰)｜PYTHON",
+    "type": 3,
+    "api": "https://raw.githubusercontent.com/doube-ba/PyramidStore/refs/heads/main/plugin/py_quickvod.py",
+    "searchable": 1,
+    "quickSearch": 0,
+    "filterable": 0,
+    "changeable": 0
+},
+{
+    "key": "py_dm84",
+    "name": "⏭｜动漫巴士(沐辰)｜PYTHON",
+    "type": 3,
+    "api": "https://raw.githubusercontent.com/doube-ba/PyramidStore/refs/heads/main/plugin/py_dm84.py",
+    "searchable": 1,
+    "quickSearch": 0,
+    "filterable": 0,
+    "changeable": 0
+  },
 {
     "key":"原创",
     "name":"⏭｜原创｜飯佬",
