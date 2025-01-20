@@ -68,16 +68,6 @@
     "changeable": 0
 },
 {
-    "key": "py_dm84",
-    "name": "⏭｜动漫巴士(沐辰)｜PYTHON",
-    "type": 3,
-    "api": "https://raw.githubusercontent.com/doube-ba/PyramidStore/refs/heads/main/plugin/py_dm84.py",
-    "searchable": 1,
-    "quickSearch": 0,
-    "filterable": 0,
-    "changeable": 0
-  },
-{
     "key":"原创",
     "name":"⏭｜原创｜飯佬",
     "type":3,
@@ -8698,6 +8688,16 @@
     },
 
     //動漫專區
+    {
+      "key": "py_dm84",
+      "name": "⏭｜动漫巴士(沐辰)｜PYTHON",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/doube-ba/PyramidStore/refs/heads/main/plugin/py_dm84.py",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0
+    },
     {
       "key":"drpyS_OmoFun[漫]",
       "name":"OmoFun[漫](DS)",

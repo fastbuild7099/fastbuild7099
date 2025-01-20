@@ -94,6 +94,24 @@
             "filterable": 1
         },
         {
+            "key": "py_rou",
+            "name": "⏭｜Rou｜PYTHON",
+            "type": 3,
+            "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/py/py_rou.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0
+        },
+        {
+            "key": "avdb",
+            "name": "⏭｜avdb｜張老闆",
+            "type": 4,
+            "api": "http://zhangqun1818.serv00.net/228_1.php",
+            "searchable": 0,
+            "changeable": 0
+        },
+        {
             "key": "lf_js_p2p",
             "name": "⏭路飞｜PG磁力搜索",
             "type": 3,
@@ -117,14 +135,6 @@
             "recordable": 0,
             "api": "https://qu.ax/cLnn.js",
             "ext": "18+"
-        },
-        {
-            "key": "avdb",
-            "name": "🔞avdb｜張老闆",
-            "type": 4,
-            "api": "http://zhangqun1818.serv00.net/228_1.php",
-            "searchable": 0,
-            "changeable": 0
         },
         {
             "key": "csp_XYQHiker_ggjav",
