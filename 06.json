@@ -3,6 +3,10 @@
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://picsum.photos/1080/",
   "sites": [    
+    
+  
+  {"key":"vod_如意","name":"🧲｜如意","type":1,"api":"https://cj.rycjapi.com/api.php/provide/vod/ar/xml","searchable":1,"quickSearch":1,"filterable":1},
+  
 
     {
       "key": "豆瓣",
