@@ -25,6 +25,27 @@
         "ext": "caHR0cHM6Ly9hcHAuYnJvdm9kLmNvbXxzemRqd2RhcHB3Y25tZGhifHN6ZGp3ZGFwcHdjbm1kaGJ8MTE0"
     },
     {
+      "key": "T4-heimuer",
+      "name": "🥇｜黑木耳｜唐三",
+      "type": 4,
+      "api": "https://tang.hz.cz/power/hme?token=647c28ca",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/蓝天白云.txt;md5;329e914a90b0bb5c7cb69b0eaec19700",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0
+    },
+    {
+      "key":"大米",
+      "name":"🥇｜大米｜QJ",
+      "type":3,
+      "api":"csp_AppDaMi",
+      "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/qj.jar;md5;ab2b0ddad5e1f7fa6bd2b295eea6d0d5",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":1
+    },
+    {
       "key": "快看",
       "name": "🥇｜快看｜APP",
       "type": 3,
