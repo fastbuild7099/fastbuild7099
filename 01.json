@@ -1,5 +1,5 @@
 {
-  "spider": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/pg.jar;md5;55966cab54c3d6c69956161203a8a473",
+  "spider": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/pg.jar;md5;f776058403f0b7a6166d17d51e8afa36",
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://picsum.photos/1080/",
   "sites": [    
@@ -48,10 +48,20 @@
 
 //優選源_分類專區
 {
+  "key": "py_jieyingshi",
+  "name": "⏭｜界影视(沐辰)｜PYTHON",
+  "type": 3,
+  "api": "https://json.doube.eu.org/python/py_jieyingshi.py",
+  "searchable": 1,
+  "quickSearch": 0,
+  "filterable": 0,
+  "changeable": 0
+},
+{
     "key": "py_jinpai",
     "name": "⏭｜金牌影院(沐辰)｜PYTHON",
     "type": 3,
-    "api": "https://raw.githubusercontent.com/doube-ba/PyramidStore/refs/heads/main/plugin/py_jinpai.py",
+    "api": "https://json.doube.eu.org/python/py_jinpai.py",
     "searchable": 1,
     "quickSearch": 0,
     "filterable": 0,
@@ -61,7 +71,7 @@
     "key": "py_quickvod",
     "name": "⏭｜QuickVod(沐辰)｜PYTHON",
     "type": 3,
-    "api": "https://raw.githubusercontent.com/doube-ba/PyramidStore/refs/heads/main/plugin/py_quickvod.py",
+    "api": "https://json.doube.eu.org/python/py_quickvod.py",
     "searchable": 1,
     "quickSearch": 0,
     "filterable": 0,
@@ -1746,6 +1756,16 @@
       "quickSearch": 0,
       "filterable": 1,
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/blzb.js"
+  },
+  {
+    "key": "py_BaHaoTV",
+    "name": "🥉｜八号影院｜沐辰",
+    "type": 4,
+    "api": "https://py.doube.eu.org/spider?site=BaHaoTV",
+    "searchable": 1,
+    "quickSearch": 0,
+    "filterable": 0,
+    "changeable": 0
   },
   {
     "key": "drpyS_专享影视",
@@ -7290,16 +7310,6 @@
               "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/奇优影院.json"
           },
           {
-            "key": "py_BaHaoTV",
-            "name": "🎥｜八号影院｜沐辰",
-            "type": 4,
-            "api": "https://py.doube.eu.org/spider?site=BaHaoTV",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "changeable": 0
-          },
-          {
             "key": "csp_4k影院",
             "name": "🎥｜4k影院｜無圖",
             "type": 3,
@@ -9163,12 +9173,12 @@
       "name": "🎵｜MTV",
       "type": 3,
       "api": "csp_Bili",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/dokilwss.jar;md5;145277452362fe4b1371e8968b414ed1",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
       "style": {"type": "rect", "ratio": 1.597},
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/MTV.json"
+      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/MTV.json"
     },
     {
       "key": "ksxjj",
