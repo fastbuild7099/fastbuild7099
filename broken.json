@@ -14,6 +14,28 @@
         "ext": ""
       },
       {
+        "key": "csp_奇優影院(舊)",
+        "name": "️🥈｜奇優影院(舊)",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 0,
+        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/奇優.json",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5"
+      },
+      {
+        "key": "凯奇影视",
+        "name": "🥈｜凯奇",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/凱奇影視.json"
+      },
+      {
         "key": "现代",
         "name": "🥈｜现代｜App(未測)",
         "type": 3,
@@ -24,6 +46,18 @@
         "filterable": 1,
         "ext": "caHR0cHM6Ly9hcHAuYnJvdm9kLmNvbXxzemRqd2RhcHB3Y25tZGhifHN6ZGp3ZGFwcHdjbm1kaGJ8MTE0"
     },
+    {
+      "key": "明渊影视",
+      "name": "🥈｜明渊",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "ext": 
+             {
+             "分类url": "https://v.miuu.cc/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
+             "分类": "电影$1#电视剧$2#动漫$4#综艺$3"
+             }
+     },
     {
       "key": "T4-heimuer",
       "name": "🥇｜黑木耳｜唐三",
