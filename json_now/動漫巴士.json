@@ -4,9 +4,8 @@
   "規則日期": "114.01.23",
   "主页url": "https://dm84.vip/",
   "搜索url": "https://dm84.vip/s----------.html?wd={wd}",
-  "分类url":"https://dm84.vip/show-{cateId}--{by}---{year}-{catePg}.html;;akm0",
+  "分类url":"https://dm84.vip/show-{cateId}--{by}-{class}--{year}-{catePg}.html",
   "分类": "國漫$1#日漫$2#歐美漫$3#電影$4",
-  "主页url":"https://dm84.vip/",
   "简介":"运输车提醒您请勿相信影片中的广告，以免上当受骗！+剧情：&&</p>",
   "导演":"导演：&&</p>",
   "主演":"主演：&&</p>",
@@ -19,9 +18,7 @@
   "线路二次截取":"tab_control play_from\">&&</ul>",
   "线路数组":"<li&&/li>",
   "线路标题":">&&<",
-  "分类url":"https://dm84.vip/show-{cateId}--{by}-{class}--{year}-{catePg}.html;;akm0",
-  "分类":"国产动漫$1#日本动漫$2#欧美动漫$3#电影$4",
-  "倒序":"0",
+  "倒序":"1",
   
   "筛选":{
   "1":[
