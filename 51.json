@@ -4,7 +4,6 @@
     "wallpaper": "https://picsum.photos/1080/",
     "lives":[
               {"name":"小武哥(18+)","playerType":2,"url":"https://qu.ax/PEHy.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei"},
-              {"name":"秘密花園(18+)","url": "https://18.svi-studio.com/get.php?username=875994180836&password=930699661147&type=m3u_plus&output=m3u8"},      
               {"name":"私密線路(18+)","playerType":2,"url":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/live/178.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei"}
             ],
 
