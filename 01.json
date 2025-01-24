@@ -3586,7 +3586,7 @@
     },
     {
         "key": "csp_星辰影院ZH",
-        "name": "星辰影院(ZH)",
+        "name": "🎥｜星辰影院(ZH)",
         "type": 3,
         "api": "csp_XBPQ",
         "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
@@ -4017,7 +4017,7 @@
     },
     {
       "key": "csp_XBiu4K影院",
-      "name": "4K影院(XB)",
+      "name": "🎥｜4K影院(XB)",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
@@ -4029,17 +4029,9 @@
         "分类": "電視劇$2#電影$1#動漫$4#綜藝$3#紀錄片$20"
       }
     },
-
-
-
-
-        //未整理完自建源-------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-
     {
       "key": "csp_XBiu飄花電影網",
-      "name": "飄花電影網(XB)",
+      "name": "🎥｜飄花電影網(XB)",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
@@ -4055,7 +4047,7 @@
     },
     {
       "key": "csp_XBiu蓝光影视",
-      "name": "蓝光影视CC(XB)",
+      "name": "🎥｜蓝光影视CC(XB)",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
@@ -4071,7 +4063,7 @@
     },
     {
       "key": "csp_XBiu蛋蛋魔法影视",
-      "name": "蛋蛋魔法影视(XB)",
+      "name": "🎥｜蛋蛋魔法影视(XB)",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
@@ -4085,7 +4077,7 @@
     },
     {
       "key": "csp_XBiu臭蛋蛋影视",
-      "name": "臭蛋蛋影视(XB)",
+      "name": "🎥｜臭蛋蛋影视(XB)",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
@@ -4100,7 +4092,7 @@
 
     {
       "key": "csp_XBPQ_白嫖者",
-      "name": "白嫖者影视(XB)",
+      "name": "🎥｜白嫖者影视(XB)",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
@@ -4116,7 +4108,7 @@
     },
     {
       "key": "csp_XBiu黑貓TV",
-      "name": "黑貓TV(XB)",
+      "name": "🎥｜黑貓TV(XB)",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
@@ -4133,7 +4125,7 @@
 
     {
       "key": "csp_XBiu飛流視頻",
-      "name": "飛流視頻(XB)",
+      "name": "🎥｜飛流視頻(XB)",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
@@ -4148,7 +4140,7 @@
 
     {
       "key": "csp_XBiu在線電影網",
-      "name": "在線電影網(XB)",
+      "name": "🎥｜在線電影網(XB)",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
@@ -4162,7 +4154,7 @@
     },
     {
       "key": "csp_XBiu無極影視",
-      "name": "無極影視(XB)",
+      "name": "🎥｜無極影視(XB)",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
@@ -4178,7 +4170,7 @@
     },
     {
       "key": "csp_XBiuDYDY",
-      "name": "DY-DY.COM(XB)",
+      "name": "🎥｜DY-DY.COM(XB)",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
@@ -4192,7 +4184,7 @@
     },
     {
       "key": "csp_XBiuVIP1280",
-      "name": "VIP1280(XB)",
+      "name": "🎥｜VIP1280(XB)",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
@@ -4223,7 +4215,7 @@
 
     {
       "key": "csp_XBiuSMYY",
-      "name": "神馬影院(XB)",
+      "name": "🎥｜神馬影院(XB)",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
@@ -4240,7 +4232,7 @@
     },
     {
       "key": "csp_XBiu努努影院",
-      "name": "努努影院(XB)",
+      "name": "🎥｜努努影院(XB)",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
@@ -7371,7 +7363,7 @@
     },
     {
         "key":"drpyS_OmoFun[漫]",
-        "name":"OmoFun[漫](DS)",
+        "name":"动漫｜OmoFun[漫](DS)",
         "type":4,
         "api":"http://drpys.aera.eu.org/api/OmoFun[漫]",
         "searchable":2,
