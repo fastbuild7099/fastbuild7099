@@ -26,7 +26,6 @@
 			{"name":"MYTVSUPER線路2","playerType":2,"url":"https://video.mytvsuper.xyz/playlist/ti-yu-ding-yue.m3u?token=708977457027631","epg":"http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei","logo":"https://epg.112114.xyz/logo/{name}.png","pass":true},	
 			{"name":"新AKTV港台","type": 0,"url": "http://aktv.top/live.m3u","playerType": 2,"ua": "okhttp/3","epg": "https://epg.112114.eu.org/?ch={name}&date={date}","logo": "https://epg.112114.eu.org/logo/{name}.png"},
 	    	{"name":"猫TV线路","type": 0,"url": "http://rihou.cc:567/gggg.nzk","playerType": 2,"ua": "okhttp/3","epg": "https://epg.112114.eu.org/?ch={name}&date={date}","logo": "https://epg.112114.eu.org/logo/{name}.png"},
-	    	{"name":"台灣風景直播","playerType": 2,"url": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/live/10.txt","ua": "okhttp/4.12","epg":"http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei"},
 			{"name":"钵钵鸡(沒有台灣節目)","type": 0,"url": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1736923192652/boboji.m3u","playerType": 1},
 			{"name":"IPV6(沒有台灣節目)","type": 0,"url": "https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u","playerType": 1,"ua": "okhttp/3.15"},
 			{"name":"奇迹live1(沒有台灣節目)","type": 0,"url": "https://livetv.wqwqwq.sbs/tv.m3u","playerType": 1,"ua": "okhttp/3.15"},
@@ -35,7 +34,8 @@
     		{"name":"备用虎牙","type": 0,"url": "http://www.52sw.top:678/iptv/huya.m3u"},
     		{"name":"备用斗鱼","type": 0,"url": "http://www.52sw.top:678/iptv/douyu.m3u"},
 			{"name":"小武哥(18+)","playerType":2,"url":"https://qu.ax/PEHy.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei"},
-		    {"name":"私密線路(18+)","playerType":2,"url":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/live/178.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei"}
+		    {"name":"私密線路(18+)","playerType":2,"url":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/live/178.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei"},
+			{"name":"台灣風景直播(壞了)","playerType": 2,"url": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/live/10.txt","ua": "okhttp/4.12","epg":"http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei"}
 		],
 		"rules": [
 		  {
