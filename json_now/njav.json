@@ -43,7 +43,6 @@
    "分类片单链接加前缀": "https://123av.com/zh/",
    "分类片单链接加后缀": "",
    "搜索请求头参数":"User-Agent$PC_UA",
-   
    "搜索链接": "https://123av.com/zh/search?keyword={wd}",
    "POST请求数据":"0",
    "搜索截取模式": "1",
@@ -85,7 +84,6 @@
  "筛选数据":{
 "censored":[
  {"key":"cateId","name":"分类","value":[
-
 {"v":"dm1/censored","n":"审查"},
 {"v":"dm1/recent-update","n":"最近更新"},
 {"v":"dm1/new-release","n":"全新上市"},
