@@ -31,7 +31,7 @@
    //"分类链接": "https://www.l0l.tv/index.php/vod/show/id/{cateId}/page/{catePg}.html",
  "分类链接": "https://123av.com/zh/{cateId}?page={catePg}",
    "分类名称": "JAV&业余&未经审查",
-   "分类名称替换词": "censored&tags/siro&uncensored",
+   "分类名称替换词": "dm1/censored&dm1/tags/siro&dm1/uncensored",
    //"筛选数据":{},
    "分类截取模式": "1",
    "分类列表数组规则": ".box-item-list&&.box-item",
@@ -82,7 +82,7 @@
    "手动嗅探视频链接过滤词":".html#=http",
  
  "筛选数据":{
-"censored":[
+"dm1/censored":[
  {"key":"cateId","name":"分类","value":[
 {"v":"dm1/censored","n":"审查"},
 {"v":"dm1/recent-update","n":"最近更新"},
@@ -95,7 +95,7 @@
 {"v":"dm1/monthly-hot","n":"本月最好的"}
 ]
 }],
-"tags/siro":[
+"dm1/tags/siro":[
  {"key":"cateId","name":"分类","value":[
   {"v":"dm1/tags/siro","n":"SIRO"},
   {"v":"dm1/tags/259luxu","n":"LUXU"},
@@ -107,7 +107,7 @@
   {"v":"dm1/tags/s-cute","n":"S-CUTE"},
   {"v":"dm1/tags/261ara","n":"ARA"}
 ]}],
-"uncensored":[
+"dm1/uncensored":[
  {"key":"cateId","name":"分类","value":[
   {"v":"dm1/uncensored-leaked","n":"泄露未审查"},
   {"v":"dm1/tags/fc2","n":"FC2"},
