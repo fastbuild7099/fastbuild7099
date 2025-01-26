@@ -1,13 +1,13 @@
 {
   //永久地址https://njav.tv/zh
-   "规则名": "123av-XYQHiker",
+   "规则名": "njav-XYQHiker",
    "规则作者": "飞鱼",
    "请求头参数":"手机",
    "网页编码格式":"UTF-8",
    "图片是否需要代理":"0",
    "是否开启获取首页数据":"1",
   //首页推荐数据获取链接
-   "首页推荐链接": "https://123av.com/zh/dm2",
+   "首页推荐链接": "https://123av.com/zh/new-release",
    //首页推荐列表数组截取。
    "首页列表数组规则": ".box-item-list",
    //首页推荐片单列表数组定位。
@@ -24,14 +24,14 @@
    //首页推荐片单副标题
    "首页片单副标题":".duration&&Text+'👁️'+.detail-item&&span,0&&Text",
    //首页推荐片单链接补前缀  
-   "首页片单链接加前缀": "https://123av.com/zh/dm2",
+   "首页片单链接加前缀": "https://123av.com/zh/",
    //首页推荐片单链接补后缀
    "首页片单链接加后缀": "",
    "分类起始页码": "1",
    //"分类链接": "https://www.l0l.tv/index.php/vod/show/id/{cateId}/page/{catePg}.html",
-   "分类链接": "https://123av.com/zh/{cateId}?page={catePg}",
-   "分类名称": "JAV&业余&未经审查",
-   "分类名称替换词": "dm1/censored&dm1/tags/siro&dm1/uncensored",
+ "分类链接": "https://123av.com/zh/{cateId}?page={catePg}",
+   "分类名称": "最近更新&新上映&未经审查泄露&SIRO&LUXU&200GANA&ACZD&ARA&S-CUTE&PRESTIGE PREMIUM&MRHP&DOCP&NNPJ",
+   "分类名称替换词": "recent-update/&new-release/&wuma/未经审查泄露&tags/SIRO&tags/LUXU&tags/200GANA&tags/ACZD&tags/ARA&tags/S-CUTE&tags/PRESTIGE PREMIUM&tags/MRHP&tags/DOCP&tags/NNPJ",
    //"筛选数据":{},
    "分类截取模式": "1",
    "分类列表数组规则": ".box-item-list&&.box-item",
@@ -39,7 +39,7 @@
    "分类片单标题": ".detail&&a&&Text",
    "分类片单链接": "a&&href",//替换规则
    "分类片单图片": "img&&data-src",
-   "分类片单副标题":".duration&&Text+'👁️'+.detail-item&&span,0&&Text",
+   "分类片单副标题":".duration&&Text",
    "分类片单链接加前缀": "https://123av.com/zh/",
    "分类片单链接加后缀": "",
    "搜索请求头参数":"User-Agent$PC_UA",
@@ -88,10 +88,9 @@
 
 {"v":"dm1/censored","n":"审查"},
 {"v":"dm1/recent-update","n":"最近更新"},
-{"v":"dm1/new-release","n":"新发布"},
-{"v":"dm1/uncensored","n":"未审查"},
-{"v":"dm1/uncensored-leaked","n":"洩漏未审查"},
-{"v":"dm1/trending","n":"热门"},
+{"v":"dm1/new-release","n":"全新上市"},
+{"v":"dm1/trending","n":"動態"},
+{"v":"dm1/recommended","n":"推荐的"},
 {"v":"dm1/vr","n":"VR"},
 {"v":"dm1/today-hot","n":"今天最好的"},
 {"v":"dm1/weekly-hot","n":"本周最好的"},
@@ -100,33 +99,32 @@
 }],
 "tags/siro":[
  {"key":"cateId","name":"分类","value":[
-{"v":"dm1/tags/siro","n":"SIRO"},
-{"v":"dm1/tags/259luxu","n":"LUXU"},
-{"v":"dm1/tags/200gana","n":"200GANA"},
-{"v":"dm1/tags/prestige-premium","n":"PRESTIGE PREMIUM"},
-{"v":"dm1/tags/230oreco","n":"oreco"},
-{"v":"dm1/tags/390jac","n":"jac"},
-{"v":"dm1/tags/328hmdn","n":"hmdn"},
-{"v":"dm1/tags/s-cute","n":"S-CUTE"},
-{"v":"dm1/tags/261ara","n":"ARA"}
+  {"v":"dm1/tags/siro","n":"SIRO"},
+  {"v":"dm1/tags/259luxu","n":"LUXU"},
+  {"v":"dm1/tags/200gana","n":"200GANA"},
+  {"v":"dm1/tags/prestige-premium","n":"PRESTIGE PREMIUM"},
+  {"v":"dm1/tags/230oreco","n":"oreco"},
+  {"v":"dm1/tags/390jac","n":"jac"},
+  {"v":"dm1/tags/328hmdn","n":"hmdn"},
+  {"v":"dm1/tags/s-cute","n":"S-CUTE"},
+  {"v":"dm1/tags/261ara","n":"ARA"}
 ]}],
 "uncensored":[
  {"key":"cateId","name":"分类","value":[
-
-{"v":"dm1/uncensored-leaked","n":"泄露未审查"},
-{"v":"dm1/tags/fc2","n":"FC2"},
-{"v":"dm2/tags/heyzo","n":"HEYZO"},
-{"v":"dm1/tags/tokyo-hot","n":"Tokyo-Hot"},
-{"v":"dm16/tags/1pondo","n":"1pondo"},
-{"v":"dm18/tags/caribbeancom","n":"Caribbeancom"},
-{"v":"dm4/tags/caribbeancompr","n":"Caribbeancompr"},
-{"v":"dm20/tags/10musume","n":"10musume"},
-{"v":"dm1/tags/pacopacomama","n":"pacopacomama"},
-{"v":"dm1/tags/gachig","n":"Gachinco"},
-{"v":"dm1/tags/xxx-av","n":"XXX-AV"},
-{"v":"dm1/tags/c0930","n":"C0930"},
-{"v":"dm1/tags/h4610","n":"H4610"},
-{"v":"dm1/tags/h0930","n":"H0930"}
+  {"v":"dm1/uncensored-leaked","n":"泄露未审查"},
+  {"v":"dm1/tags/fc2","n":"FC2"},
+  {"v":"dm2/tags/heyzo","n":"HEYZO"},
+  {"v":"dm1/tags/tokyo-hot","n":"Tokyo-Hot"},
+  {"v":"dm16/tags/1pondo","n":"1pondo"},
+  {"v":"dm18/tags/caribbeancom","n":"Caribbeancom"},
+  {"v":"dm4/tags/caribbeancompr","n":"Caribbeancompr"},
+  {"v":"dm20/tags/10musume","n":"10musume"},
+  {"v":"dm1/tags/pacopacomama","n":"pacopacomama"},
+  {"v":"dm1/tags/gachig","n":"Gachinco"},
+  {"v":"dm1/tags/xxx-av","n":"XXX-AV"},
+  {"v":"dm1/tags/c0930","n":"C0930"},
+  {"v":"dm1/tags/h4610","n":"H4610"},
+  {"v":"dm1/tags/h0930","n":"H0930"}
 ]}],
 
 
