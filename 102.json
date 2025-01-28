@@ -35,9 +35,12 @@
     		{"name":"备用虎牙","type": 0,"url": "http://www.52sw.top:678/iptv/huya.m3u"},
     		{"name":"备用斗鱼","type": 0,"url": "http://www.52sw.top:678/iptv/douyu.m3u"},
 			{"name":"小武哥(18+)","playerType":2,"url":"https://qu.ax/PEHy.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei"},
-		    {"name":"私密線路(18+)","playerType":2,"url":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/live/178.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",	"header": {
-				"X-Api-key": "eef635a7806e57ab688fa46eaddb6926a728de071bc267cb5f336d7be068d880..0..1735089945..75b109b1-81c5-4caf-aea1-776e6a81"
-			  }},
+		    {
+                "name":"私密線路(18+)",
+                "playerType":2,"url":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/live/178.txt",
+                "epg":"http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",	
+                "header": {"X-Api-key": "eef635a7806e57ab688fa46eaddb6926a728de071bc267cb5f336d7be068d880..0..1735089945..75b109b1-81c5-4caf-aea1-776e6a81"}
+            },
 			{"name":"台灣風景直播(時好時壞)","playerType": 2,"url": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/live/10.txt","ua": "okhttp/4.12","epg":"http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei"}
 		],
 		"rules": [
