@@ -1,8 +1,9 @@
 {
   "spider": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/pg.jar;md5;89086276298170179836ca925049e8df",
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
-  "wallpaper": "https://picsum.photos/1080/",
+  "wallpaper": "https://tv.nxog.top/m//t/",
   "sites": [    
+
 
     {
       "key": "豆瓣",
@@ -377,8 +378,8 @@
         "changeable": 1
     },
     {
-        "key": "py_电影猎手",
-        "name": "⏭｜电影猎手｜PYTHON",
+        "key": "py_电影獵手",
+        "name": "⏭｜電影獵手｜PYTHON",
         "type": 3,
         "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/py/py_电影猎手.py",
         "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/py.jar",
@@ -399,8 +400,8 @@
           "changeable": 1
     },
     {
-          "key": "py_猎手影视",
-          "name": "⏭｜猎手影视｜PYTHON",
+          "key": "py_獵手影视",
+          "name": "⏭｜獵手影视｜PYTHON",
           "type": 3,
           "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/py/猎手影视.py",
           "searchable": 1,
@@ -1208,32 +1209,6 @@
       "changeable":1
     },
     {
-        "key": "糯米弹幕",
-        "name": "🥇｜糯米｜弹幕",
-        "type": 3,
-        "api": "csp_Nmys",
-        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "ext": {
-            "danmu": true
-        }
-    },
-    {
-        "key": "文才弹幕",
-        "name": "🥇｜文才｜弹幕",
-        "type": 3,
-        "api": "csp_Jpys",
-        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "ext": {
-            "danmu": true
-        }
-    },
-    {
         "key": "皮皮虾",
         "name": "🥇｜皮皮虾｜APP",
         "type": 3,
@@ -1332,13 +1307,123 @@
     },
     {
         "key": "饺子影视",
-        "name": "🥇｜饺子｜影视",
+        "name": "🥇｜饺子",
         "type": 3,
         "api": "csp_Jiaozi",
         "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
         "searchable": 1,
         "quickSearch": 1,
         "filterable": 1
+    },
+    {
+        "key": "csp_Xlys",
+        "name": "🥇｜滴滴",
+        "api": "csp_Xlys",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/csp_JPYY.jar",
+        "type": 3,
+        "playerType": 2
+    },
+    {
+        "key": "星辰xBPQ",
+        "name": "🥇｜星辰",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext":
+            {
+             "分类url": "https://citytv.cc/tv/dianying/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}",
+             "分类": "电视剧$dianshiju#电影$dianying#动漫$dongman#综艺$zongyi#短剧$duanju",
+             "简介": "class=\"detail-sketch\">&&</span>",
+             "线路数组": "#playlist&&</li>",
+             "线路标题": ">&&</a>[排序:神马云播>阿里云播>]",
+             "播放标题": ">&&<"
+            }
+    },
+    {
+        "key": "567影视",
+        "name": "🥇｜567影视",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": {
+          "简介": "<div class=\"stui-pannel_bd\"&&</div>",
+          "分类url": "https://www.567dyy.com/list/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
+          "分类": "电影$1#电视剧$2#动漫$4#综艺$3#短剧$5"
+        }
+    },
+    {
+        "key": "糯米弹幕",
+        "name": "🥇｜糯米｜弹幕",
+        "type": 3,
+        "api": "csp_Nmys",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": {
+            "danmu": true
+        }
+    },
+    {
+        "key": "文才弹幕",
+        "name": "🥇｜文才｜弹幕",
+        "type": 3,
+        "api": "csp_Jpys",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": {
+            "danmu": true
+        }
+    },
+    {
+        "key": "浪酷弹幕",
+        "name": "🥇｜浪酷｜弹幕",
+        "type": 3,
+        "api": "csp_TianTian",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": {
+            "danmu": true,
+            "site": "aHR0cDovL3YubGt1eXMuY24="
+        }
+    },
+    {
+        "key": "天天弹幕",
+        "name": "🥇｜天天｜弹幕",
+        "type": 3,
+        "api": "csp_TianTian",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": {
+            "danmu": true,
+            "site": "aHR0cDovL29wLnlzZHFqcy5jbg=="
+        }
+    },
+    {
+        "key": "热播弹幕",
+        "name": "🥇｜热播｜弹幕",
+        "type": 3,
+        "api": "csp_TianTian",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": {
+            "danmu": true,
+            "site": "aHR0cDovL3YucmJvdHYuY24="
+        }
     },
     {
         "key": "立播弹幕",
@@ -1356,6 +1441,16 @@
             "site": "https://www.libvio.cc",
             "danmu": true
         }
+    },
+    {
+        "key": "csp_Wwys",
+        "name": "🥈｜理想",
+        "type": 3,
+        "playerType": 2,
+        "changeable": 0,
+        "api": "csp_Wwys",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/csp_JPYY.jar",
+        "ext": "https://www.wwgz.cn/"
     },
     {
         "key": "drpyS_火车太堵",
@@ -3660,42 +3755,6 @@
         "ext": {
           "分类url": "http://m.gyxlgs.com/{cateId}/index___{year}__addtime_{{catePg}}.html",
           "分类": "電視劇$dianshiju#電影$dianying#動漫$dongman#綜藝$zongyi"
-        }
-    },
-    {
-        "key": "csp_XBPQ_星辰影院XI",
-        "name": "🎥｜星辰影院(XI)",
-        "type": 3,
-        "api": "csp_XBPQ",
-        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "ext": {
-          "作者": "食全食美",
-          "站名": "星辰影视",
-          "主页url": "http://www.xingchenwu.com/",
-          "简介": "+<span class=\"detail-sketch\">&&</span>",
-          "导演": "导演：&&</p>",
-          "主演": "主演：&&</p>",
-          "影片状态": "状态：&&</p>",
-          "影片类型": "类型：&&</p>",
-          "数组": "stui-vodlist__thumb lazyload\"&&</a>",
-          "标题": "title=\"&&\"",
-          "副标题": "text-right\">&&</span>",
-          "图片": "data-original=\"&&\"",
-          "链接": "href=\"&&\"",
-          "搜索url": "http://www.xingchenwu.com/search.php;post;searchword={wd}",
-          "搜索数组": "stui-vodlist__thumb lazyload\"&&</a>",
-          "搜索标题": "title=\"&&\"",
-          "搜索副标题": "text-right\">&&</span>",
-          "搜索图片": "data-original=\"&&\"",
-          "搜索链接": "href=\"&&\"",
-          "线路数组": "<h3&&/h3>",
-          "线路标题": ">&&<",
-          "播放链接": "href='&&'",
-          "分类url": "http://www.xingchenwu.com/{cateId}/index{catePg}.html[http://www.xingchenwu.com/{cateId}/index.html];;ak",
-          "分类": "电影$dianying#电视剧$dianshiju#综艺$zongyi#动漫$dongman"
         }
     },
     {
