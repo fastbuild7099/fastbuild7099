@@ -90,20 +90,10 @@
     "changeable":1
 },  
 {
-    "key": "py_PPXYs",
-    "name": "⏭｜皮皮虾｜沐辰",
-    "type": 4,
-    "api": "https://py.doube.eu.org/spider?site=PPXYs",
-    "searchable": 1,
-    "quickSearch": 0,
-    "filterable": 0,
-    "changeable": 1
-},
-{
     "key": "yfsp",
     "name": "⏭｜愛壹帆｜雷蒙",
     "type": 3,
-    "searchable": 1,
+    "searchable": 0,
     "changeable": 1,
     "quickSearch":0,
     "style": {
@@ -232,17 +222,6 @@
         }
     },
     {
-      "key": "csp_视觉",
-      "name": "⏭｜视觉｜PYTHON",
-      "type": 3,
-      "searchable": 1,
-      "changeable": 1,
-      "quickSearch": 1,
-      "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/py/HArjrki0_shijue.py",
-      "playerType": 2,
-      "filterable": 1
-    },
-    {
       "key": "Net_emby", 
       "name": "⏭｜Net_Emby｜PYTHON",
       "type": 3, 
@@ -360,9 +339,9 @@
         "type": 3,
         "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/py/猎手影视.py",
         "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
-        "searchable": 1,
+        "searchable": 0,
         "changeable": 1,
-        "quickSearch": 1,
+        "quickSearch": 0,
         "filterable": 1,
         "playerType": 2
     },
@@ -383,7 +362,7 @@
         "type": 3,
         "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/py/py_电影猎手.py",
         "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/py.jar",
-        "searchable": 1,
+        "searchable": 0,
         "quickSearch": 0,
         "filterable": 0,
         "changeable": 1
@@ -404,7 +383,7 @@
           "name": "⏭｜獵手影视｜PYTHON",
           "type": 3,
           "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/py/猎手影视.py",
-          "searchable": 1,
+          "searchable": 0,
           "quickSearch": 0,
           "filterable": 0,
           "changeable": 1
@@ -425,7 +404,7 @@
         "name": "⏭｜bilibili｜PYTHON",
         "type": 3,
         "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/py/py_bilibili.py",
-        "searchable": 1,
+        "searchable": 0,
         "quickSearch": 0,
         "filterable": 0,
         "changeable": 1
@@ -1282,6 +1261,9 @@
         "api": "csp_Hudie",
         "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
         "playerType": 2,
+        "searchable": 0,
+        "quickSearch": 0,
+        "filterable": 1,
         "ext": "eaHR0cHM6Ly9kLmRjbW92aWUudG9w"
     },
 
@@ -1291,8 +1273,8 @@
         "type": 3,
         "api": "csp_AppGZ",
         "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
-        "searchable": 1,
-        "quickSearch": 1,
+        "searchable": 0,
+        "quickSearch": 0,
         "filterable": 1
     },
     {
