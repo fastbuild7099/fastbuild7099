@@ -3,7 +3,143 @@
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://picsum.photos/1080/",
   "sites": [    
-
+    {
+        "key": "py_推特",
+        "name": "⏭｜推特｜PYTHON",
+        "type": 3,
+        "api": "https://json.doube.eu.org/python/py_推特.py",
+        "searchable": 1,
+        "quickSearch": 0,
+        "filterable": 0,
+        "changeable": 1
+      },
+  {
+        "key": "csp_Wwys",
+        "name": "《理想🔹秒播》",
+        "type": 3,
+        "playerType": 2,
+        "changeable": 0,
+        "api": "csp_Wwys",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/csp_JPYY.jar",
+        "ext": "https://www.wwgz.cn/"
+    },
+    {
+        "key": "csp_XSX",
+        "name": "《视讯🔹秒播》",
+        "type": 3,
+        "searchable": 1,
+        "changeable": 1,
+        "quickSearch": 1,
+        "api": "csp_Xsx",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/csp_JPYY.jar",
+        "playerType": 2,
+        "filterable": 1,
+        "ext": ""
+    },
+    {
+        "key": "csp_zhufan",
+        "name": "《追剧🔹秒播》",
+        "searchable": 1,
+        "quickSearch": 1,
+        "type": 3,
+        "api": "csp_MiTo",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/csp_JPYY.jar",
+        "ext": {
+            "url": "http://103.88.35.251:8989",
+            "dataKey": "aassddwwxxllsx1x",
+            "playKey": "bbssqdbbssll25sx",
+            "version": "2.1.0"
+        }
+    },
+    {
+        "key": "zhaixing",
+        "name": "《星星🔹影院》",
+        "type": 3,
+        "api": "csp_AppZX",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/csp_JPYY.jar",
+        "playerType": 2
+    },
+    {
+        "key": "csp_Xlys",
+        "name": "《滴滴🔹影时》",
+        "api": "csp_Xlys",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/csp_JPYY.jar",
+        "type": 3,
+        "playerType": 2
+    },
+  {
+        "key": "嫖嫖嫖",
+        "name": "《嫖嫖🔹秒播》",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar",
+        "ext": {
+            "主页url": "https://www.gs4x7nq4.com/",
+            "播放请求头": "User-Agent$Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/128.0.0.0Safari/537.36",
+            "简介": "⚠️天微科技特别提醒您⚠️请勿相信影片中的广告，以免上当受骗❗️+</label>&&</div>",
+            "嗅探词": ".mp4#.m3u8#.flv#.m3u8?#.mp4?",
+            "影片类型": "tags\">&&director\">",
+            "影片状态": "bottom\">&&</div>",
+            "二次截取": "videoList\":\\[&&\\]",
+            "数组": "{&&}[不包含:伦理剧]",
+            "图片": "https+://ywxohs.com+obs.gduamoe.com&&\",",
+            "标题": "vodName\":\"&&\"",
+            "副标题": "vodRemarks\":\"&&\"",
+            "链接": "https://www.gs4x7nq4.com/detail/+vodId\":&&,",
+            "导演": "导演:</div>&&主演",
+            "主演": "主演:</div>&&别名",
+            "线路标题": "天微科技",
+            "播放数组": "listitem\">&&info\">",
+            "播放列表": "<a&&</a>",
+            "倒序": "否",
+            "搜索url": "https://www.gs4x7nq4.com/vod/search/{wd}",
+            "搜索副标题": "class=\"boottom\"*<div>&&</div",
+            "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
+            "分类url": "https://www.gs4x7nq4.com/vod/show/id/{cateId}/class/{class}/year/{year}/area/{area}/page/{catePg}"
+        }
+    },
+  {
+        "key": "浪酷弹幕",
+        "name": "浪酷｜弹幕",
+        "type": 3,
+        "api": "csp_TianTian",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": {
+            "danmu": true,
+            "site": "aHR0cDovL3YubGt1eXMuY24="
+        }
+    },
+    {
+        "key": "天天弹幕",
+        "name": "天天｜弹幕",
+        "type": 3,
+        "api": "csp_TianTian",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": {
+            "danmu": true,
+            "site": "aHR0cDovL29wLnlzZHFqcy5jbg=="
+        }
+    },
+    {
+        "key": "热播弹幕",
+        "name": "热播｜弹幕",
+        "type": 3,
+        "api": "csp_TianTian",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": {
+            "danmu": true,
+            "site": "aHR0cDovL3YucmJvdHYuY24="
+        }
+    },
     {
       "key": "豆瓣",
       "name": "🇹🇼【老王點播專區】🇹🇼",
@@ -377,8 +513,8 @@
         "changeable": 1
     },
     {
-        "key": "py_电影猎手",
-        "name": "⏭｜电影猎手｜PYTHON",
+        "key": "py_电影獵手",
+        "name": "⏭｜電影獵手｜PYTHON",
         "type": 3,
         "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/py/py_电影猎手.py",
         "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/py.jar",
@@ -399,8 +535,8 @@
           "changeable": 1
     },
     {
-          "key": "py_猎手影视",
-          "name": "⏭｜猎手影视｜PYTHON",
+          "key": "py_獵手影视",
+          "name": "⏭｜獵手影视｜PYTHON",
           "type": 3,
           "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/py/猎手影视.py",
           "searchable": 1,
