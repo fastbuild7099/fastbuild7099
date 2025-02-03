@@ -3,6 +3,15 @@
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://picsum.photos/1080/",
   "sites": [    
+    {
+      "key": "WexrenrenGuard",
+      "name": "💥人人┃影视💥",
+      "type": 3,
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1737987854196/wex.txt;md5;7c3f9f7fb55f13fbc874079a20949fa5",
+      "api": "csp_WexrenrenGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
 
     {
       "key": "豆瓣",
