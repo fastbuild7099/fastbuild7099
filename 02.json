@@ -30,7 +30,7 @@
       "name": "Youtube",
       "type": 3,
       "api": "csp_Youtube",
-      "searchable": 0,
+      "searchable": 1,
       "quickSearch": 0,
       "changeable": 0,
       "timeout": 240,
@@ -93,9 +93,9 @@
     "key": "yfsp",
     "name": "⏭｜愛壹帆｜雷蒙",
     "type": 3,
-    "searchable": 0,
+    "searchable": 1,
     "changeable": 1,
-    "quickSearch":0,
+    "quickSearch":1,
     "style": {
       "type": "rect",
       "ratio": 0.75
@@ -280,7 +280,7 @@
         "type": 3,
         "searchable": 1,
         "changeable": 1,
-        "quickSearch":0,
+        "quickSearch":1,
         "style": {
           "type": "rect",
           "ratio": 0.71
@@ -339,7 +339,7 @@
         "type": 3,
         "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/py/猎手影视.py",
         "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
-        "searchable": 0,
+        "searchable": 1,
         "changeable": 1,
         "quickSearch": 0,
         "filterable": 1,
@@ -362,7 +362,7 @@
         "type": 3,
         "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/py/py_电影猎手.py",
         "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/py.jar",
-        "searchable": 0,
+        "searchable": 1,
         "quickSearch": 0,
         "filterable": 0,
         "changeable": 1
@@ -383,7 +383,7 @@
           "name": "⏭｜獵手影视｜PYTHON",
           "type": 3,
           "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/py/猎手影视.py",
-          "searchable": 0,
+          "searchable": 1,
           "quickSearch": 0,
           "filterable": 0,
           "changeable": 1
@@ -404,7 +404,7 @@
         "name": "⏭｜bilibili｜PYTHON",
         "type": 3,
         "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/py/py_bilibili.py",
-        "searchable": 0,
+        "searchable": 1,
         "quickSearch": 0,
         "filterable": 0,
         "changeable": 1
@@ -552,7 +552,7 @@
       "api":"http://drpys.aera.eu.org/api/PTT[优]",
       "searchable":1,
       "filterable":1,
-      "quickSearch":0,
+      "quickSearch":1,
       "ext":""
     },
     {
@@ -876,7 +876,7 @@
       "api":"http://drpys.aera.eu.org/api/雪糕TV",
       "searchable":1,
       "filterable":0,
-      "quickSearch":0,
+      "quickSearch":1,
       "ext":""
     },
     {
@@ -897,7 +897,7 @@
       "api":"http://drpys.aera.eu.org/api/瓜子H5",
       "searchable":1,
       "filterable":1,
-      "quickSearch":0,
+      "quickSearch":1,
       "ext":""
     },
     {
@@ -1261,7 +1261,7 @@
         "api": "csp_Hudie",
         "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
         "playerType": 2,
-        "searchable": 0,
+        "searchable": 1,
         "quickSearch": 0,
         "filterable": 1,
         "ext": "eaHR0cHM6Ly9kLmRjbW92aWUudG9w"
@@ -1273,7 +1273,7 @@
         "type": 3,
         "api": "csp_AppGZ",
         "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
-        "searchable": 0,
+        "searchable": 1,
         "quickSearch": 0,
         "filterable": 1
     },
@@ -1832,7 +1832,7 @@
       "type": 3,
       "api": "csp_Bilimd",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xmbjm.jar",
-      "searchable": 0,
+      "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
       "style": {"type": "rect","ratio": 1.433},
@@ -1845,7 +1845,7 @@
       "type": 3,
       "api": "csp_Bili",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xmbjm.jar",
-      "searchable": 0,
+      "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
       "style": {"type": "rect","ratio": 1.433},
@@ -1861,7 +1861,7 @@
       "name": "🥈｜bilbile直播",
       "type": 3,
       "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
-      "searchable": 0,
+      "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/blzb.js"
@@ -4293,7 +4293,7 @@
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable": 0,
+      "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
       "ext": {
@@ -4308,7 +4308,7 @@
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable": 0,
+      "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
       "ext": {
@@ -7473,7 +7473,7 @@
         "api":"http://drpys.aera.eu.org/api/OmoFun[漫]",
         "searchable":2,
         "filterable":0,
-        "quickSearch":0,
+        "quickSearch":1,
         "ext":""
       },
     {
@@ -7785,7 +7785,7 @@
       "key": "直播转点播1",
       "name": "㊙︎｜直播转点播[V2]",
       "type": 3,
-      "searchable": 0,
+      "searchable": 1,
       "timeout": 60,
       "api": "https://zhangqun66.com/zq/cat/live2vod.js",
       "ext": "https://zhangqun66.com/zq/cat/feimaolive.json",
@@ -7805,7 +7805,7 @@
       "key": "直播转点播2",
       "name": "㊙︎｜直播转点播[V4]",
       "type": 3,
-      "searchable": 0,
+      "searchable": 1,
       "api": "https://raw.githubusercontent.com/sqspot/tac/main/lib/live2vod.js",
       "ext": "https://raw.githubusercontent.com/sqspot/tac/main/live2tv_sq.m3u",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/panda1123.jar;md5;d9004aa2e16f60b04baed361713fb710"
@@ -7823,7 +7823,7 @@
       "key": "直播转点播s2",
       "name": "㊙︎｜直播转点播[V6]",
       "type": 3,
-      "searchable": 0,
+      "searchable": 1,
       "api": "https://raw.githubusercontent.com/sqspot/tac/main/lib/live2vod.js",
       "ext": "https://raw.githubusercontent.com/sqspot/tac/main/live2tv_sq_s.m3u",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/panda1123.jar;md5;d9004aa2e16f60b04baed361713fb710"
@@ -7843,7 +7843,7 @@
       "type": 4,
       "api": "https://zhangqun66.com/yt/yt001.php",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/蓝天白云.txt;md5;329e914a90b0bb5c7cb69b0eaec19700",
-      "searchable": 0,
+      "searchable": 1,
       "changeable": 1,
       "ext": "海贼王#最新歌曲#动漫#新闻#卡提诺#追剧#爆笑#喜剧#新闻#旅游#播放清单#财神爷我的歌单"
     },
@@ -7856,7 +7856,7 @@
           "type": "rect",
           "ratio": 1.33
       },
-      "searchable": 0,
+      "searchable": 1,
       "changeable": 1
     },
     {
@@ -7864,7 +7864,7 @@
       "name": "㊙︎｜YT播放列表2",
       "type": 4,
       "api": "http://zhangqun66.com/ytlb1.php",
-      "searchable": 0,
+      "searchable": 1,
       "style": {
           "type": "rect",
           "ratio": 1.33
@@ -7990,13 +7990,13 @@
     {"key": "vod_索尼","name":"🧲｜索尼","type":1,"api":"https://suoniapi.com/api.php/provide/vod/?ac=list","searchable":1,"changeable":1,"quickSearch":1,"filterable":1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","悬疑片","犯罪片","冒险片","动画片","惊悚片","奇幻片","国产剧","欧美剧","韩剧","日剧","港剧","台剧","泰剧","大陆综艺","日韩综艺","港台综艺","欧美综艺","国产动漫","日韩动漫","欧美动漫","动画片","港台动漫","海外动漫"]},
     {"key": "vod_光速","name":"🧲｜光速","type":1,"api":"https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8/?ac=list","searchable":1,"quickSearch":1,"filterable":1,"categories":["动作片","爱情片","科幻片","战争片","剧情片","恐怖片","喜剧片","大陆剧","港澳剧","台湾剧","欧美剧","动漫电影","韩剧","日剧","泰剧"]},
     {"key": "vod_快车","name":"🧲｜快車","type":1,"api":"https://caiji.kczyapi.com/api.php/provide/vod/?ac=list","searchable":1,"changeable":1,"quickSearch":1,"filterable":1,"categories":["动漫","电影","动作片","喜剧片","爱情片","科幻片","恐怖片","战争片","剧情片","动画片","电视剧","国产剧","香港剧","台湾剧","欧美剧","韩国剧","日本剧","海外剧","动漫","国产动漫","日本动漫","欧美动漫","预留","综艺","大陆综艺","日韩综艺","港台综艺","欧美综艺","泰国剧","未分类"]},
-    {"key": "vod_豪华","name":"🧲｜豪華","type":1,"api":"https://hhzyapi.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":0,"filterable":1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","悬疑片","犯罪片","奇幻片","记录片","动画片","内地剧","香港剧","台湾剧","日剧","韩剧","欧美剧","马泰剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","中国动漫","日本动漫","欧美动漫"]},
+    {"key": "vod_豪华","name":"🧲｜豪華","type":1,"api":"https://hhzyapi.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1,"filterable":1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","悬疑片","犯罪片","奇幻片","记录片","动画片","内地剧","香港剧","台湾剧","日剧","韩剧","欧美剧","马泰剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","中国动漫","日本动漫","欧美动漫"]},
     {"key": "vod_优质","name":"🧲｜優質","type":1,"api":"https://api.1080zyku.com/inc/api_mac10.php","searchable":1,"quickSearch":1},
     {"key": "vod_极速","name":"🧲｜極速","type":1,"api":"https://jszyapi.com/api.php/provide/vod/at/json","searchable":1,"quickSearch":1,"filterable":1,"categories":["内地剧","欧美剧","日剧","韩剧","台湾剧","香港剧","马泰剧","悬疑片","喜剧片","动作片","爱情片","科幻片","恐怖片","剧情片","战争片","犯罪片","记录片","动画片","日本动漫","欧美动漫","中国动漫","大陆综艺","日韩综艺","港台综艺","欧美综艺","体育赛事"]},
     {"key": "vod_虎牙","name":"🧲｜虎牙","type":1,"api":"https://www.huyaapi.com/api.php/provide/vod/from/hym3u8","searchable":1,"quickSearch":1,"filterable":1},
     {"key": "vod_最大","name":"🧲｜最大","type":1,"api":"http://zuidazy.me/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
     {"key": "vod_爱坤","name":"🧲｜爱睏","type":1,"api":"https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/at/json","searchable":1,"quickSearch":1,"filterable":1},
-    {"key": "vod_天空","name":"🧲｜天空","type":1,"api":"http://api.tiankongapi.com/api.php/provide/vod/","playUrl":"","searchable":1,"quickSearch":0,"categories":[]},
+    {"key": "vod_天空","name":"🧲｜天空","type":1,"api":"http://api.tiankongapi.com/api.php/provide/vod/","playUrl":"","searchable":1,"quickSearch":1,"categories":[]},
     {"key": "vod_红牛","name":"🧲｜红牛","type":1,"api":"https://www.hongniuzy2.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
     {"key": "vod_优酷","name":"🧲｜優酷","type":1,"api":"https://api.ukuapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
     {"key": "vod_魔都","name":"🧲｜魔都","type":1,"api":"https://www.moduzy.com/api.php/provide/vod/?ac=list","searchable":1,"changeable":1,"quickSearch":1,"filterable":1},
