@@ -1,5 +1,5 @@
 {
-  "規則名": "njav",
+  "規則名": "24av",
   "規則作者": "老王叔叔",
   "規則日期": "113.11.29",
    "请求头参数":"手机",
@@ -35,7 +35,7 @@
    "分类名称替换词": "dm1/censored&dm1/tags/siro&dm1/uncensored",
    //"筛选数据":{},
    "分类截取模式": "1",
-   "分类列表数组规则": ".box-item-list&&.box-item",
+   "分类列表数组规则": ".movie-list&&.detail-item",
    "分类片单是否Jsoup写法":"1",
    "分类片单标题": ".detail&&a&&Text",
    "分类片单链接": "a&&href",//替换规则
@@ -47,7 +47,7 @@
    "搜索链接": "https://24av.net/zh/search?keyword={wd}",
    "POST请求数据":"0",
    "搜索截取模式": "1",
-   "搜索列表数组规则": ".box-item-list&&.box-item",
+   "搜索列表数组规则": ".movie-list&&.detail-item",
    "搜索片单是否Jsoup写法":"1",
    "搜索片单图片": "img&&data-src",
    "搜索片单标题": ".detail&&a&&Text",
