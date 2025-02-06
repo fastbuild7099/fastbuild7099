@@ -1246,7 +1246,7 @@
     },
     {
         "key": "站长影视",
-        "name": "站长｜APP",
+        "name": "🥇｜站長｜APP",
         "type": 3,
         "api": "csp_AppGetApp",
         "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar;md5;b836384ede14d319c1dcbf257a264eda",
