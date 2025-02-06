@@ -8,7 +8,7 @@
       "key": "WexrenrenGuard",
       "name": "💥人人┃影视💥",
       "type": 3,
-      "jar": "./jar1/wex.txt",
+      "jar": "./jar1/wex.jar",
       "api": "csp_WexrenrenGuard",
       "searchable": 1,
       "changeable": 1
