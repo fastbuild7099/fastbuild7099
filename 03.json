@@ -99,7 +99,7 @@
       "type": "rect",
       "ratio": 0.75
     },
-    "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/GM.jar;md5;3e59c9c3c50ea1d4609cec9dbee730c3",
+    "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/gm.jar;md5;3e59c9c3c50ea1d4609cec9dbee730c3;md5;3e59c9c3c50ea1d4609cec9dbee730c3",
     "api": "csp_GM",
     "ext": {
       "userScript": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/ysfp.user.js",
@@ -145,7 +145,7 @@
           "ratio": 0.71
         },
         "api": "csp_GM",
-        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/gm.jar",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/gm.jar;md5;3e59c9c3c50ea1d4609cec9dbee730c3;md5;3e59c9c3c50ea1d4609cec9dbee730c3",
         "ext": {
           "userScript": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/new_json/JS/hitv.user.js",
           "debug": false,
@@ -183,7 +183,7 @@
           "ratio": 0.66
         },
         "api": "csp_GM",
-        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/gm.jar",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/gm.jar;md5;3e59c9c3c50ea1d4609cec9dbee730c3",
         "ext": {
           "userScript": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/new_json/JS/gaze.user.js",
           "debug": false,
@@ -285,7 +285,7 @@
           "ratio": 0.71
         },
         "api": "csp_GM",
-        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/GM.jar;md5;3e59c9c3c50ea1d4609cec9dbee730c3",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/gm.jar;md5;3e59c9c3c50ea1d4609cec9dbee730c3;md5;3e59c9c3c50ea1d4609cec9dbee730c3",
         "ext": {
           "userScript": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/hitv.user.js",
           "debug": false,
@@ -325,7 +325,7 @@
         "name": "⏭｜九龙(app)｜PYTHON",
         "type": 3,
         "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/py/九龙影视.py",
-        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar;md5;b836384ede14d319c1dcbf257a264eda",
         "searchable": 1,
         "changeable": 1,
         "quickSearch": 1,
@@ -337,7 +337,7 @@
         "name": "⏭｜猎手(app)｜PYTHON",
         "type": 3,
         "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/py/猎手影视.py",
-        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar;md5;b836384ede14d319c1dcbf257a264eda",
         "searchable": 1,
         "changeable": 1,
         "quickSearch": 0,
@@ -349,7 +349,7 @@
         "name": "⏭｜hitv｜PYTHON",
         "type": 3,
         "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/py/py_hitv.py",
-        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/py.jar",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/py.jar;md5;71d846866f2ceb9666ba114e5963983f",
         "searchable": 1,
         "quickSearch": 0,
         "filterable": 0,
@@ -360,7 +360,7 @@
         "name": "⏭｜電影獵手｜PYTHON",
         "type": 3,
         "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/py/py_电影猎手.py",
-        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/py.jar",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/py.jar;md5;71d846866f2ceb9666ba114e5963983f",
         "searchable": 1,
         "quickSearch": 0,
         "filterable": 0,
@@ -371,7 +371,7 @@
           "name": "⏭｜映播｜PYTHON",
           "type": 3,
           "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/py/映播.py",
-          "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/py.jar",
+          "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/py.jar;md5;71d846866f2ceb9666ba114e5963983f",
           "searchable": 1,
           "quickSearch": 0,
           "filterable": 0,
@@ -392,7 +392,7 @@
           "name": "⏭｜策驰影院｜PYTHON",
           "type": 3,
           "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/py/策驰影院.py",
-          "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/py.jar",
+          "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/py.jar;md5;71d846866f2ceb9666ba114e5963983f",
           "searchable": 1,
           "quickSearch": 0,
           "filterable": 0,
@@ -1191,7 +1191,7 @@
         "name": "🥇｜皮皮虾｜APP",
         "type": 3,
         "api": "csp_AppYsV2",
-        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar;md5;b836384ede14d319c1dcbf257a264eda",
         "searchable": 1,
         "quickSearch": 1,
         "filterable": 1,
@@ -1202,7 +1202,7 @@
         "name": "🥇｜HG影视｜APP",
         "type": 3,
         "api": "csp_AppYsV2",
-        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar;md5;b836384ede14d319c1dcbf257a264eda",
         "searchable": 1,
         "quickSearch": 1,
         "filterable": 1,
@@ -1212,7 +1212,7 @@
         "key": "木头",
         "name": "🥇｜木头｜App",
         "type": 3,
-        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar;md5;b836384ede14d319c1dcbf257a264eda",
         "api": "csp_Shark",
         "searchable": 1,
         "quickSearch": 1,
@@ -1224,7 +1224,7 @@
         "name": "🥇｜人人｜APP",
         "type": 3,
         "api": "csp_Xdai",
-        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar;md5;b836384ede14d319c1dcbf257a264eda",
         "searchable": 1,
         "quickSearch": 1,
         "filterable": 1,
@@ -1235,7 +1235,7 @@
         "name": "🥇｜雨滴｜App",
         "type": 3,
         "api": "csp_Xdai",
-        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar;md5;b836384ede14d319c1dcbf257a264eda",
         "searchable": 1,
         "quickSearch": 1,
         "filterable": 1,
@@ -1247,7 +1247,7 @@
         "name": "🥇｜优质｜App",
         "type": 3,
         "api": "csp_Xdai",
-        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar;md5;b836384ede14d319c1dcbf257a264eda",
         "searchable": 1,
         "quickSearch": 1,
         "filterable": 1,
@@ -1258,7 +1258,7 @@
         "name": "🥇｜蝴蝶｜App",
         "type": 3,
         "api": "csp_Hudie",
-        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar;md5;b836384ede14d319c1dcbf257a264eda",
         "playerType": 2,
         "searchable": 1,
         "quickSearch": 0,
@@ -1271,7 +1271,7 @@
         "name": "🥇｜洽洽｜APP",
         "type": 3,
         "api": "csp_AppGZ",
-        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar;md5;b836384ede14d319c1dcbf257a264eda",
         "searchable": 1,
         "quickSearch": 0,
         "filterable": 1
@@ -1281,7 +1281,7 @@
         "name": "🥇｜忍者｜APP",
         "type": 3,
         "api": "csp_AppRZ",
-        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar;md5;b836384ede14d319c1dcbf257a264eda",
         "searchable": 1,
         "quickSearch": 1,
         "filterable": 1
@@ -1291,7 +1291,7 @@
         "name": "🥇｜饺子",
         "type": 3,
         "api": "csp_Jiaozi",
-        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar;md5;b836384ede14d319c1dcbf257a264eda",
         "searchable": 1,
         "quickSearch": 1,
         "filterable": 1
@@ -1343,7 +1343,7 @@
         "name": "🥇｜糯米｜弹幕",
         "type": 3,
         "api": "csp_Nmys",
-        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar;md5;b836384ede14d319c1dcbf257a264eda",
         "searchable": 1,
         "quickSearch": 1,
         "filterable": 1,
@@ -1356,7 +1356,7 @@
         "name": "🥇｜文才｜弹幕",
         "type": 3,
         "api": "csp_Jpys",
-        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar;md5;b836384ede14d319c1dcbf257a264eda",
         "searchable": 1,
         "quickSearch": 1,
         "filterable": 1,
@@ -1411,7 +1411,7 @@
         "name": "🥇｜立播｜弹幕",
         "type": 3,
         "api": "csp_Libvio",
-        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar;md5;b836384ede14d319c1dcbf257a264eda",
         "searchable": 1,
         "filterable": 1,
         "changeable": 1,
@@ -7160,6 +7160,16 @@
         "changeable": 0
     },
     {
+      "key": "韩小圈",
+      "name": "📺｜韩小圈(APP)",
+      "type": 3,
+      "api": "csp_HanXiaoQuan",
+      "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar;md5;b836384ede14d319c1dcbf257a264eda;md5;b836384ede14d319c1dcbf257a264eda",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },b836384ede14d319c1dcbf257a264eda
+    {
       "key": "csp_HK_91短剧",
       "name": "📺｜91短剧",
       "type": 3,
@@ -7249,7 +7259,7 @@
         "name": "📺｜星芽短剧",
         "type": 3,
         "api": "csp_AppXY",
-        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar;md5;b836384ede14d319c1dcbf257a264eda",
         "searchable": 1,
         "quickSearch": 0,
         "filterable": 0
@@ -7259,7 +7269,7 @@
         "name": "📺｜吉吉短剧",
         "type": 3,
         "api": "csp_XBPQ",
-        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar;md5;b836384ede14d319c1dcbf257a264eda",
         "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/new_json/XBPQ/吉吉短剧.json"
     },
     {
@@ -7267,7 +7277,7 @@
         "name": "📺｜短剧网(瀟灑)",
         "type": 3,
         "api": "csp_XBPQ",
-        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar;md5;b836384ede14d319c1dcbf257a264eda",
         "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/new_json/XBPQ/短剧网.json"
     },
     {
@@ -7286,7 +7296,7 @@
         "name": "📺｜爱我短剧",
         "type": 3,
         "api": "csp_XBPQ",
-        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar;md5;b836384ede14d319c1dcbf257a264eda",
         "searchable": 1,
         "quickSearch": 1,
         "filterable": 1,
@@ -7349,7 +7359,7 @@
       }
     },
 
-    //動漫專區S
+    //動漫專區
     {
       "key": "py_dm84",
       "name": "⏭｜动漫巴士(沐辰)｜PYTHON",
