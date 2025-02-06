@@ -5,16 +5,6 @@
   "sites": [    
 
     {
-      "key": "WexrenrenGuard",
-      "name": "💥人人┃影视💥",
-      "type": 3,
-      "jar": "./jar1/wex.jar",
-      "api": "csp_WexrenrenGuard",
-      "searchable": 1,
-      "changeable": 1
-    },
-
-    {
       "key": "豆瓣",
       "name": "🇹🇼【老王點播專區】🇹🇼",
       "type": 3,
