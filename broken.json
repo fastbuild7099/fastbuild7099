@@ -4,7 +4,7 @@
     "wallpaper": "https://picsum.photos/1080/",
     "sites": [ 
       {
-        "key": "py_PPXYs",
+        "key": "py_PPXYs",  
         "name": "⏭｜皮皮虾｜沐辰",
         "type": 4,
         "api": "https://py.doube.eu.org/spider?site=PPXYs",
@@ -24,7 +24,29 @@
       "playerType": 2,
       "filterable": 1
     },
-      {
+    {
+      "key": "皮皮虾",
+      "name": "🥇｜皮皮虾｜APP",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar;md5;b836384ede14d319c1dcbf257a264eda",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://www.ppxys.vip/api.php/app/"
+    },
+    {
+      "key": "人人",
+      "name": "🥇｜人人｜APP",
+      "type": 3,
+      "api": "csp_Xdai",
+      "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar;md5;b836384ede14d319c1dcbf257a264eda",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "caHR0cHM6Ly9qaWVrb3UtMTMxNDA1NDY5OS5jb3MuYXAtY2hvbmdxaW5nLm15cWNsb3VkLmNvbS9qaWVrb3UudHh0fEY1MUY1RDUyRDIzQ0JGMjd8RjUxRjVENTJEMjNDQkYyN3wxOTE="
+  },
+    {
         "key": "drpyS_金牌影院",
         "name": "🥈｜金牌影院｜道長源",
         "type": 4,
