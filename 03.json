@@ -3,7 +3,15 @@
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://tv.nxog.top/m//t/",
   "sites": [    
-
+    {
+        "key": "Wexduboku",
+        "name": "🎇独播┃秒播🎇",
+        "type": 3,
+        "api": "csp_WexdubokuGuard",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/wex.jar",
+        "searchable": 1,
+        "changeable": 1
+    },
     {
       "key": "豆瓣",
       "name": "🇹🇼【老王點播專區】🇹🇼",
