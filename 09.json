@@ -4,6 +4,19 @@
   "wallpaper": "https://tv.nxog.top/m//t/",
   "sites": [    
 
+   {
+    "key": "csp_mgtva",
+    "name": "🥇｜木瓜",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+    "ext": {
+      "分类url": "https://www.muguatva.com/s/{cateId}/area/{area}/class/{class}/page/{catePg}/year/{year}.html",
+      "分类": "电影&电视剧&综艺&动漫",
+      "分类值": "dianying&lianxuju&zongyi&dongman"
+    }
+    },
+
 
     {
       "key": "豆瓣",
