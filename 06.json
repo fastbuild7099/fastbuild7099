@@ -743,10 +743,11 @@
         "searchable": 1,
         "quickSearch": 1,
         "filterable": 1,
-        "ext": {
+        "ext": 
+                {
                 "分类url": "https://ibaopian.com/vod/type/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
                 "分类": "电影$1#连续剧$2#动漫$4#综艺$3#纪录片$20#短剧$22"
-               }
+                }
     },
     {
         "key": "csp_界界影视",
@@ -754,7 +755,12 @@
         "type": 3,
         "api": "csp_XBPQ",
         "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/異界影視.json"
+        "ext": 
+                {
+                "分类url": "https://www.hkybqufgh.com/vod/show/id/{cateId}/area/{area}/year/{year}/page/{catePg}",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
+                "地区":"大陆&香港&台湾&美国&日本&韩国&印度&泰国&英国&法国&其他||大陆&香港&台湾&日本&韩国&美国&泰国&其他||大陆&香港&台湾&日本&韩国&美国&其他||大陆&日本&美国&其他"
+                }
     },
     {
         "key": "csp_XBPQ_爱电",
