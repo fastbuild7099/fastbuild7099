@@ -4,6 +4,19 @@
   "wallpaper": "https://tv.nxog.top/m//t/",
   "sites": [    
 
+  {
+    "key": "csp_奇趣影视",
+    "name": "🎥｜奇趣",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+    "ext": {
+      "分类url": "https://www.qqutv.com/qqys/{cateId}/area/{area}/page/{catePg}/year/{year}.html",
+      "分类": "电视剧$dianshiji#电影$dianying#动漫$dongmna#综艺$zongyi",
+      "地区": "中国&大陆&内地&香港&台湾&日本&韩国&泰国&新加坡&马来西亚&越南&印度&美国&英国&德国&法国&意大利"
+    }
+  },
+
     {
       "key": "豆瓣",
       "name": "🇹🇼【老王點播專區】🇹🇼",
@@ -6445,6 +6458,17 @@
             "分类": "#电影$dy#电视剧$dsj#综艺$zy#动漫$dm#体育$tiyu#短剧$duanju",
             "类型": "动作片$dz#喜剧片$xj#爱情片$aq#科幻片$kh#恐怖片$kb#剧情片$jq#战争片$zz#纪录片$jilupian#电影解说$dianyingjieshuo||大陆剧$dalu#港台剧$gangtai#美剧$meiju#海外剧$qita#韩国剧$rihan#香港剧$xianggangju#日本剧$ribenju#泰国剧$taiguoju||大陆综艺$daluzongyi#港台综艺$gangtaizongyi#日韩综艺$rihanzongyi#欧美综艺$oumeizongyi||国产动漫$guochandongman#日韩动漫$rihandongman#欧美动漫$oumeidongman#港台动漫$gangtaidongman#海外动漫$haiwaidongman||足球$zuqiu#篮球$lanqiu#网球$wangqiu#斯诺克$sinuoke||空"
           }
+        },
+        {
+          "key": "大海影视⑨",
+          "name": "🎥｜大海5站",
+          "type": 3,
+          "api": "csp_XBPQ",
+          "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/大海5號.json"
         },
         {
             "key": "八号影院",
