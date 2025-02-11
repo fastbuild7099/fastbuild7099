@@ -4,20 +4,6 @@
   "wallpaper": "https://tv.nxog.top/m//t/",
   "sites": [    
 
-   {
-    "key": "csp_mgtva",
-    "name": "🥇｜木瓜",
-    "type": 3,
-    "api": "csp_XBPQ",
-    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-    "ext": {
-      "分类url": "https://www.muguatva.com/s/{cateId}/area/{area}/class/{class}/page/{catePg}/year/{year}.html",
-      "分类": "电影&电视剧&综艺&动漫",
-      "分类值": "dianying&lianxuju&zongyi&dongman"
-    }
-    },
-
-
     {
       "key": "豆瓣",
       "name": "🇹🇼【老王點播專區】🇹🇼",
@@ -2427,6 +2413,20 @@
         "quickSearch": 1,
         "filterable": 1,
         "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/韓迷TV.json"
+    },
+    {
+        "key": "csp_XBPQ_88影视",
+        "name": "🎥｜88影视｜有廣告(10分鐘)",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 0,
+        "ext": {
+          "分类": "电影$1#电视剧$2#综艺$4#动漫$3#短剧$5",
+          "分类url": "https://www.88tvs.cn/vodtype/{cateId}-{catePg}.html"
+        }
     },
     {
         "key": "xbpq_龙影视",
