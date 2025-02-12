@@ -112,6 +112,17 @@
             "changeable": 0
         },
         {
+            "key": "小红书",
+            "name": "⏭小淫书｜PYTHON",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/py/py_小红薯.py",
+            "playerType": 2,
+            "filterable": 1
+        },
+        {
             "key": "avdb",
             "name": "⏭｜avdb(老張)｜GO",
             "type": 4,
