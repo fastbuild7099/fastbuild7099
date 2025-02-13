@@ -22,7 +22,20 @@
   },
 
 
-
+  {
+    "key": "蜜糖",
+    "name": "🍿蜜糖动漫",
+    "type": 3,
+    "api": "csp_XBPQ",
+"jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+    "ext": {
+    "线路数组":"dropdown&&</div>",
+    "线路标题":"<span>&&<+【+<small>&&+集】",
+    "简介": "20px;\"&&</p>",
+    "分类url": "https://www.mitang.tv/vodshow/by/{by}/id/{cateId}/page/{catePg}/;;mak",
+"分类": "新番$122A#番剧$T22A#剧场$l22A#极清$m22A#美漫$G22A"
+}
+        },
 
       {
         "key": "豆瓣",
