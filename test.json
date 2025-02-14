@@ -167,10 +167,13 @@
             "播放数组": "<ul class=\"playlistlink&&</ul>",
             "图片": "data-original=\"&&\"",
             "标题": "title=\"&&\"",
-            "副标题": "✨HD+note textbg\">&&</span>",
+            "副标题": "note textbg\">&&</span>",
             "数组": "videopic lazy\"&&</a>",
-            "分类url": "https://dsdytv.com",
-            "分类数组": "tabbar visible-xs\">&&</div}"
+            "分类数组": "tabbar visible-xs\">&&</div}",
+            "分类url": "https://dsdytv.com/search.php?page={catePg}&searchtype=5&order={by}&tid={cateId}&area={area}&year={year}&letter=&yuyan=&state=&money=&ver=&jq=",
+            "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
+            "地区": "大陆&香港&台湾&日本&韩国&美国&英国&印度&西班牙&法国&泰国&新加坡&其他"
+
           }
       },
       {
