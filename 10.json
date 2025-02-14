@@ -4,25 +4,7 @@
     "wallpaper": "https://tv.nxog.top/m//t/",
     "sites": [    
   
-    {
-        "key":"臻品",
-        "name":"臻品",
-        "type":3,
-        "api":"csp_XBPQ",
-        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-        "ext":
-                {
-                "简介": "stui-pannel_bd\">&&</div>",
-                "播放数组": "stui-content__playlist column8&&</ul>",
-                "线路数组": "stui-pannel__head bottom-line active clearfix\">&&</div>",
-                "线路标题": "<h3 class=\"title\">&&</h3>[排序:高清]",
-                "搜索url": "https://www.zpcxb.com/chazhao{wd}/page/{pg}.html",
-                "分类url": "https://www.zpcxb.com/zptop/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html;;mak",
-                "分类": "电影$dianying#剧集$dianshiju#综艺$zongyi#动漫$dongmna",
-                "类型": "动作片$dzp#科幻片$khp#战争片$zzp#恐怖片$kbp#喜剧片$xjp#爱情片$aqp#剧情片$jqp||国产剧$gcj#热门短剧$rmdj#港台剧$gtj#日韩剧$rhj#海外剧$hwj||空||空",
-                "地区": "中国&大陆&内地&香港&台湾&日本&韩国&泰国&新加坡&马来西亚&印度&美国&英国&德国&巴西&西班牙&加拿大&法国&意大利||空||中国&大陆&内地&香港&台湾&日本&韩国&泰国&新加坡&马来西亚&印度&美国&英国&德国&巴西&西班牙&加拿大&法国&意大利||中国&大陆&内地&香港&台湾&日本&韩国&泰国&新加坡&马来西亚&印度&美国&英国&德国&巴西&西班牙&加拿大&法国&意大利"
-                }
-    },
+
     {
         "key": "CSP_理理影院",
         "name": "🎥｜理理｜1080P有廣告",
