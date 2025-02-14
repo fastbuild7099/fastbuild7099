@@ -4,6 +4,7 @@
     "wallpaper": "https://tv.nxog.top/m//t/",
     "sites": [    
   
+  
     {
       "key": "csp_臻品电影网",
       "name": "🎥｜臻品",
@@ -13,26 +14,9 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": 
-            {
-            "主页url": "https://www.zpcxb.com",
-            "数组": "body&&.stui-vodlist",
-            "类型详情": "类型：</span>&&</span>",
-            "年代详情": "年份：</span>&&</a>",
-            "地区详情": "地区：</span>&&</a>",
-            "演员详情": "主演：</span>&&</p>",
-            "简介详情": "col-pd\">&&</p>",
-            "搜索链接": "https://www.zpcxb.com/chazhao{wd}/page/{SearchPg}.html",
-            "播放数组": "body&&.stui-content__playlist",
-            "线路数组": "body&&.bottom-line:has(span)",
-            "线路标题": "h3&&Text[排序:臻品电影①,臻品影视②]",
-            "分类url": "https://www.zpcxb.com/zptop/{cateId}/area/{area}/page/{catePg}/year/{year}.html",
-            "分类": "电影$dianying#剧集$dianshiju#综艺$zongyi#动漫$dongmna",
-            "地区": "大陆&香港&台湾&新加坡&日本&韩国&泰国&越南&印度&伊朗&俄罗斯&美国&法国&英国&德国&意大利&西班牙&加拿大&澳大利亚&巴西",
-            "类型": "动作片$dzp#科幻片$khp#战争片$zzp#恐怖片$kbp#喜剧片$xjp#爱情片$aqp#剧情片$jqp||国产剧$gcj#港台剧gtj#日韩剧$rhj#海外剧$hwj||空||空"
-            }
-      },  
-      {
+      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/臻品电影网.json"
+    },
+    {
         "key": "CSP_理理影院",
         "name": "🎥｜理理｜1080P有廣告",
         "type": 3,
