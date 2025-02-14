@@ -155,28 +155,6 @@
         }
       },
       {
-          "key": " fxzds ",
-          "name": "🎥｜袋鼠",
-          "type": 3,
-          "api": "csp_XBPQ",
-          "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-          "ext": {
-            "简介": "<p>&&</p>",
-            "线路标题": ">蓝光专线</a>",
-            "线路数组": "data-parent=&&</a>[不包含:蓝光专线3]",
-            "播放数组": "<ul class=\"playlistlink&&</ul>",
-            "图片": "data-original=\"&&\"",
-            "标题": "title=\"&&\"",
-            "副标题": "note textbg\">&&</span>",
-            "数组": "videopic lazy\"&&</a>",
-            "分类数组": "tabbar visible-xs\">&&</div}",
-            "分类url": "https://dsdytv.com/search.php?page={catePg}&searchtype=5&tid={cateId}&area={area}&year={year}",
-            "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
-            "地区": "大陆&香港&台湾&日本&韩国&美国&英国&印度&西班牙&法国&泰国&新加坡&其他"
-
-          }
-      },
-      {
           "key": "shiju影视",
           "name": "🎥｜视觉",
           "type": 3,
