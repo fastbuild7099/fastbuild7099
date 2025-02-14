@@ -6,32 +6,8 @@
   
   
       {
-        "key": "csp_Jianpian",
-        "name": "🎥｜荐片",
-        "type": 3,
-        "api": "csp_Jianpian",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "jar": "https://jihulab.com/Nostalgia/TVbox/-/raw/master/Yoursmile.jar;md5;C6BB658C79DBF1B220A5004B3FB05326",
-        "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/yoursmile66/TVBox/main/sub/jianpian.json"
-      },
-      {
-        "key": "贱贱",
-        "name": "🎥｜贱贱",
-        "spider": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/fan.txt;md5;8851819289f80deae32319080028db3b",
-        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/fan.txt;md5;8851819289f80deae32319080028db3b",
-        "playerType": 2,
-        "type": 3,
-        "searchable": 1,
-        "quickSearch": 1,
-        "changeable": 1,
-        "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-        "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/jp.js"
-      },
-      {
         "key": "CSP_理理影院",
-        "name": "🎥｜理理",
+        "name": "🎥｜理理｜1080P有廣告",
         "type": 3,
         "api": "csp_XBPQ",
         "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
@@ -1557,20 +1533,7 @@
           "分类": "電視劇$2#電影$1#動漫$4#綜藝$3#短劇$42"
         }
       },
-      {
-        "key": "csp_XBiu大米星球CN",
-        "name": "🎥｜大米星球CN",
-        "type": 3,
-        "api": "csp_XBPQ",
-        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "ext": {
-          "分类url": "https://www.ifblog.cn/vtshow/{cateId}--time------{catePg}---{year}.html",
-          "分类": "電視劇$2#電影$1#動漫$38#綜藝$3#短劇$48"
-        }
-      },
+
       {
         "key": "csp_XBiu奈落影院",
         "name": "🎥｜奈落影院",
