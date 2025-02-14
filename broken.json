@@ -267,6 +267,20 @@
       }
     },
     {
+      "key": "csp_XBiu小鴨影音CC",
+      "name": "🎥｜小鴨影音",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "分类url": "https://777drama.cc/list/{cateId}/{catePg}",
+        "分类"   : "電視劇$tv#電影$movie#動漫$anime"
+      }
+    },
+    {
       "key": "csp_XBPQ_星云",
       "name": "🎥｜星云",
       "type": 3,
