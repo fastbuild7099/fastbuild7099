@@ -310,6 +310,20 @@
       }
     },
     {
+      "key": "csp_XBiu大米星球CN",
+      "name": "🎥｜大米星球CN｜關站",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "分类url": "https://www.ifblog.cn/vtshow/{cateId}--time------{catePg}---{year}.html",
+        "分类": "電視劇$2#電影$1#動漫$38#綜藝$3#短劇$48"
+      }
+    },
+    {
       "key": "csp_XBPQ_皮虾",
       "name": "🎥｜皮虾",
       "type": 3,

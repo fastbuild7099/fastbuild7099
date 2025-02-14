@@ -32,6 +32,21 @@
              }
   },
   {
+    "key": "CSP_青檸影视",
+    "name": "🎥｜青檸｜有廣告",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+    "ext": 
+          {
+          "请求头": "User-Agent$MOBILE_UA",
+          "编码": "UTF-8",
+          "分类url": "https://www.hspf520.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
+          "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
+          "简介": "<p>&&<p>"
+          }
+  },
+  {
       "key": "csp_XBPQ_88影视",
       "name": "🎥｜88影视｜有廣告(10分鐘)",
       "type": 3,
@@ -77,21 +92,6 @@
             "剧情": "[替换:伦理>>空]",
             "分类": "电影$1#剧集$2#综艺$5#动漫$3#短剧$4#十八禁$6"
         }
-    },
-    {
-      "key": "CSP_青檸影视",
-      "name": "🎥｜青檸",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "ext": 
-            {
-            "请求头": "User-Agent$MOBILE_UA",
-            "编码": "UTF-8",
-            "分类url": "https://www.hspf520.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
-            "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
-            "简介": "<p>&&<p>"
-            }
     },
     {
         "key": "自由影视",
