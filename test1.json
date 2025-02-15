@@ -16,8 +16,9 @@
       "线路数组": "module-tab-itemtab-item&&</div>",
       "线路标题": "<span>&&</span>",
       "播放数组": "module-blocklist\">&&</div>",
-      "分类url": "https://www.laowang.co/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html",
-      "分类": "短剧$duanju#电视剧$tv#电影$movie#动漫$animation#综艺$tvshow"
+      "分类url": "https://www.laowang.co/vs/{cateId}-{area}-{by}------{catePg}---{year}.html",
+      "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$5",
+      "地區": "大陆&美国&香港&韩国&日本&台湾&印度&泰国&英国&法国&德国&巴西&意大利&西班牙&其他||大陆&韩国&美国&日本&香港&台湾&英国&法国&德国&印度&泰国&其他||大陆&韩国&美国&日本&台湾&香港&其他||大陆&日本&美国&香港&台湾&韩国&英国||空"
     }
   },
   {
