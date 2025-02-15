@@ -5,46 +5,8 @@
   "sites": [    
 
 
-  {
-    "key": "csp_老王影视",
-    "name": "🎥｜老王｜分類有問題",
-    "type": 3,
-    "api": "csp_XBPQ",
-    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-    "ext": {
-      "简介": "video-info-contentvod_content\">&&</div>",
-      "线路数组": "module-tab-itemtab-item&&</div>",
-      "线路标题": "<span>&&</span>",
-      "播放数组": "module-blocklist\">&&</div>",
-      "分类url": "https://www.laowang.co/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html",
-      "分类": "短剧$duanju#电视剧$tv#电影$movie#动漫$animation#综艺$tvshow"
-    }
-  },
-  {
-    "key": "csp_没事影院",
-    "name": "🎥｜没事｜篩選失效",
-    "type": 3,
-    "api": "csp_XBPQ",
-    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "ext": {
-      "分类url": "https://www.yu992.com/lys/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
-      "分类": "剧集$juji#电影$dianying#综艺$zongyi#动漫$dongman#短剧$duanju"
-    }
-  },
-  {
-    "key": "csp_威士影视",
-    "name": "🎥｜威士｜失效",
-    "type": 3,
-    "api": "csp_XBPQ",
-    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/威士影视.json"
-  },
+
+
   {
     "key": "csp_爱看影视",
     "name": "🎥｜爱看｜延遲",
@@ -54,7 +16,22 @@
     "searchable": 1,
     "quickSearch": 1,
     "filterable": 1,
-    "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/愛看.json"
+    "ext": 
+        {
+        "規則名":"愛看",
+        "規則作者":"老王叔叔",
+        "規則日期":"113.12.04",
+        "线路数组": "data-dropdown-value=&&</div>",
+        "线路标题": "<span>&&</span>",
+        "嗅探词": "v3-cha.toutiaovod.com#www.alim3u8.meijuzj.vip#.m3u8#.mp4",
+        "影片年代": "<div class=\"module-info-tag\">&&</div>",
+        "影片状态": "备注：&&</div>",
+        "影片类型": "module-info-tag\">&&立即播放",
+        "简介": "请勿相信影片中的广告，以免上当受骗。+<p>&&</p>",
+        "分类url": "https://www.akysw.pro/vodshow/{cateId}-{area}-{by}------{catePg}---{year}.html",
+        "分类": "电影$1#剧集$2#综艺$3#动漫$4#短剧$20",
+        "地区": "大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大&其他||内地&韩国&香港&台湾&日本&美国&泰国&英国&新加坡&其他||内地&港台&日韩&欧美&||国产&日本&欧美&其他"
+        }
   },
   {
     "key": "csp_旺旺影视",
