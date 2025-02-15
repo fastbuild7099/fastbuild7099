@@ -5,39 +5,17 @@
   "sites": [    
 
 
-    {
-      "key": "csp_蛙蛙",
-      "name": "🎥｜蛙蛙",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/蛙蛙.json"
-    },
-    {
-      "key": "csp_VSYY",
-      "name": "🎥｜VS",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/VS影院.json"
-    },
-    {
-      "key": "csp_子子",
-      "name": "🎥｜子子",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/子子影视2.json"
-    },
+  {
+    "key": "csp_VSYY",
+    "name": "🥇｜VS｜篩選失效，搜尋用",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/VS影院.json"
+  },
     {
       "key": "csp_白嫖者联盟",
       "name": "🎥｜嫖者盟",
@@ -3255,6 +3233,35 @@
                 "地区":"大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大&其他||内地&韩国&香港&台湾&日本&美国&泰国&英国&新加坡&其他||国产&日本&欧美&其他"
                    }
         },
+        {
+            "key": "csp_蛙視頻",
+            "name": "🎥｜蛙視頻｜有廣告(8分鐘)+成人片",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": 
+            {
+              "規則名": "蛙蛙",
+              "規則作者": "老王叔叔",
+              "規則日期": "113.12.11",
+              "主页url": "https://www.wvod.tv/",
+              "数组": "hl-col-lg-2\"&&</a>",
+              "图片": "data-original=\"&&\"",
+              "标题": "title=\"&&\"",
+              "链接": "href=\"&&\"",
+              "状态": "地区：&&</li>",
+              "导演": "导演：&&</li>",
+              "主演": "主演：&&</li>",
+              "简介": "简介：&&</div>",
+              "分类url": "https://www.wvod.tv/vodshow/id/{cateId}/page/{catePg}/year/{year}.html",
+              "分类": "电影$20#电视剧$21#综艺$22#动漫$23",
+              "类型": "愛情片$38#動作片$29#喜劇片$26#科幻片$40#恐怖片$33#驚悚片$35#懸疑片$34#奇幻片$32#犯罪片$39#災難片$37#戰争片$42#劇情片$28#網絡電影$43||國産劇$44#港劇$45#台劇$46#日劇$47#韓劇$48#泰劇$49#歐美劇$50#新馬劇$51#其他劇$52#短劇$132#逆襲短劇$134#強者短劇$133#神豪短劇$135#重生短劇$136#複仇短劇$137||國産綜藝$53#港台綜藝$54#日本綜藝$56#韓國綜藝$57#歐美綜藝$58#其他綜藝$61||國産動漫$62#日本動漫$65#港台動漫$63#歐美動漫$68#韓國動漫$66#其他動漫$70#動畫電影$30",
+              "地区": "大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大&其他||空||空||空"
+            }
+          },
         {
           "key": "CSP_理理影院",
           "name": "🎥｜理理｜1080P有廣告",
