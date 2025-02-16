@@ -1,4 +1,15 @@
 {
+  "key": "csp_Y3电影",
+  "name": "🎥｜Y3电影｜有廣告(11分鐘)",
+  "type": 3,
+  "api": "csp_XBPQ",
+  "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+  "searchable": 1,
+  "quickSearch": 1,
+  "filterable": 1,
+  "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/Y3電影.json"
+},
+{
     "key": "csp_蛙視頻",
     "name": "🎥｜蛙視頻｜有廣告(8分鐘)+成人片",
     "type": 3,
@@ -193,6 +204,28 @@
     "排序": "最近更新$空#最多观看$hits#最佳口碑$score#最高点赞$like"
   }
 },
+{
+  "key": "csp_XBPQ_蛙蛙",
+  "name": "🎥｜蛙蛙｜有廣告(8分鐘)",
+  "type": 3,
+  "api": "csp_XBPQ",
+  "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+  "searchable": 1,
+  "quickSearch": 1,
+  "filterable": 1,
+  "ext": {
+    "主页url": "https://www.wvod.tv/",
+    "数组": "hl-col-lg-2\"&&</a>",
+    "图片": "data-original=\"&&\"",
+    "标题": "title=\"&&\"",
+    "链接": "href=\"&&\"",
+    "简介": "简介：&&</li>",
+    "分类url": "https://www.wvod.tv/vodshow/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
+    "分类": "电影$20#电视剧$21#综艺$22#动漫$23#体育$25#纪录片$24"
+  }
+},
+{"key": "vod_如意","name":"🧲｜如意｜有廣告{11分鐘)","type":0,"api":"https://cj.rycjapi.com/api.php/provide/vod/from/rym3u8/at/xml/","searchable":1,"quickSearch":1,"filterable":1},{"key":"vod_海外","name":"🧲｜海外","type":1,"api":"https://hw8.live/api.php/provide/vod/","searchable":1,"quickSearch":1},
+
 {
   "key": "csp_韩迷TV",
   "name": "🎥｜韩迷TV｜有廣告",
