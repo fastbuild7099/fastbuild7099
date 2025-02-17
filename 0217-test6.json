@@ -855,7 +855,7 @@
       },
       {
         "key": "csp_XBiu春華影院",
-        "name": "🥇｜春華影院｜跑馬燈廣告",
+        "name": "🥇｜春華｜跑馬燈廣告",
         "type": 3,
         "api": "csp_XBPQ",
         "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
@@ -869,7 +869,7 @@
       },
       {
         "key": "csp_XBiu星空影視",
-        "name": "🥇｜星空影視｜跑馬燈廣告",
+        "name": "🥇｜星空｜跑馬燈廣告",
         "type": 3,
         "api": "csp_XBPQ",
         "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
@@ -1127,6 +1127,20 @@
           "分类url": "https://www.xzweiheng.com/vodshow/{cateId}-{area}-{by}--{lang}-{letter}---{catePg}---{year}.html",
           "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$34",
           "类型": "动作片$6#喜剧片$7#爱情片$8#科幻片$9#恐怖片$10#剧情片$11#战争片$12#动画片$24#纪录片$23#午夜剧场$33||国产剧$13#香港剧$14#韩国剧$15#欧美剧$16#台湾剧$20#日本剧$21#其它剧$22||空||空||空"
+        }
+      },
+      {
+        "key": "csp_XBiu139YS",
+        "name": "🥇｜139影視｜浮水印廣告",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": {
+          "分类url": "https://www.139ys.com/vodshow/{cateId}--time------{catePg}---{year}.html",
+          "分类": "電視劇$lianxuju#電影$dianying#動漫$dongman#綜藝$zongyi"
         }
       },
       {
