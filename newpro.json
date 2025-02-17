@@ -541,6 +541,40 @@
         }
       },
       {
+        "key": "csp_XBPQ_速影",
+        "name": "🥇｜速影｜無廣",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": {
+          "站名": "速影",
+          "请求头": "User-Agent$MOBILE_UA",
+          "编码": "UTF-8",
+          "标题": "title=\"&&\"",
+          "图片": "background-image: url('&&'",
+          "链接": "href=\"&&\"",
+          "数组": "stui-vodlist__box\">&&</div>",
+          "线路数组": "title\">&&</h3>",
+          "线路标题": "<span>&&</span>",
+          "副标题": "+pic-text text-right\">&&</span>",
+          "播放标题": ">&&</",
+          "播放链接": "href='&&'",
+          "播放列表": "<a&&</a",
+          "跳转播放链接": "",
+          "播放数组": "stui-content__playlist&&</ul>",
+          "简介": "简介：</span>&&</p >",
+          "搜索url": "https://xn--94qq85au3qyvbe13c.com/vodsearch/{wd}----------{pg}---.html",
+          "搜索模式": "1",
+          "嗅探词": ".m3u8#.mp4",
+          "分类url": "https://xn--94qq85au3qyvbe13c.com/movie-list-id-{cateId}-pg-{catePg}-order-desc-by-dayhits-class-0-year-{year}-letter--area-{area}-lang-.html.html",
+          "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
+          "地区": "大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大&其他||大陆&韩国&香港&台湾&日本&美国&泰国&英国&新加坡&其他||内地&港台&日韩&欧美||国产&日本&欧美&其他||空"
+        }
+      },
+      {
         "key": "csp_星辰影院",
         "name": "🥇｜西星｜無廣",
         "type": 3,
@@ -1027,6 +1061,46 @@
         }
       },
       {
+        "key": "csp_中畅影院",
+        "name": "🥇｜中畅｜浮水印廣告",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "ext": {
+          "请求头": "User-Agent$MOBILE_UA",
+          "编码": "UTF-8",
+          "主页url": "https://szdy168.com/",
+          "数组": "默认--lazyload\"&&</a>||搜索--lazyload\"&&</a>",
+          "标题": "默认--title=\"&&\"||搜索--title=\"&&\"",
+          "图片": "默认--data-original=\"&&\"||搜索--data-original=\"&&\"",
+          "副标题": "默认--right\">&&</span>||搜索--right\">&&</span>",
+          "链接": "默认--href=\"&&\"||搜索--href=\"&&\"",
+          "播放数组": "playlist clearfix&&</ul>",
+          "播放列表": "<a&&a>",
+          "播放链接": "href=\"&&\"",
+          "播放标题": ">&&</",
+          "线路数组": "more text-muted pull-right&&</div>",
+          "线路标题": "title\">&&</",
+          "简介": "learfix\"><p>&&</p>",
+          "跳转播放链接": "var player_*\"url\":\"&&\"",
+          "搜索url": "https://szdy168.com/sousuoye/{wd}----------{pg}---.html",
+          "分类url": "https://szdy168.com/show/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
+          "分类": "电影&电视剧&动漫&综艺",
+          "分类值": "dianying&dianshiju&dongman&zongyi"
+        }
+      },
+      {
+        "key": "大海影视③",
+        "name": "🥇｜山海｜浮水印廣告",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/大海3號.json"
+      },
+      {
         "key": "csp_全民影院",
         "name": "🥇｜全民｜浮水印廣告(無秒播)",
         "type": 3,
@@ -1037,7 +1111,17 @@
         "filterable": 1,
         "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/全民影院.json"
       },
-
+      {
+        "key": "大海影视⑦",
+        "name": "🥇｜大海4站｜跑馬燈廣告",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/大海4號.json"
+      },
       {
         "key": "csp_永乐视频",
         "name": "🥈｜永樂｜跑馬燈+黑木耳廣告",
