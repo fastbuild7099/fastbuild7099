@@ -727,6 +727,21 @@
           }
       },
       {
+        "key": "csp_XBPQ_飞兔",
+        "name": "🥇｜飞兔｜浮水印廣告",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": {
+          "分类url": "https://www.feitu.tv/filter/{cateId}/by/{by}/page/{catePg}/year/{year}/",
+          "播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
+          "分类": "电影$1#剧集$2#动漫$4#综艺$3"
+        }
+      },
+      {
           "key": "csp_星辰影院ZH",
           "name": "🥇｜星辰影院(ZH)｜浮水印廣告",
           "type": 3,
@@ -901,7 +916,17 @@
           "filterable": 1,
           "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/超前B站.json"
       },
-  
+      {
+        "key": "csp_全民影院",
+        "name": "🥇｜全民｜浮水印廣告(無秒播)",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/全民影院.json"
+      },
 
       {
         "key": "csp_永乐视频",
