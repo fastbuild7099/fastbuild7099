@@ -691,6 +691,17 @@
           "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/片庫網.json"
         },
         {
+          "key": "csp_花姐影院",
+          "name": "🥇｜花姐｜無廣",
+          "type": 3,
+          "api": "csp_XBPQ",
+          "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/花姐影院.json"
+        },
+        {
             "key": "csp_Euvod",
             "name": "🥇｜伊優｜無廣",
             "type": 3,
@@ -770,6 +781,14 @@
             "分类": "电影$dy#电视剧$dsj#动漫$dm",
             "地区": "内地&韩国&香港&台湾&日本&美国&泰国&英国&新加坡&其他||大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&其他||大陆&香港&台湾&美国&法国&英国&日本&韩国&其他"
           }
+      },
+      {
+        "key": "csp_四海影院",
+        "name": "🥇｜四海｜跑馬燈廣告",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/四海影院.json"
       },
       {
           "key": "csp_XBPQ_五六",
