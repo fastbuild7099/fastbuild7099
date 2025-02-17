@@ -5,7 +5,28 @@
   "sites": [    
 
 
-
+  {
+    "key": "蛋蛋k",
+    "name": "蛋蛋🐰｜影视",
+    "type": 3,
+    "changeable": 1,
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "api": "csp_XBPQ",
+    "playerType": 1,
+    "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
+    "ext": {
+        "手动嗅探视频链接关键词": ".mp4#index.m3u8#.flv#video/tos#item/video#video_mp4",
+        "发布页": "https://www.dandantu.vip/",
+        "播放标题": "title=\"&&\"",
+        "播放列表": "<a&&a>",
+        "线路数组": "y-playList&&</div>",
+        "播放数组": "module-play-list-content&&</div>",
+        "分类": "电影$1#电视剧$2",
+        "分类url": "https://www.dandantu.cc/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html"
+    }
+},
     {
       "key": "csp_好影快看",
       "name": "🎥｜好影｜有廣告",
