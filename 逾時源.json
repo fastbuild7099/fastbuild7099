@@ -1,0 +1,325 @@
+[
+  {
+    "key": "csp_华乐影院",
+    "name": "🎥｜华乐｜廣告很多",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "ext": {
+      "首页推荐链接": "https://www.huale.tv",
+      "首页列表数组规则": "body&&.border-box:not(:matches(资讯))",
+      "首页片单列表数组规则": ".public-list-box",
+      "分类url": "https://www.huale.tv/show/{cateId}/area/{area}/by/{by}/page/{catePg}/year/{year}.html",
+      "分类": "电影$1#剧集$2#综艺$3#动漫$4",
+      "地区": "大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大&其他"
+    }
+  },
+  {
+    "key": "csp_XBiu華人影院",
+    "name": "🎥｜華人影院｜慢",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "ext": {
+      "分类url": "https://www.frabc.com/show/{cateId}/by/time/page/{catePg}/year/{year}.html",
+      "分类": "電視劇$1#電影$2#動漫$3"
+    }
+  },
+  {
+    "key": "csp_Jianpian",
+    "name": "🎥｜荐片｜逾時",
+    "type": 3,
+    "api": "csp_Jianpian",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "jar": "https://jihulab.com/Nostalgia/TVbox/-/raw/master/Yoursmile.jar;md5;C6BB658C79DBF1B220A5004B3FB05326",
+    "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/yoursmile66/TVBox/main/sub/jianpian.json"
+  },
+  {
+    "key": "贱贱",
+    "name": "🎥｜贱贱｜逾時",
+    "spider": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/fan.txt;md5;8851819289f80deae32319080028db3b",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/fan.txt;md5;8851819289f80deae32319080028db3b",
+    "playerType": 2,
+    "type": 3,
+    "searchable": 1,
+    "quickSearch": 1,
+    "changeable": 1,
+    "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
+    "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/jp.js"
+  },
+  {
+    "key": "csp_XBPQ_爱看",
+    "name": "🎥｜爱看｜逾時",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/愛看影院.json"
+  },
+  {
+    "key": "八号影院",
+    "name": "🎥｜八号影院｜逾時",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "ext": {
+      "数组": "class=\"myui-vodbox-content\">&&class=\"role\"",
+      "图片": "src=\"&&\"",
+      "标题": "class=\"title\">&&</div>",
+      "副标题": "class=\"tag text-overflow\">&&</div>",
+      "链接": "<a href=\"&&\"",
+      "简介": "label>*&&</div>",
+      "影片类型": "class=\"tags text-overflow\"*>&&</a>",
+      "影片年代": "class=\"item-top\">&&</div>",
+      "导演": "导演:</div>&&</div>",
+      "跳转播放链接": "src=\"&&\"",
+      "分类url": "https://www.bahaotv.com/vodshow/{cateId}-{area}-{by}------{catePg}---{year}.html",
+      "分类": "电影$movie#电视剧$tvseries#动漫$anime",
+      "地区": "大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大&其他||内地&韩国&香港&台湾&日本&美国&泰国&英国&新加坡&其他||国产&日本&欧美&其他"
+    }
+  },
+  {
+    "key": "csp_子子影视",
+    "name": "🎥｜子子｜逾時",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/子子.json"
+  },
+  {
+    "key": "csp_XBPQ_久亿",
+    "name": "🎥｜久亿｜逾時",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "ext": {
+      "主页url": "https://www.91w2i.com/",
+      "搜索url": "https://www.91w2i.com/search/index.html?keyword={wd}",
+      "数组": "<div class=\"public-list-div public-list-bj\"&&</div>",
+      "图片": "data-src=\"&&\"",
+      "标题": "title=\"&&\"",
+      "链接": "href=\"&&\"",
+      "简介": "class=\"text cor3\"&&</div>",
+      "线路数组": "class=\"swiper-slide\">&&</a[排序:优酷>高清测试线路>高清测试线路1>高清测试线路2>乐视>哔哩哔哩>腾讯>搜狐>爱奇艺>芒果]",
+      "线路标题": ">&nbsp;&&</a>",
+      "播放数组": "class=\"anthology-list-play&&</div>",
+      "播放链接": "href=\"&&\"",
+      "分类url": "https://www.91w2i.com/vod/list.html?page={catePg}&type_id={cateId}",
+      "分类": "电影$1#电视剧$2#综艺$3#动漫$4#爽文短剧$42"
+    }
+  },
+  {
+    "key": "csp_XBPQ_NO视频",
+    "name": "🎥｜NO视频｜逾時",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "ext": {
+      "请求头": "手机",
+      "主页url": "https://www.dgjiawu.com/",
+      "简介": "",
+      "数组": "class=\"stui-vodlist__thumb lazyload\"&&</a",
+      "图片": "data-original=\"&&\"",
+      "链接": "href=\"&&\"",
+      "播放链接": "href=\"&&\"",
+      "标题": "title=\"&&\"",
+      "副标题": "",
+      "搜索url": "",
+      "嗅探词": ".m3u8#https://m3u.hw8.live/share/#index.m3u8",
+      "线路数组": "href=\"javascript:;\"&&</li>",
+      "线路标题": "class=\"v*\">&&</a[排序:线路2>>]",
+      "播放数组": "class=\"v*-div&&</div>",
+      "播放列表": "class=\"btn btn-primary btn-primary-ph&&</a",
+      "播放标题": ">&&</a",
+      "倒序": "0",
+      "分类": "电影$5738#电视剧$5749#动漫$5767#综艺$5758#你懂的$5748",
+      "分类url": "https://www.dgjiawu.com/mo-1zxgt/{cateId}/1/0/0/0/0/{catePg}[https://www.dgjiawu.com/mo-1zxgt/{cateId}/1];;rc"
+    }
+  },
+  {
+    "key": "csp_酷猫电影网",
+    "name": "🎥｜酷猫｜逾時",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/酷貓電影網.json"
+  },
+  {
+    "key": "csp_追影影视",
+    "name": "🎥｜追影｜逾時",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/追影影視.json"
+  },
+  {
+    "key": "csp_久播影视",
+    "name": "🎥｜久播｜逾時",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/久播影視.json"
+  },
+  {
+    "key": "八号影院",
+    "name": "🎥｜八号影院｜逾時",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "ext": {
+      "数组": "class=\"myui-vodbox-content\">&&class=\"role\"",
+      "图片": "src=\"&&\"",
+      "标题": "class=\"title\">&&</div>",
+      "副标题": "class=\"tag text-overflow\">&&</div>",
+      "链接": "<a href=\"&&\"",
+      "简介": "label>*&&</div>",
+      "影片类型": "class=\"tags text-overflow\"*>&&</a>",
+      "影片年代": "class=\"item-top\">&&</div>",
+      "导演": "导演:</div>&&</div>",
+      "跳转播放链接": "src=\"&&\"",
+      "分类url": "https://www.bahaotv.com/vodshow/{cateId}-{area}-{by}------{catePg}---{year}.html",
+      "分类": "电影$movie#电视剧$tvseries#动漫$anime",
+      "地区": "大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大&其他||内地&韩国&香港&台湾&日本&美国&泰国&英国&新加坡&其他||国产&日本&欧美&其他"
+    }
+  },
+  {
+    "key": "csp_看片狂人",
+    "name": "🎥｜片狂｜逾時",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "ext": {
+      "免嗅": "1",
+      "线路数组": "class=\"fed-drop-btns fed-padding&&</li>",
+      "搜索url": "https://www.kpkuang.fun/vodsearch/-------------.html?wd={wd}",
+      "分类url": "https://www.kpkuang.fun/vodshow/{cateId}-{area}-time------{catePg}---{year}--.html[https://www.kpkuang.one/vodtype/{cateId}/]",
+      "分类": "国产剧$13#电影$1#连续剧$2#综艺$3#动漫$4"
+    }
+  },
+  {
+    "key": "vod_華為吧",
+    "name": "🧲｜華為吧｜逾時",
+    "type": 1,
+    "api": "https://cjhwba.com/api.php/provide/vod/?ac=list",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/panda1123.jar;md5;d9004aa2e16f60b04baed361713fb710",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },
+  {
+    "key": "vod_華為吧cms",
+    "name": "🧲｜華為吧(聚)｜逾時",
+    "type": 0,
+    "api": "https://cjhwba.com/api.php/provide/vod/at/xml/?ac=list",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/panda1123.jar;md5;d9004aa2e16f60b04baed361713fb710",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },
+  {
+    "key": "vod_虎牙",
+    "name": "🧲｜虎牙｜浮水印廣告+逾時",
+    "type": 1,
+    "api": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },
+  {
+    "key": "vod_魔都",
+    "name": "🧲｜魔都｜逾時",
+    "type": 1,
+    "api": "https://www.moduzy.com/api.php/provide/vod/?ac=list",
+    "searchable": 1,
+    "changeable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },
+  {
+    "key": "vod_金鹰",
+    "name": "🧲｜金鹰｜逾時",
+    "type": 1,
+    "api": "https://jyzyapi.com/api.php/provide/vod/",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },
+  {
+    "key": "Bdys_spider",
+    "name": "🧲｜修罗｜逾時",
+    "api": "csp_Bdys01",
+    "type": 3,
+    "filterable": 1,
+    "quickSearch": 1,
+    "searchable": 1,
+    "timeout": 60,
+    "ext": ".https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/tokenm.json$$$https://www.xlys01.com/$$$noproxy$$$1"
+  },
+  {
+    "key": "vod_快车",
+    "name": "🧲｜快車｜逾時",
+    "type": 1,
+    "api": "https://caiji.kczyapi.com/api.php/provide/vod/?ac=list",
+    "searchable": 1,
+    "changeable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "categories": [
+      "动漫"  , "电影"  , "动作片" , "喜剧片" , "爱情片" , "科幻片" , "恐怖片" , "战争片" , "剧情片" ,
+      "动画片" , "电视剧" , "国产剧" , "香港剧" , "台湾剧" , "欧美剧" , "韩国剧" , "日本剧" , "海外剧" ,
+      "动漫"  , "国产动漫", "日本动漫", "欧美动漫", "预留"  , "综艺"  , "大陆综艺", "日韩综艺", "港台综艺",
+      "欧美综艺", "泰国剧" , "未分类"
+    ]
+  },
+  {
+    "key": "vod_艾旦影视",
+    "name": "🧲｜艾旦｜逾時",
+    "type": 1,
+    "api": "https://lovedan.net/api.php/provide/vod/",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+    "searchable": 1,
+    "quickSearch": 1,
+    "categories": [
+      "动作片" , "喜剧片" , "爱情片" , "科幻片" , "恐怖片" , "犯罪片" , "战争片" , "剧情片" , "动画电影",
+      "国产剧" , "港台剧" , "日韩剧" , "欧美剧" , "海外剧" , "网红主播", "日韩综艺", "港台综艺", "欧美综艺",
+      "大陆综艺", "国产动漫", "日韩动漫", "欧美动漫", "海外动漫", "海外抖音", "影视解说", "直播"
+    ]
+  }
+]
