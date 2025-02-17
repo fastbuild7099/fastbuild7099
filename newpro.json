@@ -558,7 +558,7 @@
           "链接": "href=\"&&\"",
           "数组": "stui-vodlist__box\">&&</div>",
           "线路数组": "title\">&&</h3>",
-          "线路标题": "<span>&&</span>",
+          "线路标题": "<span>&&</span>[不包含:BD云]",
           "副标题": "+pic-text text-right\">&&</span>",
           "播放标题": ">&&</",
           "播放链接": "href='&&'",
@@ -571,6 +571,7 @@
           "嗅探词": ".m3u8#.mp4",
           "分类url": "https://xn--94qq85au3qyvbe13c.com/movie-list-id-{cateId}-pg-{catePg}-order-desc-by-dayhits-class-0-year-{year}-letter--area-{area}-lang-.html.html",
           "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
+          "类型": "动作片$5#喜剧片$6#爱情片$7#科幻片$8#恐怖片$9#剧情片$10#战争片$11#纪录片$20#伦理片$22||国产剧$12#韩国剧$17#欧美剧$15#日本剧$16#香港剧$18#台湾剧$19#海外剧$21||空||空",
           "地区": "大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大&其他||大陆&韩国&香港&台湾&日本&美国&泰国&英国&新加坡&其他||内地&港台&日韩&欧美||国产&日本&欧美&其他||空"
         }
       },
@@ -791,6 +792,22 @@
           "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/大海5號.json"
         },
         {
+          "key": "csp_XBiu海兔影院",
+          "name": "🎥｜海兔影院｜無廣(ME線路賭城廣告)",
+          "type": 3,
+          "api": "csp_XBPQ",
+          "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "ext": {
+            "线路数组": "class=\"module-tab-item tab-item\"&&</div>[排序:YZ线路>>FF线路>>HW线路>>ME线路]",
+            "线路标题": "<span>&&</small>",
+            "分类url": "https://www.haituu.tv/vodshow/{cateId}--time---------{year}.html",
+            "分类": "電視劇$2#電影$1#動漫$4#綜藝$3#短劇$42"
+          }
+        },
+        {
           "key": "csp_XBPQ_TVB",
           "name": "🥇｜TVB｜無廣(不要選非凡)",
           "type": 3,
@@ -823,6 +840,47 @@
         "api": "csp_XBPQ",
         "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
         "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/四海影院.json"
+      },
+
+      {
+        "key": "大海影视⑦",
+        "name": "🥇｜四海｜跑馬燈廣告",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/大海4號.json"
+      },
+      {
+        "key": "csp_XBiu春華影院",
+        "name": "🥇｜春華影院｜跑馬燈廣告",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": {
+          "分类url": "https://chuavod.com/index.php/vod/show/by/time/id/{cateId}/page/{catePg}/year/{year}.html",
+          "分类": "電視劇$2#電影$1#動漫$4#綜藝$3#紀錄片$105#體育$104#兒童$107"
+        }
+      },
+      {
+        "key": "csp_XBiu星空影視",
+        "name": "🥇｜星空影視｜跑馬燈廣告",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": {
+          "分类url": "http://www.xinhaimotor.com/vodshow/{cateId}/area/{area}/by/{by}/year/{year}.html",          
+          "分类": "電影$1#電視劇$2#綜藝$3#動漫$4",
+          "地区": "大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大&其他||大陆&韩国&香港&台湾&日本&美国&泰国&英国&新加坡&其他||大陆&港台&日韩&欧美||大陆&日本&欧美&其他"
+        }
       },
       {
           "key": "csp_XBPQ_五六",
@@ -871,7 +929,7 @@
       },
       {
           "key": "csp_星辰影院ZH",
-          "name": "🥇｜星辰影院(ZH)｜浮水印廣告",
+          "name": "🥇｜日辰｜浮水印廣告",
           "type": 3,
           "api": "csp_XBPQ",
           "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
@@ -882,6 +940,17 @@
             "分类url": "http://m.gyxlgs.com/{cateId}/index___{year}__addtime_{{catePg}}.html",
             "分类": "電視劇$dianshiju#電影$dianying#動漫$dongman#綜藝$zongyi"
           }
+      },
+      {
+        "key": "csp_星辰影院GY",
+        "name": "🥇｜金辰｜浮水印廣告",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/星辰影院.json"
       },
       {
           "key": "csp_SKY影视",
@@ -1101,6 +1170,16 @@
         "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/大海3號.json"
       },
       {
+        "key": "csp_好影快看",
+        "name": "🥇｜好影｜浮水印廣告",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "searchable": 1,
+        "changeable": 1,
+        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/好影快看.json"
+      },
+      {
         "key": "csp_全民影院",
         "name": "🥇｜全民｜浮水印廣告(無秒播)",
         "type": 3,
@@ -1110,40 +1189,7 @@
         "quickSearch": 1,
         "filterable": 1,
         "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/全民影院.json"
-      },
-      {
-        "key": "大海影视⑦",
-        "name": "🥇｜大海4站｜跑馬燈廣告",
-        "type": 3,
-        "api": "csp_XBPQ",
-        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/大海4號.json"
-      },
-      {
-        "key": "csp_永乐视频",
-        "name": "🥈｜永樂｜跑馬燈+黑木耳廣告",
-        "type": 3,
-        "api": "csp_XBPQ",
-        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/永樂視頻.json"
-      },
-    {
-        "key": "csp_kimivod",
-        "name": "🥈｜柯觅｜跑馬燈+黑木耳廣告",
-        "type": 3,
-        "api": "csp_XBPQ",
-        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/柯覓.json"
-      },
+    },
     {
           "key": "shiju影视",
           "name": "🥈｜新视觉｜不要選XX雲",
@@ -1151,6 +1197,28 @@
           "api": "csp_XBPQ",
           "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
           "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/新視覺影院.json"
+    },
+    {
+      "key": "csp_永乐视频",
+      "name": "🥈｜永樂｜跑馬燈+黑木耳廣告",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/永樂視頻.json"
+    },
+    {
+      "key": "csp_kimivod",
+      "name": "🥈｜柯觅｜跑馬燈+黑木耳廣告",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/柯覓.json"
     },
     {
         "key": "csp_AppYsV2_五一影视",
@@ -1214,6 +1282,10 @@
       {"key": "vod_爱坤资源","name": "🧲｜爱坤｜浮水印廣告","type": 1,"api": "https://www.ikunzy.com/api.php/provide/vod/","searchable": 1,"categories": [  "动作片" , "喜剧片" , "爱情片" , "科幻片" , "恐怖片" , "剧情片" , "战争片" , "国产剧" , "香港剧" ,  "台湾剧" , "韩国剧" , "纪录片" , "动画片" , "日本剧" , "泰国剧" , "欧美剧" , "国产动漫", "日本动漫",  "欧美"  , "海外动漫", "电影解说", "大陆综艺", "港台综艺", "日韩综艺", "欧美综艺"]},
       {"key": "vod_drjs_爱看","name":"🧲｜爱看機器人｜浮水印廣告","type":3,"api":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js","ext":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/ikanbot2.js"},
       {"key": "vod_索尼克隆","name": "🧲｜索尼(克隆)｜浮水印廣告","type": 4,"api": "http://zhangqun66.com/sn.php","jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/fm.jar;md5;41c87635d7592069884a5dafa12acabe","searchable": 1,"quickSearch": 1,"filterable": 1},
+      {"key": "vod_豪华","name":"🧲｜豪華｜浮水印廣告","type":1,"api":"https://hhzyapi.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1,"filterable":1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","悬疑片","犯罪片","奇幻片","记录片","动画片","内地剧","香港剧","台湾剧","日剧","韩剧","欧美剧","马泰剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","中国动漫","日本动漫","欧美动漫"]},
+      {"key": "vod_速播","name":"🧲｜速播｜浮水印廣告","type":1,"api":"https://subocaiji.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
+      {"key": "vod_飘零","name": "🧲｜飘零｜浮水印廣告","type": 1,"api": "https://p2100.net/api.php/provide/vod/","searchable": 1,"quickSearch": 1,"categories": [  "电影"  , "连续剧" , "综艺"  , "动漫"  , "动作片" , "电影"  , "喜剧片" , "爱情片" , "科幻片" ,  "恐怖片" , "剧情片" , "战争片" , "国产剧" , "香港剧" , "台湾剧" , "日本剧" , "韩国剧" , "欧美剧" ,  "海外剧" , "纪录片" , "动漫电影", "邵氏大片"]},
+
       {
         "key": "drpy_js_360影视",
         "name": "🎖︎｜360｜無廣",
