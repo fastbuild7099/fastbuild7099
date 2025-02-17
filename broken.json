@@ -4,6 +4,254 @@
     "wallpaper": "https://picsum.photos/1080/",
     "sites": [ 
       {
+        "key": "新可可影视③",
+        "name": "🎥｜可可③｜失效",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/新可可影視3.json"
+    },
+
+      {
+        "key": "csp_420kvm",
+        "name": "🎥｜420｜播放失效",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "searchable": 1,
+        "changeable": 1,
+        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/420影视.json"
+      },
+      {
+        "key": "csp_一起看影院",
+        "name": "🎥｜一起看影院｜篩選失效",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "ext": {
+          "线路数组": "sb-ico-playerico-Azhan\">&&</li>",
+          "分类url": "https://www.cpldq.com/cptype/{cateId}-{catePg}.html",
+          "分类": "短剧$30#电视剧$2#国产剧$13#香港剧$14#台湾剧$32#韩剧$16#日剧$33#欧美剧$15#电影$1#动作片$5#爱情片&科幻片$7#恐怖片$8#战争片$9#喜剧片$10#剧情片$12#动漫$4#综艺$3"
+        }
+      },
+      {
+        "key": "csp_iysdq",
+        "name": "🎥｜爱玩｜篩選失效",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": {
+          "分类url": "https://www.iysdq.cc/vodshow/1-----------/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
+          "分类": "国产剧$21#香港剧$22#台湾剧$23#韩国剧$24#日本剧$25#欧美剧$26#泰国剧$27#海外剧$28#电影$1#动漫$4#综艺$3"
+        }
+      },
+      {
+        "key": "csp_XBPQ_五五",
+        "name": "🎥｜五五｜篩選失效",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": {
+          "请求头": "User-Agent$MOBILE_UA",
+          "编码": "UTF-8",
+          "主页url": "https://www.555zxdy.com/",
+          "数组": "/vod/detail/&&class=\"icon-play\">",
+          "链接": "/vod/detail/+&&\"",
+          "标题": "title=\"&&\"",
+          "图片": "data-original=\"&&\"",
+          "副标题": "note\">&&</div>",
+          "播放数组": "module-play-list-content&&</div>",
+          "播放列表": "<a&&a>",
+          "播放链接": "href=\"&&\"",
+          "播放标题": "<span>&&</span>",
+          "线路数组": "module-tab-item tab-item&&</div>",
+          "线路标题": "<span>&&</span>",
+          "跳转播放链接": "urlDecode(Base64(var player_*url\":\"&&\"))",
+          "简介": "<p>&&</p>",
+          "分类": "电影$1#电视剧$2#综艺$4#动漫$3#短剧$45",
+          "分类url": "https://www.555zxdy.com/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/lang/{lang}/letter/{letter}/page/{catePg}/year/{year}.html",
+          "类型": "动作$6#喜剧$7#爱情$8#科幻$9#恐怖$10#剧情$11#战争$12#悬疑$35#冒险$36#动漫$37#记录$20||国产剧$13#港剧$21#台剧$14#短剧$45#韩剧$15#日剧$23#泰剧$22#美剧$16#海外剧$34||内地$30#港台$31#日韩$32#欧美$33||内地$25#港台$26#日韩$27#欧美$28#海外$29||空"
+        }
+      },
+      {
+        "key": "csp_乐鱼TV",
+        "name": "🎥｜乐鱼｜篩選失效",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "ext": {
+          "简介": "tjuqing\">&&</div>",
+          "线路数组": "<li&&</li>",
+          "线路二次截取": "<ulid=\"play\">&&</ul>",
+          "线路标题": ">&&<",
+          "分类url": "https://www.yu992.com/lys/ly{cateId}/area/{area}/class/{class}/page/{catePg}/year/{year}.html",
+          "分类": "电影$Movie#电视剧$Tv#综艺$Variety#动漫$Cartoon"
+        }
+      },
+      {
+        "key": "csp_优优影视",
+        "name": "🎥｜优优｜篩選失效",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": {
+          "影片年代": "<div class=\"module-info-tag\">&&</div>",
+          "影片状态": "备注：&&</div>",
+          "影片类型": "module-info-tag\">&&立即播放",
+          "线路数组": "data-dropdown-value=&&</div>",
+          "线路标题": "<span>&&</small>[替换:</span><small>>>共]+集",
+          "分类url": "https://nuu.su/x/id/{cateId}-{area}-{by}-{class}-{catePg}-{year}.html",
+          "分类": "电影$1#剧集$2#动漫$4#综艺$3#爽剧$5#记录$6"
+        }
+      },
+      {
+        "key": "csp_nu",
+        "name": "🎥｜Nuu",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "ext": {
+          "分类url": "https://nuu.su/x/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
+          "分类"   : "电影$1#电视剧$2#综艺$3#动漫$4#短剧$5#紀錄$6"
+          
+        }
+      },
+      {
+        "key": "csp_酷云七七",
+        "name": "🎥｜酷云七七｜待修",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/酷雲七七.json"
+      },
+      {
+        "key": "csp_XBiuIKP",
+        "name": "🎥｜愛看片｜失效",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": {
+          "分类url": "https://ikdying.com/index.php/vod/show/id/{cateId}/page/{catePg}/year/{year}.html",
+          "分类": "電視劇$2#電影$1#動漫$4#綜藝$3#紀錄片$23#體育$34#短劇$52"
+        }
+      },
+      {
+        "key": "csp_酷吧影视",
+        "name": "🎥｜酷吧｜失效",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "searchable": 1,
+        "changeable": 1,
+        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/酷吧影视.json"
+      },
+      {
+          "key": "csp_新6V电影",
+          "name": "🎥｜新6V｜失效",
+          "type": 3,
+          "api": "csp_XBPQ",
+          "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/新6V电影.json"
+        },
+        {
+            "key": "csp_XBPQ_可达",
+            "name": "🎥｜可达｜失效",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+              "请求头": "User-Agent$MOBILE_UA",
+              "主页url": "https://kedays.org",
+              "首页": "120",
+              "起始页": "1",
+              "数组": "pic\">&&</li>",
+              "标题": "title=\"&&\"",
+              "图片": "data-original=\"&&\"",
+              "副标题": "text-overflow\">&&</p >",
+              "链接": "href=\"&&\"",
+              "简介": "pb-10*>&&</p >",
+              "线路数组": "data-target=\"#ewave-playlist&&</li>",
+              "线路标题": ">&&<em>[不包含:线路1]",
+              "倒序": "0",
+              "播放数组": "ewave-playlist-content&&</ul>",
+              "播放列表": "<a&&/a>",
+              "播放标题": ">&&<",
+              "播放链接": "href=\"&&\"",
+              "跳转播放链接": "urlDecode(var player_*url\":\"&&\")",
+              "跳转解析": "默认$https://kedays.org/play/?url=",
+              "嗅探词": ".mp4#.m3u8#.flv",
+              "搜索模式": "1",
+              "搜索url": "/so/{wd}----------{pg}---.html",
+              "搜索数组": "pic\">&&</li>",
+              "搜索副标题": "text-overflow\">&&</p >",
+              "搜索链接": "href=\"&&\"",
+              "分类url": "https://kedays.org/shaixuan/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
+              "分类": "电影&剧集&综艺&动漫&少儿&短剧",
+              "分类值": "dianying&lianxuju&zongyi&dongman&shaoer&duanju"
+            },
+            "playUrl": "https://kedays.org/play/?url="
+        },
+        {
+          "key": "csp_XBPQ_韩片",
+          "name": "🎥｜韩片｜失效",
+          "type": 3,
+          "api": "csp_XBPQ",
+          "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "ext": {
+            "数组": "<li class=\"mo-paxs-5px mo-pamd-10px&&</li>",
+            "图片": "data-original=\"&&\"",
+            "标题": "/\">&&</a>",
+            "副标题": "mo-coxs-center\">&&</span>",
+            "简介": "讲述<p>&&</p>",
+            "链接": "href=\"&&\"",
+            "线路数组": "mo-prxs-2px mo-fsxs-16px&&/a>",
+            "线路标题": "</i>&&<",
+            "播放数组": "<ul class=\"mo-movs-item mo-sort-boxs&&</ul>",
+            "播放列表": "<a&&a>",
+            "播放链接": "href=\"&&\"",
+            "播放标题": ">&&</",
+            "跳转播放链接": "data-play=\"&&\"",
+            "搜索url": "https://www.hanpian.tv/search/{wd}-------------/",
+            "分类url": "https://www.hanpian.tv/so/{cateId}/{area}-{by}--{lang}----{catePg}---{year}/",
+            "分类": "电影$movie#电视剧$tv#综艺$variety#动漫片$anime"
+          }
+        },
+        {
+          "key": "csp_圣城影视",
+          "name": "🎥｜圣城｜浮水印+黑木耳",
+          "type": 3,
+          "api": "csp_XBPQ",
+          "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/圣城影视.json"
+        },
+    {
         "key": "py_PPXYs",  
         "name": "⏭｜皮皮虾｜沐辰",
         "type": 4,
