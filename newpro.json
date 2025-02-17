@@ -519,6 +519,70 @@
               }
       },
       {
+        "key": "蛋蛋k",
+        "name": "🥇｜蛋蛋兔｜無廣",
+        "type": 3,
+        "changeable": 1,
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
+        "ext": {
+            "手动嗅探视频链接关键词": ".mp4#index.m3u8#.flv#video/tos#item/video#video_mp4",
+            "发布页": "https://www.dandantu.vip/",
+            "播放标题": "title=\"&&\"",
+            "播放列表": "<a&&a>",
+            "线路数组": "y-playList&&</div>",
+            "播放数组": "module-play-list-content&&</div>",
+            "分类": "电影$1#电视剧$2",
+            "分类url": "https://www.dandantu.cc/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html"
+        }
+      },
+      {
+        "key": "csp_星辰影院",
+        "name": "🥇｜西星｜無廣",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": {
+          "播放标题": ">&&<[不包含:1080P]",
+          "分类url": "https://citytv.cc/tv/dianying/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}",
+          "分类": "电影$dianying#电视剧$dianshiju#动漫$dongman#综艺$zongyi#短剧$duanju"
+        }
+      },
+      {
+        "key": "csp_开心影院",
+        "name": "🥇｜开心｜無廣",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/開心影院.json"
+      },
+      {
+        "key": "csp_影视大全",
+        "name": "🥇｜聚合｜無廣",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": {
+          "影片年代": "<p class=\"module-info-item-content&&</p>",
+          "分类url": "https://www.ysdq.xyz/vodshow/{cateId}-{area}-{by}----{catePg}-{year}.html",
+          "分类": "电影$1#电视剧$2#综艺$4#动漫$5#短剧$3",
+          "地区": "中国大陆&大陆&香港&台湾&美国&日本&韩国&泰国&法国&英国&德国&印度"
+        }
+      },
+      {
           "key": "csp_XBPQ_七七",
           "name": "🥇｜七七｜無廣",
           "type": 3,
@@ -658,6 +722,17 @@
                   "类型": "犯罪$36#动作$6#喜剧$7#爱情$8#科幻$9#恐怖$10#剧情$11#战争$12||国产剧$14#港台剧$15#日韩剧$16#泰国剧$30#欧美剧$20#海外剧$13||大陆综艺$26#日韩综艺$27#港台综艺$28||日韩漫$21#国产漫$22#欧美漫$23#海外漫$24#港台漫$25",
                   "地区": "大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大&其他||空||国产&日本&欧美&其他||内地&港台&日韩&欧美"
                     }
+        },
+        {
+          "key": "csp_鹊桥影院",
+          "name": "🥇｜鹊橋｜無廣(無圖)",
+          "type": 3,
+          "api": "csp_XBPQ",
+          "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/鹊橋影院.json"
         },
         {
           "key": "大鄒影视",
@@ -917,6 +992,22 @@
           "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/超前B站.json"
       },
       {
+        "key": "csp_皮皮影院",
+        "name": "🥇｜皮皮｜浮水印廣告",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "ext": {
+          "请求头": "User-Agent$MOBILE_UA",
+          "编码": "UTF-8",
+          "主页url": "https://www.xzweiheng.com/",
+          "跳转播放链接": "var player_*\"url\":\"&&\"",
+          "分类url": "https://www.xzweiheng.com/vodshow/{cateId}-{area}-{by}--{lang}-{letter}---{catePg}---{year}.html",
+          "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$34",
+          "类型": "动作片$6#喜剧片$7#爱情片$8#科幻片$9#恐怖片$10#剧情片$11#战争片$12#动画片$24#纪录片$23#午夜剧场$33||国产剧$13#香港剧$14#韩国剧$15#欧美剧$16#台湾剧$20#日本剧$21#其它剧$22||空||空||空"
+        }
+      },
+      {
         "key": "csp_全民影院",
         "name": "🥇｜全民｜浮水印廣告(無秒播)",
         "type": 3,
@@ -1001,6 +1092,25 @@
               "搜索数组": "<li class=\"active clearfix&&</li"
               }
       },
+      {"key": "克隆合集","name": "🧲｜克隆合集｜go","type": 4,"api": "http://zhangqun66.com/klhj.php","searchable": 1,"quickSearch": 1,"style": {  "type": "rect",  "ratio": 1.33},"changeable": 1,"filterable": 0    },    
+      {"key": "采集集合go","name": "🧲｜采集集合｜go","type": 1,"api": "http://zhangqun1818.serv00.net:5053","searchable": 1,"style": {"type": "rect","ratio": 1.33},"quickSearch": 0,"changeable": 1},
+      {"key": "采集之王","name":"🧲｜採集大合集","type":3,"api":"https://raw.githubusercontent.com/maoystv/000/master/js/drpy2.min.js","searchable":1,"quickSearch":1,"ext":"https://git.acwing.com/YGFXZ/0/-/raw/main/采集之王_合_.js?type=url&params=https://git.acwing.com/YGFXZ/0/-/raw/main/采集静态.json"},
+      {"key": "vod_豆瓣","name":"🧲｜豆瓣｜無廣","type":1,"api":"https://caiji.dbzy.tv/api.php/provide/vod/at/josn/","searchable":1,"quickSearch":1,"filterable":1},
+      {"key": "vod_360","name":"🧲｜360｜無廣","type":1,"api":"https://360zy.com/api.php/provide/vod","categories":["国产剧","短片","动画片","香港剧","韩国剧","欧美剧","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","NBA","惊悚片","家庭篇","古装片","历史片","悬疑片","犯罪片","纪录片","台湾剧","大陆综艺","国产动漫","日韩动漫","西部片"]},   
+      {"key": "vod_OK","name":"🧲｜ ️OK｜無廣","type":1,"api":"https://api.okzy.org/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
+      {"key": "drpy_js_xb6v","name": "🧲｜新版6v｜無廣","type": 3,"api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js","ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/xb6v.js","playerType": "1","searchable": 1},
+      {"key": "drpy_js_MP4US","name": "🧲｜MP4电影｜無廣","type": 3,"api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js","ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/mp4us.js","playerType": "1","searchable": 1},
+      {"key": "csp_HkTv","name": "🧲｜TVB云播｜無廣","type": 3,"api": "csp_HkTv","searchable": 1,"quickSearch": 1,"filterable": 1,"jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/jar0423.jar;md5;f5f25556deaf4016a82345864b16cd81"},
+      {"key": "vod_555影院","name": "🧲｜555｜無廣","type": 3,"api": "csp_AppYsV2","jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/dokilwss.jar;md5;145277452362fe4b1371e8968b414ed1","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://e3wuwu4.com/api.php/app/"},
+      {"key": "drpy_js_电影港","name": "🧲｜电影港｜無廣","type": 3,"api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js","ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/dygang.js","playerType": "1","searchable": 1},
+      {"key": "vod_索尼","name":"🧲｜索尼｜跑馬燈廣告","type":1,"api":"https://suoniapi.com/api.php/provide/vod/?ac=list","searchable":1,"changeable":1,"quickSearch":1,"filterable":1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","悬疑片","犯罪片","冒险片","动画片","惊悚片","奇幻片","国产剧","欧美剧","韩剧","日剧","港剧","台剧","泰剧","大陆综艺","日韩综艺","港台综艺","欧美综艺","国产动漫","日韩动漫","欧美动漫","动画片","港台动漫","海外动漫"]},
+      {"key": "vod_优酷","name":"🧲｜優酷｜跑馬燈廣告","type":1,"api":"https://api.ukuapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
+      {"key": "vod_光速","name":"🧲｜光速｜跑馬燈廣告","type":1,"api":"https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8/?ac=list","searchable":1,"quickSearch":1,"filterable":1,"categories":["动作片","爱情片","科幻片","战争片","剧情片","恐怖片","喜剧片","大陆剧","港澳剧","台湾剧","欧美剧","动漫电影","韩剧","日剧","泰剧"]},
+      {"key": "vod_金鹰","name":"🧲｜金鹰｜浮水印廣告","type":1,"api":"https://jyzyapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
+      {"key": "vod_金鹰克隆","name": "🧲｜金鹰(克隆)｜浮水印廣告","type": 4,"api": "http://zhangqun66.com/jy.php","jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/fm.jar;md5;41c87635d7592069884a5dafa12acabe","searchable": 1,"quickSearch": 1,"filterable": 1,"recordable": 0},
+      {"key": "vod_爱坤资源","name": "🧲｜爱坤｜浮水印廣告","type": 1,"api": "https://www.ikunzy.com/api.php/provide/vod/","searchable": 1,"categories": [  "动作片" , "喜剧片" , "爱情片" , "科幻片" , "恐怖片" , "剧情片" , "战争片" , "国产剧" , "香港剧" ,  "台湾剧" , "韩国剧" , "纪录片" , "动画片" , "日本剧" , "泰国剧" , "欧美剧" , "国产动漫", "日本动漫",  "欧美"  , "海外动漫", "电影解说", "大陆综艺", "港台综艺", "日韩综艺", "欧美综艺"]},
+      {"key": "vod_drjs_爱看","name":"🧲｜爱看機器人｜浮水印廣告","type":3,"api":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js","ext":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/ikanbot2.js"},
+      {"key": "vod_索尼克隆","name": "🧲｜索尼(克隆)｜浮水印廣告","type": 4,"api": "http://zhangqun66.com/sn.php","jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/fm.jar;md5;41c87635d7592069884a5dafa12acabe","searchable": 1,"quickSearch": 1,"filterable": 1},
       {
         "key": "drpy_js_360影视",
         "name": "🎖︎｜360｜無廣",
