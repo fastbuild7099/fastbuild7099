@@ -38,6 +38,17 @@
       "地区": "大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大&其他||空||空||空"
     }
   },
+  {
+    "key": "csp_电影驿站",
+    "name": "🎥｜驿站｜有廣告(8分鐘)",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/電影驛站.json"
+  },
 {
   "key": "明渊影视",
   "name": "🎥｜明渊｜有廣告(8分鐘)",
@@ -225,6 +236,7 @@
   }
 },
 {"key": "vod_如意","name":"🧲｜如意｜有廣告{11分鐘)","type":0,"api":"https://cj.rycjapi.com/api.php/provide/vod/from/rym3u8/at/xml/","searchable":1,"quickSearch":1,"filterable":1},{"key":"vod_海外","name":"🧲｜海外","type":1,"api":"https://hw8.live/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key": "vod_影图","name": "🧲｜影图｜延遲","type": 1,"api": "https://cj.vodimg.top/api.php/provide/vod/","jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/panda1123.jar;md5;d9004aa2e16f60b04baed361713fb710","searchable": 1,"quickSearch": 1},
 
 {
   "key": "csp_韩迷TV",
@@ -329,5 +341,33 @@
     "ext": {
       "分类url": "https://www.laowang.co/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
       "分类": "电影$movie#电视剧$tv#综艺$tvshow#动漫$animation#短剧$duanju"
+    }
+  },
+  {
+    "key": "csp_XBPQ_小宝",
+    "name": "🎥｜小宝｜賭城廣告",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "ext": {
+      "主页url": "https://xiaoxintv.com",
+      "嗅探词": "index.m3u8#.mp4#m3u8#.m3u8#/tos/#.flv#video/tos",
+      "数组": "class=\"myui-vodlist__box\">&&</div>",
+      "简介": "剧情简介</h3>&&</span>",
+      "线路数组": "data-toggle=\"tab&&</li>",
+      "线路标题": ">&&</a>",
+      "播放数组": "class=\"myui-content__list&&</ul>",
+      "播放列表": "<li&&</li>",
+      "播放标题": ">&&</a",
+      "播放链接": "href=\"&&\"",
+      "搜索数组": "lazyload\"&&</a",
+      "搜索图片": "data-original=\"&&\"",
+      "搜索标题": "title=\"&&\"",
+      "搜索链接": "href=\"&&\"",
+      "分类url": "https://xiaoxintv.com/index.php/vod/show/area/{area}/by/{by}/id/{cateId}/lang/{lang}/page/{catePg}/year/{year}.html",
+      "分类": "电影$7#电视剧$6#动漫$5#综艺$3"
     }
   },

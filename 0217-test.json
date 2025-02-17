@@ -731,16 +731,86 @@
         }
       },
       {
-          "key": "csp_片庫網",
-          "name": "🥇｜片庫網｜無廣",
-          "type": 3,
-          "api": "csp_XBPQ",
-          "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1,
-          "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/片庫網.json"
-        },
+        "key": "csp_XBPQ_影先",
+        "name": "🥇｜影先｜無廣",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": {
+          "请求头": "User-Agent$MOBILE_UA",
+          "编码": "UTF-8",
+          "主页url": "https://silidm.com/",
+          "数组": "class=\"module-item-cover\"&&</div>",
+          "标题": "title=\"&&\"",
+          "图片": "data-original=\"&&\"",
+          "链接": "href=\"&&\"",
+          "播放数组": "class=\"play-source-content&&</div>",
+          "播放列表": "<a&&a>",
+          "播放链接": "href=\"&&\"",
+          "播放标题": ">&&</",
+          "线路数组": "class=\"play-source-tab\"&&div>",
+          "线路标题": ">&&</",
+          "跳转播放链接": "var player_*\"url\":\"&&\"",
+          "分类url": "https://silidm.com/show/{cateId}-{area}-------{catePg}---{year}.html",          
+          "分类": "电影$dy#剧集$juji#动漫$dongman#综艺$zongyi",
+          "地区": "大陆&日本&美国&香港&台湾&英国&法国&韩国&德国&泰国&印度&意大利&加拿大&西班牙&其他"
+        }
+      },
+      {
+        "key": "csp_XBPQ_蒜瓣",
+        "name": "🥇｜蒜瓣｜無廣",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": {
+          "播放数组": "class=\"clearfix&&</ul>",
+          "播放列表": "<a&&a>",
+          "播放链接": "href=\"&&\"",
+          "播放标题": ">&&</",
+          "线路数组": "class=\"mod-head clearfix&&</div>[不包含:FFM源]",
+          "线路标题": ">&&</span>[不包含:FFM源]",
+          "跳转播放链接": "var player_*\"url\":\"&&\"",
+          "分类url": "https://m.suanban.vip/shaixuan/{cateId}--------{catePg}---{year}.html",
+          "分类": "电影$1#电视剧$2#动漫$4#动画电影$32",
+          "类型": "动作片$6#喜剧片$7#爱情片$8#科幻片$9#恐怖片$10#战争片$12#剧情片$11#4k超清$38#邵氏老电影$33#记录片$34||国产剧$13#韩剧$15#美剧$16#港剧$14#台剧$21#泰剧$22#日剧$20#海外剧$35#爽文短剧$37||空||空"
+        }
+      },
+      {
+        "key": "csp_XBPQ_片库",
+        "name": "🥇｜片库｜無廣",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "timeout": 120,
+        "ext": {
+          "请求头": "User-Agent$MOBILE_UA",
+          "编码": "UTF-8",
+          "主页url": "https://piankuww.com/",
+          "数组": "lazyload\"&&</li>",
+          "链接": "href=\"&&\"",
+          "图片": "data-original=\"&&\"",
+          "标题": "title=\"&&\"",
+          "副标题": "text-right\">&&</span>",
+          "播放数组": "class=\"ewave-content__playlist clearfix&&</ul>",
+          "播放列表": "<a&&a>",
+          "播放链接": "href=\"&&\"",
+          "播放标题": ">&&</",
+          "线路数组": "href=\"\\#playlist&&</li>[排序:zykyun>tpiframe]",
+          "线路标题": ">&&</",
+          "跳转播放链接": "var player_*\"url\":\"&&\"",
+          "分类url": "https://piankuww.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}/",
+          "分类": "电影$y#电视剧$dsj#综艺$zy#动漫$dm#短剧$dj"
+        }
+      },
         {
           "key": "csp_花姐影院",
           "name": "🥇｜花姐｜無廣",
@@ -925,6 +995,34 @@
           "分类url": "https://www.feitu.tv/filter/{cateId}/by/{by}/page/{catePg}/year/{year}/",
           "播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
           "分类": "电影$1#剧集$2#动漫$4#综艺$3"
+        }
+      },
+      {
+        "key": "csp_XBPQ_洋葱",
+        "name": "🥇｜洋葱｜浮水印廣告",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": {
+          "请求头": "User-Agent$MOBILE_UA",
+          "编码": "UTF-8",
+          "数组": "lazyload&&</a>",
+          "标题": "title=\"&&\"",
+          "图片": "data-original=\"&&\"",
+          "副标题": "right\">&&</span>",
+          "链接": "href=\"&&\"",
+          "播放数组": "playlist clearfix column8\">&&</ul>",
+          "播放列表": "<a&&a>",
+          "播放链接": "href=\"&&\"",
+          "播放标题": ">&&</",
+          "线路数组": "<li>&&</li>[排序:极速云>华为云>小米云",
+          "线路标题": ">&&</a>[不包含:小米云]",
+          "跳转播放链接": "var player_*\"url\":\"&&\"",
+          "分类url": "https://www.zjgydsj.com/show/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
+          "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$36"
         }
       },
       {
@@ -1141,6 +1239,25 @@
         "ext": {
           "分类url": "https://www.139ys.com/vodshow/{cateId}--time------{catePg}---{year}.html",
           "分类": "電視劇$lianxuju#電影$dianying#動漫$dongman#綜藝$zongyi"
+        }
+      },
+      {
+        "key": "csp_XBPQ_皮影",
+        "name": "🥇｜皮影｜浮水印廣告",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": {
+          "请求头": "User-Agent$MOBILE_UA",
+          "编码": "UTF-8",
+          "主页url": "https://www.xzweiheng.com/",
+          "跳转播放链接": "var player_*\"url\":\"&&\"",
+          "分类url": "https://www.xzweiheng.com/vodshow/{cateId}-{area}-{by}--{lang}-{letter}---{catePg}---{year}.html",
+          "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$34",
+          "类型": "动作片$6#喜剧片$7#爱情片$8#科幻片$9#恐怖片$10#剧情片$11#战争片$12#动画片$24#纪录片$23#午夜剧场$33||国产剧$13#香港剧$14#韩国剧$15#欧美剧$16#台湾剧$20#日本剧$21#其它剧$22||空||空||空"
         }
       },
       {
@@ -1528,6 +1645,36 @@
         "filterable": 1,
         "order_num": 0,
         "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/怡萱动漫[漫].js"
+      },
+      {
+        "key": "csp_XBPQ_白狐",
+        "name": "动漫｜白狐",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": {
+          "请求头": "User-Agent$MOBILE_UA",
+          "编码": "UTF-8",
+          "防走丢": "https://wfoxdm2.cc/",
+          "主页url": "https://bhdm4.cc/",
+          "数组": "class=\"image\">&&</li>",
+          "标题": "alt=\"&&\"",
+          "图片": "data-original=\"&&\"",
+          "副标题": "h6\">&&</p>",
+          "链接": "href=\"&&\"",
+          "播放数组": "class=\"list-unstyled row text-center&&</ul>",
+          "播放列表": "<a&&a>",
+          "播放链接": "href=\"&&\"",
+          "播放标题": ">&&</",
+          "线路数组": "data-toggle=\"tab\"&&</li>",
+          "线路标题": "</span>&&</a>",
+          "跳转播放链接": "ar cms_player = {\"url\":\"&&\"",
+          "分类url": "https://bhdm4.cc/iCategoryId/{cateId}-{catePg}.html[https://bhdm4.cc/iCategoryId/{cateId}]",
+          "分类": " 新旧番剧$3#在线动漫$2#动漫电影$5#好看动漫$10"
+        }
       },
       {
         "key": "樱花动漫1",

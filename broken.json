@@ -698,6 +698,45 @@
       }
     },
     {
+      "key": "csp_XBPQ_落攻",
+      "name": "🎥｜落攻｜失效",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "主页url": "https://www.lggys.com/",
+        "图片": "data-original=\"&&\"",
+        "标题": "title=\"&&\"",
+        "播放链接": "href=\"&&\"",
+        "导演": "导演：&&</div>",
+        "主演": "主演：&&</div>",
+        "线路数组": "<div class=\"module-tab-item&&</div>",
+        "线路标题": "<span>&&</span>",
+        "分类url": "https://www.lggys.com/show/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
+        "分类": "电影$dianying#电视剧$dianshiju#综艺$zongyi#动漫$dongman#短剧$shuangwenduanju"
+      }
+    },
+
+    {
+      "key": "csp_XBiu子子影視",
+      "name": "🎥｜子子影視｜失效",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "线路数组": "module-tab-item tab-item\">&&</span>",
+        "简介": "video-info-item video-info-content vod_content\">&&</span>",
+        "分类url": "https://www.ziziys.com/vodshow/{cateId}--time------{catePg}---{year}.html",
+        "分类": "電視劇$2#電影$1#動漫$3#綜藝$46#動畫片$23#紀錄片$29"
+      }
+    },
+    {
       "key": "csp_新视觉",
       "name": "🎥｜新视觉",
       "type": 3,
@@ -1569,6 +1608,56 @@
   "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/萬博劇院.json"
 },
 {
+  "key": "csp_XBPQ_天狗",
+  "name": "🎥｜天狗｜失效",
+  "type": 3,
+  "api": "csp_XBPQ",
+  "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+  "searchable": 1,
+  "quickSearch": 1,
+  "filterable": 1,
+  "ext": {
+    "请求头": "User-Agent$MOBILE_UA",
+    "编码": "UTF-8",
+    "图片代理": "0",
+    "直接播放": "0",
+    "播放请求头": "",
+    "主页url": "http://www.jlspyy.com.cn",
+    "首页": "120",
+    "起始页": "1",
+    "分类url": "http://www.jlspyy.com.cn/show/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
+    "分类": "电影$dianying#电视剧$dianshiju#综艺$zongyi#动漫$dongman#短剧$duanju",
+    "二次截取": "class=\"evg6xn stui-vodlist clearfix&&</ul>",
+    "数组": "thumb lazyload&&</a>",
+    "标题": "title=\"&&\"",
+    "图片": "data-original=\"&&\"",
+    "副标题": "pic-text text-right\">&&</span></a>",
+    "链接": "href=\"&&\"",
+    "线路数组": "class=*nore text-muted pull-right\"&&</div>",
+    "线路标题": "title\">&&</h3>",
+    "播放数组": "playlist clearfix&&</ul>",
+    "播放列表": "<a&&/a>",
+    "播放标题": ">&&<",
+    "播放链接": "href=\"&&\"",
+    "跳转播放链接": "var player_*\"url\":\"&&\"",
+    "类型": "动作片$dongzuopian#喜剧片$xijupian#爱情片$aiqingpian#科幻片$kehuanpian#恐怖片$kongbupian#剧情片$juqingpian#战争片$zhanzhengpian#犯罪片$fanzuipian#动画片$donghuapian||#国产剧$guochanju#香港剧$gangju#韩国剧$hanju#欧美剧$oumeiju#台湾剧$taiwanju#泰剧$taiju#日本剧$riju#其它剧$haiwaiju||空||空||空"
+  }
+},
+{
+  "key": "csp_XBPQ_4K4K",
+  "name": "🎥｜4K4K｜跑馬燈廣告",
+  "type": 3,
+  "api": "csp_XBPQ",
+  "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+  "searchable": 1,
+  "quickSearch": 1,
+  "filterable": 1,
+  "ext": {
+    "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
+    "分类url": "https://4k4k.live/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html"
+  }
+},
+{
   "key": "csp_XBPQ_久亿",
   "name": "🎥｜久亿｜延遲",
   "type": 3,
@@ -1591,6 +1680,37 @@
     "播放链接": "href=\"&&\"",
     "分类url": "https://www.91w2i.com/vod/list.html?page={catePg}&type_id={cateId}",
     "分类": "电影$1#电视剧$2#综艺$3#动漫$4#爽文短剧$42"
+  }
+},
+{
+  "key": "csp_XBPQ_NO视频",
+  "name": "🎥｜NO视频｜延遲",
+  "type": 3,
+  "api": "csp_XBPQ",
+  "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+  "searchable": 1,
+  "quickSearch": 1,
+  "filterable": 1,
+  "ext": {
+    "请求头": "手机",
+    "主页url": "https://www.dgjiawu.com/",
+    "简介": "",
+    "数组": "class=\"stui-vodlist__thumb lazyload\"&&</a",
+    "图片": "data-original=\"&&\"",
+    "链接": "href=\"&&\"",
+    "播放链接": "href=\"&&\"",
+    "标题": "title=\"&&\"",
+    "副标题": "",
+    "搜索url": "",
+    "嗅探词": ".m3u8#https://m3u.hw8.live/share/#index.m3u8",
+    "线路数组": "href=\"javascript:;\"&&</li>",
+    "线路标题": "class=\"v*\">&&</a[排序:线路2>>]",
+    "播放数组": "class=\"v*-div&&</div>",
+    "播放列表": "class=\"btn btn-primary btn-primary-ph&&</a",
+    "播放标题": ">&&</a",
+    "倒序": "0",
+    "分类": "电影$5738#电视剧$5749#动漫$5767#综艺$5758#你懂的$5748",
+    "分类url": "https://www.dgjiawu.com/mo-1zxgt/{cateId}/1/0/0/0/0/{catePg}[https://www.dgjiawu.com/mo-1zxgt/{cateId}/1];;rc"
   }
 },
 {
@@ -1724,6 +1844,13 @@
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/bttwo.json"
       },
+      {"key": "vod_极速","name":"🧲｜極速｜延遲","type":1,"api":"https://jszyapi.com/api.php/provide/vod/at/json","searchable":1,"quickSearch":1,"filterable":1,"categories":["内地剧","欧美剧","日剧","韩剧","台湾剧","香港剧","马泰剧","悬疑片","喜剧片","动作片","爱情片","科幻片","恐怖片","剧情片","战争片","犯罪片","记录片","动画片","日本动漫","欧美动漫","中国动漫","大陆综艺","日韩综艺","港台综艺","欧美综艺","体育赛事"]},
+      {"key": "Bdys_spider","name": "🧲｜修罗｜延遲","api": "csp_Bdys01","type": 3,"filterable": 1,"quickSearch": 1,"searchable": 1,"timeout": 60,"ext": ".https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/tokenm.json$$$https://www.xlys01.com/$$$noproxy$$$1"},
+      {"key": "vod_快车","name":"🧲｜快車｜延遲","type":1,"api":"https://caiji.kczyapi.com/api.php/provide/vod/?ac=list","searchable":1,"changeable":1,"quickSearch":1,"filterable":1,"categories":["动漫","电影","动作片","喜剧片","爱情片","科幻片","恐怖片","战争片","剧情片","动画片","电视剧","国产剧","香港剧","台湾剧","欧美剧","韩国剧","日本剧","海外剧","动漫","国产动漫","日本动漫","欧美动漫","预留","综艺","大陆综艺","日韩综艺","港台综艺","欧美综艺","泰国剧","未分类"]},
+      {"key": "vod_艾旦影视","name": "🧲｜艾旦｜延遲","type": 1,"api": "https://lovedan.net/api.php/provide/vod/","jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5","searchable": 1,"quickSearch": 1,"categories": [  "动作片" , "喜剧片" , "爱情片" , "科幻片" , "恐怖片" , "犯罪片" , "战争片" , "剧情片" , "动画电影",  "国产剧" , "港台剧" , "日韩剧" , "欧美剧" , "海外剧" , "网红主播", "日韩综艺", "港台综艺",  "欧美综艺", "大陆综艺", "国产动漫", "日韩动漫", "欧美动漫", "海外动漫", "海外抖音", "影视解说", "直播"]},
+      {"key": "vod_HG影视","name": "🧲｜皇冠｜失效","type": 1,"api": "https://hong.hgyx.vip/api.php/provide/vod/","jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5","searchable": 1,"quickSearch": 1},
+      {"key": "vod_華為吧","name": "🧲｜華為吧｜延遲","type": 1,"api": "https://cjhwba.com/api.php/provide/vod/?ac=list","jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/panda1123.jar;md5;d9004aa2e16f60b04baed361713fb710","searchable": 1,"quickSearch": 1,"filterable": 1},
+      {"key": "vod_華為吧cms","name": "🧲｜華為吧(聚)｜延遲","type": 0,"api": "https://cjhwba.com/api.php/provide/vod/at/xml/?ac=list","jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/panda1123.jar;md5;d9004aa2e16f60b04baed361713fb710","searchable": 1,"quickSearch": 1,"filterable": 1},
       {
         "key":"drpyS_老白故事[听]",
         "name":"㊙︎｜老白故事",
