@@ -11,6 +11,14 @@
     "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/Y3電影.json"
   },
   {
+    "key": "csp_AppYsV2_天天美剧网（APP）",
+    "name": "🎥｜天天美剧｜BYGA線有廣告(11分鐘)",
+    "type": 3,
+    "api": "csp_AppYsV2",
+    "ext": "https://www.ttmja.com/api.php/app/",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/dokilwss.jar;md5;145277452362fe4b1371e8968b414ed1"
+  },
+  {
     "key": "csp_蛙視頻",
     "name": "🎥｜蛙視頻｜有廣告(8分鐘)+成人片",
     "type": 3,
