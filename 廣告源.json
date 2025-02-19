@@ -19,6 +19,15 @@
     "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/dokilwss.jar;md5;145277452362fe4b1371e8968b414ed1"
   },
   {
+    "key": "墨白影视",
+    "name": "🥈｜墨白｜有廣告(8分鐘)",
+    "type": 1,
+    "api": "https://nm.xxxc137.top/api.php/provide/vod/",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+    "searchable": 1,
+    "quickSearch": 1
+  },
+  {
     "key": "csp_蛙視頻",
     "name": "🎥｜蛙視頻｜有廣告(8分鐘)+成人片",
     "type": 3,

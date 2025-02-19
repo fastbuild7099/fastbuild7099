@@ -172,18 +172,26 @@
         "分类": "電視劇$2#電影$1#動漫$4#綜藝$3#紀錄片$23#體育$34#短劇$52"
       }
     },
-
-
-
-
-
-
-
-
-
-
-
-
+    {
+      "key": "drpyS_素白白",
+      "name": "🥈｜素白白｜道長源",
+      "type": 4,
+      "api": "https://drpy-node-mauve.vercel.app/api/素白白",
+      "searchable": 2,
+      "filterable": 1,
+      "quickSearch": 0,
+      "ext": ""
+    },
+      {
+        "key": "drpyS_雪糕TV",
+        "name": "🥈｜雪糕TV｜道長源",
+        "type": 4,
+        "api": "https://drpy-node-mauve.vercel.app/api/雪糕TV",
+        "searchable": 2,
+        "filterable": 0,
+        "quickSearch": 0,
+        "ext": ""
+      },
     {
         "key": "新可可影视③",
         "name": "🎥｜可可③｜失效",
@@ -1727,6 +1735,63 @@
     "分类url": "https://4k4k.live/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html"
   }
 },
+{
+  "key": "csp_Wwys",
+  "name": "🥈｜理想｜失效",
+  "type": 3,
+  "playerType": 2,
+  "changeable": 0,
+  "api": "csp_Wwys",
+  "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/csp_JPYY.jar",
+  "ext": "https://www.wwgz.cn/"
+},
+{
+  "key": "csp_4k影院",
+  "name": "🥈｜4k影院｜延遲",
+  "type": 3,
+  "api": "csp_XBPQ",
+  "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+  "searchable": 1,
+  "quickSearch": 1,
+  "filterable": 1,
+  "ext": {
+    "站名": "4K影院",
+    "数组": "<div class=\"poster\"&&</h3",
+    "简介": "<p>&&<p>",
+    "图片": "src=\"&&\"",
+    "标题": "alt=\"&&\"",
+    "副标题": "class=\"icon-star2\">&&<div class=\"mepo\">",
+    "链接": "href=\"&&\"",
+    "线路数组": "<div class='se-q'>&&</a>",
+    "线路标题": "4K專線",
+    "线路链接": "href=\"&&\"",
+    "多线数组": "<div class='se-q'>&&</a>",
+    "多线链接": "href=\"&&\"",
+    "状态": "<div class=\"extra\">&&</div>",
+    "导演": "<div class=\"name\"&&</a>",
+    "主演": "<h2>演员</h2>&&<div id=\"info",
+    "播放二次截取": "id='playernotice&&<div class=\"sheader\">[替换:class='ajax_mode'>>>videourls:你我\"name\":1集,\"链洁\":\\&mvsource=0\"和他tables:]",
+    "播放数组": "videourls:&&tables:[替换:url\":>>链洁\":\\&ep=#name\":>>name\":#}>>\\&source=0\"和他#{>>你我]",
+    "播放列表": "你我&&和他",
+    "播放标题": "name\":&&,",
+    "播放链接": "链洁\":&&\"",
+    "播放链接前缀": "https://www.4kvm.org/artplayer?id=+postid-&&\"",
+    "免嗅": "0",
+    "搜索url": "https://www.4kvm.org/xssearch?s={wd}",
+    "分类url": "https://www.4kvm.org/{cateId}/page/{catePg}",
+    "分类": "电影$movies#美剧$classify/meiju#国产剧$classify/guochan#韩剧$classify/hanju#番剧$classify/fanju"
+  }
+},
+{
+  "key":"drpyS_瓜子H5",
+  "name":"🥇｜瓜子H5",
+  "type":4,
+  "api":"http://drpys.aera.eu.org/api/瓜子H5",
+  "searchable":1,
+  "filterable":1,
+  "quickSearch":1,
+  "ext":""
+},
     {
       "key": "csp_bttwo",
       "name": "🥇｜bttwo",
@@ -1734,6 +1799,17 @@
       "api": "csp_XBPQ",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/bttwo.json"
+      },
+      {
+        "key": "csp_Bttoo",
+        "name": "🥉｜两个BT｜雷蒙",
+        "type": 3,
+        "api": "csp_Bttwoo",
+        "spider": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/lem0118.jar",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/lem0118.jar",
+        "searchable": 1,
+        "quickSearch": 1,
+        "changeable": 1
       },
       {"key": "vod_HG影视","name": "🧲｜皇冠｜失效","type": 1,"api": "https://hong.hgyx.vip/api.php/provide/vod/","jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5","searchable": 1,"quickSearch": 1},
       {"key": "vod_天空","name":"🧲｜天空｜失效","type":1,"api":"http://api.tiankongapi.com/api.php/provide/vod/","playUrl":"","searchable":1,"quickSearch":1,"categories":[]},
