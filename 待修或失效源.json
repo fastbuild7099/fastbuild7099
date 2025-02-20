@@ -340,6 +340,15 @@
         "changeable": 1
     },
     {
+      "key": "py_素白白.py",
+      "name": "⏭｜素白白｜PYTHON",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/py/素白白.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+  },
+    {
       "key": "csp_视觉",
       "name": "⏭｜视觉｜PYTHON",
       "type": 3,
