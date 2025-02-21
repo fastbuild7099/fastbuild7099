@@ -504,15 +504,17 @@
              }
      },
      {
-      "key": "drpyS_皮皮虾[优]",
-      "name": "🥈｜皮皮虾｜道長源",
-      "type": 4,
-      "api": "https://drpy-node-mauve.vercel.app/api/皮皮虾[优]",
-      "searchable": 2,
-      "filterable": 1,
-      "quickSearch": 0,
-      "ext": ""
-    },
+      "key": "萌米",
+      "name": "🥇｜萌米",
+      "type": 3,
+      "api": "csp_AppTT",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/moyu.jar;md5;80d71eea61b5ed4a25481b66a9106879",
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg=="
+  },
     {
       "key": "drpyS_人人视频",
       "name": "🥈｜人人视频｜道長源",

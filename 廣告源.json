@@ -28,6 +28,37 @@
     "quickSearch": 1
   },
   {
+    "key": "csp_XBPQ_樱花",
+    "name": "🎥｜樱花有廣告(8分鐘)",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "ext": {
+      "请求头": "User-Agent$MOBILE_UA",
+      "编码": "UTF-8",
+      "主页url": "http://ks-ydk.com/",
+      "二次截取": "stui-vodlist clearfix&&</ul>",
+      "数组": "lazyload\"&&</a>",
+      "标题": "title=\"&&\"",
+      "图片": "data-original=\"&&\"",
+      "副标题": "text-right\">&&</span>",
+      "链接": "href=\"&&\"",
+      "线路数组": "<h3&&h3>",
+      "线路标题": "title\">&&</",
+      "播放数组": "playlist clearfix&&</ul>",
+      "播放列表": "<li&&li>",
+      "播放标题": ">&&</a>",
+      "播放链接": "href=\"&&\"",
+      "跳转播放链接": "var player_*\"url\":\"&&\"",
+      "分类url": "http://ks-ydk.com/show/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
+      "分类": "电影$1#电视剧$2#综艺$3#动漫$4#午夜剧场$36#网红短剧$30",
+      "类型": "动作片$7#喜剧片$8#爱情片$9#科幻片$10#恐怖片$11#剧情片$12#犯罪片$29#战争片$13||国产剧$14#港剧$15#台湾剧$16#韩剧$17#日剧$18#泰剧$31#欧美剧$19#海外剧$20||大陆综艺$21#日韩综艺$22#港台综艺$23#欧美综艺$24||国产动漫$25#日本动漫$26#欧美动漫$27#海外动漫$28||空||空"
+    }
+  },
+  {
     "key": "csp_蛙視頻",
     "name": "🎥｜蛙視頻｜有廣告(8分鐘)+成人片",
     "type": 3,
@@ -260,6 +291,20 @@
     "quickSearch": 1,
     "filterable": 1,
     "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/美劇.json"
+  },
+  {
+    "key": "csp_XBiu大師兄影視",
+    "name": "🎥｜大師兄影視｜有廣告",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "ext": {
+      "分类url": "https://dsxys.pro/vodshow/{cateId}--time------{catePg}---{year}.html",
+      "分类": "電視劇$2#電影$1#動漫$4#綜藝$3"
+    }
   },
   {
     "key": "csp_韩迷TV",
