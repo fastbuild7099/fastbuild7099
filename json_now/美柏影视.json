@@ -1,15 +1,16 @@
 {
-    "作者": "圥忈",
-    "站名": "美柏影视",
-    "主页url": "https://www.mp4br.com/",
+    "規則名": "美柏影视",
+    "規則作者": "老王叔叔",
+    "規則日期": "114.02.22",
+    "主页url": "https://www.mp4be.com/",
     "副标题": "</p><i>&&</i><em>",
     "导演": "导演：&&</dt>",
     "主演": "主演：&&</dt>",
     "影片状态": "状态：&&</dt>",
     "影片类型": "类型：&&</dt>",
-    "简介": "请勿相信影片中的广告，以免上当受骗。+<div class=\"tjuqing&&</div>",
+    "简介": "<div class=\"tjuqing&&</div>",
     "搜索模式": "1",
-    "搜索url": "https://www.mp4br.com/sousuo.html?wd={wd}",
+    "搜索url": "https://www.mp4be.com/sousuo.html?wd={wd}",
     "搜索数组": "<a class=\"play-img\"&&</li>",
     "搜索标题": "alt=\"&&\"",
     "搜索副标题": "<span class=\"color\">&&</span>",
@@ -23,6 +24,6 @@
     "播放链接": "href=\"&&\"",
     "嗅探词": "index.m3u8",
     "跳转播放链接": "urlDecode(var player_*url\":\"&&\")",
-    "分类url": "https://www.mp4br.com/dy/hd/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
-    "分类": "电影$79#电视剧$38#综艺$40#动漫$90#预告片$96#短剧$97#体育赛事$98"
+    "分类url": "https://www.mp4be.com/gaojisousuo/{cateId}-{area}-{by}------{catePg}---{year}.html",          
+    "分类": "电影$79#电视剧$38#综艺$40#动漫$90"
 }

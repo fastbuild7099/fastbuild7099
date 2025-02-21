@@ -1798,7 +1798,41 @@
   "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/csp_JPYY.jar",
   "ext": "https://www.wwgz.cn/"
 },
-
+{
+  "key": "csp_XBPQ_爱电",
+  "name": "🥇｜爱电｜失效",
+  "type": 3,
+  "api": "csp_XBPQ",
+  "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+  "searchable": 1,
+  "quickSearch": 1,
+  "filterable": 1,
+  "ext":
+  {
+      "主页url": "https://www.gs4x7nq4.com/",
+      "播放请求头": "User-Agent$Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+      "简介": "😃B站【晨瑞黑科】配置😃数据皆来自互联网，水印广告勿信，谨防诈骗: +</label>&&</div>",
+      "嗅探词": ".mp4#.m3u8#.flv#.m3u8?#.mp4?",
+      "影片类型": "tags\">&&director\">",
+      "影片状态": "bottom\">&&</div>",
+      "二次截取": "videoList\":\\[&&\\]",
+      "数组": "{&&}[不包含:伦理剧]",
+      "图片": "https+://ywxohs.com+obs.gduamoe.com&&\",",
+      "标题": "vodName\":\"&&\"",
+      "副标题": "vodRemarks\":\"&&\"",
+      "链接": "https://www.gs4x7nq4.com/detail/+vodId\":&&,",
+      "导演": "导演:</div>&&主演",
+      "主演": "主演:</div>&&别名",
+      "线路标题": "☕B站【晨瑞黑科】祝您观影愉快☕",
+      "播放数组": "listitem\">&&info\">",
+      "播放列表": "<a&&</a>",
+      "倒序": "否",
+      "搜索url": "https://www.gs4x7nq4.com/vod/search/{wd}",
+      "搜索副标题": "class=\"boottom\"*<div>&&</div",
+      "分类": "关注B站[晨瑞黑科]$1#电影$1#电视剧$2#综艺$3#动漫$4",
+      "分类url": "https://www.gs4x7nq4.com/vod/show/id/{cateId}/sortType/4/sortOrder/0/page/{catePg}"
+    }
+},
 {
   "key":"drpyS_瓜子H5",
   "name":"🥇｜瓜子H5",
