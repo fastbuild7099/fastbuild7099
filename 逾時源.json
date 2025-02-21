@@ -56,7 +56,7 @@
   },
   {
     "key": "csp_泰劇網",
-    "name": "🎥｜泰劇｜延遲",
+    "name": "🎥｜泰劇｜",
     "type": 3,
     "api": "csp_XBPQ",
     "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
@@ -65,6 +65,77 @@
     "filterable": 1,
     "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/泰劇.json"
   },
+  {
+    "key": "zj",
+    "name": "🥈｜追劇TV｜延遲",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+    "ext": 
+         {
+         "主页url": "https://www.8q8k.com/",
+         "数组": "class=\"col-lg-6 col-md-6 col-sm-4 col-xs-3\"&&</li>",
+         "简介": "class=\"sketch content hide\">&&</p>",
+         "分类url": "https://www.8q8k.com/vodshow/{cateId}-{area}-{by}------{catePg}---{year}.html",         
+         "分类": "电影$dy#电视剧$dsj#综艺$zy#动漫$dm",
+         "地区": "大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大&其他"
+         }
+},
+{
+  "key": "csp_XBPQ_爱坤",
+  "name": "🎥｜爱坤",
+  "type": 3,
+  "api": "csp_XBPQ",
+  "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+  "searchable": 1,
+  "quickSearch": 1,
+  "filterable": 1,
+  "ext": 
+       {
+       "分类url": "https://ikun.tv/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
+       "分类": "动画片$54#电影$1#电视剧$3#动漫$2#综艺$4#短剧$5"
+       }
+},
+{
+  "key": "追剧很卷",
+  "name": "🥈｜追剧資源｜失效",
+  "type": 3,
+  "api": "csp_XBPQ",
+  "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+  "searchable": 1,
+  "quickSearch": 1,
+  "filterable": 1,
+  "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/追劇資源.json"
+},
+{
+  "key": "csp_Wetv",
+  "name": "🥇｜尘落｜延遲",
+  "type": 3,
+  "searchable": 1,
+  "quickSearch": 1,
+  "changeable": 1,
+  "api": "csp_Lgyy",
+  "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/mi-0212.jar"
+},
+{
+  "key": "csp_一起看電影",
+  "name": "🎥｜一起看電影｜延遲",
+  "type": 3,
+  "api": "csp_XBPQ",
+  "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+  "searchable": 1,
+  "quickSearch": 1,
+  "filterable": 1,
+  "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/一起看.json"
+},
+{
+  "key": "夕云影视",
+  "name": "🎥｜夕云｜延遲",
+  "type": 3,
+  "api": "csp_XBPQ",
+  "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+  "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/夕雲.json"
+},
   {
     "key": "csp_AppYsV2_河狸影视",
     "name": "🎥｜河狸｜品質不良",
