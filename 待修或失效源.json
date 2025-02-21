@@ -214,7 +214,40 @@
         "filterable": 1,
         "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/新可可影視3.json"
     },
-
+    {
+      "key": "csp_XBPQ_微云",
+      "name": "🎥｜微云｜失效",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/微雲.json"
+    },
+    {
+      "key": "五五影视",
+      "name": "🥇｜呜呜｜網站關了",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext":
+          {
+          "作者": "荷城茶秀",
+          "站名": "55影视",
+          "主页url": "https://www.5555kan.com/",
+          "简介": "+<p class=\"col-pd\"&&</p>",
+          "导演": "导演：&&</p>",
+          "主演": "主演：&&</p>",
+          "线路数组": "<h3 class=\"title\">&&/h3>",
+          "线路标题": ">&&<",
+          "分类url": "https://www.5555kan.com/show/{cateId}-{area}-{by}------{catePg}---{year}.html;;ak",
+          "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
+          }
+  },
       {
         "key": "csp_420kvm",
         "name": "🎥｜420｜播放失效",

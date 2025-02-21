@@ -55,6 +55,28 @@
     }
   },
   {
+    "key": "csp_泰劇網",
+    "name": "🎥｜泰劇｜延遲",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/泰劇.json"
+  },
+  {
+    "key": "csp_AppYsV2_河狸影视",
+    "name": "🎥｜河狸｜品質不良",
+    "type": 3,
+    "api": "csp_AppYsV2",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/dokilwss.jar;md5;145277452362fe4b1371e8968b414ed1",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "ext": "https://www.heli888.cc/api.php/app/"
+  },
+  {
     "key": "csp_XBPQ_火火",
     "name": "🎥｜火火｜無廣",
     "type": 3,
