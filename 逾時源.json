@@ -66,6 +66,116 @@
     "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/泰劇.json"
   },
   {
+    "key": "csp_臭蛋蛋影视",
+    "name": "🥉｜臭蛋蛋｜浮水印廣告(延遲)",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "ext": 
+         {
+         "分类url": "https://cddys1.me/vodshow/{cateId}-{area}-{by}------{catePg}---{year}.html",                     
+         "分类": "電影$1#電視劇$2#綜藝$3#動漫$4",
+         "地区": "大陆&香港&台湾&美国&法国&英国&日本&韩国||大陆&韩国&香港&台湾&日本&美国&泰国&英国||大陆&港台&日韩&欧美||大陆&日本&欧美&其他"
+         }
+  },
+  {
+    "key": "hipy_js_无忧影视",
+    "name": "🥉｜无忧｜延遲",
+    "type": 3,
+    "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_libs1/drpy2.min.js",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/drpy_js1/无忧影视.js"
+  },
+  {
+    "key": "csp_真不卡",
+    "name": "🥇｜真不卡｜延遲",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+    "searchable": 1,
+    "quickSearch": 1,
+    "changeable": 1,
+    "filterable": 1,
+    "ext": {
+      "規則名": "真不卡",
+      "規則作者": "老王叔叔",
+      "規則日期": "114.01.16",
+      "主页url": "https://zbkyyy.com/",
+      "搜索url": "https://zbkyyy.com/qyvodsearch/-------------.html?wd={wd}",
+      "分类url":"https://www.zbkyyy.com/qyvodshow/{cateId}-{area}-{by}------{catePg}---{year}.html",
+      "分类": "電影$1#電視劇$2#綜藝$3#動漫$4",
+      "地区": "大陆&香港&台湾&美国&法国&英国&日本&韩国||大陆&韩国&香港&台湾&日本&美国&泰国&英国||大陆&港台&日韩&欧美||大陆&日本&欧美&其他"
+        }
+},
+{
+  "key": "csp_神马影视",
+  "name": "🥉｜神马｜浮水印廣告(延遲+畫質低)",
+  "type": 3,
+  "api": "csp_XBPQ",
+  "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+  "searchable": 1,
+  "quickSearch": 1,
+  "filterable": 1,
+  "ext": 
+       {
+       "线路数组": "class=\"hl-tabs-btn hl-slide-swiper\"&&</a>",
+       "线路标题": "</i>&&</a>",
+       "分类url": "https://www.18ys.cc/vodshow/1-------/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
+       "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$30#纪录片$40"
+       }
+},
+{
+  "key":"闹闹",
+  "name":"🥇｜闹闹｜(線路123失效)",
+  "type":3,
+  "api":"csp_Xdai",
+  "searchable":1,
+  "changeable":1,
+  "ext":"caHR0cDovLzExMC40Mi4zLjE5NTo4OTg5fEQ2cTdoamI4N0ZKMDlGNzd8RDZxN2hqYjg3RkowOUY3Nw",
+  "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/qj.jar;md5;ab2b0ddad5e1f7fa6bd2b295eea6d0d5"
+},
+  {
+    "key": "csp_电视狗影视",
+    "name": "🥇｜电视狗｜延遲",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "ext": {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "主页url": "https://tvgoo.top/",
+        "数组": "<li>&&</li>",
+        "标题": "title=\"&&\"",
+        "图片": "src=\"&&\"",
+        "链接": "href=\"&&\"",
+        "简介": "class=\"description\">&&</div>",
+        "播放数组": "<div class=\"playlist\">&&</div>",
+        "播放列表": "<li&&</li>",
+        "播放链接": "href=\"&&\"",
+        "播放标题": "title=\"&&\"",
+        "线路二次截取": "class=\"description\"&&class=\"list mb\"",
+        "线路数组": "class=\"box p15\"&&class=\"t_line\"",
+        "线路标题": "<h5&&</h5>",
+        "搜索模式": "1",
+        "搜索url": "https://tvgoo.top/search.php?page={pg}&searchword={wd}&searchtype=",
+        "搜索数组": "<li>&&</li>",
+        "搜索标题": "title=\"&&\"",
+        "搜索图片": "alt=\"&&\"",
+        "跳转播放链接": "urlDecode(ar now=unescape(\"&&\"))",
+        "分类url": "https://tvgoo.top/fdagtm/{cateId}-{catePg}.html",
+        "分类": "电影$1#电视剧$2#综艺$4#动漫$3",
+        "类型": "动作片$5#喜剧片$6#爱情片$7#科幻片$8#恐怖片$9#战争片$10#剧情片$11#纪录片$12#网络电影$13#动画片$14#解说$27||国产剧$16#网络剧$17#港剧$18#台剧$19#日剧$20#韩剧$21#美剧$22#英剧$23#泰剧$24#海外剧$25||空||空"
+    }
+  },
+  {
     "key": "zj",
     "name": "🥈｜追劇TV｜延遲",
     "type": 3,
@@ -108,6 +218,79 @@
   "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/追劇資源.json"
 },
 {
+  "key": "csp_XBPQ_蝌蚪",
+  "name": "🎥｜蝌蚪｜賭城廣告(小米雲)+浮水印廣告+延遲",
+  "type": 3,
+  "api": "csp_XBPQ",
+  "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+  "searchable": 1,
+  "quickSearch": 1,
+  "filterable": 1,
+  "ext": 
+        {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "跳转播放链接": "var player_*\"url\":\"&&\"",
+        "分类url": "http://www.jldfac.com/show/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
+        "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$36",
+        "类型": "动作片$6#喜剧片$7#爱情片$8#科幻片$9#恐怖片$10#剧情片$11#战争片$12#动画片$24#纪录片$23#预告片$35国产剧$13#香港剧$14#韩国剧$15#欧美剧$16#台湾剧$20#日本剧$21#泰剧$34#其它剧$22大陆综艺$25#日韩综艺$26#港台综艺$27#欧美综艺$28国产动漫$29#日韩动漫$30#欧美动漫$31#其它动漫$32爽文短剧$37#女频恋爱$38#反转爽剧$39#古装仙侠$40#年代穿越$41#脑洞悬疑$42#现代都市$43"
+        }
+},
+{
+  "key": "csp_影视森林",
+  "name": "🎥｜森林｜浮水印+黑木耳廣告(延遲)",
+  "type": 3,
+  "api": "csp_XBPQ",
+  "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+  "searchable": 1,
+  "quickSearch": 1,
+  "filterable": 1,
+  "ext": 
+       {
+       "请求头": "User-Agent$MOBILE_UA",
+       "编码": "UTF-8",
+       "主页url": "https://www.ncshdxx.com/",
+       "分类url": "https://www.ncshdxx.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}/",
+       "分类": "电影$dianying#电视剧$dsj#综艺$zongyi#动漫$dongman#爽文短剧$shuangwenduanju#4k电影$4kdianying#体育赛事$tiyusaishi",
+       "类型": "喜剧片$xijupian#动作片$dongzuopian#爱情片$aiqingpian#科幻片$kehuanpian#恐怖片$kongbupian#剧情片$juqingpian#战争片$zhanzhengpian#悬疑片$xuanyipian#犯罪片$fanzuipian#冒险片$maoxianpian#动画片$donghuapian#惊悚片$jingsongpian#奇幻片$qihuanpian#纪录片$jilupian#武侠片$wuxiapian||国产剧$guochanju#欧美剧$oumeiju#日剧$riju#韩剧$hanju#港剧$gangju#台剧$taiju#泰剧$taiju#海外剧$haiwaiju||空||国产动漫$guochandongman#日韩动漫$rihandongman#欧美动漫$oumeidongman#港台动漫$gangtaidongman#海外动漫$haiwaidongman||空||空||空"
+       }
+},
+{
+  "key": "csp_奇趣影视",
+  "name": "🥇｜奇趣｜延遲(極速2秒播)",
+  "type": 3,
+  "api": "csp_XBPQ",
+  "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+  "ext": {
+    "主页url": "https://www.qqutv.com",
+    "简介": ">&&</span>",
+    "导演": "导演：&&</div>",
+    "主演": "主演：&&</div>",
+    "倒序": "1",
+    "分类url": "https://www.qqutv.com/qqys/{cateId}/area/{area}/page/{catePg}/year/{year}.html",
+    "分类": "电影$dianying#电视剧$dianshiju#综艺$zongyi#动漫$dongmna",
+    "地区": "中国&大陆&内地&香港&台湾&日本&韩国&泰国&新加坡&马来西亚&越南&印度&美国&英国&德国&法国&意大利"
+  }
+},
+{
+  "key": "csp_moxmi",
+  "name": "🥇｜乐美｜延遲",
+  "type": 1,
+  "api": "http://mi.moxmi.top:81/api.php/provide/vod/?ac=list",
+  "playUrl": "json:http://iid.moxmi.top:81/gg.php?url=",
+  "searchable": 1,
+  "quickSearch": 1,
+  "filterable": 1,
+  "jar": "https://raw.githubusercontent.com/cpu170/bf/0b1b3e305fd4ac2e206d3589cd1ca3e70cf7b28e/n/g/jars/林中的小屋.jar",
+  "categories": [
+    "电影",
+    "剧集",
+    "综艺",
+    "动漫",
+    "短剧"
+  ]
+},
+{
   "key": "csp_Wetv",
   "name": "🥇｜尘落｜延遲",
   "type": 3,
@@ -116,6 +299,17 @@
   "changeable": 1,
   "api": "csp_Lgyy",
   "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/mi-0212.jar"
+},
+{
+  "key": "csp_樱花影视",
+  "name": "🎥｜樱花｜延遲",
+  "type": 3,
+  "api": "csp_XBPQ",
+  "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+  "searchable": 1,
+  "quickSearch": 1,
+  "filterable": 1,
+  "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/櫻花影視.json"
 },
 {
   "key": "csp_一起看電影",

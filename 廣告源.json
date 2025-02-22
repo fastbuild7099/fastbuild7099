@@ -11,6 +11,16 @@
     "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/Y3電影.json"
   },
   {
+    "key": "快看影视",
+    "name": "🥇｜快看｜賭城廣告(13分鐘)",
+    "type": 3,
+    "api": "csp_Kuaikan",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/配置中心.jar",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+},
+  {
     "key": "csp_AppYsV2_天天美剧网（APP）",
     "name": "🎥｜天天美剧｜BYGA線有廣告(11分鐘)",
     "type": 3,
@@ -320,6 +330,17 @@
         "分类": "电影$20#电视剧$21#动漫$23#综艺$22#短剧$47",
         "简介": "简介：&&"
         }
+},
+{
+  "key": "zj",
+  "name": "🥈｜8K影院｜有廣告",
+  "type": 3,
+  "api": "csp_XBPQ",
+  "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+  "ext": {
+    "分类url": "https://www.8q8k.com/vodshow/{cateId}--------{catePg}---.html",
+    "分类": "电影$dy#电视剧$dsj#综艺$zy#动漫$dm"
+  }      
 },
   {
     "key": "csp_韩迷TV",

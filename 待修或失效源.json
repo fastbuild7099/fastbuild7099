@@ -548,6 +548,70 @@
     "ext": "dZyf/FE+KyNozU1BJTipIlQwV9Exzgodak8HaPQS3+zONEYCA2iEg3LraoCo2u5+6rn3VmrCG6H/XvFKSMzGrev5JV2DZOVsAQxLXRNRbxFUFKM1SEJpngJgi7Fj/n1DfJU3XaJt/aV+5tEC4C+/K7Bx/k1Kz08b1iyW0f8Ghf/NH5BnTsoFeiXrPUjRIyi1oIQh1RUF0aQHwI/DPqGAMHE+KK9efsb7FTDKW7TXastSWVcfpizheTXfXFdRtX+qjWkii8PMPPizDUAlTR3Ptg=="
     },
     {
+      "key": "临渊影视",
+      "name": "🥇｜临渊｜失效",
+      "type": 3,
+      "api": "csp_AppRZ",
+      "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/配置中心.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+  },
+  {
+    "key": "csp_YCyz",
+    "name": "🥇｜原创｜失效",
+    "type": 3,
+    "api": "csp_YCyz",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/moyu.jar",
+    "timeout": 15,
+    "playerType": 1,
+    "searchable": 1,
+    "quickSearch": 1,
+    "changeable": 1
+},
+  {
+    "key": "csp_XBiu廠長影院",
+    "name": "🥈｜廠長｜失效",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "ext": {
+      "分类url": "https://www.tz2yj.com/list/{cateId}___{year}__addtime_{catePg}.html",
+      "分类": "電視劇$dianshiju#電影$dianying#動漫$dongman#綜藝$zongyi#微電影$weidianying"
+    }
+  },
+  {
+    "key": "csp_Xlys",
+    "name": "🥇｜滴滴｜浮水印廣告(篩選大失效)",
+    "api": "csp_Xlys",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/lem0118.jar",
+    "type": 3,
+    "playerType": 2
+},
+    {
+      "key": "热播",
+      "name": "🥇｜热播｜無廣(失效)",
+      "type": 3,
+      "api": "csp_AppTT",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/moyu.jar;md5;80d71eea61b5ed4a25481b66a9106879",
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "AO7TcBkd8I/B5wQc4Qma+pU="
+  },
+    {
+      "key": "csp_草民影院",
+      "name": "🥇｜草民｜網站失效",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/草民.json"
+  },
+    {
       "key":"大米",
       "name":"🥇｜大米｜QJ",
       "type":3,
