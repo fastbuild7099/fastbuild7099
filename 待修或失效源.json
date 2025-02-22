@@ -4,31 +4,8 @@
     "wallpaper": "https://picsum.photos/1080/",
     "sites": [ 
 
-    {
-        "key": "大鄒影视",
-        "name": "🥇｜大鄒｜無廣(選極速雲)",
-        "type": 3,
-        "api": "csp_XBPQ",
-        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/大海5號.json"
-      },
-      {
-        "key": "csp_XBPQ_TVB",
-        "name": "🥇｜TVB｜無廣(不要選非凡)",
-        "type": 3,
-        "api": "csp_XBPQ",
-        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "ext": {
-          "分类url": "http://www.tvyb10.com/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
-          "分类": "电影$1#电视剧$2#动漫$4#综艺$3"
-        }
-    },
+
+
     {
       "key": "csp_AppDrama3",
       "name": "🥇｜眼镜｜app(失效)",
