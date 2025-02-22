@@ -170,16 +170,6 @@
       "quickSearch": 0,
       "ext": ""
     },
-      {
-        "key": "drpyS_雪糕TV",
-        "name": "🥈｜雪糕TV｜道長源",
-        "type": 4,
-        "api": "https://drpy-node-mauve.vercel.app/api/雪糕TV",
-        "searchable": 2,
-        "filterable": 0,
-        "quickSearch": 0,
-        "ext": ""
-      },
     {
         "key": "新可可影视③",
         "name": "🎥｜可可③｜失效",
@@ -394,16 +384,6 @@
       "playerType": 2
     },
     {
-      "key":"drpyS_PTT[优]",
-      "name":"🥇｜PTT｜道長",
-      "type":4,
-      "api":"http://drpys.aera.eu.org/api/PTT[优]",
-      "searchable":1,
-      "filterable":1,
-      "quickSearch":1,
-      "ext":""
-    },
-    {
       "key": "皮皮虾",
       "name": "🥇｜皮皮虾｜APP",
       "type": 3,
@@ -448,16 +428,6 @@
         "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/凱奇影視.json"
       },
       {
-        "key": "drpyS_火车太堵",
-        "name": "🥈｜火车太堵",
-        "type": 4,
-        "api": "http://drpys.aera.eu.org/api/火车太堵",
-        "searchable": 1,
-        "filterable": 0,
-        "quickSearch": 0,
-        "ext": ""
-    },
-      {
         "key": "现代",
         "name": "🥈｜现代｜App(未測)",
         "type": 3,
@@ -492,16 +462,6 @@
       "changeable": 1,
       "ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg=="
   },
-    {
-      "key": "drpyS_人人视频",
-      "name": "🥈｜人人视频｜道長源",
-      "type": 4,
-      "api": "https://drpy-node-mauve.vercel.app/api/人人视频",
-      "searchable": 1,
-      "filterable": 1,
-      "quickSearch": 0,
-      "ext": ""
-    },
     {
       "key": "糯米",
       "name": "🥇｜糯米｜失效",
