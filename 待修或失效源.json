@@ -526,6 +526,28 @@
       "ext": ""
     },
     {
+      "key": "糯米",
+      "name": "🥇｜糯米｜失效",
+      "type": 3,
+      "api": "csp_Nmyswv",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/moyu.jar;md5;80d71eea61b5ed4a25481b66a9106879",
+      "timeout": 15,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+  },
+  {
+    "key": "csp_AppDrama2",
+    "name": "🥇｜虎虎｜失效",
+    "type": 3,
+    "searchable": 1,
+    "quickSearch": 1,
+    "changeable": 1,
+    "api": "csp_AppDrama",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/mi-0212.jar",
+    "ext": "dZyf/FE+KyNozU1BJTipIlQwV9Exzgodak8HaPQS3+zONEYCA2iEg3LraoCo2u5+6rn3VmrCG6H/XvFKSMzGrev5JV2DZOVsAQxLXRNRbxFUFKM1SEJpngJgi7Fj/n1DfJU3XaJt/aV+5tEC4C+/K7Bx/k1Kz08b1iyW0f8Ghf/NH5BnTsoFeiXrPUjRIyi1oIQh1RUF0aQHwI/DPqGAMHE+KK9efsb7FTDKW7TXastSWVcfpizheTXfXFdRtX+qjWkii8PMPPizDUAlTR3Ptg=="
+    },
+    {
       "key":"大米",
       "name":"🥇｜大米｜QJ",
       "type":3,
@@ -534,6 +556,17 @@
       "searchable":1,
       "quickSearch":1,
       "filterable":1
+    },
+    {
+      "key": "csp_利伍影院",
+      "name": "🥇｜利伍｜失效",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/利伍影视.json"
     },
     {
       "key": "drpyS_专享影视",

@@ -307,6 +307,21 @@
     }
   },
   {
+    "key": "面包影视",
+    "name": "🎥｜面包｜有廣告",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar",
+    "ext":
+         {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类url": "https://v.aiwule.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
+        "分类": "电影$20#电视剧$21#动漫$23#综艺$22#短剧$47",
+        "简介": "简介：&&"
+        }
+},
+  {
     "key": "csp_韩迷TV",
     "name": "🎥｜韩迷TV｜有廣告",
     "type": 3,
