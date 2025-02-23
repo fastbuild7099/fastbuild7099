@@ -1,5 +1,11 @@
-﻿💋松视CR(更新日期114.02.06),#genre#
+﻿
+
+
+
+
+💋松视CR(更新日期114.02.06),#genre#
 松视1台(小雲),http://18.svi-studio.com:80/live/176844830209/558261845324/5.m3u8
+松视1台(小雲),http://18.svi-studio.com:80/live/091271435055/841916267544/5.m3u8
 松视1台(小雲),http://18.svi-studio.com:80/live/824248886026/865501635027/5.m3u8
 松视1台(小雲),http://18.svi-studio.com:80/live/378283219362/918313032809/5.m3u8
 松视1台(小雲),http://18.svi-studio.com:80/live/652484888807/195449585962/5.m3u8
@@ -20,6 +26,7 @@
 松视1台,http://lc.aacalive.com:26789/i/ghjnvq5o/8c855fdf/index.m3u8
 
 松视2台(小雲),http://18.svi-studio.com:80/live/176844830209/558261845324/6.m3u8
+松视2台(小雲),http://18.svi-studio.com:80/live/091271435055/841916267544/6.m3u8
 松视2台(小雲),http://18.svi-studio.com:80/live/824248886026/865501635027/6.m3u8
 松视2台(小雲),http://18.svi-studio.com:80/live/378283219362/918313032809/6.m3u8
 松视2台(小雲),http://18.svi-studio.com:80/live/652484888807/195449585962/6.m3u8
@@ -39,6 +46,7 @@
 松视2台,http://ali.hlspull.yximgs.com/live/3a078c1d69a41e679e167215f052c723.flv
 
 松视3台(小雲),http://18.svi-studio.com:80/live/652484888807/195449585962/20205.m3u8
+松视3台(小雲),http://18.svi-studio.com:80/live/091271435055/841916267544/20205.m3u8
 松视3台(小雲),http://18.svi-studio.com:80/live/824248886026/865501635027/20205.m3u8
 松视3台(小雲),http://18.svi-studio.com:80/live/378283219362/918313032809/20205.m3u8
 松视3台(小雲),http://18.svi-studio.com:80/live/176844830209/558261845324/20205.m3u8
@@ -85,6 +93,7 @@
 彩虹热门新视野,http://276868.cloud/b2701e380a11e98984413a1aca87120a/a342fa9e5e11747f731a4832e31e0e7d/45b8831b294a1b4dbb21b91a8e5ad89a/index.m3u8
 
 潘朵拉完美(小雲),http://18.svi-studio.com:80/live/652484888807/195449585962/3.m3u8
+潘朵拉完美(小雲),http://18.svi-studio.com:80/live/091271435055/841916267544/3.m3u8
 潘朵拉完美(小雲),http://18.svi-studio.com:80/live/378283219362/918313032809/3.m3u8
 潘朵拉完美(小雲),http://18.svi-studio.com:80/live/824248886026/865501635027/3.m3u8
 潘朵拉完美(小雲),http://18.svi-studio.com:80/live/176844830209/558261845324/3.m3u8
@@ -102,8 +111,8 @@
 潘朵拉完美,http://lc.aacalive.com:26789/i/ghjnvq5o/8c855d75/index.m3u8
 潘朵拉完美,http://ali.hlspull.yximgs.com/live/fcda996741e56c81434f4125e48e53c8.flv
 
-
 香蕉臺(小雲),http://18.svi-studio.com:80/live/652484888807/195449585962/4.m3u8
+香蕉臺(小雲),http://18.svi-studio.com:80/live/091271435055/841916267544/4.m3u8
 香蕉臺(小雲),http://18.svi-studio.com:80/live/378283219362/918313032809/4.m3u8
 香蕉臺(小雲),http://18.svi-studio.com:80/live/824248886026/865501635027/4.m3u8
 香蕉臺(小雲),http://18.svi-studio.com:80/live/176844830209/558261845324/4.m3u8
@@ -123,6 +132,7 @@
 香蕉臺,http://ali.hlspull.yximgs.com/live/9663ea3c5f5a81b533de8c546c1329f5.flv
 
 驚艷臺(小雲),http://18.svi-studio.com:80/live/652484888807/195449585962/1.m3u8
+驚艷臺(小雲),http://18.svi-studio.com:80/live/091271435055/841916267544/1.m3u8
 驚艷臺(小雲),http://18.svi-studio.com:80/live/378283219362/918313032809/1.m3u8
 驚艷臺(小雲),http://18.svi-studio.com:80/live/824248886026/865501635027/1.m3u8
 驚艷臺(小雲),http://18.svi-studio.com:80/live/176844830209/558261845324/1.m3u8
@@ -130,6 +140,8 @@
 驚艷臺(小雲),http://18.svi-studio.com:80/live/346356153167/782875691212/1.m3u8
 驚艷臺(小雲),http://18.svi-studio.com:80/live/875994180836/930699661147/1.m3u8
 驚艷臺(小雲),http://18.svi-studio.com:80/live/426804892399/739490745427/1.m3u8
+
+
 驚艷臺,p3p://173.208.176.178:31809/60626a1b00010e3e6f5a5a4f018e5ebe
 驚艷臺,http://125.227.210.55:8156/VideoInput/play.ts
 驚艷臺,http://104.194.10.200:25461/live/271871095922/006886711863/1.m3u8?token=SRVZVERZGl8UCA4FVw9TAlQFBQRQWgAEDlIGDlYBAQcCAAIEDwMIAA4SGhZFTRdVVl1rWwYaXAMbE0FLBERmClYVCxcABhpJFERfWVMbXwAbEkRbBhpcEAYDAw5RFBVBV09FUEVfWQlpVFNCX1oAEg1eQV4OFERdWW5QXQxXVwcQDRMFFR0aDEVAFA5YTAlcGxJWWxZKB0ZSEw4aUwQOUxAbE1ZYRFYRREkUDhRsNhIbElFKFl0IQV5eWhpbFFRQRw8TGRVYSzpEVUVARFwEXVJCFghACEQeFVxVQD5VVg1cUlJBXl5WFhQKFA0PAFwSGxJZXQxREl1FbkRRBRQDQQAEAQUDE0U=
@@ -137,8 +149,8 @@
 驚艷臺,http://ali.hlspull.yximgs.com/live/9663ea3c5f5a81b533de8c546c1329f5.flv
 
 pigoo,http://s.mrw.so/7DlB
-奧視2,http://125.227.210.55:55643/VideoInput/play.ts
-奧視3,http://125.227.210.55:8917/VideoInput/play.ts
+奧视2,http://125.227.210.55:55643/VideoInput/play.ts
+奧视3,http://125.227.210.55:8917/VideoInput/play.ts
 Mainu臺,http://125.227.210.55:51359/VideoInput/play.ts
 Sex Girl,http://125.227.210.55:62698/VideoInput/play.ts
 LOOK,p3p://173.208.176.178:31809/606271190002a1266f75aaee0463186a
