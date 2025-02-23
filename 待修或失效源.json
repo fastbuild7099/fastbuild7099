@@ -4,85 +4,7 @@
     "wallpaper": "https://picsum.photos/1080/",
     "sites": [ 
 
-    {
-      "key": "Net_emby", 
-      "name": "⏭｜Net_Emby｜PYTHON",
-      "type": 3, 
-      "api":"https://ghp.ci/https://raw.githubusercontent.com/boly4189/tv1/refs/heads/master/py/py_emby.py",  
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": 
-            {
-            "server": "http://net.creativeinfo.org:8096",
-            "username":"ntest",
-            "password":"ntest123",
-            "thread": 0,
-            "proxy":""
-            },
-      "changeable": 1
-    },
-    {
-      "key": "San_emby",
-      "name": "⏭｜San_Emby｜PYTHON",
-      "type": 3,
-      "api": "https://gh.llkk.cc/https://raw.githubusercontent.com/boly4189/tv1/refs/heads/master/py/py_emby.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "server": "http://san.creativeinfo.org:8096",
-        "username": "san",
-        "password": "san123",
-        "thread": 0,
-        "proxy": ""
-      },
-      "changeable": 1
-    },
-    {
-      "key": "py_映播",
-      "name": "⏭｜映播｜PYTHON",
-      "type": 3,
-      "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/py/映播.py",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/py.jar;md5;71d846866f2ceb9666ba114e5963983f",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "changeable": 1
-    },
-    {
-      "key": "csp_AppDrama3",
-      "name": "🥇｜眼镜｜app(失效)",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "api": "csp_AppDrama",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/mi-0212.jar",
-      "ext": "dZyf/FE+KyNozU1BJTipIo9iSIwfIqdHlpvuwJw09AVmwEOfCxMwqLVMJhfLimSVcQK/l703QANc8WIkB/uW5sUdZSeZIU9+8Rk+3N6ehNBRUUbdXwHB/6h1j5nm+yHTh+KNx2kJ25BR77lheSHLwTnAU6VXLKSspVz/FQx8qOP8w0hfCMh1ephwsEIF24MCgXWhiAzL92YSEph0y0FlAqwP2rvfW8v3juUbcw47E+M="
-    },
-    {
-      "key": "meiyida",
-      "name": "🥇｜美達｜失效",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "ext": 
-           {
-             "线路数组": "class=\"module-tab-item tab-item\"&&</div>",
-             "线路标题": "span>&&</span>[排序:极速二>极速四]",
-             "分类url": "https://www.mydys3.com/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
-             "分类": "電影$1#電視劇$2#綜藝$3#動漫$4短劇5"
-           }
-    },
-    {
-      "key": "shiju影视",
-      "name": "🥈｜新视觉｜不要選XX雲",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/新視覺影院.json"
-},
+
 {
   "key": "韩小圈",
   "name": "🥇｜韩小圈",
@@ -1764,6 +1686,77 @@
         "searchable": 1,
         "quickSearch": 1,
         "changeable": 1
+      },
+      {
+        "key": "Net_emby", 
+        "name": "⏭｜Net_Emby｜PYTHON",
+        "type": 3, 
+        "api":"https://ghp.ci/https://raw.githubusercontent.com/boly4189/tv1/refs/heads/master/py/py_emby.py",  
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": 
+              {
+              "server": "http://net.creativeinfo.org:8096",
+              "username":"ntest",
+              "password":"ntest123",
+              "thread": 0,
+              "proxy":""
+              },
+        "changeable": 1
+      },
+      {
+        "key": "San_emby",
+        "name": "⏭｜San_Emby｜PYTHON",
+        "type": 3,
+        "api": "https://gh.llkk.cc/https://raw.githubusercontent.com/boly4189/tv1/refs/heads/master/py/py_emby.py",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": {
+          "server": "http://san.creativeinfo.org:8096",
+          "username": "san",
+          "password": "san123",
+          "thread": 0,
+          "proxy": ""
+        },
+        "changeable": 1
+      },
+      {
+        "key": "py_映播",
+        "name": "⏭｜映播｜PYTHON",
+        "type": 3,
+        "api": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/py/映播.py",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/py.jar;md5;71d846866f2ceb9666ba114e5963983f",
+        "searchable": 1,
+        "quickSearch": 0,
+        "filterable": 0,
+        "changeable": 1
+      },
+      {
+        "key": "csp_AppDrama3",
+        "name": "🥇｜眼镜｜app(失效)",
+        "type": 3,
+        "searchable": 1,
+        "quickSearch": 1,
+        "changeable": 1,
+        "api": "csp_AppDrama",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/mi-0212.jar",
+        "ext": "dZyf/FE+KyNozU1BJTipIo9iSIwfIqdHlpvuwJw09AVmwEOfCxMwqLVMJhfLimSVcQK/l703QANc8WIkB/uW5sUdZSeZIU9+8Rk+3N6ehNBRUUbdXwHB/6h1j5nm+yHTh+KNx2kJ25BR77lheSHLwTnAU6VXLKSspVz/FQx8qOP8w0hfCMh1ephwsEIF24MCgXWhiAzL92YSEph0y0FlAqwP2rvfW8v3juUbcw47E+M="
+      },
+      {
+        "key": "meiyida",
+        "name": "🥇｜美達｜失效",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "ext": 
+             {
+               "线路数组": "class=\"module-tab-item tab-item\"&&</div>",
+               "线路标题": "span>&&</span>[排序:极速二>极速四]",
+               "分类url": "https://www.mydys3.com/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+               "分类": "電影$1#電視劇$2#綜藝$3#動漫$4短劇5"
+             }
       },
       {"key": "vod_HG影视","name": "🧲｜皇冠｜失效","type": 1,"api": "https://hong.hgyx.vip/api.php/provide/vod/","jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5","searchable": 1,"quickSearch": 1},
       {"key": "vod_天空","name":"🧲｜天空｜失效","type":1,"api":"http://api.tiankongapi.com/api.php/provide/vod/","playUrl":"","searchable":1,"quickSearch":1,"categories":[]},
