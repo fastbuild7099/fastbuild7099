@@ -569,6 +569,54 @@
     }
   },
   {
+    "key": "csp_利伍影院",
+    "name": "🥇｜利伍｜逾時",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/利伍影视.json"
+  },
+  {
+    "key": "csp_XBiu廠長影院",
+    "name": "🥈｜廠長｜逾時",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "ext": {
+      "分类url": "https://www.tz2yj.com/list/{cateId}___{year}__addtime_{catePg}.html",
+      "分类": "電視劇$dianshiju#電影$dianying#動漫$dongman#綜藝$zongyi#微電影$weidianying"
+    }
+  },
+  {
+    "key": "糯米",
+    "name": "🥇｜糯米｜失效",
+    "type": 3,
+    "api": "csp_Nmyswv",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/moyu.jar;md5;80d71eea61b5ed4a25481b66a9106879",
+    "timeout": 15,
+    "searchable": 1,
+    "quickSearch": 1,
+    "changeable": 1
+},
+  {
+    "key": "萌米",
+    "name": "🥇｜萌米｜APP",
+    "type": 3,
+    "api": "csp_AppTT",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/moyu.jar;md5;80d71eea61b5ed4a25481b66a9106879",
+    "playerType": 2,
+    "searchable": 1,
+    "quickSearch": 1,
+    "changeable": 1,
+    "ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg=="
+  },
+  {
     "key": "vod_華為吧",
     "name": "🧲｜華為吧｜逾時",
     "type": 1,
