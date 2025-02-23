@@ -1,9 +1,4 @@
-﻿
-
-
-
-
-💋松视CR(更新日期114.02.06),#genre#
+﻿💋松视CR(更新日期114.02.23),#genre#
 松视1台(小雲),http://18.svi-studio.com:80/live/176844830209/558261845324/5.m3u8
 松视1台(小雲),http://18.svi-studio.com:80/live/091271435055/841916267544/5.m3u8
 松视1台(小雲),http://18.svi-studio.com:80/live/824248886026/865501635027/5.m3u8
@@ -18,6 +13,8 @@
 松视1台,http://276868.cloud/33899f168487d4ecf86768be40853b71/a342fa9e5e11747f731a4832e31e0e7d/c5f2d006bb9ccf4951acc5cc4b4b8b39/index.m3u8
 松视1台,http://suo.im/c4FP2
 松视1台,http://ali.hlspull.yximgs.com/live/3ece22313a5434d269096c0492bb4592.flv
+松视1台,http://ali.hlspull.yximgs.com/live/a9c3603ee1bd0bc1b9603f808d87aaca.flv
+
 松视1台,p3p://108.181.20.159:75234/5fe445280008a40682a0367c343436bb
 松视1台,p3p://173.208.176.178:31809/5fe445280008a40682a0367c343436bb
 松视1台,http://107.167.16.226:8880/live/wLmJEuYw32hs/75X2WAcaeJexPFiZ/476365.m3u8
@@ -58,6 +55,8 @@
 
 松视3台,p3p://173.208.176.178:31809/6109e9590001f40bfd9b661109395f3b
 松视3台,http://ali.hlspull.yximgs.com:80/live/9663ea3c5f5a81b533de8c546c1329f5.flv
+松视3台,http://ali.hlspull.yximgs.com/live/3f6f5f4476f4ac79303be71e5cd70808.flv
+
 松视3台,http://z3.ubtvfans.com/live/rx3/404/92fba28e982d7b13b6b47247c5a40674/index.m3u8
 松视3台,http://suo.im/9wiS2
 松视3台,http://104.194.10.200:25461/live/271871095922/006886711863/20205.m3u8?token=SRVZVERZGl8UCA4FVw9TAlQFBQRQWgAEDlIGDlYBAQcCAAIEDwMIAA4SGhZFTRdVVl1rWwYaXAMbE0FLBERmClYVCxcABhpJFERfWVMbXwAbEkRbBhpcEAYDAw5RFBVBV09FUEVfWQlpVFNCX1oAEg1eQV4OFERdWW5QXQxXVwcQDRMFFR0aDEVAFA5YTAlcGxJWWxZKB0ZSEw4aUwQOUxAbE1ZYRFYRREkUDhRsNhIbElFKFl0IQV5eWhpbFFRQRw8TGRVYSzpEVUVARFwEXVJCFghACEQeFVxVQD5VVg1cUlJBXl5WFhQKFA0PAFwSGxJZXQxREl1FbkRRBRQDQQAEAQUDE0U=
@@ -110,6 +109,8 @@
 潘朵拉完美,http://104.194.10.200:25461/live/271871095922/006886711863/3.m3u8?token=SRVZVERZGl8UCA4FVw9TAlQFBQRQWgAEDlIGDlYBAQcCAAIEDwMIAA4SGhZFTRdVVl1rWwYaXAMbE0FLBERmClYVCxcABhpJFERfWVMbXwAbEkRbBhpcEAYDAw5RFBVBV09FUEVfWQlpVFNCX1oAEg1eQV4OFERdWW5QXQxXVwcQDRMFFR0aDEVAFA5YTAlcGxJWWxZKB0ZSEw4aUwQOUxAbE1ZYRFYRREkUDhRsNhIbElFKFl0IQV5eWhpbFFRQRw8TGRVYSzpEVUVARFwEXVJCFghACEQeFVxVQD5VVg1cUlJBXl5WFhQKFA0PAFwSGxJZXQxREl1FbkRRBRQDQQAEAQUDE0U=
 潘朵拉完美,http://lc.aacalive.com:26789/i/ghjnvq5o/8c855d75/index.m3u8
 潘朵拉完美,http://ali.hlspull.yximgs.com/live/fcda996741e56c81434f4125e48e53c8.flv
+潘朵拉完美,http://ali.hlspull.yximgs.com/live/12b539d878dbe9589ac1bd880b45ea72.flv
+
 
 香蕉臺(小雲),http://18.svi-studio.com:80/live/652484888807/195449585962/4.m3u8
 香蕉臺(小雲),http://18.svi-studio.com:80/live/091271435055/841916267544/4.m3u8
@@ -130,6 +131,7 @@
 香蕉臺,http://s.mrw.so/94E7W
 香蕉臺,http://lc.aacalive.com:26789/i/ghjnvq5o/8c85giea/index.m3u8
 香蕉臺,http://ali.hlspull.yximgs.com/live/9663ea3c5f5a81b533de8c546c1329f5.flv
+香蕉臺,http://ali.hlspull.yximgs.com/live/e00f9d2b895f1c412993d4089791fa2c.flv
 
 驚艷臺(小雲),http://18.svi-studio.com:80/live/652484888807/195449585962/1.m3u8
 驚艷臺(小雲),http://18.svi-studio.com:80/live/091271435055/841916267544/1.m3u8
@@ -147,10 +149,14 @@
 驚艷臺,http://104.194.10.200:25461/live/271871095922/006886711863/1.m3u8?token=SRVZVERZGl8UCA4FVw9TAlQFBQRQWgAEDlIGDlYBAQcCAAIEDwMIAA4SGhZFTRdVVl1rWwYaXAMbE0FLBERmClYVCxcABhpJFERfWVMbXwAbEkRbBhpcEAYDAw5RFBVBV09FUEVfWQlpVFNCX1oAEg1eQV4OFERdWW5QXQxXVwcQDRMFFR0aDEVAFA5YTAlcGxJWWxZKB0ZSEw4aUwQOUxAbE1ZYRFYRREkUDhRsNhIbElFKFl0IQV5eWhpbFFRQRw8TGRVYSzpEVUVARFwEXVJCFghACEQeFVxVQD5VVg1cUlJBXl5WFhQKFA0PAFwSGxJZXQxREl1FbkRRBRQDQQAEAQUDE0U=
 驚艷臺,http://suo.im/8odLv
 驚艷臺,http://ali.hlspull.yximgs.com/live/9663ea3c5f5a81b533de8c546c1329f5.flv
+驚艷臺,http://ali.hlspull.yximgs.com/live/4629abfefeb84a6ae624143368299f09.flv
+
 
 pigoo,http://s.mrw.so/7DlB
-奧视2,http://125.227.210.55:55643/VideoInput/play.ts
+
+奧視2,http://125.227.210.55:55643/VideoInput/play.ts
 奧视3,http://125.227.210.55:8917/VideoInput/play.ts
+
 Mainu臺,http://125.227.210.55:51359/VideoInput/play.ts
 Sex Girl,http://125.227.210.55:62698/VideoInput/play.ts
 LOOK,p3p://173.208.176.178:31809/606271190002a1266f75aaee0463186a
@@ -168,6 +174,7 @@ HAPPY,http://ali.hlspull.yximgs.com/live/dd66a1fb532611a4942181a95f5931a1.flv
 极限电影台,p3p://173.208.176.178:31809/6109e9bb0005fd87fd9ce5ea2c1f18d3
 极限电影台,https://epg.pw/stream/a4a9b7e7603d96e605468df45eb0d14be5b022328f927957290b981f8c7f7a6c.m3u8
 极限电影台,http://ali.hlspull.yximgs.com/live/bcdf6089e51c0106e39c233ed584f95e.flv
+极限电影台,http://ali.hlspull.yximgs.com/live/c4559a900cb808925162c053af606dd2.flv
 
 HOT,http://276868.cloud/b9b937de9424c9c8aa5abba4956cb971/a342fa9e5e11747f731a4832e31e0e7d/795b980acf178c28b340245c217ed848/index.m3u8
 HOT,http://lc.aacalive.com:26789/i/ghjnvq5o/8c855daa/index.m3u8
