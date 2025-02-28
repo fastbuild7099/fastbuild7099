@@ -7,7 +7,7 @@
    "图片是否需要代理":"0",
    "是否开启获取首页数据":"1",
   //首页推荐数据获取链接
-   "主页url" : "https://123av.com/zh/dm4",
+   "主页url" : "https://123av.com/zh/dm2/tags/fc2",
   //"首页推荐链接": "https://123av.com/zh/dm1/tags/fc2",
    //首页推荐列表数组截取。
    "首页列表数组规则": ".box-item-list",
@@ -32,7 +32,7 @@
    //"分类链接": "https://www.l0l.tv/index.php/vod/show/id/{cateId}/page/{catePg}.html",
  "分类链接": "https://123av.com/zh/{cateId}?page={catePg}",
    "分类名称": "JAV&业余&未经审查",
-   "分类名称替换词": "dm2/censored&dm2/tags/siro&dm2/uncensored",
+   "分类名称替换词": "dm2/censored&dm2/tags/siro&dm2/uncensored-leaked",
    //"筛选数据":{},
    "分类截取模式": "1",
    "分类列表数组规则": ".box-item-list&&.box-item",
