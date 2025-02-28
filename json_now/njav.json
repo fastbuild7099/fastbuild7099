@@ -83,7 +83,7 @@
    "手动嗅探视频链接过滤词":".html#=http",
  
  "筛选数据":{
-"dm1/censored":[
+"dm2/censored":[
  {"key":"cateId","name":"分类","value":[
 {"v":"dm2/censored","n":"审查"},
 {"v":"dm2/recent-update","n":"最近更新"},
@@ -97,7 +97,7 @@
 {"v":"dm2/monthly-hot","n":"本月最好的"}
 ]
 }],
-"dm1/tags/siro":[
+"dm2/tags/siro":[
  {"key":"cateId","name":"分类","value":[
   {"v":"dm2/tags/siro","n":"SIRO"},
   {"v":"dm2/tags/259luxu","n":"LUXU"},
@@ -109,7 +109,7 @@
   {"v":"dm2/tags/s-cute","n":"S-CUTE"},
   {"v":"dm2/tags/261ara","n":"ARA"}
 ]}],
-"dm1/uncensored":[
+"dm2/uncensored":[
  {"key":"cateId","name":"分类","value":[
   {"v":"dm2/uncensored-leaked","n":"泄露未审查"},
   {"v":"dm3/tags/fc2","n":"FC2"},
