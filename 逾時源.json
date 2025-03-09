@@ -18,6 +18,58 @@
     }
   },
   {
+    "key": "二三",
+    "name": "二三｜App｜延遲",
+    "type": 3,
+    "api": "csp_Muou",
+    "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/PizazzGY.jar",
+    "playerType": 2,
+    "ext": "caHR0cHM6Ly8xMjN5c3cuY29tfDIz5b2x6KeGfDQuMS44"
+},
+{
+    "key": "快看",
+    "name": "快看｜APP｜延遲",
+    "type": 3,
+    "api": "csp_AppYsV2",
+    "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/PizazzGY.jar",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "changeable": 1,
+    "ext": "http://kkwk123.top/api.php/app/"
+},
+{
+  "key": "良人影视",
+  "name": "良人｜APP",
+  "type": 3,
+  "api": "csp_AppGetApp",
+  "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/PizazzGY.jar",
+  "searchable": 1,
+  "quickSearch": 0,
+  "filterable": 0,
+  "ext": "w7TCmsK8w5rDrcKYwoPCmcKkw57CmsK0wpnCocKbwqTCpMKgw6zCrcKpwqjDpsKcwpHCnsKXw6vDmMOowqbCq2ZhZ2fCqsKqwrDCscKsYcKTwp/Co8Knw5TDqsKmw6HCqMKRwp7Cl8Ozw5vDqcOuwqjCoMKpwqHCk8Olw6LDr8OdwqjClsKfwp1fw6XDnMObw6fDocKlwpXCnl7DrcOrw67CoMKmU1fCg8KZw63DmMOPw6vDplpqUFfCoMKfwprCoMOuwpzCoFdqwpnCmsOV5Ye+6YWi5o+Y5ZCTXOWGnOS+kOWRqsK05b+q6KmA6LW35ruA56yJwo3CoMKfwprCoMK7wpjCo3vClcOywprCtMKZwqF3ZsKhZ8Ohw53DnMKxwrF5emBpwr/CqsKxwqDCplNXccKVw6zCvMOwwqDCtFNXdGbDqsKqw6LDo8Oca2d2esKpwqzDgMKwwrFaXFBXw53DmMOdw6vDs8KjwqR7wpXDssKawrTCmcKhwqzCkcKfwqfDmsOhw6HCqcKrZWZXwq0="
+},
+{
+  "key": "小米尘落",
+  "name": "尘落｜APP",
+  "type": 3,
+  "api": "csp_Wetv",
+  "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/PizazzGY.jar",
+  "searchable": 1,
+  "quickSearch": 1
+},
+{
+  "key": "悠悠影视",
+  "name": "悠悠｜APP",
+  "type": 3,
+  "api": "csp_AppGetApp",
+  "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/PizazzGY.jar",
+  "searchable": 1,
+  "quickSearch": 0,
+  "filterable": 0,
+  "ext": "w7TCmsK8w5rDrcKYwoPCmcKkw57CmsK0wpnCoVpcUFfDgsOhw6PDrcORwqLCosKUV8KzwpPCocOiw6jCnMKkwoZhwqrCrMKhwqXCmlrCpMKZwqDCoMKtwprCoMOV5Ya46YSY5o+V5ZCTwqXlh5/kvpHlkbDCtOW+pOintui1tOa7gOetksOQwqHCpcKaWnHClcKjw4TDmMOzwqDCtFNXdMKow7DCvMOtw63DrMKXwofCksKJw6nDlcOmw7DDqFpcUFfCusOYw63DgsOwWmpQV8K9w6vDscOCw63Cp8KiwpTCh8Obw4zDqsObw6bCqsKeV1zCmcKaw43DosOuwpjChcKiwpzCoMKtwprCoMOiwqfCpMKgasKowqLCq8KuwrBhYmJlwqfCpsKqwqfCsGhqZWXCr8KpwqnDmsOqwpxewqDCmMOpwprCpsKZwqHCl8KVwpPCosOyw6PDrsOEw5/CrFdqUMKgw6zDm8Oow7HClMKewpdgwqrCpcKwwqDDtw=="
+},
+  {
     "key": "csp_4k影院",
     "name": "🥈｜4k影院｜延遲",
     "type": 3,
