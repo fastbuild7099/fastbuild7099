@@ -979,6 +979,16 @@
       },
       {"key": "vod_HG影视","name": "🧲｜皇冠｜失效","type": 1,"api": "https://hong.hgyx.vip/api.php/provide/vod/","jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5","searchable": 1,"quickSearch": 1},
       {"key": "vod_天空","name":"🧲｜天空｜失效","type":1,"api":"http://api.tiankongapi.com/api.php/provide/vod/","playUrl":"","searchable":1,"quickSearch":1,"categories":[]},
+      {
+        "key": "vod_華為吧",
+        "name": "🧲｜華為吧｜轉圈圈",
+        "type": 1,
+        "api": "https://cjhwba.com/api.php/provide/vod/?ac=list",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/panda1123.jar;md5;d9004aa2e16f60b04baed361713fb710",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1
+      },
       {"key": "vod_南瓜","name": "🧲｜南瓜｜失效","type": 3,"api": "csp_NanGua","jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/fan.txt;md5;8851819289f80deae32319080028db3b","playerType": 2,"searchable": 1,"quickSearch": 1,"changeable": 1}
     ],
     "parses": [
