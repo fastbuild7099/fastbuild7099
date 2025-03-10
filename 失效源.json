@@ -15,6 +15,16 @@
         "ext": "w7TCmsK8w5rDrcKYwoPCmcKkw57CmsK0wpnCocKbwqTCpMKgw6zCrcKpwqjDpsKcwpHCnsKXw6vDmMOowqbCq2ZhZ2fCqsKqwrDCscKsYcKTwp/Co8Knw5TDqsKmw6HCqMKRwp7Cl8Ozw5vDqcOuwqjCoMKpwqHCk8Olw6LDr8OdwqjClsKfwp1fw6XDnMObw6fDocKlwpXCnl7DrcOrw67CoMKmU1fCg8KZw63DmMOPw6vDplpqUFfCoMKfwprCoMOuwpzCoFdqwpnCmsOV5Ye+6YWi5o+Y5ZCTXOWGnOS+kOWRqsK05b+q6KmA6LW35ruA56yJwo3CoMKfwprCoMK7wpjCo3vClcOywprCtMKZwqF3ZsKhZ8Ohw53DnMKxwrF5emBpwr/CqsKxwqDCplNXccKVw6zCvMOwwqDCtFNXdGbDqsKqw6LDo8Oca2d2esKpwqzDgMKwwrFaXFBXw53DmMOdw6vDs8KjwqR7wpXDssKawrTCmcKhwqzCkcKfwqfDmsOhw6HCqcKrZWZXwq0="
       },
       {
+        "key":"闹闹",
+        "name":"🥇｜闹闹(APP)｜無法修",
+        "type":3,
+        "api":"csp_Xdai",
+        "searchable":1,
+        "changeable":1,
+        "ext":"caHR0cDovLzExMC40Mi4zLjE5NTo4OTg5fEQ2cTdoamI4N0ZKMDlGNzd8RDZxN2hqYjg3RkowOUY3Nw",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/qj.jar;md5;ab2b0ddad5e1f7fa6bd2b295eea6d0d5"
+      },
+      {
         "key": "csp_利伍影院",
         "name": "🥇｜利伍｜撥放問題",
         "type": 3,
@@ -104,6 +114,17 @@
         }
       },
       {
+        "key": "csp_子子影视",
+        "name": "🎥｜子子｜跑不起來",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/子子.json"
+      },
+      {
         "key": "追剧很卷",
         "name": "🥈｜追剧資源｜網站壞了",
         "type": 3,
@@ -113,6 +134,75 @@
         "quickSearch": 1,
         "filterable": 1,
         "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/追劇資源.json"
+      },
+      {
+        "key": "csp_XBPQ_NO视频",
+        "name": "🎥｜NO视频｜網站壞了",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": {
+          "请求头": "手机",
+          "主页url": "https://www.dgjiawu.com/",
+          "简介": "",
+          "数组": "class=\"stui-vodlist__thumb lazyload\"&&</a",
+          "图片": "data-original=\"&&\"",
+          "链接": "href=\"&&\"",
+          "播放链接": "href=\"&&\"",
+          "标题": "title=\"&&\"",
+          "副标题": "",
+          "搜索url": "",
+          "嗅探词": ".m3u8#https://m3u.hw8.live/share/#index.m3u8",
+          "线路数组": "href=\"javascript:;\"&&</li>",
+          "线路标题": "class=\"v*\">&&</a[排序:线路2>>]",
+          "播放数组": "class=\"v*-div&&</div>",
+          "播放列表": "class=\"btn btn-primary btn-primary-ph&&</a",
+          "播放标题": ">&&</a",
+          "倒序": "0",
+          "分类": "电影$5738#电视剧$5749#动漫$5767#综艺$5758#你懂的$5748",
+          "分类url": "https://www.dgjiawu.com/mo-1zxgt/{cateId}/1/0/0/0/0/{catePg}[https://www.dgjiawu.com/mo-1zxgt/{cateId}/1];;rc"
+        }
+      },
+      {
+        "key": "vod_快车",
+        "name": "🧲｜快車｜網站壞了",
+        "type": 1,
+        "api": "https://caiji.kczyapi.com/api.php/provide/vod/?ac=list",
+        "searchable": 1,
+        "changeable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "categories": [
+          "动漫"  , "电影"  , "动作片" , "喜剧片" , "爱情片" , "科幻片" , "恐怖片" , "战争片" , "剧情片" ,
+          "动画片" , "电视剧" , "国产剧" , "香港剧" , "台湾剧" , "欧美剧" , "韩国剧" , "日本剧" , "海外剧" ,
+          "动漫"  , "国产动漫", "日本动漫", "欧美动漫", "预留"  , "综艺"  , "大陆综艺", "日韩综艺", "港台综艺",
+          "欧美综艺", "泰国剧" , "未分类"
+        ]
+      },
+      {
+        "key": "csp_酷猫电影网",
+        "name": "🎥｜酷猫｜網站壞了",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/酷貓電影網.json"
+      },
+      {
+        "key": "csp_XBPQ_爱看",
+        "name": "🎥｜爱看｜網站壞了",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/愛看影院.json"
       },
       {
         "key": "csp_GM_注视影视",
