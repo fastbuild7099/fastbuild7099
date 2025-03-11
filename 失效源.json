@@ -26,6 +26,16 @@
         "ext": "jaHR0cDovL2M4dzJvdjd1NXdnMnoxbzhwMjFjLmFsaXl1bmNzLmNsaWNrfGs5bzNwMmM4YjdtM3owbzh8azlvM3AyYzhiN20zejBvOHwxMDA="
     },
     {
+      "key": "忍者影视",
+      "name": "🥇｜忍者(APP)｜無法修",
+      "type": 3,
+      "api": "csp_AppRZ",
+      "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/配置中心.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+  },
+    {
       "key": "csp_Nmvod_QJ",
       "name": "🥇｜柠檬(APP)｜無法修",
       "type": 3,
