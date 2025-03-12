@@ -4,6 +4,53 @@
     "wallpaper": "https://picsum.photos/1080/",
     "sites": [ 
       {
+        "key": "玉米",
+        "name": "🥇｜玉米(APP)｜無法修",
+        "type": 3,
+        "api": "csp_Xdai",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar;md5;eb7676582d076a5505be5f23530e4f4d",
+        "playerType": 1,
+        "ext": "jaHR0cHM6Ly95b3V5b3V0dS0xMzE5MjA5NzQ4LmNvcy5hcC1jaGVuZ2R1Lm15cWNsb3VkLmNvbS93RjlvQTRmRDh4Rzh4RzVxLnR4dHxkUzl0WTVuSzR0WDlvSTFqfGRTOXRZNW5LNHRYOW9JMWp8NDQy"
+    },
+    {
+      "key": "云播影视",
+      "name": "🥇｜云播(APP)｜無法修",
+      "type": 3,
+      "api": "csp_AppGetApp",
+      "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/PizazzGY.jar",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "w7TCmsK8w5rDrcKYwoPCmcKkw57CmsK0wpnCoVpcUFfDjMOcw67DnsOPwqXCnFdqwpnCmsOiw63DrsKjal9fw6DDmMOuw5rDqsKjXsKkwqbDssOVw5vDqcOqYcKTwp/CncKow5TDqsOiwqjCo8KYwqBXwqXCk8Khw4LDqMKcwqTCh8Kfw6vDl8KhwrPCmlrCmcKewpnDrcOJwqvCqsKzWlxQV8Otw5zDqsKgwrRTV8KL5Ya16YWh5pCY5ZGdwqXlh6bkvYrlkKdq5b6h6Ki/6La35ryK562Sw5daXFBXwrrDmMOtw4TDn8KsV2pQwqDDoMOjw5zDpWVkZWjDpsOcw53DpMKsZ2VoV8KlwpPCocK6w5/CpnnCplfCs8KTwqHDpsOjwpbCm2Jkwq7Cq8Onw6LDncKeYmRlwrHCmsKmwpnCocKbwpXCkcKUw57DpcOtwqDCtFPCq1fCpcOsw5jDrMKmw5vCmsKVwp7CpMKgwq3CmsKgw4fCosKqwpnCnMOlw5TCqcKuwqhjUFjCh8Oiw6HDnsOow7HCplB+woTCmcKkwqrCp8KqblDCh8KZw6fCqcKuwrTCmsKrZmRZwpnCtMOqw6nDpsKYwofClcKSw4TDnMOuwqjCr2ZnXmPCr8KTwqLDhMOCwod9fFzCmcOfw6PDpMOfU3fClcKTw6TDosKjwpnCvcKbwqLCn8Kdw57CosKrwqrCrGFgXmDCp8KjwprDjMObwpnCkcKiwpnCqMKowq3CsMKoZmZXXMKZwprDm8Olw6bCosKnc8Kiw6jDpsOtw4nDrMKiwqTCn8KTw6jDn8OMw57DnsKcwqLClcKTw63DpsKhwrPCmsKHwqLCpcKVw7bCn8KawqDDnsKYwpPCosKpw6nDp8OFw57Ds1pqUFfDssOUw6nDsMObwqHCl2BhwqvCqcKhw7Y="
+  },
+    {
+      "key": "永夜",
+      "name": "🥇｜永夜(APP)｜無法修",
+      "type": 3,
+      "api": "csp_Muou",
+      "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/PizazzGY.jar",
+      "playerType": 2,
+      "ext": "caHR0cDovL211b3UuNTZ1eGkuY29tfENvZmZlZTRLfDQuMS44"
+  },
+  {
+    "key": "星河",
+    "name": "🥇｜星河(APP)｜無法修",
+    "type": 3,
+    "api": "csp_Muou",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar;md5;eb7676582d076a5505be5f23530e4f4d",
+    "playerType": 2,
+    "ext": "caHR0cHM6Ly9odC5tb3liay5jbnzphZLlrqLlvbHop4Z8NC4xLjg="
+  },
+      {
+        "key": "时常",
+        "name": "🥇｜時常(APP)｜無法修",
+        "type": 3,
+        "api": "csp_Xdai",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar;md5;eb7676582d076a5505be5f23530e4f4d",
+        "playerType": 1,
+        "ext": "jaHR0cHM6Ly9zYzEwODAudG9wfGU1OWQ0NGIyZWVmMDNiYTJ8ZTU5ZDQ0YjJlZWYwM2JhMnwxMzQ="
+    },
+    {
         "key": "良人影视",
         "name": "🥇｜良人(APP)｜無法修",
         "type": 3,
@@ -35,6 +82,14 @@
       "quickSearch": 1,
       "filterable": 1
   },
+  {
+    "key": "大米星球",
+    "name": "🥇｜大米(APP)｜無法修",
+    "type": 3,
+    "api": "https://tvbox.newhi.net/JS/drpy2.min.js",
+    "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar;md5;eb7676582d076a5505be5f23530e4f4d",
+    "ext": "https://tvbox.newhi.net/JS/APPV2.js?type=url&params=https://damifan.wiki"
+},
     {
       "key": "csp_Nmvod_QJ",
       "name": "🥇｜柠檬(APP)｜無法修",
@@ -43,6 +98,69 @@
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/lem0118.jar",
       "playerType": 2,
       "ext": "eaHR0cHM6Ly92aXAud3dnei5jbjo1MjAwL25tcGxheS93ZWJjbG91ZC9yZWxheS5waHA/dXJsPQ=="
+    },
+    {
+      "key": "糯米弹幕",
+      "name": "🥇｜糯米(弹幕)｜無法修",
+      "type": 3,
+      "api": "csp_Nmys",
+      "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar;md5;b836384ede14d319c1dcbf257a264eda",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+          "danmu": true
+      }
+    },
+    {
+      "key": "csp_無極影視",
+      "name": "🥉｜無極｜浮水印廣告+篩選怎麼做都錯",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "线路数组": "a class=\"gico ffm3u8\"&&</a>",
+        "线路标题": ">&&</",
+        "简介": "details-content-all collapse\">&&</span>",
+        "分类url": "https://www.wuji12.com/{cateId}/{catePg}-0-all-{area}-{year}-0-0-0",
+        "分类": "電影$dianying#電視劇$dianshiju#綜藝$zongyi#動漫$dongman",
+        "类型": "動作片$dongzuopian#喜劇片$xijupian#愛情片$aiqingpian#科幻片$kehuanpian#恐怖片$kongbupian#戰爭片$zhanzhengpian#劇情片$juqingpian#紀錄片$jilupian#动画片$donghuapian||國產劇$guochanju#香港劇$xianggangju#歐美劇$oumeiju#日本劇$ribenju#海外劇$haiwaiju#台灣劇$taiwanju#韓國劇$hanguoju#泰國劇$taiguoju||国产综艺$guochanzongyi#欧美综艺$oumeizongyi#港台综艺$gangtaizongyi#日韩综艺$rihanzongyi||国产动漫$guochandongman#欧美动漫$oumeidongman#港台动漫$angtaidongman#日韩动漫$rihandongman",
+        "地区": "国内$1#香港$2#台湾$3#美国$4#韩国$5#日本$6#泰国$7#英国$8#其他$9",
+        "年份": "2025$1#2024$2#2023$3#2022$4#2021$5#2020-2010$6#2010-2000$7#90年代$8#80年代$9#更早$10"
+      }
+    },
+    {
+      "key": "csp_片庫網",
+      "name": "🥇｜片库｜浮水印廣告+轉圈嚴重",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "timeout": 120,
+      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/片庫網.json"
+    },
+    {
+      "key": "小米小猫",
+      "name": "🥇｜小猫(APP)｜無法修",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "api": "csp_XiaoMaoApp",
+      "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/PizazzGY.jar"
+    },
+    {
+      "key": "小米麻花",
+      "name": "🥇｜麻花(APP)｜無法修",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "api": "csp_MaHuaApp",
+      "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/PizazzGY.jar"
     },
     {
       "key":"优秀",
@@ -68,6 +186,7 @@
         "地区":"中国大陆&中国香港&中国台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&義大利&西班牙||中国大陆&中国台湾&中国香港&韩国&日本&美国&泰国&英国&新加坡&其他||内地&港台&日韩&欧美||中国大陆&日本&欧美&其他"
       }
     },
+    {"key": "vod_虎牙","name":"🧲｜虎牙｜浮水印廣告+轉圈","type":1,"api":"https://www.huyaapi.com/api.php/provide/vod/from/hym3u8","searchable":1,"quickSearch":1,"filterable":1},
     {
         "key": "csp_萬博劇院",
         "name": "🥇｜萬博劇院｜網站倒閉",
