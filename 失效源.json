@@ -175,6 +175,24 @@
       "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/片庫網.json"
     },
     {
+      "key": "小米尘落",
+      "name": "🥇｜尘落｜APP｜無法修(線路都不能用)",
+      "type": 3,
+      "api": "csp_Wetv",
+      "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/PizazzGY.jar",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "小米尘落",
+      "name": "🥇｜尘落｜APP｜無法修(線路都不能用)",
+      "type": 3,
+      "api": "csp_Wetv",
+      "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/PizazzGY.jar",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
       "key": "小米小猫",
       "name": "🥇｜小猫(APP)｜無法修",
       "type": 3,
@@ -761,6 +779,16 @@
         }
       },
       {
+        "key": "py_quickvod",
+        "name": "⏭｜QuickVod(PYTHON)｜線路不能用",
+        "type": 3,
+        "api": "https://json.doube.eu.org/python/py_quickvod.py",
+        "searchable": 1,
+        "quickSearch": 0,
+        "filterable": 0,
+        "changeable": 1
+      },
+      {
         "key": "csp_没事影院",
         "name": "🎥｜没事｜無法修",
         "type": 3,
@@ -1234,7 +1262,10 @@
         "quickSearch": 1,
         "filterable": 1
       },
+      {"key": "vod_华为","name":"🧲｜華為｜失效","type":1,"api":"http://nikanba.live/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1},     
+
       {"key": "vod_南瓜","name": "🧲｜南瓜｜失效","type": 3,"api": "csp_NanGua","jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/fan.txt;md5;8851819289f80deae32319080028db3b","playerType": 2,"searchable": 1,"quickSearch": 1,"changeable": 1}
+      
     ],
     "parses": [
         {"name": "解析聚合", "type": 3, "url": "Demo"},
