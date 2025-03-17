@@ -299,6 +299,17 @@
         "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/利伍影视.json"
       },
       {
+        "key": "csp_即看影视",
+        "name": "🥈｜即看｜網站失效",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/即看.json"
+      },
+      {
         "key": "萌米",
         "name": "🥇｜萌米(APP)｜失效",
         "type": 3,
@@ -939,7 +950,7 @@
         "图片": "默认--data-original=\"&&\"||搜索--data-original=\"&&\"",
         "标题": "默认--title=\"&&\"||搜索--alt=\"&&\"",
         "副标题": "默认--note\">&&</div>||搜索--note\">&&</div>",
-        "播放数组": "module-play-list-base&&</div>",
+        "播放数组": "module-play-list-base&&</div>",https://www.smyy93.com/xianggangju/0-57-all-1-9-0-0-0
         "播放列表": "<a&&a>",
         "播放链接": "href=\"&&\"",
         "播放标题": "<span>&&</span>",
