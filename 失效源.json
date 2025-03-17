@@ -90,6 +90,36 @@
     "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar;md5;eb7676582d076a5505be5f23530e4f4d",
     "ext": "https://tvbox.newhi.net/JS/APPV2.js?type=url&params=https://damifan.wiki"
 },
+{
+  "key": "多多",
+  "name": "🥇｜多多｜網站失效",
+  "type": 3,
+  "api": "csp_XBPQ",
+  "playerType": 2,
+  "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+  "searchable": 1,
+  "quickSearch": 1,
+  "filterable": 1,
+  "ext": {
+        "简介": "简介：&&<a",
+        "分类url": "https://www.ddhqw.com/list/{cateId}/area/{area}/page/{catePg}/year/{year}.html",
+        "分类": "电影$dianying#剧集$dianshiju#综艺$zongyi#动漫$dongmna",
+        "类型": "动作片$dzp#科幻片$khp#战争片$zzp#恐怖片$kbp#喜剧片$xjp#爱情片$aqp#剧情片$jqp||国产剧$gcj#港台剧$gtj#日韩剧$rhj#海外剧$hwj#热门短剧$rmdj||空||空",
+        "地区": "中国&大陆&内地&香港&台湾&日本&韩国&俄罗斯&澳大利亚&泰国&新加坡&马来西亚&越南&印度&巴基斯坦&伊朗&菲律宾&美国&英国&德国&丹麦&巴西&西班牙&加拿大&法国&意大利"
+         }
+},
+{
+  "key": "csp_XBPQ_可达",
+  "name": "🥇｜可达｜網站延遲",
+  "type": 3,
+  "api": "csp_XBPQ",
+  "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+  "searchable": 1,
+  "quickSearch": 1,
+  "filterable": 1,
+  "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/可達影視.json",
+  "playUrl": "https://kedays.org/play/?url="
+},
     {
       "key": "csp_Nmvod_QJ",
       "name": "🥇｜柠檬(APP)｜無法修",
@@ -172,8 +202,39 @@
       "ext":"jaHR0cDovL2R5eXp0dmFwcGFwaWdvb2RneC42OC5neS9jaXdrMjh2dTM4aW84L2FwaXVybC50eHR8ZHl5enR2YXBpYXBweXlkc3xkeXl6dHZhcGlhcHB5eWRzfDEwMA=="
     },
     {
+      "key": "木头",
+      "name": "🥇｜木头(App)｜線路都不能用",
+      "type": 3,
+      "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar;md5;b836384ede14d319c1dcbf257a264eda",
+      "api": "csp_Shark",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "saHR0cDovL21pdG8ubWlub3R2LmNuL3xhYXNzZGR3d3h4bGxzeDF4fGJic3NxZGJic3NsbDI1c3g="
+    },
+    {
+      "key": "csp_全民影院",
+      "name": "🥉｜全民｜浮水印廣告(線路都不能用)",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/全民影院.json"
+  },
+    {
+      "key": "南瓜",
+      "name": "🥇｜南瓜(APP)｜無內容",
+      "type": 3,
+      "api": "csp_NanGua",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/spider.jar;md5;eb7676582d076a5505be5f23530e4f4d",
+      "playerType": 1,
+      "ext": "maHR0cDovL25nLmNoYW5nbWVuZ3l1bi5jb20="
+    },
+    {
       "key": "csp_LIBVIO",
-      "name": "🥉｜LIBVIO｜浮水印廣告｜轉圈",
+      "name": "🥉｜LIBVIO｜浮水印廣告｜線路都不能用",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
