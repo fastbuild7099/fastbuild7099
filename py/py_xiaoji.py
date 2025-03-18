@@ -118,14 +118,14 @@ class Spider(Spider):
         return {'list': data, 'parse': 0, 'jx': 0, "倒序": "1"}
 
     def categoryContent(self, cid, page, filter, ext):
-        type_id = ext.get('type', cid) if ext else cid  # 使用 cid 作為默認值
+        type_id = ext.get('type', cid) if ext else cid
         area = ext.get('area', '') if ext else ''
         year = ext.get('year', '') if ext else ''
         print(f"ext: {ext}, type_id: {type_id}, area: {area}, year: {year}")
         url = f'{self.home_url}/lm/{type_id}/sx---{year}---{area}--{page}.html'
         print(f"Requesting URL: {url}")
         data = self.get_data(url)
-        if not data:  # 如果篩選數據為空，退回到無篩選條件
+        if not data:
             fallback_url = f'{self.home_url}/lm/{type_id}/{page}.html'
             print(f"Fallback URL: {fallback_url}")
             data = self.get_data(fallback_url)
@@ -145,7 +145,10 @@ class Spider(Spider):
             for i in play_list:
                 name_list = i.xpath('./li/a/text()')
                 url_list = i.xpath('./li/a/@href')
-                vod_play_url.append('#'.join([_name + '$' + _url for _name, _url in zip(name_list, url_list)]))
+                # 生成集數列表並反轉（從倒序變正序）
+                episode_list = ['#'.join([_name + '$' + _url for _name, _url in zip(name_list, url_list)])]
+                episode_list.reverse()  # 反轉集數順序
+                vod_play_url.extend(episode_list)
             vod_content = root.xpath('//p[@class="lead vod-content"]/text()')
             vod_content = vod_content[0] if vod_content else ''
             vod_name = root.xpath('//h1[@class="entry-title"]/text()')
@@ -163,13 +166,12 @@ class Spider(Spider):
                 'vod_play_from': vod_play_from,
                 'vod_play_url': '$$$'.join(vod_play_url)
             })
-            return {"list": video_list, 'parse': 0, 'jx': 0, "倒序": "1"}
+            return {"list": video_list, 'parse': 0, 'jx': 0}  # 移除 "倒序": "1"，僅處理集數
         except requests.RequestException as e:
             print(f"Error in detailContent: {e}")
-            return {'list': [], 'msg': str(e), "倒序": "1"}
+            return {'list': [], 'msg': str(e)}
 
     def searchContent(self, key, quick, page='1'):
-        d = []
         url = self.home_url + f'/ss.html'
         if page != '1':
             return {'list': [], 'parse': 0, 'jx': 0, "倒序": "1"}
