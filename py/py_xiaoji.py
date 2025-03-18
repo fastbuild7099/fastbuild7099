@@ -121,7 +121,7 @@ class Spider(Spider):
         type_id = ext.get('type', '') if ext else ''
         area = ext.get('area', '') if ext else ''
         year = ext.get('year', '') if ext else ''
-        url = f'{self.home_url}/lm/{cid}/sx{type_id}--{year}---{area}--{page}.html'
+        url = f'{self.home_url}/lm/{cid}/sx---{year}---{area}--{page}.html'
         data = self.get_data(url)
         return {'list': data, 'parse': 0, 'jx': 0, "倒序": "1"}
 
