@@ -53,6 +53,8 @@ class Spider(Spider):
                         'vod_remarks': i.xpath('//div[@class="meta-post"]/text()')[0]
                     }
                 )
+            # 實現倒序
+            d = list(reversed(d))
             return {'list': d, 'parse': 0, 'jx': 0}
         except Exception as e:
             print(e)
@@ -75,6 +77,8 @@ class Spider(Spider):
                         'vod_remarks': i.xpath('//div[@class="meta-post"]/text()')[0]
                     }
                 )
+            # 實現倒序
+            d = list(reversed(d))
             return {'list': d, 'parse': 0, 'jx': 0}
         except Exception as e:
             print(e)
