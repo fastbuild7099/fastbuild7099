@@ -288,6 +288,21 @@
         "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/qj.jar;md5;ab2b0ddad5e1f7fa6bd2b295eea6d0d5"
       },
       {
+        "key": "csp_NIVOD1",
+        "name": "🥈｜泥視頻(粉絲)｜倒閉了",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": {
+          "简介": "简介：&&</div>",
+          "分类url": "https://nivodi.com/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
+          "分类": "電影$1#電視劇$2#動漫$48#綜藝$3#紀錄片$21"
+        }
+      },
+      {
         "key": "csp_利伍影院",
         "name": "🥇｜利伍｜撥放問題",
         "type": 3,
