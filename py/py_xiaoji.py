@@ -39,7 +39,7 @@ class Spider(Spider):
             'filters': {
                 '1': [
                     {'name': '类型', 'key': 'type', 'value': [
-                        {'n': '全部', 'v': ''}, {'n': '動作片', 'v': '8'}, {'n': '喜劇片', 'v': '9'},
+                        {'n': '全部', 'v': '1'}, {'n': '動作片', 'v': '8'}, {'n': '喜劇片', 'v': '9'},
                         {'n': '愛情片', 'v': '10'}, {'n': '科幻片', 'v': '11'}, {'n': '恐怖片', 'v': '12'},
                         {'n': '戰爭片', 'v': '13'}, {'n': '劇情片', 'v': '14'}
                     ]},
@@ -59,7 +59,7 @@ class Spider(Spider):
                 ],
                 '2': [
                     {'name': '类型', 'key': 'type', 'value': [
-                        {'n': '全部', 'v': ''}, {'n': '大陸劇', 'v': '15'}, {'n': '香港劇', 'v': '16'},
+                        {'n': '全部', 'v': '2'}, {'n': '大陸劇', 'v': '15'}, {'n': '香港劇', 'v': '16'},
                         {'n': '台灣劇', 'v': '918'}, {'n': '日劇', 'v': '18'}, {'n': '韓劇', 'v': '915'},
                         {'n': '美劇', 'v': '916'}, {'n': '英劇', 'v': '923'}, {'n': '歐美劇', 'v': '17'},
                         {'n': '泰劇', 'v': '922'}, {'n': '亞洲劇', 'v': '19'}
@@ -78,7 +78,7 @@ class Spider(Spider):
                 ],
                 '4': [
                     {'name': '类型', 'key': 'type', 'value': [
-                        {'n': '全部', 'v': ''}, {'n': '大陸綜藝', 'v': '911'}, {'n': '港台綜藝', 'v': '907'},
+                        {'n': '全部', 'v': '4'}, {'n': '大陸綜藝', 'v': '911'}, {'n': '港台綜藝', 'v': '907'},
                         {'n': '韓綜', 'v': '908'}, {'n': '日綜', 'v': '912'}, {'n': '泰綜', 'v': '913'},
                         {'n': '歐美綜藝', 'v': '909'}
                     ]},
@@ -96,7 +96,7 @@ class Spider(Spider):
                 ],
                 '3': [
                     {'name': '类型', 'key': 'type', 'value': [
-                        {'n': '全部', 'v': ''}, {'n': '國漫', 'v': '906'}, {'n': '日漫', 'v': '904'},
+                        {'n': '全部', 'v': '3'}, {'n': '國漫', 'v': '906'}, {'n': '日漫', 'v': '904'},
                         {'n': '美漫', 'v': '905'}, {'n': '其他動漫', 'v': '903'}
                     ]},
                     {'name': '地区', 'key': 'area', 'value': [
@@ -118,11 +118,17 @@ class Spider(Spider):
         return {'list': data, 'parse': 0, 'jx': 0, "倒序": "1"}
 
     def categoryContent(self, cid, page, filter, ext):
-        type_id = ext.get('type', '') if ext else ''
+        type_id = ext.get('type', cid) if ext else cid  # 使用 cid 作為默認值
         area = ext.get('area', '') if ext else ''
         year = ext.get('year', '') if ext else ''
-        url = f'{self.home_url}/lm/{cid}/sx---{year}---{area}--{page}.html'
+        print(f"ext: {ext}, type_id: {type_id}, area: {area}, year: {year}")
+        url = f'{self.home_url}/lm/{type_id}/sx---{year}---{area}--{page}.html'
+        print(f"Requesting URL: {url}")
         data = self.get_data(url)
+        if not data:  # 如果篩選數據為空，退回到無篩選條件
+            fallback_url = f'{self.home_url}/lm/{type_id}/{page}.html'
+            print(f"Fallback URL: {fallback_url}")
+            data = self.get_data(fallback_url)
         return {'list': data, 'parse': 0, 'jx': 0, "倒序": "1"}
 
     def detailContent(self, did):
@@ -140,10 +146,8 @@ class Spider(Spider):
                 name_list = i.xpath('./li/a/text()')
                 url_list = i.xpath('./li/a/@href')
                 vod_play_url.append('#'.join([_name + '$' + _url for _name, _url in zip(name_list, url_list)]))
-            # 提取簡介
             vod_content = root.xpath('//p[@class="lead vod-content"]/text()')
             vod_content = vod_content[0] if vod_content else ''
-            # 提取標題
             vod_name = root.xpath('//h1[@class="entry-title"]/text()')
             vod_name = vod_name[0] if vod_name else ''
             video_list.append({
