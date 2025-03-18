@@ -13,7 +13,7 @@
     "搜索链接后缀":"",
     "嗅探词": ".mp4#m3u8#.m3u8#/tos/#.flv#video/tos",
     "线路数组": "data-dropdown-value=&&</div>",
-    "线路标题": "<span>&&</small>",
+    "线路标题": "<span>&&</small>[不包含:FM线路]",
     "导演": "导演：&&</div>",
     "主演": "主演：&&</div>",
     "简介": "class=\"video-info-item video-info-content vod_content\">&&</div>",
