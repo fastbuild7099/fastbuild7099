@@ -220,13 +220,19 @@ class Spider(Spider):
                         'vod_remarks': vod_remarks[0] if len(vod_remarks) > 0 else '',
                     }
                 )
-            return {'list': d, 'parse': 0, 'jx': 0}
+            return {'list': d, 'parse': 0, 'jx': 0, "倒序": "1"}  # 添加倒序標誌
         except Exception as e:
             print(e)
-            return {'list': [], 'parse': 0, 'jx': 0}
+            return {'list': [], 'parse': 0, 'jx': 0, "倒序": "1"}
 
     def categoryContent(self, cid, page, filter, ext):
-        url = self.home_url + f'/lm/{cid}/{page}.html'
+        # 從 ext 中提取篩選條件，默認值為空
+        type_id = ext.get('类型', '') if ext else ''
+        area = ext.get('地区', '') if ext else ''
+        year = ext.get('年份', '') if ext else ''
+
+        # 動態生成 URL，根據網站的篩選格式
+        url = f"{self.home_url}/lm/{cid}/sx{type_id}--{year}---{area}--{page}.html"
         d = []
         try:
             res = requests.get(url, headers=self.headers)
@@ -235,18 +241,16 @@ class Spider(Spider):
             data_list = root.xpath('//ul[@class="update_area_lists cl"]/li[@class="i_list list_n2"]')
             for i in data_list:
                 vod_remarks = i.xpath('./div[@class="case_info"]/div[@class="meta-post"]/text()')
-                d.append(
-                    {
-                        'vod_id': i.xpath('./a/@href')[0],
-                        'vod_name': i.xpath('./div[@class="case_info"]/div[@class="meta-title"]/text()')[0],
-                        'vod_pic': i.xpath('./a/img/@data-original')[0],
-                        'vod_remarks': vod_remarks[0] if len(vod_remarks) > 0 else '',
-                    }
-                )
-            return {'list': d, 'parse': 0, 'jx': 0}
+                d.append({
+                    'vod_id': i.xpath('./a/@href')[0],
+                    'vod_name': i.xpath('./div[@class="case_info"]/div[@class="meta-title"]/text()')[0],
+                    'vod_pic': i.xpath('./a/img/@data-original')[0],
+                    'vod_remarks': vod_remarks[0] if len(vod_remarks) > 0 else ''
+                })
+            return {'list': d, 'parse': 0, 'jx': 0, "倒序": "1"}  # 添加倒序標誌
         except Exception as e:
             print(e)
-            return {'list': [], 'parse': 0, 'jx': 0}
+            return {'list': [], 'parse': 0, 'jx': 0, "倒序": "1"}
 
     def detailContent(self, did):
         ids = did[0]
@@ -282,9 +286,9 @@ class Spider(Spider):
 
                 }
             )
-            return {"list": video_list, 'parse': 0, 'jx': 0}
+            return {"list": video_list, 'parse': 0, 'jx': 0, "倒序": "1"}
         except requests.RequestException as e:
-            return {'list': [], 'msg': e}
+            return {'list': [], 'msg': str(e), "倒序": "1"}
 
         # return {"list": [], "msg": "来自py_dependence的detailContent"}
 
@@ -292,7 +296,7 @@ class Spider(Spider):
         d = []
         url = self.home_url + f'/ss.html'
         if page != '1':
-            return {'list': [], 'parse': 0, 'jx': 0}
+            return {'list': [], 'parse': 0, 'jx': 0, "倒序": "1"}
         try:
             res = requests.post(url, headers=self.headers, data={'wd': key})
             res.encoding = 'utf-8'
@@ -308,10 +312,10 @@ class Spider(Spider):
                         'vod_remarks': vod_remarks[0] if len(vod_remarks) > 0 else '',
                     }
                 )
-            return {'list': d, 'parse': 0, 'jx': 0}
+            return {'list': d, 'parse': 0, 'jx': 0, "倒序": "1"}
         except Exception as e:
             print(e)
-            return {'list': [], 'parse': 0, 'jx': 0}
+            return {'list': [], 'parse': 0, 'jx': 0, "倒序": "1"}
         # return {"list": [], "msg": "来自py_dependence的searchContent"}
 
     def playerContent(self, flag, pid, vipFlags):
@@ -321,11 +325,11 @@ class Spider(Spider):
             res.encoding = 'utf-8'
             urls = re.findall(r'var\s+url\s+=\s+"(.*?)";', res.text)
             if len(urls) == 0:
-                return {'url': play_url, 'parse': 0, 'jx': 0}
-            return {'url': urls[0], 'parse': 0, 'jx': 0}
+                return {'url': play_url, 'parse': 0, 'jx': 0, "倒序": "1"}
+            return {'url': urls[0], 'parse': 0, 'jx': 0, "倒序": "1"}
         except requests.RequestException as e:
             print(e)
-            return {'url': play_url, 'parse': 0, 'jx': 0}
+            return {'url': play_url, 'parse': 0, 'jx': 0, "倒序": "1"}
         # return {"list": [], "msg": "来自py_dependence的playerContent"}
 
     def localProxy(self, params):
