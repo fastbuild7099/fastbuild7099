@@ -149,9 +149,13 @@ class Spider(Spider):
                 episode_list = [_name + '$' + _url for _name, _url in zip(name_list, url_list)]
                 print(f"Original episode order: {episode_list}")
                 # 反轉集數，從倒序變正序
-                episode_list = list(reversed(episode_list))
-                print(f"Reversed episode order: {episode_list}")
-                vod_play_url.append('#'.join(episode_list))
+                reversed_episode_list = list(reversed(episode_list))
+                print(f"Reversed episode order: {reversed_episode_list}")
+                # 拼接為單一字符串
+                vod_play_url.append('#'.join(reversed_episode_list))
+            # 最終播放鏈接
+            final_play_url = '$$$'.join(vod_play_url)
+            print(f"Final vod_play_url: {final_play_url}")
             vod_content = root.xpath('//p[@class="lead vod-content"]/text()')
             vod_content = vod_content[0] if vod_content else ''
             vod_name = root.xpath('//h1[@class="entry-title"]/text()')
@@ -167,9 +171,9 @@ class Spider(Spider):
                 'vod_director': '沐辰_为爱发电',
                 'vod_content': vod_content,
                 'vod_play_from': vod_play_from,
-                'vod_play_url': '$$$'.join(vod_play_url)
+                'vod_play_url': final_play_url
             })
-            return {"list": video_list, 'parse': 0, 'jx': 0}  # 不加 "倒序": "1"
+            return {"list": video_list, 'parse': 0, 'jx': 0}
         except requests.RequestException as e:
             print(f"Error in detailContent: {e}")
             return {'list': [], 'msg': str(e)}
