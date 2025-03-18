@@ -145,10 +145,13 @@ class Spider(Spider):
             for i in play_list:
                 name_list = i.xpath('./li/a/text()')
                 url_list = i.xpath('./li/a/@href')
-                # 生成集數列表並反轉（從倒序變正序）
-                episode_list = ['#'.join([_name + '$' + _url for _name, _url in zip(name_list, url_list)])]
-                episode_list.reverse()  # 反轉集數順序
-                vod_play_url.extend(episode_list)
+                # 原始集數列表
+                episode_list = [_name + '$' + _url for _name, _url in zip(name_list, url_list)]
+                print(f"Original episode order: {episode_list}")
+                # 反轉集數，從倒序變正序
+                episode_list = list(reversed(episode_list))
+                print(f"Reversed episode order: {episode_list}")
+                vod_play_url.append('#'.join(episode_list))
             vod_content = root.xpath('//p[@class="lead vod-content"]/text()')
             vod_content = vod_content[0] if vod_content else ''
             vod_name = root.xpath('//h1[@class="entry-title"]/text()')
@@ -166,7 +169,7 @@ class Spider(Spider):
                 'vod_play_from': vod_play_from,
                 'vod_play_url': '$$$'.join(vod_play_url)
             })
-            return {"list": video_list, 'parse': 0, 'jx': 0}  # 移除 "倒序": "1"，僅處理集數
+            return {"list": video_list, 'parse': 0, 'jx': 0}  # 不加 "倒序": "1"
         except requests.RequestException as e:
             print(f"Error in detailContent: {e}")
             return {'list': [], 'msg': str(e)}
@@ -191,11 +194,11 @@ class Spider(Spider):
             res.encoding = 'utf-8'
             urls = re.findall(r'var\s+url\s+=\s+"(.*?)";', res.text)
             if len(urls) == 0:
-                return {'url': play_url, 'parse': 0, 'jx': 0, "倒序": "1"}
-            return {'url': urls[0], 'parse': 0, 'jx': 0, "倒序": "1"}
+                return {'url': play_url, 'parse': 0, 'jx': 0}
+            return {'url': urls[0], 'parse': 0, 'jx': 0}
         except requests.RequestException as e:
             print(f"Error in playerContent: {e}")
-            return {'url': play_url, 'parse': 0, 'jx': 0, "倒序": "1"}
+            return {'url': play_url, 'parse': 0, 'jx': 0}
 
     def localProxy(self, params):
         pass
