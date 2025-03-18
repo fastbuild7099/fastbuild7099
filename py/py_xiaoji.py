@@ -131,52 +131,71 @@ class Spider(Spider):
             data = self.get_data(fallback_url)
         return {'list': data, 'parse': 0, 'jx': 0, "倒序": "1"}
 
-    def detailContent(self, did):
-        ids = did[0]
-        video_list = []
-        url = self.home_url + ids
-        try:
-            res = requests.get(url, headers=self.headers)
-            res.encoding = 'utf-8'
-            root = etree.HTML(res.text)
-            vod_play_from = '$$$'.join(root.xpath('//ul[@class="nav nav-tabs"]/li/a/text()'))
-            play_list = root.xpath('//ul[@class="list-unstyled text-center play-list"]')
-            vod_play_url = []
-            for i in play_list:
-                name_list = i.xpath('./li/a/text()')
-                url_list = i.xpath('./li/a/@href')
-                # 原始集數列表
-                episode_list = [_name + '$' + _url for _name, _url in zip(name_list, url_list)]
-                print(f"Original episode order: {episode_list}")
-                # 反轉集數，從倒序變正序
-                reversed_episode_list = list(reversed(episode_list))
-                print(f"Reversed episode order: {reversed_episode_list}")
-                # 拼接為單一字符串
-                vod_play_url.append('#'.join(reversed_episode_list))
-            # 最終播放鏈接
-            final_play_url = '$$$'.join(vod_play_url)
-            print(f"Final vod_play_url: {final_play_url}")
-            vod_content = root.xpath('//p[@class="lead vod-content"]/text()')
-            vod_content = vod_content[0] if vod_content else ''
-            vod_name = root.xpath('//h1[@class="entry-title"]/text()')
-            vod_name = vod_name[0] if vod_name else ''
-            video_list.append({
-                'type_name': '',
-                'vod_id': ids,
-                'vod_name': vod_name,
-                'vod_remarks': '',
-                'vod_year': '',
-                'vod_area': '',
-                'vod_actor': '',
-                'vod_director': '沐辰_为爱发电',
-                'vod_content': vod_content,
-                'vod_play_from': vod_play_from,
-                'vod_play_url': final_play_url
-            })
-            return {"list": video_list, 'parse': 0, 'jx': 0}
-        except requests.RequestException as e:
-            print(f"Error in detailContent: {e}")
-            return {'list': [], 'msg': str(e)}
+def detailContent(self, did):
+    ids = did[0]
+    video_list = []
+    url = self.home_url + ids
+    try:
+        res = requests.get(url, headers=self.headers)
+        res.encoding = 'utf-8'
+        root = etree.HTML(res.text)
+        
+        # 播放來源
+        vod_play_from = '$$$'.join(root.xpath('//ul[@class="nav nav-tabs"]/li/a/text()'))
+        
+        # 播放鏈接
+        play_list = root.xpath('//ul[@class="list-unstyled text-center play-list"]')
+        vod_play_url = []
+        for i in play_list:
+            name_list = i.xpath('./li/a/text()')
+            url_list = i.xpath('./li/a/@href')
+            episode_list = [_name + '$' + _url for _name, _url in zip(name_list, url_list)]
+            reversed_episode_list = list(reversed(episode_list))
+            vod_play_url.append('#'.join(reversed_episode_list))
+        final_play_url = '$$$'.join(vod_play_url)
+        
+        # 影片名稱
+        vod_name = root.xpath('//h1[@class="entry-title"]/text()')[0] if root.xpath('//h1[@class="entry-title"]/text()') else ''
+        
+        # 劇情簡介
+        vod_content = root.xpath('//p[@class="lead vod-content"]/text()')[0] if root.xpath('//p[@class="lead vod-content"]/text()') else ''
+        
+        # 類型名稱
+        type_name = root.xpath('//meta[@name="og:video:class"]/@content')[0] if root.xpath('//meta[@name="og:video:class"]/@content') else ''
+        
+        # 備註
+        vod_remarks = root.xpath('//h4/a/following-sibling::text()')[0].strip('[]') if root.xpath('//h4/a/following-sibling::text()') else ''
+        
+        # 年份
+        vod_year_full = root.xpath('//dt[contains(text(), "開播")]/following-sibling::dd[1]/font/text()')[0] if root.xpath('//dt[contains(text(), "開播")]/following-sibling::dd[1]/font/text()') else ''
+        vod_year = vod_year_full.split('年')[0] if vod_year_full else ''
+        
+        # 地區
+        vod_area = root.xpath('//meta[@name="og:video:area"]/@content')[0] if root.xpath('//meta[@name="og:video:area"]/@content') else ''
+        
+        # 演員
+        vod_actor = root.xpath('//meta[@name="og:video:actor"]/@content')[0] if root.xpath('//meta[@name="og:video:actor"]/@content') else ''
+        
+        # 導演
+        vod_director = root.xpath('//meta[@name="og:video:director"]/@content')[0] if root.xpath('//meta[@name="og:video:director"]/@content') else '沐辰_为爱发电'
+        
+        video_list.append({
+            'type_name': type_name,
+            'vod_id': ids,
+            'vod_name': vod_name,
+            'vod_remarks': vod_remarks,
+            'vod_year': vod_year,
+            'vod_area': vod_area,
+            'vod_actor': vod_actor,
+            'vod_director': vod_director,
+            'vod_content': vod_content,
+            'vod_play_from': vod_play_from,
+            'vod_play_url': final_play_url
+        })
+        return {"list": video_list, 'parse': 0, 'jx': 0}
+    except requests.RequestException as e:
+        print(f"Error in detailContent: {e}")
+        return {'list': [], 'msg': str(e)}
 
     def searchContent(self, key, quick, page='1'):
         url = self.home_url + f'/ss.html'
