@@ -74,7 +74,7 @@ class Spider(Spider):
                         {'n': '韩国', 'v': '韩国'}, 
                         {'n': '英国', 'v': '英国'}, 
                         {'n': '法国', 'v': '法国'}]},
-                    {'name': '语言', 'key': 'language', 'value': [  # 新增語言篩選
+                    {'name': '语言', 'key': 'language', 'value': [
                         {'n': '全部', 'v': ''},
                         {'n': '国语', 'v': '国语'},
                         {'n': '英语', 'v': '英语'},
@@ -106,6 +106,7 @@ class Spider(Spider):
                 '2': [
                     {'name': '剧情', 'key': 'class', 'value': [
                         {'n': '全部', 'v': ''}, 
+                        {'n': 'Netflix', 'v': 'Netflix'}, 
                         {'n': '剧情', 'v': '剧情'},
                         {'n': '爱情', 'v': '爱情'}, 
                         {'n': '喜剧', 'v': '喜剧'}, 
@@ -327,10 +328,9 @@ class Spider(Spider):
         cate_id = ext.get('cateId', cid) if ext and 'cateId' in ext else cid
         class_filter = ext.get('class', '') if ext and 'class' in ext else ''
         area = ext.get('area', '') if ext and 'area' in ext else ''
-        language = ext.get('language', '') if ext and 'language' in ext else ''  # 新增語言參數
+        language = ext.get('language', '') if ext and 'language' in ext else ''
         year = ext.get('year', '') if ext and 'year' in ext else ''
         by = ext.get('by', '1') if ext and 'by' in ext else '1'
-        # URL 編碼中文參數
         class_filter = urllib.parse.quote(class_filter.encode('utf-8')) if class_filter else ''
         area = urllib.parse.quote(area.encode('utf-8')) if area else ''
         language = urllib.parse.quote(language.encode('utf-8')) if language else ''
@@ -349,7 +349,7 @@ class Spider(Spider):
         video_list = []
         url = self.home_url + ids
         try:
-            res = requests.get(url, headers=self.headers)
+            res = requests.get(url, headers=self.headers, timeout=10)
             if res.status_code != 200:
                 print(f"Debug: Failed to fetch URL {url}, status code: {res.status_code}")
                 return {'list': [], 'msg': f'HTTP Error: {res.status_code}'}
@@ -363,26 +363,26 @@ class Spider(Spider):
                 print(f"Debug: HTML snippet: {str(soup.select('div.source-box')[:1000])}")
                 vod_play_from = "未找到播放線路"
             else:
-                vod_play_from = '$$$'.join([span.text for span in source_items])
+                vod_play_from = '$$$'.join([span.text.strip() for span in source_items])
                 print(f"Debug: Found source items: {vod_play_from}")
             
-            # 提取集數列表（只選取非隱藏的）
-            play_lists = soup.select('div.episode-list:not([style="display: none;"])')
+            # 提取所有集數列表（包括隱藏的）
+            play_lists = soup.select('div.episode-list')
             if not play_lists:
-                print(f"Debug: No visible episode lists found for URL: {url}")
-                vod_play_url = ["未找到集數"]
+                print(f"Debug: No episode lists found for URL: {url}")
+                vod_play_url = "未找到播放地址"
             else:
                 vod_play_url = []
                 for i, play_list in enumerate(play_lists):
-                    episode_names = [a.text for a in play_list.select('a')]
-                    episode_urls = [a['href'] for a in play_list.select('a')]
+                    episode_names = [a.text.strip() for a in play_list.select('a.episode-item')]
+                    episode_urls = [a['href'] for a in play_list.select('a.episode-item')]
                     if episode_names and episode_urls:
-                        episode_list = [f"{name}${self.home_url}{episode_url}" for name, episode_url in zip(episode_names, episode_urls)]
+                        episode_list = [f"{name}${self.home_url}{url}" for name, url in zip(episode_names, episode_urls)]
                         vod_play_url.append('#'.join(episode_list))
                     else:
                         print(f"Debug: Episode list {i} is empty")
-                final_play_url = '$$$'.join(vod_play_url) if vod_play_url else "未找到播放地址"
-                print(f"Debug: Found play URLs: {final_play_url}")
+                vod_play_url = '$$$'.join(vod_play_url) if vod_play_url else "未找到播放地址"
+                print(f"Debug: Found play URLs: {vod_play_url}")
             
             # 其他元數據提取
             vod_name = soup.select_one('h1').text if soup.select_one('h1') else ''
@@ -411,7 +411,7 @@ class Spider(Spider):
                 'vod_director': vod_director,
                 'vod_content': vod_content,
                 'vod_play_from': vod_play_from,
-                'vod_play_url': final_play_url
+                'vod_play_url': vod_play_url
             })
             print(f"Debug detailContent result: {video_list}")
             return {"list": video_list, 'parse': 0, 'jx': 0}
@@ -463,7 +463,6 @@ class Spider(Spider):
             else:
                 soup = BeautifulSoup(url_or_text, 'html.parser', from_encoding='utf-8')
             
-            # 提取影片列表
             items = soup.select('a.v-item')
             if not items:
                 print(f"Debug: No items found in HTML for URL: {url_or_text}")
@@ -493,9 +492,8 @@ if __name__ == '__main__':
     spider.init({})
     # 測試首頁內容
     print(spider.homeContent(True))
-    # 測試分類內容（模擬提供的完整鏈接）
+    # 測試分類內容
     print(spider.categoryContent('1', '3', True, {'class': '喜剧', 'area': '美国', 'language': '国语', 'year': '2024', 'by': '2'}))
-    # 其他測試
     print(spider.categoryContent('1', '1', True, {'year': '2023', 'by': '1'}))
     print(spider.categoryContent('1', '1', True, {'year': '2019', 'by': '3'}))
     print(spider.categoryContent('1', '1', True, {'year': '更早', 'by': '4'}))
