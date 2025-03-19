@@ -13,8 +13,8 @@
     "分类": "电影&剧集&综艺&动漫&短剧",
     "分类值": "1&2&4&3&6",
     
-    //"数组": "默认--/detail&&</a>||搜索--/detail&&</a>",
-    "数组": "默认--<div class=\"module-item&&</a>||搜索--/detail&&</a>",
+    "数组": "默认--/detail&&</a>||搜索--/detail&&</a>",
+    //"数组": "默认--<div class=\"module-item&&</a>||搜索--/detail&&</a>",
     "标题": "默认--</div>*title\">&&<||搜索--title=\"&&\"",
     "图片": "https://61.147.93.252:15002/+data-original=\"/&&\"",
     "副标题": "</span>*<span>&&</span>||搜索--tags\">&&</span>",
