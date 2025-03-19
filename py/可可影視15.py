@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
 # @Author  : Adapted for keke7.app
-# @Time    : 2025/3/19
+# @Time    : 2025/3/20
 
 import sys
 import requests
 from bs4 import BeautifulSoup
+import urllib.parse  # 用於 URL 編碼
 sys.path.append('..')
 from base.spider import Spider
 
@@ -15,8 +16,11 @@ class Spider(Spider):
     def init(self, extend):
         self.home_url = 'https://www.keke7.app'
         self.headers = {
-            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Mobile Safari/537.36",
-            "Referer": "https://www.keke7.app"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
+            "Referer": "https://www.keke7.app/",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+            "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+            "Connection": "keep-alive"
         }
         self.image_domain = "https://vres.wbadl.cn"  # 圖片域名
 
@@ -42,7 +46,6 @@ class Spider(Spider):
                 '1': [
                     {'name': '剧情', 'key': 'class', 'value': [
                         {'n': '全部', 'v': ''},
-                        {'n': 'Netflix', 'v': 'Netflix'},
                         {'n': '剧情', 'v': '剧情'},
                         {'n': '喜剧', 'v': '喜剧'},
                         {'n': '动作', 'v': '动作'}, 
@@ -71,6 +74,14 @@ class Spider(Spider):
                         {'n': '韩国', 'v': '韩国'}, 
                         {'n': '英国', 'v': '英国'}, 
                         {'n': '法国', 'v': '法国'}]},
+                    {'name': '语言', 'key': 'language', 'value': [
+                        {'n': '全部', 'v': ''},
+                        {'n': '国语', 'v': '国语'},
+                        {'n': '英语', 'v': '英语'},
+                        {'n': '粤语', 'v': '粤语'},
+                        {'n': '日语', 'v': '日语'},
+                        {'n': '韩语', 'v': '韩语'}
+                    ]},
                     {'name': '年份', 'key': 'year', 'value': [
                         {'n': '全部', 'v': ''}, 
                         {'n': '2025', 'v': '2025'}, 
@@ -83,7 +94,13 @@ class Spider(Spider):
                         {'n': '00年代', 'v': '2000_2009'},
                         {'n': '90年代', 'v': '1990_1999'},
                         {'n': '80年代', 'v': '1980_1989'},
-                        {'n': '更早', 'v': '0_1979'}  # 恢復網站支持的格式
+                        {'n': '更早', 'v': '0_1979'}
+                    ]},
+                    {'name': '排序', 'key': 'by', 'value': [
+                        {'n': '綜合排序', 'v': '1'},
+                        {'n': '按時間', 'v': '2'},
+                        {'n': '按熱度', 'v': '3'},
+                        {'n': '按評分', 'v': '4'}
                     ]}
                 ],
                 '2': [
@@ -121,6 +138,14 @@ class Spider(Spider):
                         {'n': '韩国', 'v': '韩国'}, 
                         {'n': '英国', 'v': '英国'}, 
                         {'n': '法国', 'v': '法国'}]},
+                    {'name': '语言', 'key': 'language', 'value': [
+                        {'n': '全部', 'v': ''},
+                        {'n': '国语', 'v': '国语'},
+                        {'n': '英语', 'v': '英语'},
+                        {'n': '粤语', 'v': '粤语'},
+                        {'n': '日语', 'v': '日语'},
+                        {'n': '韩语', 'v': '韩语'}
+                    ]},
                     {'name': '年份', 'key': 'year', 'value': [
                         {'n': '全部', 'v': ''}, 
                         {'n': '2025', 'v': '2025'}, 
@@ -134,6 +159,12 @@ class Spider(Spider):
                         {'n': '90年代', 'v': '1990_1999'},
                         {'n': '80年代', 'v': '1980_1989'},
                         {'n': '更早', 'v': '0_1979'}
+                    ]},
+                    {'name': '排序', 'key': 'by', 'value': [
+                        {'n': '綜合排序', 'v': '1'},
+                        {'n': '按時間', 'v': '2'},
+                        {'n': '按熱度', 'v': '3'},
+                        {'n': '按評分', 'v': '4'}
                     ]}
                 ],
                 '3': [
@@ -174,6 +205,14 @@ class Spider(Spider):
                         {'n': '韩国', 'v': '韩国'}, 
                         {'n': '英国', 'v': '英国'}, 
                         {'n': '法国', 'v': '法国'}]},
+                    {'name': '语言', 'key': 'language', 'value': [
+                        {'n': '全部', 'v': ''},
+                        {'n': '国语', 'v': '国语'},
+                        {'n': '英语', 'v': '英语'},
+                        {'n': '粤语', 'v': '粤语'},
+                        {'n': '日语', 'v': '日语'},
+                        {'n': '韩语', 'v': '韩语'}
+                    ]},
                     {'name': '年份', 'key': 'year', 'value': [
                         {'n': '全部', 'v': ''}, 
                         {'n': '2025', 'v': '2025'}, 
@@ -187,7 +226,13 @@ class Spider(Spider):
                         {'n': '90年代', 'v': '1990_1999'},
                         {'n': '80年代', 'v': '1980_1989'},
                         {'n': '更早', 'v': '0_1979'}
-                    ]}                    
+                    ]},
+                    {'name': '排序', 'key': 'by', 'value': [
+                        {'n': '綜合排序', 'v': '1'},
+                        {'n': '按時間', 'v': '2'},
+                        {'n': '按熱度', 'v': '3'},
+                        {'n': '按評分', 'v': '4'}
+                    ]}
                 ],
                 '4': [
                     {'name': '剧情', 'key': 'class', 'value': [
@@ -216,6 +261,14 @@ class Spider(Spider):
                         {'n': '韩国', 'v': '韩国'}, 
                         {'n': '英国', 'v': '英国'}, 
                         {'n': '法国', 'v': '法国'}]},
+                    {'name': '语言', 'key': 'language', 'value': [
+                        {'n': '全部', 'v': ''},
+                        {'n': '国语', 'v': '国语'},
+                        {'n': '英语', 'v': '英语'},
+                        {'n': '粤语', 'v': '粤语'},
+                        {'n': '日语', 'v': '日语'},
+                        {'n': '韩语', 'v': '韩语'}
+                    ]},
                     {'name': '年份', 'key': 'year', 'value': [
                         {'n': '全部', 'v': ''}, 
                         {'n': '2025', 'v': '2025'}, 
@@ -229,9 +282,14 @@ class Spider(Spider):
                         {'n': '90年代', 'v': '1990_1999'},
                         {'n': '80年代', 'v': '1980_1989'},
                         {'n': '更早', 'v': '0_1979'}
-                    ]}                    
+                    ]},
+                    {'name': '排序', 'key': 'by', 'value': [
+                        {'n': '綜合排序', 'v': '1'},
+                        {'n': '按時間', 'v': '2'},
+                        {'n': '按熱度', 'v': '3'},
+                        {'n': '按評分', 'v': '4'}
+                    ]}
                 ],
-                # 注意：原代碼中 '5' 應為 '6'（短剧），這裡修正
                 '6': [
                     {'name': '剧情', 'key': 'class', 'value': [
                         {'n': '全部', 'v': ''}, 
@@ -248,19 +306,11 @@ class Spider(Spider):
                         {'n': '战争', 'v': '战争'},
                         {'n': '冒险', 'v': '冒险'},
                         {'n': '其它', 'v': '其它'}]},
-                    {'name': '年份', 'key': 'year', 'value': [
-                        {'n': '全部', 'v': ''}, 
-                        {'n': '2025', 'v': '2025'}, 
-                        {'n': '2024', 'v': '2024'},
-                        {'n': '2023', 'v': '2023'}, 
-                        {'n': '2022', 'v': '2022'}, 
-                        {'n': '2021', 'v': '2021'},
-                        {'n': '2020', 'v': '2020'}, 
-                        {'n': '10年代', 'v': '2010_2019'}, 
-                        {'n': '00年代', 'v': '2000_2009'},
-                        {'n': '90年代', 'v': '1990_1999'},
-                        {'n': '80年代', 'v': '1980_1989'},
-                        {'n': '更早', 'v': '0_1979'}
+                    {'name': '排序', 'key': 'by', 'value': [
+                        {'n': '綜合排序', 'v': '1'},
+                        {'n': '按時間', 'v': '2'},
+                        {'n': '按熱度', 'v': '3'},
+                        {'n': '按評分', 'v': '4'}
                     ]}
                 ]
             }
@@ -278,11 +328,17 @@ class Spider(Spider):
         cate_id = ext.get('cateId', cid) if ext and 'cateId' in ext else cid
         class_filter = ext.get('class', '') if ext and 'class' in ext else ''
         area = ext.get('area', '') if ext and 'area' in ext else ''
+        language = ext.get('language', '') if ext and 'language' in ext else ''
         year = ext.get('year', '') if ext and 'year' in ext else ''
         by = ext.get('by', '1') if ext and 'by' in ext else '1'
-        url = f'{self.home_url}/show/{cate_id}-{class_filter}-{area}---{year}-{by}-{page}.html'
+        # URL 編碼中文參數
+        class_filter = urllib.parse.quote(class_filter.encode('utf-8')) if class_filter else ''
+        area = urllib.parse.quote(area.encode('utf-8')) if area else ''
+        language = urllib.parse.quote(language.encode('utf-8')) if language else ''
+        year = urllib.parse.quote(year.encode('utf-8')) if year else ''
+        url = f'{self.home_url}/show/{cate_id}-{class_filter}-{area}-{language}-{year}-{by}-{page}.html'
         print(f"Debug: Requesting URL: {url}")
-        data = self.get_data(url)  # 移除 year_filter，依賴服務端篩選
+        data = self.get_data(url)
         result = {'list': data, 'parse': 0, 'jx': 0, "倒序": "1"}
         print(f"Debug categoryContent: {result}")
         return result
@@ -302,35 +358,38 @@ class Spider(Spider):
             
             soup = BeautifulSoup(res.content, 'html.parser', from_encoding='utf-8')
             
-            # 提取播放線路
-            source_items = soup.select('div.source-item span.source-item-label')
+            # 提取播放線路（更新選擇器）
+            source_items = soup.select('div.tab-nav span.tab-label')  # 更新為更可能的播放線路選擇器
             if not source_items:
                 print(f"Debug: No source items found for URL: {url}")
-                print(f"Debug: HTML snippet: {str(soup.select('div.source-box')[:1000])}")
+                print(f"Debug: Source HTML snippet: {str(soup.select('div.tab-nav')[:1000]) if soup.select('div.tab-nav') else 'No tab-nav found'}")
                 vod_play_from = "未找到播放線路"
             else:
-                vod_play_from = '$$$'.join([span.text for span in source_items])
+                vod_play_from = '$$$'.join([span.text.strip() for span in source_items])
                 print(f"Debug: Found source items: {vod_play_from}")
             
-            # 提取集數列表（只選取非隱藏的）
-            play_lists = soup.select('div.episode-list:not([style="display: none;"])')
+            # 提取集數列表（更新選擇器並考慮多線路）
+            play_lists = soup.select('div.tab-content div.tab-pane')  # 更新為更可能的集數列表選擇器
             if not play_lists:
                 print(f"Debug: No visible episode lists found for URL: {url}")
-                vod_play_url = ["未找到集數"]
+                print(f"Debug: Play list HTML snippet: {str(soup.select('div.tab-content')[:1000]) if soup.select('div.tab-content') else 'No tab-content found'}")
+                vod_play_url = "未找到集數"
             else:
                 vod_play_url = []
                 for i, play_list in enumerate(play_lists):
-                    episode_names = [a.text for a in play_list.select('a')]
+                    if 'style' in play_list.attrs and 'display: none' in play_list['style']:
+                        continue  # 跳過隱藏的集數列表
+                    episode_names = [a.text.strip() for a in play_list.select('a')]
                     episode_urls = [a['href'] for a in play_list.select('a')]
                     if episode_names and episode_urls:
                         episode_list = [f"{name}${self.home_url}{episode_url}" for name, episode_url in zip(episode_names, episode_urls)]
                         vod_play_url.append('#'.join(episode_list))
                     else:
-                        print(f"Debug: Episode list {i} is empty")
+                        print(f"Debug: Episode list {i} is empty or missing links")
                 final_play_url = '$$$'.join(vod_play_url) if vod_play_url else "未找到播放地址"
                 print(f"Debug: Found play URLs: {final_play_url}")
             
-            # 其他元數據提取
+            # 其他元數據提取（保持不變）
             vod_name = soup.select_one('h1').text if soup.select_one('h1') else ''
             vod_content = soup.select_one('div.detail-desc').text if soup.select_one('div.detail-desc') else ''
             tags = soup.select('div.detail-tags-item')
@@ -403,6 +462,7 @@ class Spider(Spider):
                 res = requests.get(url_or_text, headers=self.headers)
                 if res.status_code != 200:
                     print(f"Debug: Failed to fetch URL {url_or_text}, status code: {res.status_code}")
+                    print(f"Debug: Response content: {res.text[:1000]}")
                     return data
                 soup = BeautifulSoup(res.content, 'html.parser', from_encoding='utf-8')
             else:
@@ -412,7 +472,7 @@ class Spider(Spider):
             items = soup.select('a.v-item')
             if not items:
                 print(f"Debug: No items found in HTML for URL: {url_or_text}")
-                print(f"Debug: HTML snippet: {str(soup)[:1000]}")  # 輸出部分 HTML 檢查結構
+                print(f"Debug: HTML snippet: {str(soup)[:2000]}")
             for item in items:
                 vod_id = item['href'] if 'href' in item.attrs else ''
                 vod_name = item.select_one('div.v-item-title:not([style="display: none"])').text if item.select_one('div.v-item-title:not([style="display: none"])') else '未找到標題'
@@ -438,11 +498,13 @@ if __name__ == '__main__':
     spider.init({})
     # 測試首頁內容
     print(spider.homeContent(True))
-    # 測試分類內容（檢查年份篩選）
-    print(spider.categoryContent('1', '1', True, {'year': '2023'}))
-    print(spider.categoryContent('1', '1', True, {'year': '2010_2019'}))
-    print(spider.categoryContent('1', '1', True, {'year': '0_1979'}))
+    # 測試分類內容
+    print(spider.categoryContent('1', '3', True, {'class': '喜剧', 'area': '美国', 'language': '国语', 'year': '2024', 'by': '2'}))
+    # 其他測試
+    print(spider.categoryContent('1', '1', True, {'year': '2023', 'by': '1'}))
+    print(spider.categoryContent('1', '1', True, {'year': '2019', 'by': '3'}))
+    print(spider.categoryContent('1', '1', True, {'year': '更早', 'by': '4'}))
     # 測試搜索
     print(spider.searchContent('test', False, '1'))
-    # 測試詳情頁
+    # 測試詳情頁（重點測試播放線路）
     print(spider.detailContent(['/detail/264550.html']))

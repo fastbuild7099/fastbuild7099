@@ -46,7 +46,6 @@ class Spider(Spider):
                 '1': [
                     {'name': '剧情', 'key': 'class', 'value': [
                         {'n': '全部', 'v': ''},
-                        {'n': 'Netflix', 'v': 'Netflix'},
                         {'n': '剧情', 'v': '剧情'},
                         {'n': '喜剧', 'v': '喜剧'},
                         {'n': '动作', 'v': '动作'}, 
