@@ -79,11 +79,12 @@ class Spider(Spider):
                         {'n': '2022', 'v': '2022'}, 
                         {'n': '2021', 'v': '2021'},
                         {'n': '2020', 'v': '2020'}, 
-                        {'n': '10年代', 'v': '2010_2019'}, 
-                        {'n': '00年代', 'v': '2000_2009'},
-                        {'n': '90年代', 'v': '1990_1999'},
-                        {'n': '80年代', 'v': '1980_1989'},
-                        {'n': '更早', 'v': '0_1979'}]}
+                        {'n': '10年代', 'v': '2010'},  # 簡化為單一年份
+                        {'n': '00年代', 'v': '2000'},
+                        {'n': '90年代', 'v': '1990'},
+                        {'n': '80年代', 'v': '1980'},
+                        {'n': '更早', 'v': 'before_1980'}  # 假設網站使用此格式
+                    ]}
                 ],
                 '2': [
                     {'name': '剧情', 'key': 'class', 'value': [
@@ -128,11 +129,12 @@ class Spider(Spider):
                         {'n': '2022', 'v': '2022'}, 
                         {'n': '2021', 'v': '2021'},
                         {'n': '2020', 'v': '2020'}, 
-                        {'n': '10年代', 'v': '2010_2019'}, 
-                        {'n': '00年代', 'v': '2000_2009'},
-                        {'n': '90年代', 'v': '1990_1999'},
-                        {'n': '80年代', 'v': '1980_1989'},
-                        {'n': '更早', 'v': '0_1979'}]}
+                        {'n': '10年代', 'v': '2010'},
+                        {'n': '00年代', 'v': '2000'},
+                        {'n': '90年代', 'v': '1990'},
+                        {'n': '80年代', 'v': '1980'},
+                        {'n': '更早', 'v': 'before_1980'}
+                    ]}
                 ]
             }
         }
@@ -151,10 +153,9 @@ class Spider(Spider):
         area = ext.get('area', '') if ext and 'area' in ext else ''
         year = ext.get('year', '') if ext and 'year' in ext else ''
         by = ext.get('by', '1') if ext and 'by' in ext else '1'
-        # 修正 URL 格式，移除多餘的連字符
         url = f'{self.home_url}/show/{cate_id}-{class_filter}-{area}---{year}-{by}-{page}.html'
         print(f"Debug: Requesting URL: {url}")
-        data = self.get_data(url)
+        data = self.get_data(url, year_filter=year)  # 傳遞 year 用於客戶端過濾
         result = {'list': data, 'parse': 0, 'jx': 0, "倒序": "1"}
         print(f"Debug categoryContent: {result}")
         return result
@@ -268,7 +269,7 @@ class Spider(Spider):
     def destroy(self):
         return '正在Destroy'
 
-    def get_data(self, url_or_text):
+    def get_data(self, url_or_text, year_filter=''):
         data = []
         try:
             if isinstance(url_or_text, str) and url_or_text.startswith('http'):
@@ -286,6 +287,28 @@ class Spider(Spider):
                 img_tags = [img['data-original'] for img in item.select('div.v-item-cover img')]
                 vod_pic = self.image_domain + img_tags[1] if len(img_tags) > 1 else self.image_domain + img_tags[0] if img_tags else ''
                 vod_remarks = item.select_one('div.v-item-bottom span').text if item.select_one('div.v-item-bottom span') else ''
+                
+                # 客戶端年份過濾（備用方案）
+                if year_filter and year_filter != '':
+                    if year_filter == 'before_1980':
+                        try:
+                            vod_year = int(vod_remarks) if vod_remarks.isdigit() else 9999
+                            if vod_year >= 1980:
+                                continue
+                        except ValueError:
+                            continue
+                    else:
+                        try:
+                            vod_year = int(vod_remarks) if vod_remarks.isdigit() else 0
+                            filter_year = int(year_filter)
+                            # 處理年代範圍（例如 2010 表示 2010-2019）
+                            if filter_year in [2010, 2000, 1990, 1980]:
+                                if not (filter_year <= vod_year <= filter_year + 9):
+                                    continue
+                            elif vod_year != filter_year:  # 單一年份
+                                continue
+                        except ValueError:
+                            continue
                 
                 data.append({
                     'vod_id': vod_id,
@@ -306,6 +329,8 @@ if __name__ == '__main__':
     print(spider.homeContent(True))
     # 測試分類內容（檢查年份篩選）
     print(spider.categoryContent('1', '1', True, {'year': '2023'}))
+    print(spider.categoryContent('1', '1', True, {'year': '2010'}))
+    print(spider.categoryContent('1', '1', True, {'year': 'before_1980'}))
     # 測試搜索
     print(spider.searchContent('test', False, '1'))
     # 測試詳情頁
