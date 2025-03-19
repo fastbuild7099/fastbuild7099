@@ -72,7 +72,6 @@ class Spider(Spider):
                         {'n': '2023', 'v': '2023'}, {'n': '2022', 'v': '2022'}, {'n': '2021', 'v': '2021'}
                     ]}
                 ],
-                # 其他分類（4, 3, 6）可根據需要擴展
             }
         }
 
@@ -81,12 +80,11 @@ class Spider(Spider):
         return {'list': data, 'parse': 0, 'jx': 0, "倒序": "1"}
 
     def categoryContent(self, cid, page, filter, ext):
-        # 確保 cate_id 有默認值
         cate_id = ext.get('cateId', cid) if ext and 'cateId' in ext else cid
         class_filter = ext.get('class', '') if ext and 'class' in ext else ''
         area = ext.get('area', '') if ext and 'area' in ext else ''
         year = ext.get('year', '') if ext and 'year' in ext else ''
-        by = ext.get('by', '1') if ext and 'by' in ext else '1'  # 排序：1=綜合, 2=最新, 3=最熱, 4=評分
+        by = ext.get('by', '1') if ext and 'by' in ext else '1'
         url = f'{self.home_url}/show/{cate_id}-{class_filter}-{area}----{year}-{by}-{page}.html'
         print(f"Requesting URL: {url}")
         data = self.get_data(url)
@@ -104,7 +102,6 @@ class Spider(Spider):
             res.encoding = 'utf-8'
             root = etree.HTML(res.text)
             
-            # 播放線路和播放列表
             vod_play_from = '$$$'.join(root.xpath('//div[@class="source-item"]/span[@class="source-item-label"]/text()'))
             play_lists = root.xpath('//div[@class="episode-list"]')
             vod_play_url = []
@@ -115,7 +112,6 @@ class Spider(Spider):
                 vod_play_url.append('#'.join(episode_list))
             final_play_url = '$$$'.join(vod_play_url)
             
-            # 基本信息
             vod_name = root.xpath('//h1/text()')[0] if root.xpath('//h1/text()') else ''
             vod_content = root.xpath('//div[@class="detail-desc"]/text()')[0] if root.xpath('//div[@class="detail-desc"]/text()') else ''
             vod_year = root.xpath('//div[@class="detail-tags-item"]/text()')[0] if root.xpath('//div[@class="detail-tags-item"]/text()') else ''
@@ -124,15 +120,14 @@ class Spider(Spider):
             vod_director = root.xpath('//div[contains(text(), "导演:")]/following-sibling::div/text()')[0] if root.xpath('//div[contains(text(), "导演:")]/following-sibling::div/text()') else ''
             vod_remarks = root.xpath('//div[contains(text(), "备注:")]/following-sibling::div/text()')[0] if root.xpath('//div[contains(text(), "备注:")]/following-sibling::div/text()') else ''
             
-            # 從 vod_id 中提取 type_name（假設 vod_id 格式為 /detail/{type_id}/{some_id}）
             type_name = ''
             if ids.startswith('/detail/'):
                 parts = ids.split('/')
                 if len(parts) > 2:
-                    type_name = parts[2]  # 提取 type_id 作為 type_name
+                    type_name = parts[2]
             
             video_list.append({
-                'type_name': type_name,  # 使用從 vod_id 解析出的 type_name
+                'type_name': type_name,
                 'vod_id': ids,
                 'vod_name': vod_name,
                 'vod_remarks': vod_remarks,
@@ -166,7 +161,7 @@ class Spider(Spider):
         try:
             res = requests.get(url, headers=self.headers)
             res.encoding = 'utf-8'
-            root = etree.HTML(res.text)  # 定義 root
+            root = etree.HTML(res.text)
             play_url = root.xpath('//video/@src')[0] if root.xpath('//video/@src') else 'https://example.com/default.mp4'
             return {'url': play_url, 'parse': 0, 'jx': 0}
         except Exception as e:
@@ -184,23 +179,31 @@ class Spider(Spider):
         try:
             if isinstance(url_or_text, str) and url_or_text.startswith('http'):
                 res = requests.get(url_or_text, headers=self.headers)
-                res.encoding = 'utf-8'
-                root = etree.HTML(res.text)
+                # 手動處理編碼，確保兼容性
+                content = res.content.decode('utf-8', errors='ignore')  # 忽略無效字符
+                root = etree.HTML(content)
             else:
-                root = etree.HTML(url_or_text)
+                content = url_or_text.decode('utf-8', errors='ignore') if isinstance(url_or_text, bytes) else url_or_text
+                root = etree.HTML(content)
             
             # 提取影片列表
             items = root.xpath('//a[@class="v-item"]')
             for item in items:
                 vod_id = item.xpath('./@href')[0] if item.xpath('./@href') else ''
+                # 嘗試多種方式提取標題
                 vod_name = item.xpath('.//div[@class="v-item-main"]/@title')[0] if item.xpath('.//div[@class="v-item-main"]/@title') else ''
+                if not vod_name:  # 如果 title 屬性沒找到，嘗試從文本提取
+                    vod_name = item.xpath('.//div[contains(@class, "v-item-main")]/following-sibling::text()')[0] if item.xpath('.//div[contains(@class, "v-item-main")]/following-sibling::text()') else ''
+                if not vod_name:  # 如果仍未找到，嘗試 JSON 中的規則
+                    vod_name = item.xpath('.//text()[contains(., "title")]')[0].split('title">')[-1] if item.xpath('.//text()[contains(., "title")]') else ''
+                
                 img_tags = item.xpath('.//div[@class="v-item-cover"]/img/@data-original')
-                vod_pic = self.image_domain + img_tags[1] if len(img_tags) > 1 else self.image_domain + img_tags[0]  # 取第二個圖片
+                vod_pic = self.image_domain + img_tags[1] if len(img_tags) > 1 else self.image_domain + img_tags[0] if img_tags else ''
                 vod_remarks = item.xpath('.//div[@class="v-item-bottom"]/span/text()')[0] if item.xpath('.//div[@class="v-item-bottom"]/span/text()') else ''
                 
                 data.append({
                     'vod_id': vod_id,
-                    'vod_name': vod_name,
+                    'vod_name': vod_name.strip() if vod_name else '未找到標題',
                     'vod_pic': vod_pic,
                     'vod_remarks': vod_remarks
                 })
