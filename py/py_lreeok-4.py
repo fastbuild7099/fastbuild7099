@@ -37,7 +37,6 @@ class Spider(Spider):
         pass
 
     def homeContent(self, filter):
-        # 原方法保持不變
         return {
             'class': [
                 {'type_id': '1', 'type_name': '電影'},
@@ -83,7 +82,6 @@ class Spider(Spider):
         }
 
     def homeVideoContent(self):
-        # 原方法保持不變
         d = []
         try:
             res = requests.get(self.home_url, headers=self.headers)
@@ -114,7 +112,7 @@ class Spider(Spider):
             'class': ext.get('class', ''),
             'area': ext.get('area', ''),
             'lang': ext.get('lang', ''),
-            'year': ext.get('year', ''),  # 年份仍保留，但不過濾
+            'year': ext.get('year', ''),
             'version': '',
             'state': '',
             'letter': '',
@@ -126,19 +124,15 @@ class Spider(Spider):
             data = self.get_data(payload)
             print(f"從 API 取得的原始數據: {data}")
             
-            if not data:  # 如果 API 返回空數據
+            if not data:
                 return {'list': [], 'parse': 0, 'jx': 0}
                 
             filtered_data = []
             for item in data:
-                # 確保 item 包含必要的字段
                 vod_class = item.get('vod_class', '')
-                
-                # 只根據 class 進行過濾，放棄 year 過濾
                 class_match = not ext.get('class') or (vod_class and ext['class'] in vod_class)
                 
-                print(f"過濾項目 {item.get('vod_name', '未知')}: class_match={class_match}, "
-                      f"vod_class={vod_class}")
+                print(f"過濾項目 {item.get('vod_name', '未知')}: class_match={class_match}, vod_class={vod_class}")
                 
                 if class_match:
                     filtered_data.append(item)
@@ -150,7 +144,6 @@ class Spider(Spider):
             return {'list': [], 'parse': 0, 'jx': 0}
 
     def detailContent(self, did):
-        # 原方法保持不變
         ids = did[0]
         video_list = []
         
@@ -158,14 +151,16 @@ class Spider(Spider):
             res = requests.get(f'{self.home_url}/voddetail/{ids}.html', headers=self.headers)
             res.encoding = 'utf-8'
             root = etree.HTML(res.text)
+            print(f"HTML content preview: {res.text[:500]}")  # 打印前500字符，檢查頁面內容
 
             # 提取標題
             vod_name = (root.xpath('//h1[@class="title"]/text()') or
-                       root.xpath('//h3[@class="slide-info-title"]/text()') or
-                       root.xpath('//title/text()') or
-                       ["未知"])[0].strip()
+                        root.xpath('//h3[@class="slide-info-title"]/text()') or
+                        root.xpath('//title/text()') or
+                        ["未知"])[0].strip()
             if ',' in vod_name or 'LreeOk' in vod_name:
                 vod_name = vod_name.split(',')[0].strip() if ',' in vod_name else "未知"
+            print(f"Extracted vod_name: {vod_name}")
 
             # 提取年份、地區、備註
             slide_info = root.xpath('//div[@class="slide-info hide"]')
@@ -173,17 +168,34 @@ class Spider(Spider):
             vod_area = slide_info[1].xpath('.//text()')[0].strip() if len(slide_info) > 1 else ""
             vod_remarks = slide_info[2].xpath('.//text()')[0].strip() if len(slide_info) > 2 else ""
             if not vod_remarks:
-                vod_remarks = root.xpath('//span[@class="remarks"]/text()')[0] if root.xpath('//span[@class="remarks"]/text()') else "熱播中"
+                vod_remarks = root.xpath('//div[@class="slide-info hide" and .//strong[contains(text(), "备注")]]/text()') or "熱播中"
+                vod_remarks = vod_remarks[0].strip() if isinstance(vod_remarks, list) and vod_remarks else "熱播中"
+            print(f"Extracted vod_year: {vod_year}, vod_area: {vod_area}, vod_remarks: {vod_remarks}")
 
-            # 修復導演、主演、簡介的提取
-            vod_director = (root.xpath('//div[contains(@class, "info-parameter")]//em[contains(text(), "導演")]/following-sibling::span/a/text()') or
-                          root.xpath('//div[contains(@class, "info-parameter")]//em[contains(text(), "導演")]/following-sibling::span/text()') or
-                          ["未知"])[0].strip()
-            vod_actor = root.xpath('//div[contains(@class, "info-parameter")]//em[contains(text(), "主演")]/following-sibling::span//a/text()')
-            vod_actor = " / ".join(vod_actor) if vod_actor else "未知"
+            # 提取導演（優先從 slide-info，後備從 info-parameter）
+            vod_director = ""
+            director_slide = root.xpath('//div[@class="slide-info hide" and .//strong[contains(text(), "导演")]]//a/text()')
+            if director_slide:
+                vod_director = director_slide[0].strip()
+            else:
+                director_info = root.xpath('//div[@class="info-parameter"]//li[em[contains(text(), "导演")]]//a/text()')
+                vod_director = director_info[0].strip() if director_info else "未知"
+            print(f"Extracted vod_director: {vod_director}")
+
+            # 提取主演（優先從 slide-info，後備從 info-parameter）
+            actor_slide = root.xpath('//div[@class="slide-info hide" and .//strong[contains(text(), "演员")]]//a/text()')
+            if actor_slide:
+                vod_actor = " / ".join([actor.strip() for actor in actor_slide])
+            else:
+                actor_info = root.xpath('//div[@class="info-parameter"]//li[em[contains(text(), "主演")]]//a/text()')
+                vod_actor = " / ".join([actor.strip() for actor in actor_info]) if actor_info else "未知"
+            print(f"Extracted vod_actor: {vod_actor}")
+
+            # 提取簡介
             vod_content = (root.xpath('//div[contains(@class, "content-desc")]/text()') or
-                          root.xpath('//meta[@name="description"]/@content') or
-                          ["暫無簡介"])[0].strip()
+                           root.xpath('//meta[@name="description"]/@content') or
+                           ["暫無簡介"])[0].strip()
+            print(f"Extracted vod_content: {vod_content}")
 
             # 播放來源和鏈接
             vod_play_from = '$$$'.join(root.xpath('//div[@class="swiper-wrapper"]/a/text()') or [''])
@@ -213,7 +225,6 @@ class Spider(Spider):
             return {'list': [], 'msg': str(e)}
 
     def searchContent(self, key, quick, page='1'):
-        # 原方法保持不變
         d = []
         url = self.home_url + f'/index.php/ajax/suggest?mid=1&wd={key}'
         if page != '1':
@@ -236,7 +247,6 @@ class Spider(Spider):
             return {'list': [], 'parse': 0, 'jx': 0}
 
     def playerContent(self, flag, pid, vipFlags):
-        # 原方法保持不變
         play_url = 'https://gitee.com/dobebly/my_img/raw/c1977fa6134aefb8e5a34dabd731a4d186c84a4d/x.mp4'
         try:
             res = requests.get(f'{self.home_url}{pid}', headers=self.headers)
@@ -292,7 +302,6 @@ class Spider(Spider):
         return '正在Destroy'
 
     def get_data(self, payload):
-        # 原方法保持不變
         t = int(time.time())
         key = hashlib.md5(str(f'DS{t}DCC147D11943AF75').encode('utf-8')).hexdigest()
         url = self.home_url + "/index.php/api/vod"
@@ -344,5 +353,5 @@ class Spider(Spider):
 
 if __name__ == '__main__':
     spider = Spider()
-    result = spider.categoryContent('1', '1', True, {'class': '剧情'})  # 放棄 year 過濾
+    result = spider.detailContent(['108068'])  # 測試《綠魔之夜》
     print(f"Test result: {result}")
