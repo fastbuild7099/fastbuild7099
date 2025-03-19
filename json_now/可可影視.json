@@ -14,10 +14,9 @@
     
     "数组": "默认--/detail&&</a>||搜索--/detail&&</a>",
     "标题": "默认--</div>*title\">&&<||搜索--title=\"&&\"",
-    "图片": "默认--https://vres.wbadl.cn/vod1/vod/cover/20240926/13/19/16/9960cf6c603500c73d8e451273c49e5e.jpg||搜索--https://vres.wbadl.cn/vod1/vod/+/vod1/vod/&&\"",
+    "图片": "默认--https://vres.wbadl.cn/vod1/vod/cover/20240926/13/19/16/9960cf6c603500c73d8e451273c49e5e.jpg||搜索--https://vres.wbadl.cn/vod1/vod/cover/20240926/13/19/16/9960cf6c603500c73d8e451273c49e5e.jpg",
     "副标题": "</span>*<span>&&</span>||搜索--tags\">&&</span>",
     "链接": "/detail/+/&&\"",
-    
     "影片年代": "detail-tags-item\">&&</a>",
     "影片地区": "----.html*>&&</a>",
     "影片类型": "-----.html*>&&</div>",
