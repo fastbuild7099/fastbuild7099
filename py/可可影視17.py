@@ -1,11 +1,12 @@
 # -*- coding: utf-8 -*-
 # @Author  : Adapted for keke7.app
-# @Time    : 2025/3/20
+# @Time    : 2025/3/19
 
 import sys
 import requests
 from bs4 import BeautifulSoup
 import urllib.parse  # 用於 URL 編碼
+from lxml import etree
 sys.path.append('..')
 from base.spider import Spider
 
@@ -74,7 +75,7 @@ class Spider(Spider):
                         {'n': '韩国', 'v': '韩国'}, 
                         {'n': '英国', 'v': '英国'}, 
                         {'n': '法国', 'v': '法国'}]},
-                    {'name': '语言', 'key': 'language', 'value': [
+                    {'name': '语言', 'key': 'language', 'value': [  # 新增語言篩選
                         {'n': '全部', 'v': ''},
                         {'n': '国语', 'v': '国语'},
                         {'n': '英语', 'v': '英语'},
@@ -328,14 +329,13 @@ class Spider(Spider):
         cate_id = ext.get('cateId', cid) if ext and 'cateId' in ext else cid
         class_filter = ext.get('class', '') if ext and 'class' in ext else ''
         area = ext.get('area', '') if ext and 'area' in ext else ''
-        language = ext.get('language', '') if ext and 'language' in ext else ''
+        language = ext.get('language', '') if ext and 'language' in ext else ''  # 新增語言參數
         year = ext.get('year', '') if ext and 'year' in ext else ''
         by = ext.get('by', '1') if ext and 'by' in ext else '1'
         # URL 編碼中文參數
         class_filter = urllib.parse.quote(class_filter.encode('utf-8')) if class_filter else ''
         area = urllib.parse.quote(area.encode('utf-8')) if area else ''
         language = urllib.parse.quote(language.encode('utf-8')) if language else ''
-        year = urllib.parse.quote(year.encode('utf-8')) if year else ''
         url = f'{self.home_url}/show/{cate_id}-{class_filter}-{area}-{language}-{year}-{by}-{page}.html'
         print(f"Debug: Requesting URL: {url}")
         data = self.get_data(url)
@@ -352,49 +352,44 @@ class Spider(Spider):
         url = self.home_url + ids
         try:
             res = requests.get(url, headers=self.headers)
+            res.encoding = 'utf-8'
             if res.status_code != 200:
                 print(f"Debug: Failed to fetch URL {url}, status code: {res.status_code}")
                 return {'list': [], 'msg': f'HTTP Error: {res.status_code}'}
             
             soup = BeautifulSoup(res.content, 'html.parser', from_encoding='utf-8')
+
+            root = etree.HTML(res.text)
+
+            vod_play_from_list = root.xpath('//span[@class="source-item-label"]/text()')
+
+            vod_play_from = '$$$'.join(vod_play_from_list)
             
-            # 提取播放線路（根據 xbpq 規則）
-            source_items = soup.select('div.source-item a')
-            if not source_items:
-                print(f"Debug: No source items found for URL: {url}")
-                print(f"Debug: Source HTML snippet: {str(soup.select('div.source-item')[:1000]) if soup.select('div.source-item') else 'No source-item found'}")
-                vod_play_from = "未找到播放線路"
-            else:
-                vod_play_from_list = []
-                for item in source_items:
-                    title_span = item.find('span')
-                    if title_span and '4K' not in title_span.text:
-                        title = title_span.text.strip()
-                        vod_play_from_list.append(f"{title}")
-                vod_play_from = '$$$'.join(vod_play_from_list) if vod_play_from_list else "未找到播放線路"
-                print(f"Debug: Found source items: {vod_play_from}")
+            # 提取播放線路
+            # source_items = soup.select('div.source-item span.source-item-label')
+            # if not source_items:
+            #     print(f"Debug: No source items found for URL: {url}")
+            #     print(f"Debug: HTML snippet: {str(soup.select('div.source-box')[:1000])}")
+            #     vod_play_from = "未找到播放線路"
+            # else:
+            #     vod_play_from = '$$$'.join([span.text for span in source_items])
+            #     print(f"Debug: Found source items: {vod_play_from}")
             
-            # 提取播放列表（根據 xbpq 規則）
-            play_lists = soup.select('div.episode-list')
+            # 提取集數列表（只選取非隱藏的）
+            play_lists = soup.select('div.episode-list:not([style="display: none;"])')
             if not play_lists:
-                print(f"Debug: No episode lists found for URL: {url}")
-                print(f"Debug: Play list HTML snippet: {str(soup.select('div.episode-list')[:1000]) if soup.select('div.episode-list') else 'No episode-list found'}")
-                final_play_url = "未找到集數"
+                print(f"Debug: No visible episode lists found for URL: {url}")
+                vod_play_url = ["未找到集數"]
             else:
                 vod_play_url = []
                 for i, play_list in enumerate(play_lists):
-                    episodes = play_list.select('a')
-                    if not episodes:
-                        print(f"Debug: Episode list {i} is empty")
-                        continue
-                    episode_list = []
-                    for ep in episodes:
-                        ep_title = ep.text.strip()  # 直接提取 <a> 標籤內的文本作為標題
-                        ep_url = ep.get('href', '')
-                        if ep_title and ep_url:
-                            episode_list.append(f"{ep_title}${self.home_url}{ep_url}")
-                    if episode_list:
+                    episode_names = [a.text for a in play_list.select('a')]
+                    episode_urls = [a['href'] for a in play_list.select('a')]
+                    if episode_names and episode_urls:
+                        episode_list = [f"{name}${self.home_url}{episode_url}" for name, episode_url in zip(episode_names, episode_urls)]
                         vod_play_url.append('#'.join(episode_list))
+                    else:
+                        print(f"Debug: Episode list {i} is empty")
                 final_play_url = '$$$'.join(vod_play_url) if vod_play_url else "未找到播放地址"
                 print(f"Debug: Found play URLs: {final_play_url}")
             
@@ -507,7 +502,7 @@ if __name__ == '__main__':
     spider.init({})
     # 測試首頁內容
     print(spider.homeContent(True))
-    # 測試分類內容
+    # 測試分類內容（模擬提供的完整鏈接）
     print(spider.categoryContent('1', '3', True, {'class': '喜剧', 'area': '美国', 'language': '国语', 'year': '2024', 'by': '2'}))
     # 其他測試
     print(spider.categoryContent('1', '1', True, {'year': '2023', 'by': '1'}))
@@ -515,5 +510,5 @@ if __name__ == '__main__':
     print(spider.categoryContent('1', '1', True, {'year': '更早', 'by': '4'}))
     # 測試搜索
     print(spider.searchContent('test', False, '1'))
-    # 測試詳情頁（重點測試播放線路）
+    # 測試詳情頁
     print(spider.detailContent(['/detail/264550.html']))
