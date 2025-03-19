@@ -14,7 +14,7 @@
     
     "数组": "默认--/detail&&</a>||搜索--/detail&&</a>",
     "标题": "默认--</div>*title\">&&<||搜索--title=\"&&\"",
-    "图片": "默认--https://vres.wbadl.cn+data-original=\"/vod1/vod/cover&&\"||搜索--https://vres.wbadl.cn/vod1/vod/+/vod1/vod/&&\"",
+    "图片": "默认--https://vres.wbadl.cn/vod1/vod/cover/20240926/13/19/16/9960cf6c603500c73d8e451273c49e5e.jpg||搜索--https://vres.wbadl.cn/vod1/vod/+/vod1/vod/&&\"",
     "副标题": "</span>*<span>&&</span>||搜索--tags\">&&</span>",
     "链接": "/detail/+/&&\"",
     
@@ -27,7 +27,7 @@
     "简介": "detail-desc\">&&</p>",
     
     "线路数组": "source-item\">&&</a>[不包含:4K]",
-    "线路标题": "破爛+</span>*>&&</span>+線",
+    "线路标题": "破爛+</span>*>&&</span>",
     "播放数组": "episode-list&&</div>",
     "播放列表": "<a&&/a>",
     "播放标题": ">&&<",
