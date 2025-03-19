@@ -7,6 +7,8 @@ import requests
 from bs4 import BeautifulSoup
 import urllib.parse  # 用於 URL 編碼
 from lxml import etree
+import re
+
 sys.path.append('..')
 from base.spider import Spider
 
@@ -75,7 +77,7 @@ class Spider(Spider):
                         {'n': '韩国', 'v': '韩国'}, 
                         {'n': '英国', 'v': '英国'}, 
                         {'n': '法国', 'v': '法国'}]},
-                    {'name': '语言', 'key': 'language', 'value': [  # 新增語言篩選
+                    {'name': '语言', 'key': 'language', 'value': [
                         {'n': '全部', 'v': ''},
                         {'n': '国语', 'v': '国语'},
                         {'n': '英语', 'v': '英语'},
@@ -107,7 +109,6 @@ class Spider(Spider):
                 '2': [
                     {'name': '剧情', 'key': 'class', 'value': [
                         {'n': '全部', 'v': ''}, 
-                        {'n': 'Netflix', 'v': 'Netflix'}, 
                         {'n': '剧情', 'v': '剧情'},
                         {'n': '爱情', 'v': '爱情'}, 
                         {'n': '喜剧', 'v': '喜剧'}, 
@@ -329,7 +330,7 @@ class Spider(Spider):
         cate_id = ext.get('cateId', cid) if ext and 'cateId' in ext else cid
         class_filter = ext.get('class', '') if ext and 'class' in ext else ''
         area = ext.get('area', '') if ext and 'area' in ext else ''
-        language = ext.get('language', '') if ext and 'language' in ext else ''  # 新增語言參數
+        language = ext.get('language', '') if ext and 'language' in ext else ''
         year = ext.get('year', '') if ext and 'year' in ext else ''
         by = ext.get('by', '1') if ext and 'by' in ext else '1'
         # URL 編碼中文參數
@@ -344,7 +345,8 @@ class Spider(Spider):
         return result
 
     def detailContent(self, did):
-        ids = did[0] if did else ''
+        print(f"Debug: Received did parameter: {did}")
+        ids = did[0] if did and isinstance(did, list) else str(did) if did else ''
         if not ids:
             return {'list': [], 'msg': 'No ID provided'}
         
@@ -352,48 +354,44 @@ class Spider(Spider):
         url = self.home_url + ids
         try:
             res = requests.get(url, headers=self.headers)
-            res.encoding = 'utf-8'
+            res.encoding = 'utf-8-sig'  # 處理帶 BOM 的 UTF-8
             if res.status_code != 200:
                 print(f"Debug: Failed to fetch URL {url}, status code: {res.status_code}")
                 return {'list': [], 'msg': f'HTTP Error: {res.status_code}'}
             
-            soup = BeautifulSoup(res.content, 'html.parser', from_encoding='utf-8')
-
-            root = etree.HTML(res.text)
-
-            vod_play_from_list = root.xpath('//span[@class="source-item-label"]/text()')
-
-            vod_play_from = '$$$'.join(vod_play_from_list)
+            # 清理異常字元並轉換為安全的 UTF-8 字串
+            cleaned_text = res.text.encode('utf-8', errors='ignore').decode('utf-8')
+            print(f"Debug: Raw content snippet after cleaning: {cleaned_text[:200]}")
             
-            # 提取播放線路
-            # source_items = soup.select('div.source-item span.source-item-label')
-            # if not source_items:
-            #     print(f"Debug: No source items found for URL: {url}")
-            #     print(f"Debug: HTML snippet: {str(soup.select('div.source-box')[:1000])}")
-            #     vod_play_from = "未找到播放線路"
-            # else:
-            #     vod_play_from = '$$$'.join([span.text for span in source_items])
-            #     print(f"Debug: Found source items: {vod_play_from}")
+            soup = BeautifulSoup(cleaned_text, 'html.parser')
+            root = etree.HTML(cleaned_text)
+
+            # 提取線路標題
+            source_items = soup.select('div.source-item span.source-item-label')
+            if not source_items:
+                print(f"Debug: No source items found for URL: {url}")
+                vod_play_from = "未找到播放線路"
+            else:
+                vod_play_from = '$$$'.join([span.text.strip() for span in source_items])
+                print(f"Debug: Found source items: {vod_play_from}")
             
-            # 提取集數列表（只選取非隱藏的）
-            play_lists = soup.select('div.episode-list:not([style="display: none;"])')
+            # 提取播放列表
+            play_lists = soup.select('div.episode-list')
             if not play_lists:
-                print(f"Debug: No visible episode lists found for URL: {url}")
-                vod_play_url = ["未找到集數"]
+                print(f"Debug: No episode lists found for URL: {url}")
+                vod_play_url = "未找到播放地址"
             else:
                 vod_play_url = []
-                for i, play_list in enumerate(play_lists):
-                    episode_names = [a.text for a in play_list.select('a')]
-                    episode_urls = [a['href'] for a in play_list.select('a')]
-                    if episode_names and episode_urls:
-                        episode_list = [f"{name}${self.home_url}{episode_url}" for name, episode_url in zip(episode_names, episode_urls)]
-                        vod_play_url.append('#'.join(episode_list))
-                    else:
-                        print(f"Debug: Episode list {i} is empty")
-                final_play_url = '$$$'.join(vod_play_url) if vod_play_url else "未找到播放地址"
-                print(f"Debug: Found play URLs: {final_play_url}")
+                for play_list in play_lists:
+                    episode_links = play_list.select('a')
+                    if not episode_links:
+                        continue
+                    episode_list = [f"{a.text.strip()}${self.home_url}{a['href']}" for a in episode_links]
+                    vod_play_url.append('#'.join(episode_list))
+                vod_play_url = '$$$'.join(vod_play_url) if vod_play_url else "未找到播放地址"
+                print(f"Debug: Found play URLs: {vod_play_url}")
             
-            # 其他元數據提取
+            # 其他元數據
             vod_name = soup.select_one('h1').text if soup.select_one('h1') else ''
             vod_content = soup.select_one('div.detail-desc').text if soup.select_one('div.detail-desc') else ''
             tags = soup.select('div.detail-tags-item')
@@ -420,19 +418,23 @@ class Spider(Spider):
                 'vod_director': vod_director,
                 'vod_content': vod_content,
                 'vod_play_from': vod_play_from,
-                'vod_play_url': final_play_url
+                'vod_play_url': vod_play_url
             })
             print(f"Debug detailContent result: {video_list}")
+            # 確保返回數據為安全的 UTF-8 字串
             return {"list": video_list, 'parse': 0, 'jx': 0}
         except Exception as e:
             print(f"Error in detailContent: {e}")
+            print(f"Debug: Problematic content snippet: {res.text[:200] if 'res' in locals() else 'No response'}")
             return {'list': [], 'msg': str(e)}
 
     def searchContent(self, key, quick, page='1'):
-        url = f'{self.home_url}/search?k={key}&page={page}'
+        url = f'{self.home_url}/search?k={urllib.parse.quote(key.encode("utf-8"))}&page={page}'
         try:
             res = requests.get(url, headers=self.headers)
-            data = self.get_data(res.content)
+            res.encoding = 'utf-8-sig'
+            cleaned_text = res.text.encode('utf-8', errors='ignore').decode('utf-8')
+            data = self.get_data(cleaned_text)
             result = {'list': data, 'parse': 0, 'jx': 0, "倒序": "1"}
             print(f"Debug searchContent: {result}")
             return result
@@ -444,7 +446,9 @@ class Spider(Spider):
         url = self.home_url + pid
         try:
             res = requests.get(url, headers=self.headers)
-            soup = BeautifulSoup(res.content, 'html.parser', from_encoding='utf-8')
+            res.encoding = 'utf-8-sig'
+            cleaned_text = res.text.encode('utf-8', errors='ignore').decode('utf-8')
+            soup = BeautifulSoup(cleaned_text, 'html.parser')
             play_url = soup.select_one('video')['src'] if soup.select_one('video') else 'https://example.com/default.mp4'
             result = {'url': play_url, 'parse': 0, 'jx': 0}
             print(f"Debug playerContent: {result}")
@@ -464,13 +468,16 @@ class Spider(Spider):
         try:
             if isinstance(url_or_text, str) and url_or_text.startswith('http'):
                 res = requests.get(url_or_text, headers=self.headers)
+                res.encoding = 'utf-8-sig'
                 if res.status_code != 200:
                     print(f"Debug: Failed to fetch URL {url_or_text}, status code: {res.status_code}")
                     print(f"Debug: Response content: {res.text[:1000]}")
                     return data
-                soup = BeautifulSoup(res.content, 'html.parser', from_encoding='utf-8')
+                cleaned_text = res.text.encode('utf-8', errors='ignore').decode('utf-8')
+                soup = BeautifulSoup(cleaned_text, 'html.parser')
             else:
-                soup = BeautifulSoup(url_or_text, 'html.parser', from_encoding='utf-8')
+                cleaned_text = url_or_text.encode('utf-8', errors='ignore').decode('utf-8')
+                soup = BeautifulSoup(cleaned_text, 'html.parser')
             
             # 提取影片列表
             items = soup.select('a.v-item')
