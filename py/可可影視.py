@@ -179,23 +179,29 @@ class Spider(Spider):
         try:
             if isinstance(url_or_text, str) and url_or_text.startswith('http'):
                 res = requests.get(url_or_text, headers=self.headers)
-                # 手動處理編碼，確保兼容性
-                content = res.content.decode('utf-8', errors='ignore')  # 忽略無效字符
-                root = etree.HTML(content)
+                # 清理 BOM 和異常編碼
+                content = res.content
+                if content.startswith(b'\xff\xfe\x00\x00'):  # UCS-4 LE BOM
+                    content = content[4:]
+                elif content.startswith(b'\xfe\xff'):  # UCS-2 BE BOM
+                    content = content[2:]
+                elif content.startswith(b'\xff\xfe'):  # UCS-2 LE BOM
+                    content = content[2:]
+                elif content.startswith(b'\xef\xbb\xbf'):  # UTF-8 BOM
+                    content = content[3:]
+                text = content.decode('utf-8', errors='ignore')
+                root = etree.HTML(text)
             else:
-                content = url_or_text.decode('utf-8', errors='ignore') if isinstance(url_or_text, bytes) else url_or_text
-                root = etree.HTML(content)
+                # 如果是傳入的字符串，假設已為 UTF-8
+                text = url_or_text.decode('utf-8', errors='ignore') if isinstance(url_or_text, bytes) else url_or_text
+                root = etree.HTML(text)
             
             # 提取影片列表
             items = root.xpath('//a[@class="v-item"]')
             for item in items:
                 vod_id = item.xpath('./@href')[0] if item.xpath('./@href') else ''
-                # 嘗試多種方式提取標題
-                vod_name = item.xpath('.//div[@class="v-item-main"]/@title')[0] if item.xpath('.//div[@class="v-item-main"]/@title') else ''
-                if not vod_name:  # 如果 title 屬性沒找到，嘗試從文本提取
-                    vod_name = item.xpath('.//div[contains(@class, "v-item-main")]/following-sibling::text()')[0] if item.xpath('.//div[contains(@class, "v-item-main")]/following-sibling::text()') else ''
-                if not vod_name:  # 如果仍未找到，嘗試 JSON 中的規則
-                    vod_name = item.xpath('.//text()[contains(., "title")]')[0].split('title">')[-1] if item.xpath('.//text()[contains(., "title")]') else ''
+                # 提取可見的標題
+                vod_name = item.xpath('.//div[@class="v-item-title" and not(@style="display: none")]/text()')[0] if item.xpath('.//div[@class="v-item-title" and not(@style="display: none")]/text()') else '未找到標題'
                 
                 img_tags = item.xpath('.//div[@class="v-item-cover"]/img/@data-original')
                 vod_pic = self.image_domain + img_tags[1] if len(img_tags) > 1 else self.image_domain + img_tags[0] if img_tags else ''
@@ -203,7 +209,7 @@ class Spider(Spider):
                 
                 data.append({
                     'vod_id': vod_id,
-                    'vod_name': vod_name.strip() if vod_name else '未找到標題',
+                    'vod_name': vod_name.strip(),
                     'vod_pic': vod_pic,
                     'vod_remarks': vod_remarks
                 })
