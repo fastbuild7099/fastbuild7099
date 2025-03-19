@@ -60,10 +60,7 @@ class Spider(Spider):
                         {'n': '家庭', 'v': '家庭'},
                         {'n': '武侠', 'v': '武侠'},
                         {'n': '歌舞', 'v': '歌舞'},
-                        {'n': '动画', 'v': '动画'},
-                        {'n': '悬疑', 'v': '悬疑'},
-                        {'n': '悬疑', 'v': '悬疑'}]},
-
+                        {'n': '动画', 'v': '动画'}]},
                     {'name': '地区', 'key': 'area', 'value': [
                         {'n': '全部', 'v': ''}, 
                         {'n': '大陆', 'v': '中国大陆'}, 
@@ -74,7 +71,6 @@ class Spider(Spider):
                         {'n': '韩国', 'v': '韩国'}, 
                         {'n': '英国', 'v': '英国'}, 
                         {'n': '法国', 'v': '法国'}]},
-
                     {'name': '年份', 'key': 'year', 'value': [
                         {'n': '全部', 'v': ''}, 
                         {'n': '2025', 'v': '2025'}, 
@@ -137,20 +133,19 @@ class Spider(Spider):
                         {'n': '90年代', 'v': '1990_1999'},
                         {'n': '80年代', 'v': '1980_1989'},
                         {'n': '更早', 'v': '0_1979'}]}
-                ],
+                ]
             }
         }
-        
         print(f"Debug homeContent: {result}")
         return result
 
-def homeVideoContent(self):
+    def homeVideoContent(self):
         data = self.get_data(self.home_url)
         result = {'list': data, 'parse': 0, 'jx': 0, "倒序": "1"}
         print(f"Debug homeVideoContent: {result}")
         return result
 
-def categoryContent(self, cid, page, filter, ext):
+    def categoryContent(self, cid, page, filter, ext):
         cate_id = ext.get('cateId', cid) if ext and 'cateId' in ext else cid
         class_filter = ext.get('class', '') if ext and 'class' in ext else ''
         area = ext.get('area', '') if ext and 'area' in ext else ''
@@ -163,7 +158,7 @@ def categoryContent(self, cid, page, filter, ext):
         print(f"Debug categoryContent: {result}")
         return result
 
-def detailContent(self, did):
+    def detailContent(self, did):
         ids = did[0] if did else ''
         if not ids:
             return {'list': [], 'msg': 'No ID provided'}
@@ -218,7 +213,7 @@ def detailContent(self, did):
             print(f"Error in detailContent: {e}")
             return {'list': [], 'msg': str(e)}
 
-def searchContent(self, key, quick, page='1'):
+    def searchContent(self, key, quick, page='1'):
         url = f'{self.home_url}/search?k={key}&page={page}'
         try:
             res = requests.get(url, headers=self.headers)
@@ -230,7 +225,7 @@ def searchContent(self, key, quick, page='1'):
             print(f"Error in searchContent: {e}")
             return {'list': [], 'parse': 0, 'jx': 0, "倒序": "1"}
 
-def playerContent(self, flag, pid, vipFlags):
+    def playerContent(self, flag, pid, vipFlags):
         url = self.home_url + pid
         try:
             res = requests.get(url, headers=self.headers)
@@ -243,13 +238,13 @@ def playerContent(self, flag, pid, vipFlags):
             print(f"Error in playerContent: {e}")
             return {'url': 'https://example.com/default.mp4', 'parse': 0, 'jx': 0}
 
-def localProxy(self, params):
+    def localProxy(self, params):
         pass
 
-def destroy(self):
+    def destroy(self):
         return '正在Destroy'
 
-def get_data(self, url_or_text):
+    def get_data(self, url_or_text):
         data = []
         try:
             if isinstance(url_or_text, str) and url_or_text.startswith('http'):
