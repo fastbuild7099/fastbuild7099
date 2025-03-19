@@ -1,8 +1,7 @@
 {
-    "作者": "小可乐/2409/第五版",
     "备注": "与毒舌，网飞猫同一站，就主页网址不一样，可可：https://www.keke7.app，毒舌: https://www.dushe7.app，网飞猫: https://www.ncat2.com:51111",
     "站名": "可可影视",
-    "请求头": "User-Agent$MOBILE_UA",
+    "请求头": "User-Agent$MOBILE_UA|Referer$https://www.keke7.app",
     "编码": "UTF-8",
     "图片代理": "0",
     
@@ -15,7 +14,7 @@
     
     "数组": "默认--/detail&&</a>||搜索--/detail&&</a>",
     "标题": "默认--</div>*title\">&&<||搜索--title=\"&&\"",
-    "图片": "默认--https://vres.ozuab.cn+data-original=\"&&\"||搜索--https://vres.ozuab.cn/vod1/vod/+/vod1/vod/&&\"",
+    "图片": "默认--https://vres.wbadl.cn+data-original=\"/vod1/vod/cover&&\"||搜索--https://vres.wbadl.cn/vod1/vod/+/vod1/vod/&&\"",
     "副标题": "</span>*<span>&&</span>||搜索--tags\">&&</span>",
     "链接": "/detail/+/&&\"",
     
@@ -28,7 +27,7 @@
     "简介": "detail-desc\">&&</p>",
     
     "线路数组": "source-item\">&&</a>[不包含:4K]",
-    "线路标题": "破爛+</span>*>&&</span>線",
+    "线路标题": "破爛+</span>*>&&</span>+線",
     "播放数组": "episode-list&&</div>",
     "播放列表": "<a&&/a>",
     "播放标题": ">&&<",
