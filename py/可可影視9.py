@@ -79,11 +79,11 @@ class Spider(Spider):
                         {'n': '2022', 'v': '2022'}, 
                         {'n': '2021', 'v': '2021'},
                         {'n': '2020', 'v': '2020'}, 
-                        {'n': '10年代', 'v': '2010'},  # 簡化為單一年份
-                        {'n': '00年代', 'v': '2000'},
-                        {'n': '90年代', 'v': '1990'},
-                        {'n': '80年代', 'v': '1980'},
-                        {'n': '更早', 'v': 'before_1980'}  # 假設網站使用此格式
+                        {'n': '10年代', 'v': '2010_2019'}, 
+                        {'n': '00年代', 'v': '2000_2009'},
+                        {'n': '90年代', 'v': '1990_1999'},
+                        {'n': '80年代', 'v': '1980_1989'},
+                        {'n': '更早', 'v': '0_1979'}  # 恢復網站支持的格式
                     ]}
                 ],
                 '2': [
@@ -129,11 +129,138 @@ class Spider(Spider):
                         {'n': '2022', 'v': '2022'}, 
                         {'n': '2021', 'v': '2021'},
                         {'n': '2020', 'v': '2020'}, 
-                        {'n': '10年代', 'v': '2010'},
-                        {'n': '00年代', 'v': '2000'},
-                        {'n': '90年代', 'v': '1990'},
-                        {'n': '80年代', 'v': '1980'},
-                        {'n': '更早', 'v': 'before_1980'}
+                        {'n': '10年代', 'v': '2010_2019'}, 
+                        {'n': '00年代', 'v': '2000_2009'},
+                        {'n': '90年代', 'v': '1990_1999'},
+                        {'n': '80年代', 'v': '1980_1989'},
+                        {'n': '更早', 'v': '0_1979'}
+                    ]}
+                ],
+                '3': [
+                    {'name': '剧情', 'key': 'class', 'value': [
+                        {'n': '全部', 'v': ''}, 
+                        {'n': '动态漫画', 'v': '动态漫画'}, 
+                        {'n': '剧情', 'v': '剧情'},
+                        {'n': '动画', 'v': '动画'}, 
+                        {'n': '喜剧', 'v': '喜剧'}, 
+                        {'n': '冒险', 'v': '冒险'},
+                        {'n': '动作', 'v': '动作'},
+                        {'n': '奇幻', 'v': '奇幻'},
+                        {'n': '科幻', 'v': '科幻'},
+                        {'n': '儿童', 'v': '儿童'},
+                        {'n': '搞笑', 'v': '搞笑'},
+                        {'n': '爱情', 'v': '爱情'},
+                        {'n': '家庭', 'v': '家庭'},
+                        {'n': '短片', 'v': '短片'},
+                        {'n': '热血', 'v': '热血'},
+                        {'n': '益智', 'v': '益智'},
+                        {'n': '悬疑', 'v': '悬疑'},
+                        {'n': '经典', 'v': '经典'},
+                        {'n': '校园', 'v': '校园'},
+                        {'n': 'Anime', 'v': 'Anime'},
+                        {'n': '运动', 'v': '运动'},
+                        {'n': '亲子', 'v': '亲子'},
+                        {'n': '青春', 'v': '青春'},
+                        {'n': '恋爱', 'v': '恋爱'},
+                        {'n': '武侠', 'v': '武侠'},
+                        {'n': '惊悚', 'v': '惊悚'}]},
+                    {'name': '地区', 'key': 'area', 'value': [
+                        {'n': '全部', 'v': ''}, 
+                        {'n': '大陆', 'v': '中国大陆'}, 
+                        {'n': '香港', 'v': '中国香港'},
+                        {'n': '台湾', 'v': '中国台湾'}, 
+                        {'n': '美国', 'v': '美国'}, 
+                        {'n': '日本', 'v': '日本'},
+                        {'n': '韩国', 'v': '韩国'}, 
+                        {'n': '英国', 'v': '英国'}, 
+                        {'n': '法国', 'v': '法国'}]},
+                    {'name': '年份', 'key': 'year', 'value': [
+                        {'n': '全部', 'v': ''}, 
+                        {'n': '2025', 'v': '2025'}, 
+                        {'n': '2024', 'v': '2024'},
+                        {'n': '2023', 'v': '2023'}, 
+                        {'n': '2022', 'v': '2022'}, 
+                        {'n': '2021', 'v': '2021'},
+                        {'n': '2020', 'v': '2020'}, 
+                        {'n': '10年代', 'v': '2010_2019'}, 
+                        {'n': '00年代', 'v': '2000_2009'},
+                        {'n': '90年代', 'v': '1990_1999'},
+                        {'n': '80年代', 'v': '1980_1989'},
+                        {'n': '更早', 'v': '0_1979'}
+                    ]}                    
+                ],
+                '4': [
+                    {'name': '剧情', 'key': 'class', 'value': [
+                        {'n': '全部', 'v': ''}, 
+                        {'n': '纪录', 'v': '纪录'}, 
+                        {'n': '真人秀', 'v': '真人秀'},
+                        {'n': '脱口秀', 'v': '脱口秀'}, 
+                        {'n': '剧情', 'v': '剧情'}, 
+                        {'n': '历史', 'v': '历史'},
+                        {'n': '喜剧', 'v': '喜剧'}, 
+                        {'n': '传记', 'v': '传记'}, 
+                        {'n': '相声', 'v': '相声'},
+                        {'n': '节目', 'v': '节目'},
+                        {'n': '运动', 'v': '运动'},
+                        {'n': '犯罪', 'v': '犯罪'},
+                        {'n': '短片', 'v': '短片'},
+                        {'n': '搞笑', 'v': '搞笑'},
+                        {'n': '晚会', 'v': '晚会'}]},
+                    {'name': '地区', 'key': 'area', 'value': [
+                        {'n': '全部', 'v': ''}, 
+                        {'n': '大陆', 'v': '中国大陆'}, 
+                        {'n': '香港', 'v': '中国香港'},
+                        {'n': '台湾', 'v': '中国台湾'}, 
+                        {'n': '美国', 'v': '美国'}, 
+                        {'n': '日本', 'v': '日本'},
+                        {'n': '韩国', 'v': '韩国'}, 
+                        {'n': '英国', 'v': '英国'}, 
+                        {'n': '法国', 'v': '法国'}]},
+                    {'name': '年份', 'key': 'year', 'value': [
+                        {'n': '全部', 'v': ''}, 
+                        {'n': '2025', 'v': '2025'}, 
+                        {'n': '2024', 'v': '2024'},
+                        {'n': '2023', 'v': '2023'}, 
+                        {'n': '2022', 'v': '2022'}, 
+                        {'n': '2021', 'v': '2021'},
+                        {'n': '2020', 'v': '2020'}, 
+                        {'n': '10年代', 'v': '2010_2019'}, 
+                        {'n': '00年代', 'v': '2000_2009'},
+                        {'n': '90年代', 'v': '1990_1999'},
+                        {'n': '80年代', 'v': '1980_1989'},
+                        {'n': '更早', 'v': '0_1979'}
+                    ]}                    
+                ],
+                # 注意：原代碼中 '5' 應為 '6'（短剧），這裡修正
+                '6': [
+                    {'name': '剧情', 'key': 'class', 'value': [
+                        {'n': '全部', 'v': ''}, 
+                        {'n': '逆袭', 'v': '逆袭'}, 
+                        {'n': '甜宠', 'v': '甜宠'},
+                        {'n': '虐恋', 'v': '虐恋'}, 
+                        {'n': '穿越', 'v': '穿越'}, 
+                        {'n': '重生', 'v': '重生'},
+                        {'n': '剧情', 'v': '剧情'}, 
+                        {'n': '科幻', 'v': '科幻'}, 
+                        {'n': '武侠', 'v': '武侠'},
+                        {'n': '动作', 'v': '动作'},
+                        {'n': '爱情', 'v': '爱情'},
+                        {'n': '战争', 'v': '战争'},
+                        {'n': '冒险', 'v': '冒险'},
+                        {'n': '其它', 'v': '其它'}]},
+                    {'name': '年份', 'key': 'year', 'value': [
+                        {'n': '全部', 'v': ''}, 
+                        {'n': '2025', 'v': '2025'}, 
+                        {'n': '2024', 'v': '2024'},
+                        {'n': '2023', 'v': '2023'}, 
+                        {'n': '2022', 'v': '2022'}, 
+                        {'n': '2021', 'v': '2021'},
+                        {'n': '2020', 'v': '2020'}, 
+                        {'n': '10年代', 'v': '2010_2019'}, 
+                        {'n': '00年代', 'v': '2000_2009'},
+                        {'n': '90年代', 'v': '1990_1999'},
+                        {'n': '80年代', 'v': '1980_1989'},
+                        {'n': '更早', 'v': '0_1979'}
                     ]}
                 ]
             }
@@ -155,7 +282,7 @@ class Spider(Spider):
         by = ext.get('by', '1') if ext and 'by' in ext else '1'
         url = f'{self.home_url}/show/{cate_id}-{class_filter}-{area}---{year}-{by}-{page}.html'
         print(f"Debug: Requesting URL: {url}")
-        data = self.get_data(url, year_filter=year)  # 傳遞 year 用於客戶端過濾
+        data = self.get_data(url)  # 移除 year_filter，依賴服務端篩選
         result = {'list': data, 'parse': 0, 'jx': 0, "倒序": "1"}
         print(f"Debug categoryContent: {result}")
         return result
@@ -269,17 +396,23 @@ class Spider(Spider):
     def destroy(self):
         return '正在Destroy'
 
-    def get_data(self, url_or_text, year_filter=''):
+    def get_data(self, url_or_text):
         data = []
         try:
             if isinstance(url_or_text, str) and url_or_text.startswith('http'):
                 res = requests.get(url_or_text, headers=self.headers)
+                if res.status_code != 200:
+                    print(f"Debug: Failed to fetch URL {url_or_text}, status code: {res.status_code}")
+                    return data
                 soup = BeautifulSoup(res.content, 'html.parser', from_encoding='utf-8')
             else:
                 soup = BeautifulSoup(url_or_text, 'html.parser', from_encoding='utf-8')
             
             # 提取影片列表
             items = soup.select('a.v-item')
+            if not items:
+                print(f"Debug: No items found in HTML for URL: {url_or_text}")
+                print(f"Debug: HTML snippet: {str(soup)[:1000]}")  # 輸出部分 HTML 檢查結構
             for item in items:
                 vod_id = item['href'] if 'href' in item.attrs else ''
                 vod_name = item.select_one('div.v-item-title:not([style="display: none"])').text if item.select_one('div.v-item-title:not([style="display: none"])') else '未找到標題'
@@ -287,28 +420,6 @@ class Spider(Spider):
                 img_tags = [img['data-original'] for img in item.select('div.v-item-cover img')]
                 vod_pic = self.image_domain + img_tags[1] if len(img_tags) > 1 else self.image_domain + img_tags[0] if img_tags else ''
                 vod_remarks = item.select_one('div.v-item-bottom span').text if item.select_one('div.v-item-bottom span') else ''
-                
-                # 客戶端年份過濾（備用方案）
-                if year_filter and year_filter != '':
-                    if year_filter == 'before_1980':
-                        try:
-                            vod_year = int(vod_remarks) if vod_remarks.isdigit() else 9999
-                            if vod_year >= 1980:
-                                continue
-                        except ValueError:
-                            continue
-                    else:
-                        try:
-                            vod_year = int(vod_remarks) if vod_remarks.isdigit() else 0
-                            filter_year = int(year_filter)
-                            # 處理年代範圍（例如 2010 表示 2010-2019）
-                            if filter_year in [2010, 2000, 1990, 1980]:
-                                if not (filter_year <= vod_year <= filter_year + 9):
-                                    continue
-                            elif vod_year != filter_year:  # 單一年份
-                                continue
-                        except ValueError:
-                            continue
                 
                 data.append({
                     'vod_id': vod_id,
@@ -329,8 +440,8 @@ if __name__ == '__main__':
     print(spider.homeContent(True))
     # 測試分類內容（檢查年份篩選）
     print(spider.categoryContent('1', '1', True, {'year': '2023'}))
-    print(spider.categoryContent('1', '1', True, {'year': '2010'}))
-    print(spider.categoryContent('1', '1', True, {'year': 'before_1980'}))
+    print(spider.categoryContent('1', '1', True, {'year': '2010_2019'}))
+    print(spider.categoryContent('1', '1', True, {'year': '0_1979'}))
     # 測試搜索
     print(spider.searchContent('test', False, '1'))
     # 測試詳情頁
