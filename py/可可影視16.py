@@ -358,38 +358,47 @@ class Spider(Spider):
             
             soup = BeautifulSoup(res.content, 'html.parser', from_encoding='utf-8')
             
-            # 提取播放線路（更新選擇器）
-            source_items = soup.select('div.tab-nav span.tab-label')  # 更新為更可能的播放線路選擇器
+            # 提取播放線路（根據 xbpq 規則）
+            source_items = soup.select('div.source-item a')
             if not source_items:
                 print(f"Debug: No source items found for URL: {url}")
-                print(f"Debug: Source HTML snippet: {str(soup.select('div.tab-nav')[:1000]) if soup.select('div.tab-nav') else 'No tab-nav found'}")
+                print(f"Debug: Source HTML snippet: {str(soup.select('div.source-item')[:1000]) if soup.select('div.source-item') else 'No source-item found'}")
                 vod_play_from = "未找到播放線路"
             else:
-                vod_play_from = '$$$'.join([span.text.strip() for span in source_items])
+                vod_play_from_list = []
+                for item in source_items:
+                    title_span = item.find('span')
+                    if title_span and '4K' not in title_span.text:
+                        title = title_span.text.strip()
+                        vod_play_from_list.append(f"{title}")
+                vod_play_from = '$$$'.join(vod_play_from_list) if vod_play_from_list else "未找到播放線路"
                 print(f"Debug: Found source items: {vod_play_from}")
             
-            # 提取集數列表（更新選擇器並考慮多線路）
-            play_lists = soup.select('div.tab-content div.tab-pane')  # 更新為更可能的集數列表選擇器
+            # 提取播放列表（根據 xbpq 規則）
+            play_lists = soup.select('div.episode-list')
             if not play_lists:
-                print(f"Debug: No visible episode lists found for URL: {url}")
-                print(f"Debug: Play list HTML snippet: {str(soup.select('div.tab-content')[:1000]) if soup.select('div.tab-content') else 'No tab-content found'}")
-                vod_play_url = "未找到集數"
+                print(f"Debug: No episode lists found for URL: {url}")
+                print(f"Debug: Play list HTML snippet: {str(soup.select('div.episode-list')[:1000]) if soup.select('div.episode-list') else 'No episode-list found'}")
+                final_play_url = "未找到集數"
             else:
                 vod_play_url = []
                 for i, play_list in enumerate(play_lists):
-                    if 'style' in play_list.attrs and 'display: none' in play_list['style']:
-                        continue  # 跳過隱藏的集數列表
-                    episode_names = [a.text.strip() for a in play_list.select('a')]
-                    episode_urls = [a['href'] for a in play_list.select('a')]
-                    if episode_names and episode_urls:
-                        episode_list = [f"{name}${self.home_url}{episode_url}" for name, episode_url in zip(episode_names, episode_urls)]
+                    episodes = play_list.select('a')
+                    if not episodes:
+                        print(f"Debug: Episode list {i} is empty")
+                        continue
+                    episode_list = []
+                    for ep in episodes:
+                        ep_title = ep.text.strip()  # 直接提取 <a> 標籤內的文本作為標題
+                        ep_url = ep.get('href', '')
+                        if ep_title and ep_url:
+                            episode_list.append(f"{ep_title}${self.home_url}{ep_url}")
+                    if episode_list:
                         vod_play_url.append('#'.join(episode_list))
-                    else:
-                        print(f"Debug: Episode list {i} is empty or missing links")
                 final_play_url = '$$$'.join(vod_play_url) if vod_play_url else "未找到播放地址"
                 print(f"Debug: Found play URLs: {final_play_url}")
             
-            # 其他元數據提取（保持不變）
+            # 其他元數據提取
             vod_name = soup.select_one('h1').text if soup.select_one('h1') else ''
             vod_content = soup.select_one('div.detail-desc').text if soup.select_one('div.detail-desc') else ''
             tags = soup.select('div.detail-tags-item')
