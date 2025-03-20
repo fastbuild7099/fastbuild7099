@@ -10,7 +10,6 @@ import time
 import json
 import re
 from lxml import etree
-from concurrent.futures import ThreadPoolExecutor
 
 sys.path.append('..')
 from base.spider import Spider
@@ -82,7 +81,7 @@ class Spider(Spider):
                 return {'list': [], 'parse': 0, 'jx': 0}
 
     async def categoryContent(self, cid, page, filter_flag, ext):
-        """獲取分類頁內容，使用異步請求和簡化邏輯"""
+        """獲取分類頁內容"""
         print(f"分類內容調用: cid={cid}, page={page}, filter_flag={filter_flag}, ext={ext}")
         ext = ext if isinstance(ext, dict) else {}
         
@@ -100,14 +99,12 @@ class Spider(Spider):
         }
         
         try:
-            # 獲取數據並使用緩存
             data = await self.get_data(payload)
             print(f"從 API 獲取的原始數據: {data}")
             
             if not data:
                 return {'list': [], 'parse': 0, 'jx': 0}
 
-            # 簡化過濾邏輯，單線程處理（數據量小，線程開銷不划算）
             filtered_data = []
             for item in data:
                 vod_id = str(item.get('vod_id', ''))
@@ -141,7 +138,7 @@ class Spider(Spider):
             return {'list': [], 'parse': 0, 'jx': 0}
 
     async def detailContent(self, did):
-        """獲取視頻詳情頁內容，異步版本"""
+        """獲取視頻詳情頁內容，修復數據提取"""
         ids = did[0]
         video_list = []
         
@@ -151,55 +148,43 @@ class Spider(Spider):
                     res_text = await res.text(encoding='utf-8')
                     root = etree.HTML(res_text)
                     print(f"HTML 內容預覽: {res_text[:500]}")
-                    api_data = self.detail_cache.get(ids, {})
+                    api_data = self.detail_cache.get(ids, {})  # 從緩存獲取 API 數據
 
-                    def extract_fallback(root, xpath, default=""):
+                    def extract_fallback(root, xpath, api_key, default=""):
                         result = root.xpath(xpath)
-                        return result[0].strip() if result else default
+                        return result[0].strip() if result else api_data.get(api_key, default)
 
-                    vod_name = extract_fallback(root, '//h3[@class="slide-info-title hide"]/text()', api_data.get('vod_name', ''))
+                    # 從網頁或 API 提取數據
+                    vod_name = extract_fallback(root, '//h3[@class="slide-info-title hide"]/text()', 'vod_name', '')
                     if not vod_name:
-                        title = extract_fallback(root, '//title/text()')
+                        title = extract_fallback(root, '//title/text()', 'vod_name', '')
                         vod_name = title.split('》')[0] + '》' if '《' in title and '》' in title else title
-                    print(f"提取的標題: {vod_name}")
-
-                    vod_pic = extract_fallback(root, '//div[contains(@class, "vod-img")]//img/@data-src', api_data.get('vod_pic', ''))
-                    vod_year = extract_fallback(root, '//div[@class="info-parameter"]//li[contains(., "年份")]/span/text()', api_data.get('vod_year', '2023'))
-                    vod_area = extract_fallback(root, '//div[@class="info-parameter"]//li[contains(., "地区")]/text()', api_data.get('vod_area', '大陆'))
-                    vod_remarks = extract_fallback(root, '//div[@class="info-parameter"]//li[contains(., "状态")]/span/text()', api_data.get('vod_remarks', ''))
-                    vod_director = " / ".join(root.xpath('//div[@class="info-parameter"]//li[contains(., "导演")]/text()[last()]')) if root.xpath('//div[@class="info-parameter"]//li[contains(., "导演")]/text()[last()]') else api_data.get('vod_director', '')
-                    vod_actor = " / ".join(root.xpath('//div[@class="info-parameter"]//li[contains(., "主演")]/a/text()')) if root.xpath('//div[@class="info-parameter"]//li[contains(., "主演")]/a/text()') else api_data.get('vod_actor', '')
+                    vod_pic = extract_fallback(root, '//div[contains(@class, "vod-img")]//img/@data-src', 'vod_pic', '')
+                    vod_remarks = extract_fallback(root, '//div[@class="info-parameter"]//li[contains(., "状态")]/span/text()', 'vod_remarks', 'HD')
+                    vod_year = extract_fallback(root, '//div[@class="info-parameter"]//li[contains(., "年份")]/span/text()', 'vod_year', '2023')
+                    vod_area = extract_fallback(root, '//div[@class="info-parameter"]//li[contains(., "地区")]/text()', 'vod_area', '大陆')
+                    vod_lang = extract_fallback(root, '//div[@class="info-parameter"]//li[contains(., "语言")]/text()', 'vod_lang', '国语')
+                    vod_actor = extract_fallback(root, '//div[@class="info-parameter"]//li[contains(., "主演")]/text()[last()]', 'vod_actor', '')
+                    vod_director = extract_fallback(root, '//div[@class="info-parameter"]//li[contains(., "导演")]/text()[last()]', 'vod_director', '')
+                    vod_content = extract_fallback(root, '//div[@class="info-parameter"]//li[contains(., "简介")]/text()', 'vod_content', '暂无简介')
                     vod_class = api_data.get('vod_class', '')
-                    vod_lang = extract_fallback(root, '//div[@class="info-parameter"]//li[contains(., "语言")]/text()', api_data.get('vod_lang', '国语'))
-                    vod_content = extract_fallback(root, '//div[@class="info-parameter"]//li[contains(., "简介")]/text()', api_data.get('vod_content', '暫無簡介'))
 
+                    # 修復播放來源和 URL
                     play_from, play_url = [], []
                     anthology_tabs = root.xpath('//div[@class="anthology-tab nav-swiper b-b br"]//a/text()')
                     anthology_boxes = root.xpath('//div[@class="anthology-list-box none"]')
 
                     for i, box in enumerate(anthology_boxes):
-                        if i < len(anthology_tabs):
-                            source_name = anthology_tabs[i].strip().replace("\xa0", "").replace(" ", "")
-                            source_name = re.sub(r'<[^>]+>', '', source_name)
-                        else:
-                            source_name = f"線路{i+1}"
+                        source_name = anthology_tabs[i].strip().replace("\xa0", "").replace(" ", "") if i < len(anthology_tabs) else f"線路{i+1}"
+                        source_name = re.sub(r'<[^>]+>', '', source_name)
                         play_from.append(source_name)
 
                         urls = box.xpath('.//a/@href')
                         titles = box.xpath('.//a/text()')
-                        play_url.append("#".join([f"{t.strip()}${u}" for t, u in zip(titles, urls)]))
+                        play_url.append("#".join([f"{t.strip()}${self.home_url}{u}" for t, u in zip(titles, urls)]))
 
-                    vod_play_from = "$$$".join(play_from)
-                    vod_play_url = "$$$".join(play_url)
-                    if not play_from:
-                        print(f"警告: 未找到 vod_id {ids} 的播放來源")
-
-                    print(f"提取的年份: {vod_year}, 地區: {vod_area}, 狀態: {vod_remarks}, 語言: {vod_lang}")
-                    print(f"提取的導演: {vod_director}")
-                    print(f"提取的主演: {vod_actor}")
-                    print(f"提取的簡介: {vod_content}")
-                    print(f"提取的播放來源: {vod_play_from}")
-                    print(f"提取的播放 URL: {vod_play_url}")
+                    vod_play_from = "$$$".join(play_from) if play_from else "量子资源"
+                    vod_play_url = "$$$".join(play_url) if play_url else f"HD中字${self.home_url}/vodplay/{ids}-1-1.html"
 
                     video_list.append({
                         'type_name': vod_class,
@@ -294,7 +279,7 @@ class Spider(Spider):
         return '正在銷毀'
 
     async def get_data(self, payload):
-        """優化 API 數據獲取，使用異步請求和緩存"""
+        """優化 API 數據獲取"""
         t = int(time.time())
         key = hashlib.md5(str(f'DS{t}DCC147D11943AF75').encode('utf-8')).hexdigest()
         url = self.home_url + "/index.php/api/vod"
@@ -354,7 +339,6 @@ if __name__ == '__main__':
     spider = Spider()
     filters = {'class': '喜剧', 'area': '大陆', 'year': '2023', 'lang': '国语', 'by': 'time'}
     
-    # 包裝異步方法以同步調用
     spider.categoryContent = sync_wrapper(spider.categoryContent)
     spider.detailContent = sync_wrapper(spider.detailContent)
     
