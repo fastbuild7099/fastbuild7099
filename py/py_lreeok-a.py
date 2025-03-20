@@ -10,6 +10,7 @@ import json
 import re
 from lxml import etree
 from concurrent.futures import ThreadPoolExecutor
+from functools import lru_cache
 
 sys.path.append('..')
 from base.spider import Spider
@@ -21,7 +22,9 @@ class Spider(Spider):
         self.headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
         }
+        self.session = requests.Session()  # 重用 TCP 連接
         self.detail_cache = {}  # 詳情頁緩存
+        self.api_cache = {}    # API 結果緩存
 
     def getName(self):
         return "LreeOk"
@@ -61,7 +64,7 @@ class Spider(Spider):
     def homeVideoContent(self):
         d = []
         try:
-            res = requests.get(self.home_url, headers=self.headers)
+            res = self.session.get(self.home_url, headers=self.headers)
             res.encoding = 'utf-8'
             root = etree.HTML(res.text)
             data_list = root.xpath('//div[contains(@class, "public-list-box public-pic-b")]')
@@ -79,7 +82,7 @@ class Spider(Spider):
             return {'list': [], 'parse': 0, 'jx': 0}
 
     def categoryContent(self, cid, page, filter, ext):
-        """獲取分類頁內容，使用多線程加速"""
+        """獲取分類頁內容，優化篩選速度"""
         print(f"分類內容調用: cid={cid}, page={page}, filter={filter}, ext={ext}")
         ext = ext if isinstance(ext, dict) else {}
         
@@ -97,14 +100,15 @@ class Spider(Spider):
         }
         
         try:
+            # 獲取數據並使用緩存
             data = self.get_data(payload)
             print(f"從 API 獲取的原始數據: {data}")
             
             if not data:
                 return {'list': [], 'parse': 0, 'jx': 0}
-                
-            filtered_data = []
-            for item in data:
+
+            # 並行過濾數據
+            def filter_item(item):
                 vod_id = str(item.get('vod_id', ''))
                 vod_class = item.get('vod_class', '')
                 vod_year = item.get('vod_year', '')  # API 未提供，後續補充
@@ -122,17 +126,22 @@ class Spider(Spider):
                 print(f"過濾項目 {item.get('vod_name', '未知')}: class_match={class_match}, area_match={area_match}, year_match={year_match}, lang_match={lang_match}")
                 
                 if class_match and area_match and year_match and lang_match:
-                    filtered_data.append({
+                    return {
                         'vod_id': vod_id,
                         'vod_name': item.get('vod_name', ''),
                         'vod_pic': item.get('vod_pic', ''),
                         'vod_remarks': item.get('vod_remarks', '')
-                    })
+                    }
+                return None
+
+            # 使用多線程過濾
+            with ThreadPoolExecutor(max_workers=4) as executor:  # 根據 CPU 核心數調整
+                filtered_data = list(filter(None, executor.map(filter_item, data)))
             
-            # 使用多線程批量獲取詳情，線程數調高到 10
+            # 僅對前幾個項目獲取詳情（可根據需求調整）
             if filtered_data:
-                with ThreadPoolExecutor(max_workers=10) as executor:
-                    executor.map(lambda x: self.detailContent([x['vod_id']]), filtered_data)
+                with ThreadPoolExecutor(max_workers=8) as executor:  # 減少線程數，避免過載
+                    executor.map(lambda x: self.detailContent([x['vod_id']]), filtered_data[:5])  # 只處理前 5 個
             
             print(f"過濾後的數據: {filtered_data}")
             return {'list': filtered_data, 'parse': 0, 'jx': 0}
@@ -141,12 +150,12 @@ class Spider(Spider):
             return {'list': [], 'parse': 0, 'jx': 0}
 
     def detailContent(self, did):
-        """獲取視頻詳情頁內容，修復播放線路標題顯示問題"""
+        """獲取視頻詳情頁內容"""
         ids = did[0]
         video_list = []
         
         try:
-            res = requests.get(f'{self.home_url}/voddetail/{ids}.html', headers=self.headers, timeout=5)
+            res = self.session.get(f'{self.home_url}/voddetail/{ids}.html', headers=self.headers, timeout=3)  # 縮短 timeout
             res.encoding = 'utf-8'
             root = etree.HTML(res.text)
             print(f"HTML 內容預覽: {res.text[:500]}")
@@ -156,17 +165,13 @@ class Spider(Spider):
                 result = root.xpath(xpath)
                 return result[0].strip() if result else default
 
-            # 提取標題
             vod_name = extract_fallback(root, '//h3[@class="slide-info-title hide"]/text()', api_data.get('vod_name', ''))
             if not vod_name:
                 title = extract_fallback(root, '//title/text()')
                 vod_name = title.split('》')[0] + '》' if '《' in title and '》' in title else title
             print(f"提取的標題: {vod_name}")
 
-            # 提取封面圖片
             vod_pic = extract_fallback(root, '//div[contains(@class, "vod-img")]//img/@data-src', api_data.get('vod_pic', ''))
-
-            # 提取影片信息
             vod_year = extract_fallback(root, '//div[@class="info-parameter"]//li[contains(., "年份")]/span/text()', api_data.get('vod_year', '2023'))
             vod_area = extract_fallback(root, '//div[@class="info-parameter"]//li[contains(., "地区")]/text()', api_data.get('vod_area', '大陆'))
             vod_remarks = extract_fallback(root, '//div[@class="info-parameter"]//li[contains(., "状态")]/span/text()', api_data.get('vod_remarks', ''))
@@ -176,24 +181,18 @@ class Spider(Spider):
             vod_lang = extract_fallback(root, '//div[@class="info-parameter"]//li[contains(., "语言")]/text()', api_data.get('vod_lang', '国语'))
             vod_content = extract_fallback(root, '//div[@class="info-parameter"]//li[contains(., "简介")]/text()', api_data.get('vod_content', '暫無簡介'))
 
-            # 修復播放線路標題提取邏輯
             play_from, play_url = [], []
-            # 從 anthology-tab 提取真實線路名稱
             anthology_tabs = root.xpath('//div[@class="anthology-tab nav-swiper b-b br"]//a/text()')
             anthology_boxes = root.xpath('//div[@class="anthology-list-box none"]')
 
             for i, box in enumerate(anthology_boxes):
-                # 清理線路名稱，去除圖標和徽章
                 if i < len(anthology_tabs):
                     source_name = anthology_tabs[i].strip().replace("\xa0", "").replace(" ", "")
-                    # 移除前面的圖標（如 <i class="fa ds-dianying"></i> 的文本表示）
-                    source_name = re.sub(r'^.*?\.', '', source_name) if '.' in source_name else source_name
-                    source_name = source_name.split('<')[0]  # 移除可能的 HTML 標籤殘留
+                    source_name = re.sub(r'<[^>]+>', '', source_name)
                 else:
                     source_name = f"線路{i+1}"
                 play_from.append(source_name)
 
-                # 提取播放 URL 和集數標題
                 urls = box.xpath('.//a/@href')
                 titles = box.xpath('.//a/text()')
                 play_url.append("#".join([f"{t.strip()}${u}" for t, u in zip(titles, urls)]))
@@ -203,7 +202,6 @@ class Spider(Spider):
             if not play_from:
                 print(f"警告: 未找到 vod_id {ids} 的播放來源")
 
-            # 打印提取結果
             print(f"提取的年份: {vod_year}, 地區: {vod_area}, 狀態: {vod_remarks}, 語言: {vod_lang}")
             print(f"提取的導演: {vod_director}")
             print(f"提取的主演: {vod_actor}")
@@ -211,7 +209,6 @@ class Spider(Spider):
             print(f"提取的播放來源: {vod_play_from}")
             print(f"提取的播放 URL: {vod_play_url}")
 
-            # 組裝結果
             video_list.append({
                 'type_name': vod_class,
                 'vod_id': ids,
@@ -228,7 +225,7 @@ class Spider(Spider):
                 'vod_play_url': vod_play_url
             })
 
-            self.detail_cache[ids] = video_list[0]  # 更新緩存
+            self.detail_cache[ids] = video_list[0]
             result = {'list': video_list, 'parse': 0, 'jx': 0}
             print(f"詳情測試結果: {result}")
             return result
@@ -242,7 +239,7 @@ class Spider(Spider):
         if page != '1':
             return {'list': [], 'parse': 0, 'jx': 0}
         try:
-            res = requests.get(url, headers=self.headers)
+            res = self.session.get(url, headers=self.headers)
             data_list = res.json()['list']
             for i in data_list:
                 d.append({
@@ -259,7 +256,7 @@ class Spider(Spider):
     def playerContent(self, flag, pid, vipFlags):
         play_url = 'https://gitee.com/dobebly/my_img/raw/c1977fa6134aefb8e5a34dabd731a4d186c84a4d/x.mp4'
         try:
-            res = requests.get(f'{self.home_url}{pid}', headers=self.headers)
+            res = self.session.get(f'{self.home_url}{pid}', headers=self.headers)
             datas = re.findall(r'player_aaaa=(.*?)</script>', res.text)
             if not datas:
                 return {'url': play_url, 'parse': 0, 'jx': 0}
@@ -282,7 +279,7 @@ class Spider(Spider):
                     'Sec-Fetch-Dest': "empty",
                     'Accept-Language': "zh-CN,zh;q=0.9"
                 }
-                response = requests.post('https://www.lreeok.vip/okplay/api_config.php', data=payload, headers=headers)
+                response = self.session.post('https://www.lreeok.vip/okplay/api_config.php', data=payload, headers=headers)
                 data = response.json()
                 if data['code'] != '200':
                     return {'url': play_url, 'parse': 0, 'jx': 0}
@@ -299,14 +296,23 @@ class Spider(Spider):
         pass
 
     def destroy(self):
+        self.session.close()  # 關閉 session
         return '正在銷毀'
 
     def get_data(self, payload):
+        """優化 API 數據獲取，使用緩存"""
         t = int(time.time())
         key = hashlib.md5(str(f'DS{t}DCC147D11943AF75').encode('utf-8')).hexdigest()
         url = self.home_url + "/index.php/api/vod"
         payload['time'] = str(t)
         payload['key'] = key
+        
+        # 生成緩存鍵
+        cache_key = hashlib.md5(str(payload).encode('utf-8')).hexdigest()
+        if cache_key in self.api_cache:
+            print(f"從緩存中獲取數據: {cache_key}")
+            return self.api_cache[cache_key]
+
         print(f"發送到 {url} 的數據: {payload}")
         headers = {
             'User-Agent': "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36",
@@ -322,7 +328,7 @@ class Spider(Spider):
         }
         data = []
         try:
-            res = requests.post(url, data=payload, headers=headers, timeout=10)
+            res = self.session.post(url, data=payload, headers=headers, timeout=5)  # 縮短 timeout
             print(f"API 響應狀態: {res.status_code}")
             print(f"API 響應內容: {res.text}")
             data_list = res.json()['list']
@@ -338,6 +344,7 @@ class Spider(Spider):
                     'vod_director': i.get('vod_director', ''),
                     'vod_content': i.get('vod_blurb', '')
                 })
+            self.api_cache[cache_key] = data  # 存入緩存
             return data
         except Exception as e:
             print(f"API 請求錯誤: {e}")

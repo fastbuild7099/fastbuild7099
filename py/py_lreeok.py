@@ -141,7 +141,7 @@ class Spider(Spider):
             return {'list': [], 'parse': 0, 'jx': 0}
 
     def detailContent(self, did):
-        """獲取視頻詳情頁內容，修復資料缺失並匹配播放線路名稱"""
+        """獲取視頻詳情頁內容，修復播放線路標題顯示問題"""
         ids = did[0]
         video_list = []
         
@@ -167,22 +167,32 @@ class Spider(Spider):
             vod_pic = extract_fallback(root, '//div[contains(@class, "vod-img")]//img/@data-src', api_data.get('vod_pic', ''))
 
             # 提取影片信息
-            vod_year = extract_fallback(root, '//li[contains(., "年份")]/text()[last()]', api_data.get('vod_year', '2023'))
-            vod_area = extract_fallback(root, '//li[contains(., "地區")]/text()[last()]', api_data.get('vod_area', '大陆'))
-            vod_remarks = extract_fallback(root, '//li[contains(., "狀態")]/span/text()', api_data.get('vod_remarks', ''))
-            vod_director = " / ".join(root.xpath('//li[contains(., "導演")]/a/text()')) if root.xpath('//li[contains(., "導演")]/a/text()') else api_data.get('vod_director', '')
-            vod_actor = " / ".join(root.xpath('//li[contains(., "主演")]/a/text()')) if root.xpath('//li[contains(., "主演")]/a/text()') else api_data.get('vod_actor', '')
+            vod_year = extract_fallback(root, '//div[@class="info-parameter"]//li[contains(., "年份")]/span/text()', api_data.get('vod_year', '2023'))
+            vod_area = extract_fallback(root, '//div[@class="info-parameter"]//li[contains(., "地区")]/text()', api_data.get('vod_area', '大陆'))
+            vod_remarks = extract_fallback(root, '//div[@class="info-parameter"]//li[contains(., "状态")]/span/text()', api_data.get('vod_remarks', ''))
+            vod_director = " / ".join(root.xpath('//div[@class="info-parameter"]//li[contains(., "导演")]/text()[last()]')) if root.xpath('//div[@class="info-parameter"]//li[contains(., "导演")]/text()[last()]') else api_data.get('vod_director', '')
+            vod_actor = " / ".join(root.xpath('//div[@class="info-parameter"]//li[contains(., "主演")]/a/text()')) if root.xpath('//div[@class="info-parameter"]//li[contains(., "主演")]/a/text()') else api_data.get('vod_actor', '')
             vod_class = api_data.get('vod_class', '')
-            vod_lang = extract_fallback(root, '//li[contains(., "語言")]/text()[last()]', api_data.get('vod_lang', '国语'))
-            vod_content = extract_fallback(root, '//li[contains(., "簡介")]/text()[last()]', api_data.get('vod_content', '暫無簡介'))
+            vod_lang = extract_fallback(root, '//div[@class="info-parameter"]//li[contains(., "语言")]/text()', api_data.get('vod_lang', '国语'))
+            vod_content = extract_fallback(root, '//div[@class="info-parameter"]//li[contains(., "简介")]/text()', api_data.get('vod_content', '暫無簡介'))
 
-            # 提取播放來源和 URL，確保名稱正確匹配
+            # 修復播放線路標題提取邏輯
             play_from, play_url = [], []
-            anthology_tabs = root.xpath('//div[@class="anthology-tab"]//a/text()')  # 提取真實來源名稱
-            anthology_boxes = root.xpath('//div[contains(@class, "anthology-list-box") or contains(@class, "play-list")]')
+            # 從 anthology-tab 提取真實線路名稱
+            anthology_tabs = root.xpath('//div[@class="anthology-tab nav-swiper b-b br"]//a/text()')
+            anthology_boxes = root.xpath('//div[@class="anthology-list-box none"]')
+
             for i, box in enumerate(anthology_boxes):
-                source_name = anthology_tabs[i].strip().replace("\xa0", "") if i < len(anthology_tabs) else f"來源 {i+1}"
+                # 清理線路名稱，去除圖標和徽章，但保留完整名稱
+                if i < len(anthology_tabs):
+                    source_name = anthology_tabs[i].strip().replace("\xa0", "").replace(" ", "")
+                    # 只移除可能的 HTML 標籤殘留（如 <span>），保留完整名稱
+                    source_name = re.sub(r'<[^>]+>', '', source_name)  # 移除 HTML 標籤
+                else:
+                    source_name = f"線路{i+1}"
                 play_from.append(source_name)
+
+                # 提取播放 URL 和集數標題
                 urls = box.xpath('.//a/@href')
                 titles = box.xpath('.//a/text()')
                 play_url.append("#".join([f"{t.strip()}${u}" for t, u in zip(titles, urls)]))
@@ -311,7 +321,7 @@ class Spider(Spider):
         }
         data = []
         try:
-            res = requests.post(url, data=payload, headers=headers,timeout=10)
+            res = requests.post(url, data=payload, headers=headers, timeout=10)
             print(f"API 響應狀態: {res.status_code}")
             print(f"API 響應內容: {res.text}")
             data_list = res.json()['list']
