@@ -101,6 +101,17 @@
     "ext": "https://tvbox.newhi.net/JS/APPV2.js?type=url&params=https://damifan.wiki"
 },
 {
+  "key": "csp_嬉戲影院",
+  "name": "🥉｜嬉戲｜網站失效",
+  "type": 3,
+  "api": "csp_XBPQ",
+  "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+  "searchable": 1,
+  "quickSearch": 1,
+  "filterable": 1,
+  "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/嬉戲.json"
+},
+{
   "key": "多多",
   "name": "🥇｜多多｜網站失效",
   "type": 3,
@@ -117,6 +128,14 @@
         "类型": "动作片$dzp#科幻片$khp#战争片$zzp#恐怖片$kbp#喜剧片$xjp#爱情片$aqp#剧情片$jqp||国产剧$gcj#港台剧$gtj#日韩剧$rhj#海外剧$hwj#热门短剧$rmdj||空||空",
         "地区": "中国&大陆&内地&香港&台湾&日本&韩国&俄罗斯&澳大利亚&泰国&新加坡&马来西亚&越南&印度&巴基斯坦&伊朗&菲律宾&美国&英国&德国&丹麦&巴西&西班牙&加拿大&法国&意大利"
          }
+},
+{
+  "key": "shiju影视",
+  "name": "🥇｜新视(網站很慢)｜無廣+畫質優+流暢",
+  "type": 3,
+  "api": "csp_XBPQ",
+  "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+  "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/新視覺影院.json"
 },
 {
   "key": "csp_XBPQ_可达",
