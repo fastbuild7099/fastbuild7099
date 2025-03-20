@@ -372,35 +372,3 @@ class Spider(Spider):
             print(f"API 請求錯誤: {e}")
             return data
 
-if __name__ == '__main__':
-    spider = Spider()
-    
-    # 測試《魔法壞女巫》
-    print("\n測試《魔法壞女巫》:")
-    detail = spider.detailContent(['26'])
-    if detail['list']:
-        print(f"vod_id: 26, vod_area: {detail['list'][0]['vod_area']}")
-
-    # 測試《蕾拉》
-    print("\n測試《蕾拉》:")
-    detail = spider.detailContent(['108051'])
-    if detail['list']:
-        print(f"vod_id: 108051, vod_area: {detail['list'][0]['vod_area']}")
-
-    # 測試全部地區
-    print("\n測試全部地區:")
-    result = spider.categoryContent('1', '1', True, {})
-    for item in result['list']:
-        vod_id = item['vod_id']
-        detail = spider.detailContent([vod_id])
-        if detail['list']:
-            print(f"vod_id: {vod_id}, vod_area: {detail['list'][0]['vod_area']}")
-
-    # 測試英國地區
-    print("\n測試英國地區:")
-    result = spider.categoryContent('1', '1', True, {'area': '英国'})
-    for item in result['list']:
-        vod_id = item['vod_id']
-        detail = spider.detailContent([vod_id])
-        if detail['list']:
-            print(f"vod_id: {vod_id}, vod_area: {detail['list'][0]['vod_area']}")
