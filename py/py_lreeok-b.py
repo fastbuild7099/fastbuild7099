@@ -10,7 +10,6 @@ import json
 import re
 from lxml import etree
 from concurrent.futures import ThreadPoolExecutor
-from functools import lru_cache
 
 sys.path.append('..')
 from base.spider import Spider
@@ -81,9 +80,9 @@ class Spider(Spider):
             print(f"首頁視頻內容獲取錯誤: {e}")
             return {'list': [], 'parse': 0, 'jx': 0}
 
-    def categoryContent(self, cid, page, filter, ext):
-        """獲取分類頁內容，優化篩選速度"""
-        print(f"分類內容調用: cid={cid}, page={page}, filter={filter}, ext={ext}")
+    def categoryContent(self, cid, page, filter_flag, ext):
+        """獲取分類頁內容，優化篩選速度並修復異常"""
+        print(f"分類內容調用: cid={cid}, page={page}, filter_flag={filter_flag}, ext={ext}")
         ext = ext if isinstance(ext, dict) else {}
         
         payload = {
@@ -109,38 +108,43 @@ class Spider(Spider):
 
             # 並行過濾數據
             def filter_item(item):
-                vod_id = str(item.get('vod_id', ''))
-                vod_class = item.get('vod_class', '')
-                vod_year = item.get('vod_year', '')  # API 未提供，後續補充
-                vod_area = ''  # API 未提供，假設大陸
-                vod_lang = '国语'  # API 未提供，假設國語
-                
-                if vod_id not in self.detail_cache:
-                    self.detail_cache[vod_id] = {}
-                
-                class_match = not ext.get('class') or (vod_class and ext['class'] in vod_class)
-                area_match = not ext.get('area') or vod_area == ext['area'] or not vod_area
-                year_match = not ext.get('year') or vod_year == ext['year'] or not vod_year
-                lang_match = not ext.get('lang') or vod_lang == ext['lang'] or not vod_lang
-                
-                print(f"過濾項目 {item.get('vod_name', '未知')}: class_match={class_match}, area_match={area_match}, year_match={year_match}, lang_match={lang_match}")
-                
-                if class_match and area_match and year_match and lang_match:
-                    return {
-                        'vod_id': vod_id,
-                        'vod_name': item.get('vod_name', ''),
-                        'vod_pic': item.get('vod_pic', ''),
-                        'vod_remarks': item.get('vod_remarks', '')
-                    }
-                return None
+                try:
+                    vod_id = str(item.get('vod_id', ''))
+                    vod_class = item.get('vod_class', '')
+                    vod_year = item.get('vod_year', '')  # API 未提供，後續補充
+                    vod_area = ''  # API 未提供，假設大陸
+                    vod_lang = '国语'  # API 未提供，假設國語
+                    
+                    if vod_id not in self.detail_cache:
+                        self.detail_cache[vod_id] = {}
+                    
+                    class_match = not ext.get('class') or (vod_class and ext['class'] in vod_class)
+                    area_match = not ext.get('area') or vod_area == ext['area'] or not vod_area
+                    year_match = not ext.get('year') or vod_year == ext['year'] or not vod_year
+                    lang_match = not ext.get('lang') or vod_lang == ext['lang'] or not vod_lang
+                    
+                    print(f"過濾項目 {item.get('vod_name', '未知')}: class_match={class_match}, area_match={area_match}, year_match={year_match}, lang_match={lang_match}")
+                    
+                    if class_match and area_match and year_match and lang_match:
+                        return {
+                            'vod_id': vod_id,
+                            'vod_name': item.get('vod_name', ''),
+                            'vod_pic': item.get('vod_pic', ''),
+                            'vod_remarks': item.get('vod_remarks', '')
+                        }
+                    return None
+                except Exception as e:
+                    print(f"過濾項目 {item.get('vod_name', '未知')} 時出錯: {e}")
+                    return None
 
-            # 使用多線程過濾
-            with ThreadPoolExecutor(max_workers=4) as executor:  # 根據 CPU 核心數調整
-                filtered_data = list(filter(None, executor.map(filter_item, data)))
+            # 使用多線程過濾，避免 filter 命名衝突
+            with ThreadPoolExecutor(max_workers=4) as executor:
+                results = list(executor.map(filter_item, data))
+            filtered_data = [item for item in results if item is not None]
             
             # 僅對前幾個項目獲取詳情（可根據需求調整）
             if filtered_data:
-                with ThreadPoolExecutor(max_workers=8) as executor:  # 減少線程數，避免過載
+                with ThreadPoolExecutor(max_workers=8) as executor:
                     executor.map(lambda x: self.detailContent([x['vod_id']]), filtered_data[:5])  # 只處理前 5 個
             
             print(f"過濾後的數據: {filtered_data}")
@@ -155,7 +159,7 @@ class Spider(Spider):
         video_list = []
         
         try:
-            res = self.session.get(f'{self.home_url}/voddetail/{ids}.html', headers=self.headers, timeout=3)  # 縮短 timeout
+            res = self.session.get(f'{self.home_url}/voddetail/{ids}.html', headers=self.headers, timeout=3)
             res.encoding = 'utf-8'
             root = etree.HTML(res.text)
             print(f"HTML 內容預覽: {res.text[:500]}")
@@ -296,7 +300,7 @@ class Spider(Spider):
         pass
 
     def destroy(self):
-        self.session.close()  # 關閉 session
+        self.session.close()
         return '正在銷毀'
 
     def get_data(self, payload):
@@ -328,7 +332,7 @@ class Spider(Spider):
         }
         data = []
         try:
-            res = self.session.post(url, data=payload, headers=headers, timeout=5)  # 縮短 timeout
+            res = self.session.post(url, data=payload, headers=headers, timeout=5)
             print(f"API 響應狀態: {res.status_code}")
             print(f"API 響應內容: {res.text}")
             data_list = res.json()['list']
@@ -344,7 +348,7 @@ class Spider(Spider):
                     'vod_director': i.get('vod_director', ''),
                     'vod_content': i.get('vod_blurb', '')
                 })
-            self.api_cache[cache_key] = data  # 存入緩存
+            self.api_cache[cache_key] = data
             return data
         except Exception as e:
             print(f"API 請求錯誤: {e}")
