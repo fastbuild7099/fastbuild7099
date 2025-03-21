@@ -88,6 +88,32 @@
         }
       },
       {
+        "key": "csp_XBPQ_TVB",
+        "name": "🥇｜TVB｜高清◎秒播(網站故障)",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": {
+          "线路数组": "class=\"more sort-button pull-right\"&&</div>[排序:量子线路>如意线路>暴风线路]",
+          "线路标题": "title\">&&</h3>[不包含:非凡线路#极速专线]",
+          "分类url": "http://www.tvyb10.com/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
+          "分类": "电影$1#电视剧$2#动漫$4#综艺$3"
+        }
+      },
+      {
+        "key": "py_AiGuaTV",
+        "name": "🥇｜爱瓜｜高清◎秒播(壞了)",
+        "type": 4,
+        "api": "https://spider.doube.eu.org/spider?site=AiGuaTV",
+        "searchable": 1,
+        "quickSearch": 0,
+        "filterable": 0,
+        "changeable": 1
+      },
+      {
         "key": "csp_臭蛋蛋影视",
         "name": "🥇｜臭蛋｜高清◎秒播(網站故障)",
         "type": 3,
