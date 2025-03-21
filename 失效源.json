@@ -22,6 +22,30 @@
         }
       },
       {
+        "key": "csp_七新影视",
+        "name": "🥇｜七新｜藍光◎秒播(無廣告+網站死)",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": 
+              {
+              "規則名": "七夕",
+              "規則作者": "老王叔叔",
+              "規則日期": "113.12.04",
+              "简介": "<span class=\"detail-content\"style=*>&&</span>",
+              "主演": "主演：&&</p>",
+              "影片状态": "状态：&&</p>",
+              "搜索url": "/search.php;post;searchword={wd}",
+              "线路数组": "<h3&&/h3>",
+              "线路标题": "高清",
+              "分类url": "http://www.7xdy.com/{cateId}/index{catePg}.html[http://www.7xdy.com/{cateId}/index.html];;k",
+              "分类": "电影$dianyingpian#电视剧$dianshiju#综艺$zongyi#动漫$dongman"
+              }
+      },
+      {
         "key": "csp_高清剧场",
         "name": "🎥｜看清｜低清◎慢播(網站故障)",
         "type": 3,
