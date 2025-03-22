@@ -4,6 +4,58 @@
     "wallpaper": "https://picsum.photos/1080/",
     "sites": [ 
       {
+        "key": "csp_先生",
+        "name": "🥉｜先生｜高清◎秒播(浮水印廣告)",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": 
+              {
+              "站名":"电影先生",
+              "主页url":"https://dianyi.ng/",
+              "数组": "class=\"module-item\"&&</div>",
+              "图片":"data-src=\"&&\"",
+              "标题":"title=\"&&\"",
+              "链接":"href=\"&&\"",
+              "副标题":"module-item-text\">&&</div>",
+              "状态":"地区：&&</div>",
+              "导演":"导演：&&</div>",
+              "主演":"主演：&&</div>",
+              "简介":"剧情：&&</div>",
+              "线路数组":"data-dropdown-value=&&</div>",
+              "线路标题":"<span>&&</small>[不包含:CN节点]+集",
+              "播放数组":"scroll-content&&</div>",
+              "播放标题":"<span>&&</span>",
+              "播放列表":"<a&&</a>",
+              "搜索url":"https://dianyi.ng/search-{wd}-------------.html",
+              "搜索链接":"href=\"&&\"",
+              "搜索模式": "0",
+              "分类":"电影$dianying#电视剧$dianshiju#综艺$zongyi#动漫$dongman",
+              "分类url":"https://dianyi.ng/pianku-{cateId}-{area}-{by}------{catePg}---{year}.html",
+              "地区": "中国大陆&中国香港&中国台湾&日本&韩国&美国&泰国"    
+          }
+      },
+      {
+        "key": "小米米兔",
+        "name": "🥉｜米兔｜高清◎秒播(浮水印廣告)",
+        "type": 3,
+        "searchable": 1,
+        "quickSearch": 1,
+        "api": "csp_MiTuApp",
+        "jar":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/PizazzGY.jar"
+    },
+    {
+        "key": "csp_fxzcjy",
+        "name": "🥉｜柴姬｜低清◎秒播(浮水印廣告+網站失效)",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+        "ext": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/json_now/柴姬.json"
+      },
+      {
         "key": "csp_Imaple8TV",
         "name": "🥈｜楓月｜高清◎龜速(成人太多)",
         "type": 3,
