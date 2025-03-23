@@ -11,8 +11,8 @@ import json
 sys.path.append('..')
 from base.spider import Spider
 
-# 配置日誌
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+# 配置日誌，保持DEBUG級別
+logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
 class Spider(Spider):
     def getName(self):
@@ -61,7 +61,6 @@ class Spider(Spider):
                     {'name': '地区', 'key': 'area', 'value': [
                         {'n': '全部', 'v': ''}, {'n': '大陆', 'v': '中国大陆'}, {'n': '韩国', 'v': '韩国'}]}
                 ]
-                # 其他filters略去以簡化展示
             }
         }
         logging.info(f"Debug homeContent: {json.dumps(result, ensure_ascii=False)}")
@@ -74,27 +73,62 @@ class Spider(Spider):
             res.raise_for_status()
             res.encoding = 'utf-8'
             root = etree.HTML(res.text)
+            logging.debug(f"首頁HTML片段: {res.text[:2000]}")
+            
+            # 嘗試匹配視頻項
             data_list = root.xpath('//div[@class="video-box-new"]/div[@class="Movie-list"]')
             if not data_list:
-                logging.warning("未找到video-box-new元素，網站結構可能變化")
-                data_list = root.xpath('//div[contains(@class, "video")]/div[contains(@class, "list")]')
+                logging.warning("未找到video-box-new元素，嘗試其他XPath")
+                data_list = root.xpath('//div[contains(@class, "video-box")]/div[contains(@class, "list")]')
+            if not data_list:
+                data_list = root.xpath('//div[contains(@class, "video")]/ul/li')
+            if not data_list:
+                data_list = root.xpath('//li[contains(@class, "video-item")]')
+            if not data_list:
+                data_list = root.xpath('//div[contains(@class, "module-items")]/div[contains(@class, "module-item")]')
             
+            if not data_list:
+                logging.error("無法找到任何視頻列表元素，請檢查網站結構")
+                return {'list': d, 'parse': 0, 'jx': 0}
+            
+            logging.debug(f"找到 {len(data_list)} 個視頻元素")
             for i in data_list:
-                hrefs = i.xpath('./a[@class="Movie movie-height"]/@href')
-                names = i.xpath('./a[2]/text()')
-                pics = i.xpath('./a[1]/img/@originalsrc') or i.xpath('./a[1]/img/@src')
-                remarks = i.xpath('./div[@class="Movie-type02"]/div[2]/text()')
+                hrefs = i.xpath('.//a/@href')
+                # 清理名稱中的空白字符
+                names = [name.strip() for name in (i.xpath('.//a/text()') or 
+                                                  i.xpath('.//span[contains(@class, "title")]/text()') or 
+                                                  i.xpath('.//div[contains(@class, "name")]/text()') or 
+                                                  i.xpath('.//p[contains(@class, "title")]/text()')) if name.strip()]
+                pics = (i.xpath('.//img/@src') or 
+                        i.xpath('.//img/@data-src') or 
+                        i.xpath('.//img/@originalsrc'))
+                # 嘗試更多備註路徑
+                remarks = [remark.strip() for remark in (i.xpath('.//div[contains(@class, "type")]/text()') or 
+                                                        i.xpath('.//span[contains(@class, "remark")]/text()') or 
+                                                        i.xpath('.//div[contains(@class, "status")]/text()') or 
+                                                        i.xpath('.//p[contains(@class, "note")]/text()') or 
+                                                        i.xpath('.//span[contains(@class, "pic-text")]/text()')) if remark.strip()]
                 
-                if hrefs and names and pics:
+                logging.debug(f"解析結果: hrefs={hrefs}, names={names}, pics={pics}, remarks={remarks}")
+                
+                if hrefs and pics:
                     pic_url = pics[0]
                     if not pic_url.startswith('http'):
                         pic_url = self.image_domain + pic_url
+                    elif 'baiduimgcloud' in pic_url:
+                        logging.warning(f"檢測到意外域名: {pic_url}，預期為 {self.image_domain}")
+                    
+                    vod_id = hrefs[0].split('=')[-1] if '=' in hrefs[0] else hrefs[0].split('/')[-1]
+                    vod_name = names[0] if names else "未知名稱"
+                    vod_remarks = remarks[0] if remarks else ""
+                    
                     d.append({
-                        'vod_id': hrefs[0].split('=')[-1],
-                        'vod_name': names[0].strip(),
+                        'vod_id': vod_id,
+                        'vod_name': vod_name,
                         'vod_pic': pic_url,
-                        'vod_remarks': remarks[0].strip() if remarks else ''
+                        'vod_remarks': vod_remarks
                     })
+            
             logging.info(f"成功獲取 {len(d)} 條首頁視頻數據")
             return {'list': d, 'parse': 0, 'jx': 0}
         except requests.RequestException as e:
@@ -168,7 +202,7 @@ class Spider(Spider):
                 'vod_id': ids,
                 'vod_name': '',
                 'vod_remarks': '',
-                'vod_year': '',
+'s               vod_year': '',
                 'vod_area': '',
                 'vod_actor': '',
                 'vod_director': '',
@@ -234,6 +268,5 @@ class Spider(Spider):
 if __name__ == '__main__':
     spider = Spider()
     spider.init({})
-    # 測試 homeVideoContent 方法並打印結果
     result = spider.homeVideoContent()
     print(json.dumps(result, ensure_ascii=False, indent=2))
