@@ -65,12 +65,12 @@ class Spider(Spider):
 
     def categoryContent(self, tid, pg, filter, extend):
         json_data = {
-            'area': extend.get('area', '全部地区'),
-            'lang': extend.get('lang', '全部语言'),
+            'area': extend.get('area', '全部'),
+            'lang': extend.get('lang', '全部'),
             'rank': extend.get('rank', '最新'),
-            'type': extend.get('type', '全部类型'),
+            'type': extend.get('type', '全部'),
             'type_id': int(tid),
-            'year': extend.get('year', '全部年代'),
+            'year': extend.get('year', '全部'),
         }
         data=self.getdata(f'/api.php/v1.classify/content?page={pg}',method=False,json_data=json_data)
         result = {}
